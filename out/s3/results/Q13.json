@@ -1,0 +1,40 @@
+{
+  "question_id": "Q13",
+  "status": "confirmed",
+  "answer_text": "OAP section 8 sets an alignment principle for constructions along the rue Joliot-Curie: implantation à l'alignement le long de la voie (c-01)[Le principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu]. This principle must not produce a uniform, continuous front bâti, and porosity and perspectives toward the îlot cores should be sought (c-02)[Ce principe ne doit toutefois pas aboutir à la création d'un front bâti uniforme et continu. Une porosité et des perspectives vers les cœurs d'Ilot doivent être recherchées]. Along the secondary north-south roads, alignment is not systematically required (c-03)[Sans rechercher systématiquement l'alignement]. This document does not establish whether the parcel fronts rue Joliot-Curie.",
+  "answer_value": "Implantation à l'alignement le long de la voie Joliot-Curie, sans front bâti uniforme et continu",
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner's claim that OAP section 8 sets an alignment principle along rue Joliot-Curie is confirmed from the source. The planner's suggestion that this may refine UMG Article 6 was not verified, because the scoped source is the OAP only and it does not reference Article 6. Whether the parcel fronts rue Joliot-Curie is also not established by this document and was not assumed.",
+  "additional_context": "The principle appears in the OAP section 8 passage headed 'L'implantation des constructions par rapport aux espaces ouverts au public', which is printed page 33 (PDF page 34). The Moulon-wide section 7 uses similar wording with a 'généralement' qualifier (c-04)[le long des voies et espaces publics, le principe d'une implantation des constructions à l'alignement le long de la voie doit être généralement retenu]. The section 8 wording has no such qualifier. The parcel-frontage question and any interaction with the reglement would need a separate check against the reglement and parcel geometry.",
+  "citations": [
+    {
+      "claim": "OAP section 8 sets the principle that constructions are to be implanted at the alignment along the Joliot-Curie road.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 (printed p.33) | quote='Le principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu.'",
+      "confirmed": true,
+      "reasoning": "Read oap_91272_20210706 page 34 (printed p.33), section 8 Le quartier Joliot Curie. The first bullet, on the voie Joliot-Curie and the future deck, states: 'Le principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu.' This directly supports the claim. A search for 'alignement' also returned this page."
+    },
+    {
+      "claim": "The alignment principle along Joliot-Curie must not produce a uniform and continuous building front, and porosity and perspectives toward îlot cores are to be sought.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 (printed p.33) | quote='Ce principe ne doit toutefois pas aboutir à la création d'un front bâti uniforme et continu. Une porosité et des perspectives vers les cœurs d'Ilot doivent être recherchées.'",
+      "confirmed": true,
+      "reasoning": "Same page 34, section 8 first bullet: 'Ce principe ne doit toutefois pas aboutir à la création d'un front bâti uniforme et continu. Une porosité et des perspectives vers les cœurs d'Ilot doivent être recherchées.' A search for 'front bâti uniforme' returned only pages 26 and 34, confirming the wording. The claim is supported as stated."
+    },
+    {
+      "claim": "Along the secondary north-south roads, the OAP does not systematically require alignment of constructions.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 (printed p.33) | quote='Sans rechercher systématiquement l'alignement, il s'agit de créer un dialogue équilibré'",
+      "confirmed": true,
+      "reasoning": "Page 34, section 8 second bullet ('le long des voies secondaires nord/sud'): 'L'implantation des constructions peut être variée. Sans rechercher systématiquement l'alignement, il s'agit de créer un dialogue équilibré...'. This directly supports the claim that alignment is not systematically required along the secondary north-south roads."
+    },
+    {
+      "claim": "OAP section 7 (Moulon) states the alignment principle along voies and espaces publics should generally be retained.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=26 (printed p.25) | quote='le principe d'une implantation des constructions à l'alignement le long de la voie doit être généralement retenu'",
+      "confirmed": true,
+      "reasoning": "Read page 26 (printed p.25), section 7 Le site de Moulon. The first bullet reads: 'le long des voies et espaces publics, le principe d'une implantation des constructions à l'alignement le long de la voie doit être généralement retenu.' This matches the claim that the alignment principle should generally be retained along voies and espaces publics. The quote is accurate."
+    }
+  ]
+}

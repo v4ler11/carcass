@@ -1,0 +1,33 @@
+{
+  "question_id": "Q49",
+  "status": "confirmed",
+  "answer_text": "Yes. UMG Article 4.2.1 requires that any new or existing construction or installation be connected by an underground pipe to the collective sanitation network (c-01)[Toute construction ou installation nouvelle ou existante doit être raccordée par une canalisation souterraine au réseau collectif d'assainissement]. The UMG text contains no individual-sanitation fallback, unlike the UA text (c-02)[UA 4.2.1 allows an autonomous system only 'Dans le cas contraire, ou en cas d'impossibilité technique de raccordement démontrée'].",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "Page reference: the UMG Article 4.2.1 text is on PDF page 322, whose printed footer reads 321. PDF page 323 carries printed page 322 and contains 4.2.2 to 4.4, not 4.2.1, so the question's 'p. 322 printed / pdf p. 323' reference is off by one. The rule is a general requirement for any new construction in UMG and so applies to both buildings of the programme; per-building application was not separately verified. Article 4.2.1 also states that residual industrial water evacuation must follow the sanitary annex regulations (c-03)[L'évacuation des eaux industrielles résiduelles doit s'effectuer conformément aux dispositions des règlements sanitaires figurant dans les annexes sanitaires], which is not relevant to residential use. The planner's 'cost and layout' comment is not a regulatory statement and was not verified.",
+  "citations": [
+    {
+      "claim": "UMG Article 4.2.1 requires that any new or existing construction or installation be connected by an underground pipe (canalisation souterraine) to the collective sanitation network.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='Toute construction ou installation nouvelle ou existante doit être raccordée par une canalisation souterraine au réseau collectif d'assainissement.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 322 (UMG, section 4.2.1 Eaux usées) reads: 'Toute construction ou installation nouvelle ou existante doit être raccordée par une canalisation souterraine au réseau collectif d'assainissement.' This matches the claim and the quoted text. The sentence has no 'lorsqu'il existe' qualifier, unlike the UA and other zones."
+    },
+    {
+      "claim": "The UA zone's Article UA4.2.1 permits an autonomous sanitation system only if there is no collective network or a technical impossibility of connection is demonstrated, whereas the UMG Article 4.2.1 text contains no such fallback.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=16 | quote='Dans le cas contraire, ou en cas d'impossibilité technique de raccordement démontrée, un dispositif d'assainissement autonome est admis par dérogation'. Scope checked: UMG Article 4.2.1 text on PDF pages 322 and 323 contains no such exception.",
+      "confirmed": true,
+      "reasoning": "Page 16 (UA, Article 4.2.1) reads: 'Toute construction ... doit être raccordée par une canalisation individuelle souterraine au réseau collectif d'assainissement, lorsqu'il existe. Dans le cas contraire, ou en cas d'impossibilité technique de raccordement démontrée, un dispositif d'assainissement autonome est admis par dérogation sous réserve...'. This supports the UA fallback. The UMG text on pages 322 and 323 has no such fallback: the 4.2.1 section contains only the connection requirement, the industrial-water sentence, and the ban on discharge to ditches and watercourses. Page 323 begins with 4.2.2 Eaux pluviales. A pages_search for the autonomous-system wording also found no match on the UMG pages (322 or 323). The claim is supported."
+    },
+    {
+      "claim": "UMG Article 4.2.1 states that residual industrial water evacuation must follow the sanitary regulations in the sanitary annexes.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='L'évacuation des eaux industrielles résiduelles doit s'effectuer conformément aux dispositions des règlements sanitaires figurant dans les annexes sanitaires.'",
+      "confirmed": true,
+      "reasoning": "Page 322 (UMG, 4.2.1) reads: 'L'évacuation des eaux industrielles résiduelles doit s'effectuer conformément aux dispositions des règlements sanitaires figurant dans les annexes sanitaires.' This matches the quoted text and the claim."
+    }
+  ]
+}

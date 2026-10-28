@@ -1,0 +1,40 @@
+{
+  "question_id": "Q26",
+  "status": "ambiguous",
+  "answer_text": "The OAP section 8 wording pairs a mandatory verb with an objective noun. The sentence is \"un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen\" (c-01)[Pour les constructions à destination principale d'habitation, un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen.]. The word \"devra\" reads as an obligation, while \"objectif\" reads as a target. The OAP does not state whether this sentence is opposable or indicative (c-02)[a full-text search of oap_91272_20210706 for opposable, obligatoire, indicatif, non opposable and prescriptif returned no matches]. The categorical answer is therefore: objective-framed with 'devra' wording, opposability regime not stated in the OAP.",
+  "answer_value": "ambiguous: objective framed with mandatory verb 'devra'; opposability not stated in OAP",
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner's quoted wording is confirmed verbatim. The OAP's general section 7 (printed p. 24, PDF p. 25) states the same principle for zone UM: \"A l'échelle de la zone UM, le principe d'épannelage correspond à R+4 moyen\" (c-03)[A l'échelle de la zone UM, le principe d'épannelage correspond à R+4 moyen.]. It also says that heights in UM zones are fixed by the règlement as maximum norms, and that the Joliot Curie quartier is classed UMG (c-04)[à l'exception du quartier Joliot Curie, classé en zone UMG), les hauteurs et les gabarits des constructions sont fixés par le règlement par une norme maximale différente selon les secteurs.]. The UMG height rules in the règlement were outside this question's scope. Whether the OAP is opposable in a compatibility or conformity sense was not determined from the OAP text. The planner's claim that the classification determines opposability is a legal inference, not something the OAP states.",
+  "citations": [
+    {
+      "claim": "OAP section 8 states that for constructions with a principal residential use, an épannelage must permit reaching an objective of R+4 average.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 (printed p. 32) | quote='Pour les constructions à destination principale d'habitation, un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen.'",
+      "confirmed": true,
+      "reasoning": "Page 33 (printed p. 32), section 8 'Le quartier Joliot Curie', subheading 'La morphologie du quartier', reads: 'Pour les constructions à destination principale d'habitation, un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen.' This matches the claim."
+    },
+    {
+      "claim": "A full-text search of the OAP for the terms opposable, obligatoire, indicatif, non opposable and prescriptif returned no matches, so the OAP does not state the legal force of its orientations.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=1-34 (full document) | quote='opposable|obligatoire|à titre indicatif|non opposable|prescriptif|indicatif' returned n_occurrences=0 across the scoped document",
+      "confirmed": true,
+      "reasoning": "The search for 'opposable|obligatoire|à titre indicatif|non opposable|prescriptif|indicatif' returned n_occurrences=0, and a re-run with variant phrasing also returned 0. A full read of pages 1-34 found no statement of the legal force of the orientations. The claim that the search returned no matches is confirmed, and the conclusion follows from that absence plus the full read."
+    },
+    {
+      "claim": "For zone UM, the OAP states that the principle of épannelage corresponds to R+4 moyen.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=25 (printed p. 24) | quote='A l'échelle de la zone UM, le principe d'épannelage correspond à R+4 moyen.'",
+      "confirmed": true,
+      "reasoning": "Page 25 (printed p. 24), section 7 'La diversité des morphologies et la hauteur des constructions', states: 'A l'échelle de la zone UM, le principe d'épannelage correspond à R+4 moyen.' This matches the claim."
+    },
+    {
+      "claim": "The OAP states that the Joliot Curie quartier is classed as zone UMG, and that in UM zones heights are fixed by the règlement as maximum norms.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=25 (printed p. 24) | quote='à l'exception du quartier Joliot Curie, classé en zone UMG), les hauteurs et les gabarits des constructions sont fixés par le règlement par une norme maximale différente selon les secteurs.'",
+      "confirmed": true,
+      "reasoning": "Page 25 (printed p. 24) reads: 'Dans les espaces ... inscrits en zones UM au plan de zonage (à l'exception du quartier Joliot Curie, classé en zone UMG), les hauteurs et les gabarits des constructions sont fixés par le règlement par une norme maximale différente selon les secteurs.' This confirms both that Joliot Curie is classed as UMG and that UM heights are set by the règlement as maximum norms."
+    }
+  ]
+}

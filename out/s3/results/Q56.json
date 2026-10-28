@@ -1,0 +1,40 @@
+{
+  "question_id": "Q56",
+  "status": "ambiguous",
+  "answer_text": "The UMG Article 13.3 text expresses both thresholds against the total site area: 20% espace vert and 10% pleine terre of \"la superficie du terrain\" (c-01)[Tout projet de construction neuve entraîne l'obligation de traiter : En espace vert 20% au moins de la superficie du terrain. En espace de pleine terre 10% au moins de la superficie du terrain.] (c-02)[pleine terre 10% of the superficie du terrain, same Article 13.3 paragraph]. The UMG zone contains no express rule saying these percentages are computed on the whole terrain rather than per construction, and no multi-building apportionment clause appears in the UMG rappels or Article 13 (c-03)[scope checked: UMG rappels on pdf p.320 and Article 13 on pdf pp.331, with no 'plusieurs bâtiments' or 'chacun des lots' wording]. The only express multi-building rule in the corpus is in other zones, e.g. UA (c-04)[Dans le cas ... de plusieurs bâtiments dont le terrain d'assiette doit faire l'objet d'une division ... les règles ... sont appréciées au regard de chacun des lots]. So the whole-terrain reading follows from the wording only, not from an express statement.",
+  "answer_value": null,
+  "confidence": "medium",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner rationale describes the test as a 'single whole-terrain test'. The source supports whole-terrain wording ('superficie du terrain') but does not expressly state that the test is single or non-apportioned for a multi-building project, and no UMG clause addresses the point.",
+  "additional_context": "The UA-zone 'chacun des lots' clause (pdf p.13, printed p.12) applies to UA and similar zones only and is not in the UMG text. Any per-building apportionment for UMG would therefore depend on interpretation or on a clarification from the commune, not on an express UMG rule. Article 13.3 is printed p.330 / pdf p.331. The UMG rappels are printed p.319 / pdf p.320.",
+  "citations": [
+    {
+      "claim": "UMG Article 13.3 requires at least 20% of the superficie du terrain to be treated as espace vert and at least 10% of the superficie du terrain as pleine terre for any new construction project.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=331 | quote='Tout projet de construction neuve entraîne l'obligation de traiter : - En espace vert 20% au moins de la superficie du terrain.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf p.331 (UMG Article 13.3, ESPACES LIBRES ET PLANTATIONS). The text reads: 'Tout projet de construction neuve entraîne l'obligation de traiter : - En espace vert 20% au moins de la superficie du terrain. - En espace de pleine terre 10% au moins de la superficie du terrain.' Both thresholds match the claim. The page is printed as page 330."
+    },
+    {
+      "claim": "The pleine terre threshold in UMG Article 13.3 is 10% of the superficie du terrain.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=331 | quote='En espace de pleine terre 10% au moins de la superficie du terrain.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf p.331, UMG Article 13.3. The bullet 'En espace de pleine terre 10% au moins de la superficie du terrain.' appears verbatim, so the 10% pleine terre threshold of the superficie du terrain is directly supported."
+    },
+    {
+      "claim": "No UMG provision, in the zone rappels (pdf p.320) or Article 13 (pdf p.331), expressly states that the Article 13.3 percentages are computed on the whole terrain or apportioned per building in a multi-building project.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='Conformément à la délibération du conseil municipal en date du 25 septembre 2007 prise en application du code de l'urbanisme' (scope checked: pdf p.320 rappels and pdf p.331 Article 13 text; no 'plusieurs bâtiments' or 'chacun des lots' wording found)",
+      "confirmed": true,
+      "reasoning": "Checked the UMG scope: pdf p.320 (zone introduction and RAPPELS, which cover only démolitions and clôtures, with no division or lot rule), pdf p.329 (Article 13.1 definitions of espaces verts and pleine terre), and pdf p.331 (Article 13.3 text). None contains wording that the 13.3 percentages are computed on the whole terrain or apportioned per building or per lot. Document-wide searches for 'plusieurs bâtiments', 'chacun des lots' and 'division' returned hits only on the UA to UX zone rappels (pdf pp.13, 31, 48, 66, 80, 99, 121, 133, 149, 167, 184, 210, 222), none on UMG pages 320-332. The negative claim is supported as stated, though it rests on the absence of such wording in the pages examined."
+    },
+    {
+      "claim": "The UA zone provides that for several buildings on one terrain d'assiette subject to division, the zone rules are assessed for each lot (chacun des lots).",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=13 | quote='Dans le cas d'un lotissement ou dans celui de la construction, sur le même terrain, de plusieurs bâtiments dont le terrain d'assiette doit faire l'objet d'une division en propriété ou en jouissance, les règles édictées dans la présente zone sont appréciées au regard de chacun des lots.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf p.13 (Zone UA – Vallée, RAPPELS). The final bullet reads: 'Dans le cas d'un lotissement ou dans celui de la construction, sur le même terrain, de plusieurs bâtiments dont le terrain d'assiette doit faire l'objet d'une division en propriété ou en jouissance, les règles édictées dans la présente zone sont appréciées au regard de chacun des lots.' This directly supports the claim that UA zone rules are assessed per lot for several buildings on one terrain d'assiette subject to division."
+    }
+  ]
+}

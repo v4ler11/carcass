@@ -1,0 +1,11 @@
+{
+  "question_id": "Q05",
+  "status": "not_found",
+  "answer_text": "No support was found in the scoped source documents for classifying a Résidence Jeunes Actifs as hébergement hôtelier. I read the LEXIQUE (pdf pp. 374-379) and found no definition of hébergement hôtelier or of any residence type. A full-document search of plu_reglement for 'jeunes actifs' returned 0 occurrences. The hébergement hôtelier parking wording in Zone UMG Article 12.1 names résidences hôtelières and résidences services but does not name résidences jeunes actifs.",
+  "answer_value": null,
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner's stated premise is that résidences services are grouped with hébergement hôtelier in Article 12, which the Article 12.1 UMG wording supports. The planner did not cite a source placing résidences jeunes actifs in that group, so the RJA classification remains unresolved and should be decided by a human reviewer or by a further check of the full règlement.",
+  "citations": []
+}

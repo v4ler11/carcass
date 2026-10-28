@@ -1,0 +1,33 @@
+{
+  "question_id": "Q11",
+  "status": "confirmed",
+  "answer_text": "The minimum recul is 1 metre. Under UMG Article 6.3, a construction set back from the alignment must be set back at least 1 metre (c-01)[En cas de recul, ce dernier doit être au moins égal à 1 mètre.]. This appears on printed page 323 (PDF page 324).",
+  "answer_value": 1.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale gave no numeric value, so nothing was contradicted. Article 6.3 also allows construction at the alignment or set back from it (c-02)[Les constructions ou parties de construction peuvent être implantées à l'alignement ou en recul de ce dernier.]. Projections (saillies) are limited to a minimum height of 3.50 m and a maximum depth of 80 cm (c-03)[Les saillies sont autorisées à une hauteur minimale de 3,50 mètres et une profondeur maximale de 80 cm.]. The OAP compatibility check for this parcel is outside the scope of this question.",
+  "citations": [
+    {
+      "claim": "In zone UMG Article 6.3, when a construction is set back from the alignment, the recul must be at least 1 metre.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (printed; PDF page 324) | quote='En cas de recul, ce dernier doit être au moins égal à 1 mètre.'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement PDF page 324 (printed footer 323), zone 'Moulon - UMG', Article 6.3 'REGLE GENERALE'. The text reads: 'En cas de recul, ce dernier doit être au moins égal à 1 mètre.' This matches the cited quote and the claim that a setback must be at least 1 metre. A keyword search for 'En cas de recul' also returned this page."
+    },
+    {
+      "claim": "In zone UMG Article 6.3, constructions or parts of constructions may be built at the alignment or set back from it.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (printed; PDF page 324) | quote='Les constructions ou parties de construction peuvent être implantées à l'alignement ou en recul de ce dernier.'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement PDF page 324 (printed footer 323), Article 6.3. The text reads: 'Les constructions ou parties de construction peuvent être implantées à l'alignement ou en recul de ce dernier.' This directly supports the claim that constructions, or parts of constructions, may be built at the alignment or set back from it. The search hit uses capitalised 'PEUVENT', which does not change the meaning."
+    },
+    {
+      "claim": "In zone UMG Article 6.3, projections (saillies) are allowed at a minimum height of 3.50 m and a maximum depth of 80 cm.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (printed; PDF page 324) | quote='Les saillies sont autorisées à une hauteur minimale de 3,50 mètres et une profondeur maximale de 80 cm.'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement PDF page 324 (printed footer 323), Article 6.3. The text reads: 'Les saillies sont autorisées à une hauteur minimale de 3,50 mètres et une profondeur maximale de 80 cm.' This matches the claim of a minimum height of 3.50 m and a maximum depth of 80 cm. The image request for this page returned no images, so the verdict rests on the extracted text alone, which is sufficient for this check."
+    }
+  ]
+}

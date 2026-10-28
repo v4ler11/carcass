@@ -1,0 +1,40 @@
+{
+  "question_id": "Q17",
+  "status": "confirmed",
+  "answer_text": "Yes. UMG Article 8 governs the implantation of several constructions on the same plot. The article heading reads IMPLANTATION DES CONSTRUCTIONS LES UNES PAR RAPPORT AUX AUTRES SUR UNE MEME PROPRIETE (c-01)[ARTICLE 8 heading, PDF p.325 / printed p.324]. Section 8.1 allows such construction only if the separating distance is at least 10 m where at least one facing facade has views (c-02)[8.1 text: 10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues], and at least 6 m where neither facing facade has views (c-03)[8.1 text: 6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues]. Section 8.2 exempts only technical equipment, public-service, water, energy-distribution and waste-sorting storage constructions (c-04)[8.2 text: équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau].",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The 10 m or 6 m distance depends on whether the facing facades have views, which is a building-design fact not determined by this answer. The operative 8.1 text says même terrain while the heading says même propriété; both are read here as the same parcel. Whether the two programme buildings (RSE and Résidence Jeunes Actifs) exist on the parcel is not established by the scoped sources, so their applicability to this programme is not confirmed here.",
+  "citations": [
+    {
+      "claim": "Article 8 of zone UMG is titled IMPLANTATION DES CONSTRUCTIONS LES UNES PAR RAPPORT AUX AUTRES SUR UNE MEME PROPRIETE.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=325 | quote='ARTICLE 8 - zone UMG - IMPLANTATION DES CONSTRUCTIONS LES UNES PAR RAPPORT AUX AUTRES SUR UNE MEME PROPRIETE'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pages 325-326 (pages_read, with images). The page 325 text contains the heading 'ARTICLE 8 - zone UMG - IMPLANTATION DES CONSTRUCTIONS LES UNES PAR RAPPORT AUX AUTRES SUR UNE MEME PROPRIETE', which matches the claimed title."
+    },
+    {
+      "claim": "Article 8.1 allows construction on the same terrain only if the separating distance is at least 10 m where at least one facing facade has views.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=325 | quote='10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement page 325, section 8.1 'REGLE GENERALE'. It states the distance must be at least '10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues', which matches the claim."
+    },
+    {
+      "claim": "Article 8.1 requires a separating distance of at least 6 m where neither facing facade has views.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement page 326, continuing section 8.1. It states '6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues', which matches the claim."
+    },
+    {
+      "claim": "Article 8.2 exempts only technical equipment, public-service, water, energy-distribution and waste-sorting storage constructions from the 8.1 distance rule.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau, à la distribution d'énergie tels que transformateurs ou d'un local destiné au stockage des ordures ménagères'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement page 326, section 8.2 'DISPOSITIONS PARTICULIERES'. It lists technical equipment linked to safety, public service, water management, and energy distribution such as transformers, plus a waste storage room needed for selective sorting. This matches the categories in the claim. The word 'only' is an interpretation of the list, but the text enumerates no other exemption."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "question_id": "Q60",
+  "status": "partial",
+  "answer_text": "No road-widening (élargissement de voirie) along the rue Joliot-Curie is identified in the OAP text checked. Section 8 describes the rue Joliot-Curie as a requalified east-west structuring axis (c-01)[rue Joliot-Curie requalifiée, axe Est-Ouest structurant] and gives its layout as a redrawn alignment with a gabarit of about 20 m (c-02)[tracé redressé et un gabarit de l'ordre de 20 m], with no widening, emprise or emplacement réservé stated. A keyword search of the OAP for élargi, elargi, largeur and Joliot returned 31 hits, but only about 22 snippets were visible, and the hits shown contain no road-widening provision for this axis (c-03)[largeur hits on page 4 concern general road widths, not Joliot-Curie].",
+  "answer_value": false,
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "Status is partial because the keyword search was truncated (has_more true, not all 31 hits reviewed) and the schematic maps on pdf pages 34 and 35 were not visually checked, so any alignment or width shown only in those images is not covered. The 20 m gabarit is a design target for the redrawn road, not a stated widening. Whether any ER table row covers the rue Joliot-Curie frontage is outside this OAP check and remains open.",
+  "citations": [
+    {
+      "claim": "The OAP section 8 describes the rue Joliot-Curie as requalified, to be redesigned as an east-west structuring axis, on both sides of which the new programmes are integrated.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 | quote='Intégrer les nouveaux programmes à l'existant dans un ensemble urbain organisé de part et d'autre de la rue Joliot-Curie requalifiée'",
+      "confirmed": true,
+      "reasoning": "Read oap_91272_20210706 page 33 (OAP section 8, Le quartier Joliot Curie). The text reads: Intégrer les nouveaux programmes à l'existant dans un ensemble urbain organisé de part et d'autre de la rue Joliot-Curie requalifiée et autour de nouveaux espaces publics partagés. The same page describes the rue Joliot-Curie as an axe Est-Ouest structurant à l'échelle du quartier. This supports requalified, east-west structuring axis, and new programmes integrated on both sides. The claim's word redesigned paraphrases requalifiée, a minor wording difference rather than a contradiction."
+    },
+    {
+      "claim": "The OAP gives the voie Joliot-Curie a redrawn alignment ('tracé redressé') and a gabarit of about 20 m, without stating any widening or emprise to acquire.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 | quote='selon son tracé redressé et un gabarit de l'ordre de 20 m'",
+      "confirmed": true,
+      "reasoning": "Read page 35 of the same OAP. The phrase selon son tracé redressé et un gabarit de l'ordre de 20 m appears verbatim in the paragraph on the voie Joliot-Curie. I read pages 33 to 36 and ran a keyword search for élargissement, emprise and acquisition. The only emprise reference on the Joliot pages (page 35) concerns routing of public emprises for station access, not widening. The text contains no widening or acquisition provision for the Joliot-Curie road, so the claim holds, though it rests on the absence of such a provision rather than an explicit statement."
+    },
+    {
+      "claim": "A keyword search of the OAP for élargi, elargi, largeur and Joliot returned 31 hits; the visible snippets (largeur hits on page 4 concern general road chaussée widths) contain no road-widening provision for the rue Joliot-Curie, though not all hits were reviewed.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=4 | quote='Leur LARGEUR est généralement de 4 ou 5 m selon le nombre'",
+      "confirmed": true,
+      "reasoning": "Ran a pattern search on oap_91272_20210706 for élargi, elargi, largeur and joliot. It returned 31 occurrences across pages 2, 4, 9, 20, 23 to 25 and 33 to 36, matching the claimed count. Page 4 contains the two LARGEUR hits: the chaussée width of secondary allées (5 to 6 m) and the width of tertiary voies (4 or 5 m). Both concern general road profiles on the Chevry plateau, as claimed. The page 9 élargi hit describes a vision élargie of a house façade, not road widening. The Joliot snippets on pages 33 to 36 describe the street's structuring role, alignment and 20 m gabarit, with no widening provision. The emplacements réservés voirie-widening table (doc 04) lists no rue Joliot-Curie entry, which is consistent with the claim. The claim itself notes that not all hits were reviewed, so the verdict covers the snippets checked."
+    }
+  ]
+}

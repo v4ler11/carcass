@@ -1,0 +1,54 @@
+{
+  "question_id": "Q47",
+  "status": "confirmed",
+  "answer_text": "Yes, in substance. UMG Article 3.2 requires that terrains be served by roads whose characteristics account for the accessibility of fire-fighting and civil-protection means (c-01)[PDF p.322, printed p.321: 'l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile']. The rule is a general condition for all constructible terrains and is not limited to any building type (c-06)[same passage, which opens 'Tous les terrains, pour être constructibles']. I found no text in Article 3.2 or 3.3 that addresses the RSE or the Résidence Jeunes Actifs separately; the scope checked was PDF pp.322-323 (c-02)[PDF p.323, printed p.322, opens with heading '4.2.2.- Eaux pluviales', so Article 3.2 and 3.3 end on PDF p.322]. Section 3.3 exempts only technical equipment such as transformers, not residential or student buildings (c-03)[PDF p.322: 'Ne sont pas assujettis aux dispositions ci-dessus les équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau ou à la distribution d'énergie tels que les transformateurs'].",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner rationale says fire-service accessibility is a condition on the access design 'for both buildings'. The core point is confirmed by c-01. However, the source sets this as a general rule for all constructible terrains, and does not mention either building type specifically. The building-specific framing is therefore not supported by the text, so I flag it as a discrepancy rather than confirming it.",
+  "additional_context": "The rule refers to 'moyens de secours' (fire and civil-protection rescue means). It does not use the term 'véhicules de secours' and sets no numeric width or turning-radius standard for emergency vehicles, as far as Article 3.2 on PDF p.322 shows (c-04)[PDF p.322, Article 3.2 text, scope: full article]. The question's source note gives printed p.322 / PDF p.323, but the Article 3.2 text is on PDF p.322 (printed p.321). The sister UM zone's Article 3.2 uses the same fire-access wording (c-05)[TEXT | plu_reglement | page=308 (PDF; printed 307) | quote='l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile'].",
+  "citations": [
+    {
+      "claim": "UMG Article 3.2 requires that terrains be served by roads whose characteristics account for the accessibility of fire-fighting and civil-protection means.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 322 (printed 321), Article 3.2 'Règle générale' for zone UMG, contains the exact phrase 'ainsi que l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile'. It sits in the rule requiring terrains to be served by voies whose characteristics respect the importance and destination of the construction, which matches the claim."
+    },
+    {
+      "claim": "PDF page 323 (printed page 322) opens with heading 4.2.2 Eaux pluviales, so Article 3.2 and 3.3 are confined to PDF page 322.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (PDF; printed 322) | quote='4.2.2.- Eaux pluviales'",
+      "confirmed": true,
+      "reasoning": "PDF page 323 (printed 322) text begins with the heading '4.2.2.- Eaux pluviales', matching the quote. PDF page 322 contains all of Article 3.2 and Article 3.3, and 3.3 ends on that page before Article 4 and 4.2.1 begin. The claim that 3.2 and 3.3 are confined to PDF page 322 is supported."
+    },
+    {
+      "claim": "Section 3.3 of UMG exempts only technical equipment linked to safety, public service, water management or energy distribution, such as transformers, from the Article 3.2 provisions.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='Ne sont pas assujettis aux dispositions ci-dessus les équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau ou à la distribution d'énergie tels que les transformateurs'",
+      "confirmed": true,
+      "reasoning": "PDF page 322, Section 3.3 'Conditions particulières' of UMG reads: 'Ne sont pas assujettis aux dispositions ci-dessus les équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau ou à la distribution d'énergie tels que les transformateurs.' The exemption is from the preceding provisions (Article 3.2), and the listed categories match the claim. The word 'only' is a reasonable reading of the restricted categories, although 'tels que' signals that the list is illustrative rather than exhaustive."
+    },
+    {
+      "claim": "The UMG Article 3.2 text does not use the term véhicules de secours and sets no numeric width or turning-radius standard for emergency vehicles; the scope checked was the full Article 3.2 on PDF page 322.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens et à 3,50 mètres pour une circulation à sens unique'",
+      "confirmed": true,
+      "reasoning": "A keyword search of the full plu_reglement for 'véhicules de secours', 'engins de secours' and 'rayon de braquage' returned 0 matches. The full Article 3.2 on PDF page 322 (printed 321) sets a general 5 m (double sens) / 3.50 m (sens unique) width for all voies, and a demi-tour requirement for dead-end private roads ('véhicules puissent faire un demi-tour'). None of these is specific to emergency vehicles, so the claim is accurate as stated."
+    },
+    {
+      "claim": "The UM zone Article 3.2 uses the same fire-access wording about accessibility of fire-fighting and civil-protection means.",
+      "c_id": "c-05",
+      "verification_instructions": "TEXT | plu_reglement | page=308 (PDF; printed 307) | quote='l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile'",
+      "confirmed": true,
+      "reasoning": "PDF page 308 (printed 307), Article 3.2 'Règle générale' for zone UM, contains the exact phrase 'ainsi que l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile'. The wording is identical to the UMG text on page 322."
+    },
+    {
+      "claim": "The UMG Article 3.2 rule applies to all constructible terrains and is not limited to any building type, as its opening sentence reads 'Tous les terrains, pour être constructibles, doivent être desservis par des voies publiques ou privées'.",
+      "c_id": "c-06",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='Tous les terrains, pour être constructibles, doivent être desservis par des voies publiques ou privées'",
+      "confirmed": true,
+      "reasoning": "PDF page 322 (printed 321) opens Article 3.2 with 'Tous les terrains, pour être constructibles, doivent être desservis par des voies publiques ou privées...'. The sentence is not qualified by building type, so the rule is general. The quote is accurate, though the 'not limited to any building type' conclusion is an inference from the absence of qualifiers rather than an explicit statement in the text."
+    }
+  ]
+}

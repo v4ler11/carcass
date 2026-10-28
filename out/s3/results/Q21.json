@@ -1,0 +1,33 @@
+{
+  "question_id": "Q21",
+  "status": "confirmed",
+  "answer_text": "No. UMG Article 9 sets no maximum emprise au sol percentage, because the emprise au sol of constructions is not regulated (c-01)[ARTICLE 9 - zone UMG - EMPRISE AU SOL DES CONSTRUCTIONS: L'emprise au sol des constructions n'est pas réglementée]. The only condition is that any project must be compatible with the OAP in document 3 (c-02)[toutefois, tout projet doit être compatible avec les orientations d'aménagement et de programmation définies au document 3 du PLU]. The article appears on printed page 325, which is PDF page 326 (c-03)[printed number 325 at foot of PDF page 326, which contains ARTICLE 9].",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The OAP compatibility requirement is non-numeric. The scope was plu_reglement Article 9 only, so the OAP document was not searched for any coverage figure. Article 10 (hauteur) is not addressed by this answer.",
+  "citations": [
+    {
+      "claim": "Article 9 of zone UMG states that the emprise au sol of constructions is not regulated.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='ARTICLE 9 - zone UMG -EMPRISE AU SOL DES CONSTRUCTIONS L'emprise au sol des constructions n'est pas réglementée'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 326 reads 'ARTICLE 9 - zone UMG -EMPRISE AU SOL DES CONSTRUCTIONS' followed by 'L'emprise au sol des constructions n'est pas réglementée'. A pages_search for 'ARTICLE 9 - zone UMG' returned exactly one match, on page 326. The claim matches the text as stated."
+    },
+    {
+      "claim": "Article 9 of zone UMG requires any project to be compatible with the orientations d'aménagement et de programmation in document 3 of the PLU.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='toutefois, tout projet doit être compatible avec les orientations d'aménagement et de programmation définies au document 3 du PLU'",
+      "confirmed": true,
+      "reasoning": "The same Article 9 text on plu_reglement page 326 continues: 'toutefois, tout projet doit être compatible avec les orientations d'aménagement et de programmation définies au document 3 du PLU.' This directly supports the claim that any project must be compatible with the OAP in document 3."
+    },
+    {
+      "claim": "The Article 9 text appears on the page printed as number 325, which is PDF page 326.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 325' (printed number 325 at foot of PDF page 326, which contains ARTICLE 9)",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 326 contains the ARTICLE 9 UMG text and ends with 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021' followed by the printed page number '325'. So Article 9 sits on the page printed as 325, which is PDF page 326, as claimed."
+    }
+  ]
+}

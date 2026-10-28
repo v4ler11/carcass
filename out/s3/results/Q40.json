@@ -1,0 +1,19 @@
+{
+  "question_id": "Q40",
+  "status": "confirmed",
+  "answer_text": "Yes. Under Zone UMG Article 12.4, when an operation has several destinations, the number of parking spaces must equal the sum of the results of the appropriate calculation for each destination, applied to each destination's floor area (c-01)[la somme des résultats issus du mode de calcul approprié à chacune de ces destinations]. The rule appears on printed page 328 (PDF page 329).",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The per-destination summing rule is confirmed. The rationale frames it as summing the requirements of two separate buildings. Article 12.4 refers to a single operation with several destinations, not to separate buildings, so the building-level framing is not supported by this text.",
+  "additional_context": "Whether the RSE building and the Résidence Jeunes Actifs building form one operation with two destinations, and which norm applies to each, depends on the classification answers for Q03 and Q05, which were not re-verified here.",
+  "citations": [
+    {
+      "claim": "Zone UMG Article 12.4 states that when an operation has several destinations, the number of parking spaces must equal the sum of the results of the appropriate calculation for each destination, applied to each destination's floor area.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (PDF page 329) | quote='la somme des résultats issus du mode de calcul approprié à chacune de ces destinations'",
+      "confirmed": true,
+      "reasoning": "I read plu_reglement PDF page 329 (printed page 328), the UMG zone section 12.4 'Modalités de calcul du nombre de places'. The text states: 'Lorsqu'une opération comporte plusieurs destinations, le nombre d'emplacements de stationnement doit correspondre à la somme des résultats issus du mode de calcul approprié à chacune de ces destinations et appliqué à leur surface de plancher respective.' The quoted phrase 'la somme des résultats issus du mode de calcul approprié' appears verbatim. A pages_search for that phrase returned matches on PDF pages 317 and 329, and the page 329 text sits under the UMG header. The claim's 'applied to each destination's floor area' matches 'appliqué à leur surface de plancher respective'. The claim is supported as stated."
+    }
+  ]
+}

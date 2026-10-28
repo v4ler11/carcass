@@ -1,0 +1,33 @@
+{
+  "question_id": "Q29",
+  "status": "confirmed",
+  "answer_text": "Under UMG Article 12.1, the parking norm for résidences étudiantes is 1 vehicle parking space per tranche of 150 m² of surface de plancher, so 150 m² of surface de plancher corresponds to one space (c-01)[1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes]. This norm appears in Article 12.1 on printed page 326 (PDF page 327) (c-02)[12.1. - NORMES MINIMALES DE STATIONNEMENT POUR LES VÉHICULES MOTORISÉS POUR LES CONSTRUCTIONS NOUVELLES]. Under Article 12.4, a tranche counts in full once it is started, so any surface beyond a full multiple of 150 m² still requires one additional space (c-03)[le nombre de places de stationnement attaché à chaque tranche est comptabilisé dès lors que la tranche est entamée].",
+  "answer_value": 150.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The 150 m² figure sits as a sub-item under the 'constructions à destination d'habitation' heading in Article 12.1. Applying it to an RSE therefore depends on the Q03 classification, which is partial and found no express habitation classification for the RSE. The 35 m² tranche with a cap of 2 places per logement is a separate item and is not written to apply to résidences étudiantes. Article 12.5 does not require a majority of résidences étudiantes parking to be in sous-sol, and Article 12.4 rounds a decimal of 5 or more up to the next whole space.",
+  "citations": [
+    {
+      "claim": "UMG Article 12.1 sets the parking norm for résidences étudiantes at 1 place de stationnement per tranche of 150 m² de surface de plancher.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement, PDF page 327 (printed page 326), zone UMG, Article 12.1. The page states under 'Pour les constructions à destination d'habitation': '1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.' This matches the claim. A keyword search also returned the same 150 m² wording on PDF pages 315 and 339, which I did not open, so I did not verify their zones. The UMG instance on PDF page 327 is sufficient to confirm the claim."
+    },
+    {
+      "claim": "The Article 12.1 parking norm for résidences étudiantes appears on printed page 326 (PDF page 327) of plu_reglement, zone UMG.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='12.1. - NORMES MINIMALES DE STATIONNEMENT POUR LES VÉHICULES MOTORISÉS POUR LES CONSTRUCTIONS NOUVELLES'",
+      "confirmed": true,
+      "reasoning": "The printed footer on PDF page 327 reads '326', and the page header reads 'Moulon - UMG'. The heading '12.1. - NORMES MINIMALES DE STATIONNEMENT POUR LES VÉHICULES MOTORISÉS POUR LES CONSTRUCTIONS NOUVELLES' appears on that page, matching the quoted heading. The page mapping in the claim (printed 326 = PDF 327) is correct, and the Article 12.1 residences étudiantes norm appears on that same page."
+    },
+    {
+      "claim": "Under Article 12.4, a parking tranche counts in full once it is started (tranche entamée).",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=328 | quote='Lorsque la norme de stationnement est exprimée par tranche de surface de plancher, le nombre de places de stationnement attaché à chaque tranche est comptabilisé dès lors que la tranche est entamée.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement, PDF page 329 (printed page 328), Article 12.4 'MODALITÉS DE CALCUL DU NOMBRE DE PLACES'. The text reads: 'Lorsque la norme de stationnement est exprimée par tranche de surface de plancher, le nombre de places de stationnement attaché à chaque tranche est comptabilisé dès lors que la tranche est entamée.' This directly supports the claim that a parking tranche counts in full once it is started. A keyword search for 'entamée' also returned this same passage on PDF page 329."
+    }
+  ]
+}

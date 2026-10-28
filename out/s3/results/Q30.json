@@ -1,0 +1,33 @@
+{
+  "question_id": "Q30",
+  "status": "confirmed",
+  "answer_text": "For constructions à destination d'habitation in zone UMG, the minimum parking norm is 1 vehicle space per tranche of 35 m² of surface de plancher, limited to 2 spaces per logement (c-01)[1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement]. The answer to the question is therefore 35 m² of surface de plancher per space.",
+  "answer_value": 35.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "UMG Article 12.1 sets separate norms within the habitation category. Logements financés avec un prêt aidé par l'État require 1 space per logement (c-03)[1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat]. Résidences étudiantes require 1 space per 150 m² of surface de plancher (c-02)[1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes]. The 35 m² rate is the general habitation rate and does not govern a résidence étudiante. The source does not define résidence jeunes actifs, so whether that use falls under habitation is unresolved and should be settled by the planner. The rule was read from the supplied plu_reglement PDF dated 2021; the metadata reference to reglement_20260408.pdf was not checked.",
+  "citations": [
+    {
+      "claim": "In zone UMG, for constructions à destination d'habitation, the parking norm is 1 place de stationnement per tranche de 35 m² de surface de plancher, limited to 2 places per logement.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed; PDF page 327) | quote='1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement,'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement PDF page 327 (printed page 326), section 'ARTICLE 12 - zone UMG -STATIONNEMENT', item 12.1 under 'Pour les constructions à destination d'habitation'. The text reads: '1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement,' which matches the claim and the quoted text exactly."
+    },
+    {
+      "claim": "In zone UMG, for résidences étudiantes, the parking norm is 1 place de stationnement per tranche de 150 m² de surface de plancher.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed; PDF page 327) | quote='1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement PDF page 327 (printed page 326), same UMG article 12.1, habitation sub-list. The text reads: '1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.' This matches the claim that the norm for résidences étudiantes is 1 place per 150 m² of surface de plancher."
+    },
+    {
+      "claim": "In zone UMG, for habitation logements financed with a prêt aidé de l'État, the parking norm is 1 place de stationnement per logement.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed; PDF page 327) | quote='1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat,'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement PDF page 327 (printed page 326), same UMG article 12.1, habitation sub-list. The text reads: '1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat,' which matches the claim of 1 place per logement for prêt aidé de l'État financed housing."
+    }
+  ]
+}

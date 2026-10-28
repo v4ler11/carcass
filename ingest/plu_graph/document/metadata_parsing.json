@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-10-26T14:31:06",
+  "source": {
+    "pdf": "plu_reglement_graphique_91272_20210706 (1).pdf",
+    "reference_copy": "reference.pdf",
+    "page": 1,
+    "page_mm": [
+      1189.2,
+      841.0
+    ],
+    "raster_px": [
+      7023,
+      4967
+    ],
+    "dpi": 150
+  },
+  "panels": {
+    "directory": "parsed/s1_raw",
+    "count": 6,
+    "items": [
+      {
+        "name": "01_legende",
+        "kind": "figure",
+        "box_px": {
+          "x": 5760,
+          "y": 1891,
+          "w": 1253,
+          "h": 1240
+        },
+        "check": {
+          "border_ink": 0,
+          "halo_ink": 0,
+          "fill_pct": 5.67,
+          "ok": true
+        }
+      },
+      {
+        "name": "02_elements_recenses",
+        "kind": "figure",
+        "box_px": {
+          "x": 5777,
+          "y": 3134,
+          "w": 1138,
+          "h": 379
+        },
+        "check": {
+          "border_ink": 0,
+          "halo_ink": 0,
+          "fill_pct": 13.96,
+          "ok": true
+        }
+      },
+      {
+        "name": "03_zones_legend",
+        "kind": "figure",
+        "box_px": {
+          "x": 5762,
+          "y": 3513,
+          "w": 1224,
+          "h": 1080
+        },
+        "check": {
+          "border_ink": 0,
+          "halo_ink": 0,
+          "fill_pct": 13.07,
+          "ok": true
+        }
+      },
+      {
+        "name": "04_er_elargissements_voirie",
+        "kind": "table",
+        "box_px": {
+          "x": 4455,
+          "y": 2406,
+          "w": 1146,
+          "h": 664
+        },
+        "check": {
+          "border_ink": 0,
+          "halo_ink": 0,
+          "fill_pct": 25.12,
+          "ok": true
+        }
+      },
+      {
+        "name": "05_er_creation_amelioration_voirie",
+        "kind": "table",
+        "box_px": {
+          "x": 4462,
+          "y": 3348,
+          "w": 1121,
+          "h": 1390
+        },
+        "check": {
+          "border_ink": 0,
+          "halo_ink": 0,
+          "fill_pct": 19.43,
+          "ok": true
+        }
+      },
+      {
+        "name": "06_er_equipements_espaces_publics",
+        "kind": "table",
+        "box_px": {
+          "x": 3449,
+          "y": 3613,
+          "w": 967,
+          "h": 655
+        },
+        "check": {
+          "border_ink": 0,
+          "halo_ink": 0,
+          "fill_pct": 22.37,
+          "ok": true
+        }
+      }
+    ]
+  },
+  "tables_ocr": {
+    "directory": "parsed/s2_ocr",
+    "items": [
+      {
+        "name": "04_er_elargissements_voirie",
+        "chars": 2474,
+        "tables": 1,
+        "joins": 0,
+        "elapsed_s": 18.3
+      },
+      {
+        "name": "05_er_creation_amelioration_voirie",
+        "chars": 4583,
+        "tables": 1,
+        "joins": 0,
+        "elapsed_s": 10.1
+      },
+      {
+        "name": "06_er_equipements_espaces_publics",
+        "chars": 1695,
+        "tables": 1,
+        "joins": 0,
+        "elapsed_s": 15.3
+      }
+    ]
+  },
+  "figures_ocr": {
+    "directory": "parsed/s2_ocr",
+    "items": [
+      "01_legende",
+      "02_elements_recenses",
+      "03_zones_legend"
+    ]
+  }
+}

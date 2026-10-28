@@ -1,0 +1,54 @@
+{
+  "question_id": "Q27",
+  "status": "partial",
+  "answer_text": "The alignment principle is worded in requirement form: it 'doit être retenu' (c-01)[Le principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu]. It is qualified so that it must not produce a uniform, continuous front bâti (c-02)[Ce principe ne doit toutefois pas aboutir à la création d'un front bâti uniforme et continu]. The document does not state whether this wording is binding or an orientation, so the mandatory-versus-orientation classification stays unresolved from this document alone (c-04)[the document is titled 'Orientations d'Aménagement et de Programmation'; a full-text search for legal-effect terms returned no definition of the binding force of the wording].",
+  "answer_value": "mandatory-worded principle ('doit être retenu'); legal effect not defined in the document",
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The section 8 passage is on PDF page 34, printed page 33 (c-05)[Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 33]. Section 7 (Moulon) uses the softer wording 'doit être généralement retenu' (c-03)[le principe d'une implantation des constructions à l'alignement le long de la voie doit être généralement retenu]. Along the secondary north-south roads, alignment is not systematically required (c-06)[Sans rechercher systématiquement l'alignement]. Legal force would need to be checked against the PLU general rules, which were not in the supplied documents.",
+  "citations": [
+    {
+      "claim": "The OAP section 8 text states that the principle of implantation at the alignment along the voie must be retained (doit être retenu).",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 | quote='Le principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu'",
+      "confirmed": true,
+      "reasoning": "Read page 34 of oap_91272_20210706, section '8 Le quartier Joliot Curie', under the bullet on the voie Joliot-Curie and the deck. The text reads: 'Le principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu.' This matches the quoted wording and the claim."
+    },
+    {
+      "claim": "The same OAP section 8 passage states that the alignment principle must not produce a uniform and continuous front bâti.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 | quote='Ce principe ne doit toutefois pas aboutir à la création d'un front bâti uniforme et continu'",
+      "confirmed": true,
+      "reasoning": "Same passage on page 34, immediately after the alignment sentence: 'Ce principe ne doit toutefois pas aboutir à la création d'un front bâti uniforme et continu.' This matches the quote and states that the alignment principle must not produce a uniform, continuous front bâti."
+    },
+    {
+      "claim": "The OAP section 7 (Moulon) alignment principle is worded as 'doit être généralement retenu', including the word 'généralement'.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=26 | quote='le principe d'une implantation des constructions à l'alignement le long de la voie doit être généralement retenu'",
+      "confirmed": true,
+      "reasoning": "Read page 26, section '7 Le site de Moulon'. The text reads: 'le long des voies et espaces publics, le principe d'une implantation des constructions à l'alignement le long de la voie doit être généralement retenu.' The word 'généralement' is present, so the claim is accurate."
+    },
+    {
+      "claim": "The OAP document is titled 'Orientations d'Aménagement et de Programmation'. A full-text search of the document for legal-effect terms (compatib, conformit, opposable, prévaut, portée juridique) found no statement of the binding force of the 'doit être retenu' wording.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=1 | quote='3. Orientations d'Aménagement et de Programmation'",
+      "confirmed": true,
+      "reasoning": "Page 1 is the cover and shows the title '3. Orientations d'Aménagement et de Programmation', so the title part is confirmed. I ran full-text searches for compatib, conformit, opposable, prévaut and portée juridique across the document. The only hits were the cover note 'Mise en compatibilité par décret du 28 mars 2017' (page 1) and the word 'compatible' used for pedestrian and car circulation (page 4). Neither is a statement of the binding force of the 'doit être retenu' wording, so the negative finding holds."
+    },
+    {
+      "claim": "The section 8 passage appears on printed page 33 of the OAP, shown in the page footer.",
+      "c_id": "c-05",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 | quote='Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 33'",
+      "confirmed": true,
+      "reasoning": "The quoted passage is on PDF page 34. Its footer reads 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 33', so the printed page number is 33 and the claim is correct."
+    },
+    {
+      "claim": "Along the secondary north-south roads, the OAP section 8 text states that alignment is not systematically required.",
+      "c_id": "c-06",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 | quote='Sans rechercher systématiquement l'alignement'",
+      "confirmed": true,
+      "reasoning": "Page 34 under the bullet 'le long des voies secondaires nord/sud' reads: 'L'implantation des constructions peut être variée. Sans rechercher systématiquement l'alignement...'. This states that alignment is not systematically required along the secondary north-south roads, as the claim says."
+    }
+  ]
+}

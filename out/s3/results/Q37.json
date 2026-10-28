@@ -1,0 +1,33 @@
+{
+  "question_id": "Q37",
+  "status": "confirmed",
+  "answer_text": "Yes. The UMG Article 12.5 bullet for habitation states that the majority-in-basement requirement does not apply to résidences étudiantes (c-01)[Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise]. The same bullet still requires 85% minimum of on-site motorised parking to be integrated into the building (c-02)[85 % minimum des places de stationnement pour les vehicules motorisés réalisées sur le terrain d'assiette des constructions doivent être intégrées à la construction à destination d'habitation dont une majorité en sous-sol]. The text is on printed page 328 (pdf 329) (c-03)[footer '328' on pdf 329].",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The waiver is tied to the term 'résidences étudiantes' within the 'constructions à destination d'habitation' bullet. Whether the RSE falls under that term depends on Q03, which is only partial. The waiver covers only the majority-in-basement element. The 85% on-site integration requirement still applies to the habitation bullet. The text does not mention Résidence Jeunes Actifs, so for the second building the general habitation rule (majority in sous-sol) appears to apply, subject to classification. The planner's rationale is accurate on the waiver but does not capture the residual 85% on-site obligation. The page 317 text is in the UM zone, not UMG, and was not used.",
+  "citations": [
+    {
+      "claim": "In the UMG zone, for constructions à destination d'habitation, the majority-in-basement requirement is not required for résidences étudiantes.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (pdf 329) | quote='Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement pdf page 329 (printed footer 328). Under the 'Moulon - UMG' header, section 12.5 'MODALITÉS DE RÉALISATION', first bullet for constructions à destination d'habitation, the text reads: 'Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.' This directly supports the claim. The page's extracted text was used; the image attachment was empty."
+    },
+    {
+      "claim": "For habitation, at least 85% of motorised parking spaces on the site must be integrated into the building, with a majority in sous-sol.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (pdf 329) | quote='85 % minimum des places de stationnement pour les vehicules motorisés réalisées sur le terrain d'assiette des constructions doivent être intégrées à la construction à destination d'habitation dont une majorité en sous-sol.'",
+      "confirmed": true,
+      "reasoning": "Same passage on plu_reglement pdf page 329 (printed 328), 12.5 first bullet for habitation: '85 % minimum des places de stationnement pour les vehicules motorisés réalisées sur le terrain d'assiette des constructions doivent être intégrées à la construction à destination d'habitation dont une majorité en sous-sol.' This matches the claim that at least 85% of on-site motorised spaces must be integrated into the habitation building, with a majority in sous-sol."
+    },
+    {
+      "claim": "Article 12.5 of the UMG zone regulation appears on printed page 328, which is pdf page 329.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=329 (pdf) | quote='12.5. – MODALITÉS DE RÉALISATION' followed by printed footer '328'",
+      "confirmed": true,
+      "reasoning": "plu_reglement pdf page 329 contains the heading '12.5. – MODALITÉS DE RÉALISATION', and its printed footer reads '328'. Pdf page 328 has footer '327' and does not contain article 12.5. So article 12.5 is on printed page 328 = pdf page 329, as claimed."
+    }
+  ]
+}

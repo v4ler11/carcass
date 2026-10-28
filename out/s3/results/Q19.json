@@ -1,0 +1,33 @@
+{
+  "question_id": "Q19",
+  "status": "confirmed",
+  "answer_text": "The minimum distance is 6 metres where neither facing façade or façade part comprises views (c-01)[ARTICLE 8.1, '6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues.', PDF p.326 / printed p.325]. The 10-metre minimum applies where at least one facing façade or façade part comprises views (c-02)[ARTICLE 8.1, '10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.', PDF p.325 / printed p.324]. Section 8.2 allows different siting only for listed technical, public-service, water, energy-distribution and household-waste sorting storage constructions (c-03)[ARTICLE 8.2, 'Les constructions peuvent être implantées différemment de la règle définie en 8.1 lorsqu'il s'agit d'équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau', PDF p.326 / printed p.325].",
+  "answer_value": 6.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": null,
+  "citations": [
+    {
+      "claim": "Article 8.1 of zone UMG sets the minimum distance between constructions on the same terrain at 6 metres where neither of the two facing façades or façade parts comprises views.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 326 (zone UMG, Article 8.1, continued from page 325) reads: '- 6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues.' This is the 6 m minimum distance between constructions on the same terrain where neither facing façade has views, as the claim states. The page images match the extracted text."
+    },
+    {
+      "claim": "Article 8.1 of zone UMG sets the minimum distance between constructions on the same terrain at 10 metres where at least one of the two facing façades or façade parts comprises views.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=325 | quote='10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 325 (zone UMG, Article 8.1, first bullet) reads: '- 10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.' This is the 10 m minimum where at least one facing façade or façade part has views, as the claim states. The page images match the extracted text."
+    },
+    {
+      "claim": "Article 8.2 of zone UMG allows constructions to be sited differently from the Article 8.1 rule only for technical equipment linked to safety, public service or water management, among other listed exemptions.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='Les constructions peuvent être implantées différemment de la règle définie en 8.1 lorsqu'il s'agit d'équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 326 (Article 8.2, 'DISPOSITIONS PARTICULIERES') reads: 'Les constructions peuvent être implantées différemment de la règle définie en 8.1 lorsqu'il s'agit d'équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau, à la distribution d'énergie tels que transformateurs ou d'un local destiné au stockage des ordures ménagères nécessaire au tri sélectif.' The safety, public service and water-management categories are present, so the claim's substance is accurate. The list also includes energy distribution (transformers) and a household waste storage room for selective sorting, which is what 'among other listed exemptions' refers to. The claim's word 'only' is consistent with the closed list. Page 325 Article 7.3 is a separate side-setback provision and does not alter Article 8.2."
+    }
+  ]
+}

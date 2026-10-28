@@ -1,0 +1,47 @@
+{
+  "question_id": "Q22",
+  "status": "confirmed",
+  "answer_text": "No. The UMG text in Articles 6 to 11 (printed pp. 323 to 325) contains no stepback (retrait en étage) or gabarit-enveloppe rule beyond the Article 6, 7 and 10 rules. The only upper-level limit is the Article 10.2 height cap (c-01)[la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5]. Article 9 leaves the footprint unregulated (c-02)[L'emprise au sol des constructions n'est pas réglementée]. The façade recesses in Article 6.3 are a design aim, not an envelope rule (c-03)[Des décrochés (retrait de façades ou parties de façades) en emprise ou en élévation, sont recherchés]. The side-limit and inter-building rules are horizontal distances, not upper-level stepbacks (c-04)[à 6 mètres pour les façades ou parties de façade comportant des vues]; (c-05)[10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues].",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "Scope read was printed pages 323 to 327 (Articles 6 to 11 and the start of Article 12). Article 11.1 general volumetry and aspect wording was reviewed and not treated as a stepback or envelope rule. A whole-document keyword search also returned hits in other zones (UA, UB, UC), which were not used for this answer. Envelope guidance in the OAP document, which is outside plu_reglement, was not checked. The PDF page offsets stated in the previous response were not verified and are not relied on here.",
+  "citations": [
+    {
+      "claim": "UMG Article 10.2 limits building height for housing to 20 m with a maximum of R+5 levels.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=325 | quote='la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page labelled 325 (tool page 326), Article 10.2 'REGLE GENERALE', reads: 'Pour les constructions à destination principale d'habitation : la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5.' This matches the claim and the quoted text exactly."
+    },
+    {
+      "claim": "UMG Article 9 states that the building footprint (emprise au sol) is not regulated.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=325 | quote='L'emprise au sol des constructions n'est pas réglementée'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page labelled 325 (tool page 326), ARTICLE 9 'EMPRISE AU SOL DES CONSTRUCTIONS', reads: 'L'emprise au sol des constructions n'est pas réglementée, toutefois, tout projet doit être compatible avec les orientations d'aménagement...' The claim that the footprint is not regulated is supported."
+    },
+    {
+      "claim": "UMG Article 6.3 states that façade recesses in plan or elevation are sought as a design aim, not as a binding envelope rule.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=323 | quote='Des décrochés (retrait de façades ou parties de façades) en emprise ou en élévation, sont recherchés'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page labelled 323 (tool page 324), Article 6.3 'REGLE GENERALE', reads: 'Des décrochés (retrait de façades ou parties de façades) en emprise ou en élévation, sont recherchés afin de participer à l'animation architecturale de la façade et/ou aménager des espaces libres.' The wording 'sont recherchés' is a non-mandatory aim rather than a binding envelope rule, so the claim holds. The 'not binding' characterisation is an interpretation of that wording, not an explicit statement in the text."
+    },
+    {
+      "claim": "UMG Article 7.2.1 requires a side-limit setback of at least 6 m for façades with views and 3 m for façades without views.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=324 | quote='à 6 mètres pour les façades ou parties de façade comportant des vues ;'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page labelled 324 (tool page 325), Article 7.2.1 'Règle générale', reads: 'En cas de retrait, ce dernier doit être au moins égal : à 6 mètres pour les façades ou parties de façade comportant des vues ; à 3 mètres pour les façades ou parties de façade ne comportant pas de vue.' This matches the claim."
+    },
+    {
+      "claim": "UMG Article 8.1 requires a minimum distance of 10 m between buildings on the same plot when at least one facade has views, and 6 m when neither has views.",
+      "c_id": "c-05",
+      "verification_instructions": "TEXT | plu_reglement | page=324 | quote='10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.'",
+      "confirmed": true,
+      "reasoning": "Article 8.1 spans printed pages 324 and 325 (tool pages 325 and 326). Page 324 (tool 325) states '10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.' Page 325 (tool 326) states '- 6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues.' Both halves of the claim are supported."
+    }
+  ]
+}

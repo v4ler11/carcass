@@ -1,0 +1,33 @@
+{
+  "question_id": "Q28",
+  "status": "confirmed",
+  "answer_text": "No. The OAP document contains no section or schema numbered 9. Its table of contents lists sections 1 to 8, ending with '8. Le quartier Joliot Curie' (c-02)[OAP table of contents, PDF p. 2, printed p. 1]. A pattern search of the full OAP document for a section 9 heading returned zero matches (c-03)[pages_search over oap_91272_20210706, 0 occurrences]. The UMG zone introduction cites 'orientations 8 et 9' (c-01)[plu_reglement, PDF p. 320, printed p. 319], so the cited orientation 9 has no matching section in the supplied OAP document.",
+  "answer_value": false,
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale is confirmed on both points: the UMG introduction cites orientations 8 and 9, and the OAP contents show only section 8 for Joliot-Curie. The check covered only plu_reglement and oap_91272_20210706; other documents in the corpus were not searched. The OAP is dated 6 July 2021, while the parcel metadata zone name references reglement_20260408.pdf, so a version mismatch may explain the gap. The search patterns were not exhaustive, so a manual review of the OAP PDF is advisable.",
+  "citations": [
+    {
+      "claim": "The UMG zone introduction cites orientations 8 et 9 as document n°3 of the PLU, on printed page 319 (PDF page 320).",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='Cette zone fait l'objet d'orientations d'aménagement, document n°3 du PLU (orientations 8 et 9)'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement PDF page 320, which is printed page 319 at the bottom. The zone UMG introduction says: 'Cette zone fait l'objet d'orientations d'aménagement, document n°3 du PLU (orientations 8 et 9) avec lesquelles tout projet d'aménagement et de construction doit être compatible.' A follow-up search for the quoted phrase returned one match, on page 320. The claim's page numbers and the 'orientations 8 et 9' wording are both supported."
+    },
+    {
+      "claim": "The OAP document table of contents lists sections only up to '8. Le quartier Joliot Curie', with no section 9.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=2 | quote='7. Le site de Moulon 20 8. Le quartier Joliot Curie 32'",
+      "confirmed": true,
+      "reasoning": "Read oap_91272_20210706 page 2 (table of contents). It lists '7. Le site de Moulon 20' and '8. Le quartier Joliot Curie 32' as the last numbered entries, and no entry numbered 9 appears under any heading (Plateau de Chevry, La Vallée, Le Plateau de Moulon). The claim matches the listed sections."
+    },
+    {
+      "claim": "A pattern search of the full oap_91272_20210706 document for a section or schema numbered 9 returned zero matches.",
+      "c_id": "c-03",
+      "verification_instructions": "TABLE | oap_91272_20210706 | rows=['none_found'] | pages_search over the full document for section-9 heading and orientation-9 patterns: 0 occurrences",
+      "confirmed": true,
+      "reasoning": "Ran full-document pages_search on oap_91272_20210706 (has_more=false) for section-9 and orientation-9 heading patterns, including '^9[.)]', 'orientation 9', 'section 9', and 'orientations d'aménagement n° 9'. Each returned 0 occurrences. A broader pattern for '9.' followed by a capitalized word returned 4 hits, but they were image filenames (img-9.jpeg) on pages 8 and 17, and a street address ('9 SQUARE de la Mairie') on page 1. None is a section or schema numbered 9. Limitation: I did not visually inspect the schematic images for an unlabeled numbered schema, so the claim is confirmed on the text-search evidence only."
+    }
+  ]
+}

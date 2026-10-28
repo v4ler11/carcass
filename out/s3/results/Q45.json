@@ -1,0 +1,33 @@
+{
+  "question_id": "Q45",
+  "status": "confirmed",
+  "answer_text": "UMG Article 3.2 requires a minimum width of 3.50 m for a one-way road: no public or private road may be narrower than 3.50 m for one-way traffic (c-01)[Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens et à 3,50 mètres pour une circulation à sens unique]. The two-way minimum in the same sentence is 5 m (c-02)[largeur inférieure à 5 mètres pour une circulation à double sens].",
+  "answer_value": 3.5,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "Article 3.2 is on PDF page 322, which carries printed footer 321. The likely_source_documents entry cites printed 322 / PDF 323, and PDF 323 (printed 322) contains sections 4.2.2 to 4.4, not Article 3.2 (c-03)[Article 3.2 text appears on the page with footer 321; the page with footer 322 begins with section 4.2.2 Eaux pluviales]. The 3.50 m figure applies generally to voies d'intérêt public ou privé; section 3.3 exempts only technical equipment such as transformers. Whether the parcel's access is one-way is not checked here.",
+  "citations": [
+    {
+      "claim": "UMG Article 3.2 requires that no public or private road have a width below 3.50 metres for one-way traffic.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens et à 3,50 mètres pour une circulation à sens unique.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement PDF page 322 (printed footer 321), section 3.2 – REGLE GENERALE, zone UMG. The final paragraph reads: 'Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens et à 3,50 mètres pour une circulation à sens unique.' This directly states the 3.50 m minimum for one-way traffic, applicable to public or private roads. A keyword search for the same phrase also returned the matching text on page 322 (and on the parallel UM article on page 308). The claim is supported as stated."
+    },
+    {
+      "claim": "UMG Article 3.2 requires that no public or private road have a width below 5 metres for two-way traffic.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='largeur inférieure à 5 mètres pour une circulation à double sens'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement PDF page 322 (printed footer 321), section 3.2 – REGLE GENERALE, zone UMG. The same sentence states: 'Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens.' The claim matches the quoted text exactly and applies to public or private roads, so it is confirmed."
+    },
+    {
+      "claim": "Article 3.2 appears on the PDF page with printed footer 321 (PDF 322), and the PDF page with footer 322 (PDF 323) begins with section 4.2.2 and does not contain Article 3.2.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='## 3.2. – REGLE GENERALE' followed by footer '321'; PDF page 323 (footer '322') begins with '# 4.2.2.- Eaux pluviales'",
+      "confirmed": true,
+      "reasoning": "Checked the page-level structure of plu_reglement. PDF page 322 has printed footer '321' and contains the heading '## 3.2. – REGLE GENERALE' with the road-width rule. PDF page 323 has printed footer '322' and begins with '# 4.2.2.- Eaux pluviales'. Reading page 323 in full shows no Article 3.2 text (its content is 4.2.2, 4.3 and 4.4). The page-number mapping and the placement of Article 3.2 are both confirmed."
+    }
+  ]
+}

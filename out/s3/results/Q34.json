@@ -1,0 +1,26 @@
+{
+  "question_id": "Q34",
+  "status": "partial",
+  "answer_text": "No full exemption. The general provisions do not exempt résidences universitaires from parking obligations; they cap the requirement at one space per logement: 'Il ne peut être exigé la réalisation de plus d'une aire de stationnement par logement' for, among others, 'les résidences universitaires mentionnées à l'article L. 631-12' (c-01)[Il ne peut être exigé la réalisation de plus d'une aire de stationnement par logement pour ... les résidences universitaires mentionnées à l'article L. 631-12 du code de la construction et de l'habitation]. The résidences universitaires item sits on printed page 5 (PDF page 6) (c-02)[les résidences universitaires mentionnées à l'article L. 631-12 du code de la construction et de l'habitation]. Whether an RSE falls within 'résidences universitaires' under L.631-12 is not established by this text and depends on Q03, which is partial.",
+  "answer_value": false,
+  "confidence": "medium",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner rationale says the parking obligation may not apply if the RSE is a résidence universitaire. The text does not disapply the obligation; it caps the requirement at one space per logement for the listed categories (c-01). The planner's reading is overstated.",
+  "additional_context": "The cap is per logement, so the number of spaces for an RSE or Résidence Jeunes Actifs still depends on how logements are counted under Article 12, which was not analysed here. The Résidence Jeunes Actifs is not named in the list, so the cap does not apply to it on this text. Only two occurrences of 'universitaire' were found in plu_reglement (PDF pp. 6 and 448); PDF p. 448 is an unrelated antenna-relais form.",
+  "citations": [
+    {
+      "claim": "The general provisions state that it cannot be required to create more than one parking space per logement for, among others, résidences universitaires mentionnées à l'article L. 631-12 du CCH.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=5 (printed; PDF page 6) | quote='Il ne peut être exigé la réalisation de plus d'une aire de stationnement par logement pour : ... les résidences universitaires mentionnées à l'article L. 631-12 du code de la construction et de l'habitation.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement PDF page 6 (printed page 5), text and rendered image. The bullet reads '- les résidences universitaires mentionnées à l'article L. 631-12 du code de la construction et de l'habitation.' It is the last item of the list introduced on PDF page 5 (printed page 4) by 'Il ne peut être exigé la réalisation de plus d'une aire de stationnement par logement pour :'. That sentence sits under Article 2.2, which is part of the règlement's general provisions in Articles 1-2. The provision therefore states that no more than one parking space per dwelling may be required for university residences under L. 631-12 CCH, as the claim says. The lead-in is on PDF page 5, so the verification spans two PDF pages."
+    },
+    {
+      "claim": "The résidences universitaires item appears in the Article 2.2 list on printed page 5 (PDF page 6).",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=5 (printed; PDF page 6) | quote='les résidences universitaires mentionnées à l'article L. 631-12 du code de la construction et de l'habitation.'",
+      "confirmed": true,
+      "reasoning": "Searched plu_reglement for 'résidences universitaires' and 'L. 631-12'. The only occurrence is on PDF page 6, which carries the printed footer '5'. The item appears as a bullet in the list that follows the heading '2.2. LES PRESCRIPTIONS PRISES AU TITRE DES AUTRES LEGISLATIONS SPECIFIQUES...' (found on PDF page 5, printed 4). The bullet text matches the quoted text exactly, so the claim that the item appears in the Article 2.2 list on printed page 5 (PDF page 6) is supported."
+    }
+  ]
+}

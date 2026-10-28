@@ -1,0 +1,26 @@
+{
+  "question_id": "Q39",
+  "status": "confirmed",
+  "answer_text": "The minimum surface for a bicycle parking area under UMG Article 12.3 is 3 m² (c-01)[L'espace destiné au stationnement des vélos a une superficie minimale de 3 m².]. This sentence follows the habitation bicycle ratios on the preceding page (c-02)[Pour les constructions à destination d'habitation : 0,75 m² par logement pour les logements jusqu'à deux pièces principales; 1,5 m² par logement dans les autres cas], and the text does not name the destination it applies to.",
+  "answer_value": 3.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale refers to a minimum-area constraint without giving a value, so it does not conflict with the source. The 3 m² sentence is placed directly after the habitation ratios and before the bureau, industrial, hotel and public-service rules. Its scope is not stated explicitly, so applying it to the Résidence Sociale Étudiante and Résidence Jeunes Actifs (both habitation-type uses) is an interpretation. Printed page 328 corresponds to PDF page 329 for the 3 m² sentence, and printed page 327 corresponds to PDF page 328 for the habitation ratios. Only plu_reglement was consulted, as scoped.",
+  "citations": [
+    {
+      "claim": "The espace destiné au stationnement des vélos has a minimum area of 3 m² under UMG Article 12.3.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=329 (printed 328) | quote='L'espace destiné au stationnement des vélos a une superficie minimale de 3 m².'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 329 (printed 328), text extraction, reads 'L'espace destiné au stationnement des vélos a une superficie minimale de 3 m².' It follows the '12.3. -NORMES DE STATIONNEMENT MINIMALES POUR LES VÉLOS POUR LES CONSTRUCTIONS NOUVELLES' heading on PDF page 328 and precedes the '12.4' heading on the same page, so it falls within Article 12.3 of the UMG zone. A search for 'superficie minimale de 3 m' also returns this page. My earlier claim of a rendered-image check was incorrect: the image-enabled reads returned no images, so this verdict rests on text extraction only."
+    },
+    {
+      "claim": "The preceding page of UMG Article 12.3 sets habitation bicycle ratios of 0,75 m² per logement for logements up to two main rooms and 1,5 m² per logement otherwise.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (printed 327) | quote='Pour les constructions à destination d'habitation : - 0,75 m² par logement pour les logements jusqu'à deux pièces principales - 1,5 m² par logement dans les autres cas'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 328 (printed 327), text extraction, shows under '12.3. -NORMES DE STATIONNEMENT MINIMALES POUR LES VÉLOS POUR LES CONSTRUCTIONS NOUVELLES': 'Pour les constructions à destination d'habitation : - 0,75 m² par logement pour les logements jusqu'à deux pièces principales - 1,5 m² par logement dans les autres cas'. This is the page immediately preceding the page containing the 3 m² rule (PDF page 329), matching the claim's framing and stated ratios. As with c-01, the verdict rests on text extraction; no rendered image was returned for this page."
+    }
+  ]
+}

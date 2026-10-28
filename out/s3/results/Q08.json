@@ -1,0 +1,26 @@
+{
+  "question_id": "Q08",
+  "status": "confirmed",
+  "answer_text": "The maximum number of levels for constructions à destination principale d'habitation under UMG Article 10.2 is R+5 (c-01)[avec un nombre de niveaux limité à R+5]. The same bullet caps height at 20 metres for this use (c-02)[la hauteur maximale des constructions est limitée à 20 mètres]. Source: printed page 325, PDF page 326.",
+  "answer_value": 5.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale says R+5 can be the binding constraint. The text sets R+5 and 20 m together in one bullet, so both apply cumulatively, but it does not say which one binds for a given building. The text does not define R+5 beyond the notation itself. Article 10.2 also opens with a general compatibility clause with the OAP (pièce n°3), which may impose further limits that were not checked here.",
+  "citations": [
+    {
+      "claim": "Zone UMG Article 10.2 limits constructions à destination principale d'habitation to R+5 levels.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='avec un nombre de niveaux limité à R+5'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 326 (printed p. 325), section 10.2 'REGLE GENERALE', reads: 'Pour les constructions à destination principale d'habitation : la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5.' The quoted phrase 'avec un nombre de niveaux limité à R+5' appears verbatim, and it sets the R+5 level limit for habitation in zone UMG (Moulon - UMG header on the page)."
+    },
+    {
+      "claim": "Zone UMG Article 10.2 limits the maximum height of constructions à destination principale d'habitation to 20 metres.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='la hauteur maximale des constructions est limitée à 20 mètres'",
+      "confirmed": true,
+      "reasoning": "Same passage, PDF page 326 (printed p. 325), section 10.2: 'la hauteur maximale des constructions est limitée à 20 mètres' appears verbatim under the habitation destination bullet. The page is the UMG zone regulation, so the 20 m limit for habitation applies as the claim states. Article 10 also says projects must be compatible with the OAP, but that does not change the stated 20 m limit."
+    }
+  ]
+}

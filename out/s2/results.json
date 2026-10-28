@@ -1,0 +1,769 @@
+{
+  "questions": [
+    {
+      "id": "Q01",
+      "category": "destination_admissibility",
+      "question_text": "Does UMG Article 1 (occupations et utilisations du sol interdites) prohibit constructions à destination d'habitation?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 1 (p. 319 printed / pdf p. 320)"
+      ],
+      "depends_on": [],
+      "rationale": "Admissibility of the residential use is the gating question for both buildings. The Article 1 list (agricultural/forestry, entrepôt, caravans, camping, RLL, villages de vacances) does not appear to include habitation, but this must be confirmed from text."
+    },
+    {
+      "id": "Q02",
+      "category": "destination_admissibility",
+      "question_text": "Does UMG Article 2 (occupations et utilisations du sol soumises à des conditions particulières) list constructions à destination d'habitation as admitted under conditions?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 2 (p. 320 printed / pdf p. 321)"
+      ],
+      "depends_on": [],
+      "rationale": "Completes the admissibility determination. If habitation is neither prohibited (Q01) nor conditioned (Q02), it is admitted without specific conditions, which the zone introduction supports."
+    },
+    {
+      "id": "Q03",
+      "category": "sous_destination_mapping",
+      "question_text": "Under the règlement's definitions or lexicon, is a Résidence Sociale Étudiante classified under the habitation destination?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "plu_reglement: LEXIQUE and destination definitions (Titre III, pdf p. 374 onward)",
+        "plu_reglement: Zone UMG intro (p. 319 printed)"
+      ],
+      "depends_on": [],
+      "rationale": "Several downstream rules (height in Article 10.2, parking in Article 12, the résidence universitaire exemption) depend on how the RSE is classified. If the règlement does not define sous-destinations, the answer must be recorded as not determined by text."
+    },
+    {
+      "id": "Q04",
+      "category": "sous_destination_mapping",
+      "question_text": "Under the règlement's definitions or lexicon, is a Résidence Jeunes Actifs classified as logement?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: LEXIQUE and destination definitions (Titre III, pdf p. 374 onward)"
+      ],
+      "depends_on": [],
+      "rationale": "Needed to decide whether the second building is treated as habitation or as another destination with different height and parking norms."
+    },
+    {
+      "id": "Q05",
+      "category": "sous_destination_mapping",
+      "question_text": "Under the règlement's definitions or lexicon, is a Résidence Jeunes Actifs classified as hébergement hôtelier (including résidences services)?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: LEXIQUE and destination definitions (Titre III, pdf p. 374 onward)",
+        "plu_reglement: Zone UMG, ARTICLE 12.1 hébergement hôtelier wording (p. 327 printed / pdf p. 328)"
+      ],
+      "depends_on": [],
+      "rationale": "Because résidences services are grouped with hébergement hôtelier in Article 12 (0.5 place per chambre), this classification can change the parking norm and the height category for the second building."
+    },
+    {
+      "id": "Q06",
+      "category": "program_specific_conditions",
+      "question_text": "Does UMG Article 2 attach any specific condition to hébergement étudiant or to student residences?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 2 (p. 320 printed / pdf p. 321)"
+      ],
+      "depends_on": [
+        "Q03"
+      ],
+      "rationale": "Zone UL2 has a student-accommodation condition. The UMG text must be checked separately to confirm that no equivalent condition applies to the RSE."
+    },
+    {
+      "id": "Q07",
+      "category": "height_limit",
+      "question_text": "What is the maximum height in metres for constructions à destination principale d'habitation under UMG Article 10.2?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 10.2 (p. 325 printed / pdf p. 326)"
+      ],
+      "depends_on": [],
+      "rationale": "Provides the height ceiling for the residential buildings if they are classified as habitation (Q03, Q04)."
+    },
+    {
+      "id": "Q08",
+      "category": "height_limit",
+      "question_text": "What is the maximum number of levels for constructions à destination principale d'habitation under UMG Article 10.2?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 10.2 (p. 325 printed / pdf p. 326)"
+      ],
+      "depends_on": [],
+      "rationale": "The level cap (R+5) is a separate constraint from the metric height and can be the binding one for a multi-storey residence."
+    },
+    {
+      "id": "Q09",
+      "category": "height_limit",
+      "question_text": "What is the maximum height in metres for constructions with an autre destination (not principal habitation) under UMG Article 10.2?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 10.2 (p. 325 printed / pdf p. 326)"
+      ],
+      "depends_on": [
+        "Q04",
+        "Q05"
+      ],
+      "rationale": "Applies only if one of the two buildings is not classified as habitation, for example hébergement hôtelier or résidence services."
+    },
+    {
+      "id": "Q10",
+      "category": "height_limit",
+      "question_text": "From which ground reference is building height measured under UMG Article 10.1?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 10.1 (p. 325 printed / pdf p. 326)"
+      ],
+      "depends_on": [],
+      "rationale": "Determines the baseline for the height check. The text says sol naturel existant avant travaux; the answer must be recorded for the envelope calculation."
+    },
+    {
+      "id": "Q11",
+      "category": "setback_frontage_alignment",
+      "question_text": "What is the minimum recul in metres from the alignment when a construction is set back from a public road under UMG Article 6.3?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 6.3 (p. 323 printed / pdf p. 324)"
+      ],
+      "depends_on": [],
+      "rationale": "Frontage setback value for the building facing a public road or emprise."
+    },
+    {
+      "id": "Q12",
+      "category": "setback_frontage_alignment",
+      "question_text": "What is the maximum depth in centimetres of projecting elements (saillies) permitted in front of the alignment under UMG Article 6.3?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 6.3 (p. 323 printed / pdf p. 324)"
+      ],
+      "depends_on": [],
+      "rationale": "Determines whether balconies or other projections can extend the building envelope toward the frontage."
+    },
+    {
+      "id": "Q13",
+      "category": "setback_frontage_alignment",
+      "question_text": "What implantation principle does OAP section 8 set for new constructions along the rue Joliot-Curie?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 'Le quartier Joliot Curie', implantation passage (pdf p. 34)"
+      ],
+      "depends_on": [],
+      "rationale": "The OAP sets an alignment principle along rue Joliot-Curie that may refine UMG Article 6. Whether the parcel fronts that street must be checked against the plan."
+    },
+    {
+      "id": "Q14",
+      "category": "setback_side_rear_limits",
+      "question_text": "What minimum retrait in metres from a side or rear limit applies to a façade with views (vues) under UMG Article 7.2.1?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 7.2.1 (p. 324 printed / pdf p. 325)"
+      ],
+      "depends_on": [],
+      "rationale": "Side and rear clearance for the view-bearing façades of both residential buildings."
+    },
+    {
+      "id": "Q15",
+      "category": "setback_side_rear_limits",
+      "question_text": "What minimum retrait in metres from a side or rear limit applies to a façade without views under UMG Article 7.2.1?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 7.2.1 (p. 324 printed / pdf p. 325)"
+      ],
+      "depends_on": [],
+      "rationale": "Companion value to Q14 for blank façades; the envelope check requires both."
+    },
+    {
+      "id": "Q16",
+      "category": "setback_side_rear_limits",
+      "question_text": "Are balconies and oriels included in the retrait measurement from a limite séparative under UMG Article 7.2.2?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 7.2.2 (p. 324 printed / pdf p. 325)"
+      ],
+      "depends_on": [],
+      "rationale": "Determines whether projecting balconies must respect the same side clearance as the main façade."
+    },
+    {
+      "id": "Q17",
+      "category": "multi_building_rules",
+      "question_text": "Does UMG Article 8 apply to two constructions located on the same property (même propriété)?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 8.1 (p. 324-325 printed / pdf p. 325-326)"
+      ],
+      "depends_on": [],
+      "rationale": "Gateway question for the inter-building rule that governs the two-building programme."
+    },
+    {
+      "id": "Q18",
+      "category": "inter_building_distance",
+      "question_text": "What minimum distance in metres between two constructions on the same property applies when at least one facing façade comprises views?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 8.1 (p. 324 printed / pdf p. 325)"
+      ],
+      "depends_on": [
+        "Q17"
+      ],
+      "rationale": "Core inter-building spacing for the RSE and the Résidence Jeunes Actifs when facing façades have views."
+    },
+    {
+      "id": "Q19",
+      "category": "inter_building_distance",
+      "question_text": "What minimum distance in metres between two constructions on the same property applies when neither facing façade comprises views?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 8.1 (p. 325-326 printed / pdf p. 326)"
+      ],
+      "depends_on": [
+        "Q17"
+      ],
+      "rationale": "Alternative spacing if the facing façades are blank; the design must match the façade openings to the applicable value."
+    },
+    {
+      "id": "Q20",
+      "category": "multi_building_rules",
+      "question_text": "Does UMG Article 8.2 exempt residential constructions from the inter-building distance of Article 8.1?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 8.2 (p. 326 printed / pdf p. 327)"
+      ],
+      "depends_on": [
+        "Q17"
+      ],
+      "rationale": "Article 8.2 is a list of exemptions; the check confirms that neither residential building qualifies for a derogation."
+    },
+    {
+      "id": "Q21",
+      "category": "emprise_au_sol_coverage",
+      "question_text": "Does UMG Article 9 set any maximum emprise au sol percentage for constructions?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 9 (p. 325 printed / pdf p. 326)"
+      ],
+      "depends_on": [],
+      "rationale": "The article states that emprise au sol is not regulated, subject to OAP compatibility. The answer must be confirmed so that no numeric ceiling is missed in the envelope calculation."
+    },
+    {
+      "id": "Q22",
+      "category": "stepback_gabarit_prospect_rules",
+      "question_text": "Does the UMG text contain any stepback (retrait en étage) or gabarit-enveloppe rule beyond the alignment, side-limit and height rules of Articles 6, 7 and 10?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLES 6 to 11 (p. 323-327 printed)"
+      ],
+      "depends_on": [],
+      "rationale": "Confirms that no additional upper-level stepback or prospect rule constrains the building envelope."
+    },
+    {
+      "id": "Q23",
+      "category": "oap_massing_prescriptions",
+      "question_text": "What average épannelage level in R+ units does OAP section 8 set for constructions à destination principale d'habitation in the Joliot-Curie quartier?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 'La morphologie du quartier' (pdf p. 33)"
+      ],
+      "depends_on": [],
+      "rationale": "OAP massing guidance that will be compared with the UMG height ceiling (R+5) for the residential buildings."
+    },
+    {
+      "id": "Q24",
+      "category": "oap_massing_prescriptions",
+      "question_text": "Where within the Joliot-Curie quartier does OAP section 8 locate housing programmes for students and families?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 'La programmation' (pdf p. 36)"
+      ],
+      "depends_on": [],
+      "rationale": "The OAP states that student and family housing is located principally to the west of the quartier. The parcel is confirmed in the central part of the OAP sector, so compatibility of its location with this guidance must be assessed."
+    },
+    {
+      "id": "Q25",
+      "category": "oap_binding_vs_orientation",
+      "question_text": "What legal relationship does the UMG règlement require projects to have with the OAP document?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG intro and the 'Tout projet doit être compatible' clause in each article (p. 319-327 printed)"
+      ],
+      "depends_on": [],
+      "rationale": "Establishes the binding level of all OAP guidance for the project, which determines how each OAP provision is reported."
+    },
+    {
+      "id": "Q26",
+      "category": "oap_binding_vs_orientation",
+      "question_text": "Is the R+4 average épannelage objective in OAP section 8 framed as a mandatory obligation or as a non-binding objective?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 'La morphologie du quartier' (pdf p. 33)"
+      ],
+      "depends_on": [
+        "Q23"
+      ],
+      "rationale": "The OAP wording is 'devra permettre d'atteindre un objectif de R+4 moyen', so classifying it determines whether the massing guidance is opposable or an orientation."
+    },
+    {
+      "id": "Q27",
+      "category": "oap_binding_vs_orientation",
+      "question_text": "Is the alignment principle along the rue Joliot-Curie in OAP section 8 framed as a mandatory requirement or as an orientation?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 implantation passage (pdf p. 34)"
+      ],
+      "depends_on": [
+        "Q13"
+      ],
+      "rationale": "The OAP uses 'doit être retenu' for the alignment principle but qualifies it against a uniform front bâti. The classification determines how strictly the frontage must follow the alignment."
+    },
+    {
+      "id": "Q28",
+      "category": "oap_reference_integrity",
+      "question_text": "Does the OAP document contain a section or schema numbered 9 (orientation 9), as cited by the UMG zone introduction?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG intro (p. 319 printed)",
+        "oap_91272_20210706: table of contents (pdf p. 2)"
+      ],
+      "depends_on": [],
+      "rationale": "The UMG introduction cites orientations 8 et 9, while the OAP contents list only section 8 for Joliot-Curie. An unresolved reference could mean missing binding guidance for the parcel."
+    },
+    {
+      "id": "Q29",
+      "category": "parking_requirements",
+      "question_text": "How many square metres of surface de plancher correspond to one vehicle parking space for résidences étudiantes under UMG Article 12.1?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.1 (p. 326 printed / pdf p. 327)"
+      ],
+      "depends_on": [
+        "Q03"
+      ],
+      "rationale": "Parking norm specific to the RSE building."
+    },
+    {
+      "id": "Q30",
+      "category": "parking_requirements",
+      "question_text": "How many square metres of surface de plancher correspond to one vehicle parking space for constructions à destination d'habitation under UMG Article 12.1?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.1 (p. 326 printed / pdf p. 327)"
+      ],
+      "depends_on": [],
+      "rationale": "Parking norm for residential uses, relevant to the Résidence Jeunes Actifs if it is classified as habitation."
+    },
+    {
+      "id": "Q31",
+      "category": "parking_requirements",
+      "question_text": "What maximum number of vehicle parking spaces per logement applies to habitation under the surface-based norm in UMG Article 12.1?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.1 (p. 326 printed / pdf p. 327)"
+      ],
+      "depends_on": [],
+      "rationale": "Caps the surface-based norm for habitation; the cap determines the requirement for larger units."
+    },
+    {
+      "id": "Q32",
+      "category": "parking_requirements",
+      "question_text": "How many vehicle parking spaces per logement apply to logements financed with a prêt aidé par l'État under UMG Article 12.1?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.1 (p. 326 printed / pdf p. 327)"
+      ],
+      "depends_on": [],
+      "rationale": "A distinct norm for state-aided housing that may apply if the programme is financed under that scheme."
+    },
+    {
+      "id": "Q33",
+      "category": "parking_requirements",
+      "question_text": "How many vehicle parking spaces per chambre apply to hébergement hôtelier (including résidences services) under UMG Article 12.1?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.1 (p. 327 printed / pdf p. 328)"
+      ],
+      "depends_on": [
+        "Q05"
+      ],
+      "rationale": "Applies to the Résidence Jeunes Actifs only if it is classified as hébergement hôtelier or résidence services."
+    },
+    {
+      "id": "Q34",
+      "category": "parking_requirements",
+      "question_text": "Do the general provisions exempt résidences universitaires (CCH L.631-12) from the obligation to create parking spaces?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: general provisions, list of exempted constructions (p. 5 printed / pdf p. 6)"
+      ],
+      "depends_on": [
+        "Q03"
+      ],
+      "rationale": "If the RSE qualifies as a résidence universitaire, the parking obligation may not apply, which changes the parking analysis. The exemption must be confirmed against the general provisions, not only Article 12."
+    },
+    {
+      "id": "Q35",
+      "category": "parking_requirements",
+      "question_text": "What minimum percentage of vehicle parking spaces on the terrain must be integrated into a habitation building under UMG Article 12.5?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.5 (p. 328 printed / pdf p. 329)"
+      ],
+      "depends_on": [],
+      "rationale": "Determines how many spaces must be built within the building envelope rather than in surface car parks, affecting the design and basement area."
+    },
+    {
+      "id": "Q36",
+      "category": "parking_requirements",
+      "question_text": "Must a majority of the integrated vehicle parking spaces for a habitation building be located in a basement under UMG Article 12.5?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.5 (p. 328 printed / pdf p. 329)"
+      ],
+      "depends_on": [],
+      "rationale": "A basement-majority rule that determines the underground car park size for habitation buildings."
+    },
+    {
+      "id": "Q37",
+      "category": "parking_requirements",
+      "question_text": "Is the requirement that a majority of vehicle parking spaces be in a basement waived for résidences étudiantes under UMG Article 12.5?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.5 (p. 328 printed / pdf p. 329)"
+      ],
+      "depends_on": [
+        "Q03"
+      ],
+      "rationale": "The UMG text says that for résidences étudiantes the majority-in-basement requirement is not required. Confirming this allows the RSE to be designed differently from the second building."
+    },
+    {
+      "id": "Q38",
+      "category": "parking_requirements",
+      "question_text": "Which bicycle parking norm applies to a résidence étudiante under UMG Article 12.3: the habitation norm or the enseignement supérieur norm?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.3 (p. 327-328 printed / pdf p. 328-329)"
+      ],
+      "depends_on": [
+        "Q03"
+      ],
+      "rationale": "The two norms give very different bicycle areas (per logement vs per student). The classification of the RSE determines which applies."
+    },
+    {
+      "id": "Q39",
+      "category": "parking_requirements",
+      "question_text": "What minimum surface in square metres must a bicycle parking area have under UMG Article 12.3?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.3 (p. 328 printed / pdf p. 329)"
+      ],
+      "depends_on": [],
+      "rationale": "A minimum-area constraint that affects the layout of bicycle storage in each building."
+    },
+    {
+      "id": "Q40",
+      "category": "multi_building_rules",
+      "question_text": "Under UMG Article 12.4, is the parking requirement for an operation with several destinations calculated as the sum of the requirements for each destination?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.4 (p. 328 printed / pdf p. 329)"
+      ],
+      "depends_on": [
+        "Q03",
+        "Q05"
+      ],
+      "rationale": "Determines whether the parking requirements of the two buildings are summed per destination, which is the core multi-building parking test."
+    },
+    {
+      "id": "Q41",
+      "category": "parking_requirements",
+      "question_text": "Does UMG Article 12.5 allow parking spaces required for two operations to be provided in a shared car park?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 12.5 (p. 329 printed / pdf p. 330)"
+      ],
+      "depends_on": [
+        "Q40"
+      ],
+      "rationale": "A shared-parking provision could reduce the total number of spaces, but only in justified cases with alternating occupancy."
+    },
+    {
+      "id": "Q42",
+      "category": "parking_requirements",
+      "question_text": "Does OAP section 8 direct that parking for the Joliot-Curie quartier be underground or within the building envelope?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 'L'organisation viaire et la valorisation des transports en commun' (pdf p. 35)"
+      ],
+      "depends_on": [],
+      "rationale": "OAP guidance on parking location supplements the règlement's numeric norms and may be compatibility-binding."
+    },
+    {
+      "id": "Q43",
+      "category": "parking_requirements",
+      "question_text": "Does OAP section 8 direct that parking spaces along the roads of the Joliot-Curie quartier be kept to a limited number?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 'L'organisation viaire et la valorisation des transports en commun' (pdf p. 35)"
+      ],
+      "depends_on": [],
+      "rationale": "Separate from the underground or shared-parking guidance; limits the on-street parking strategy for the parcel."
+    },
+    {
+      "id": "Q44",
+      "category": "access_servicing_conditions",
+      "question_text": "What minimum width in metres does UMG Article 3.2 require for a two-way public or private road serving a construction?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 3.2 (p. 322 printed / pdf p. 323)"
+      ],
+      "depends_on": [],
+      "rationale": "Access road width may be the binding constraint if the parcel is served by a narrow private road."
+    },
+    {
+      "id": "Q45",
+      "category": "access_servicing_conditions",
+      "question_text": "What minimum width in metres does UMG Article 3.2 require for a one-way public or private road serving a construction?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 3.2 (p. 322 printed / pdf p. 323)"
+      ],
+      "depends_on": [],
+      "rationale": "Companion value for one-way access, used if the access arrangement is one-way."
+    },
+    {
+      "id": "Q46",
+      "category": "access_servicing_conditions",
+      "question_text": "Must a private dead-end road serving a construction allow vehicles to turn around under UMG Article 3.2?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 3.2 (p. 322 printed / pdf p. 323)"
+      ],
+      "depends_on": [],
+      "rationale": "A turnaround requirement applies if the access to the parcel is a private impasse."
+    },
+    {
+      "id": "Q47",
+      "category": "access_servicing_conditions",
+      "question_text": "Does UMG Article 3.2 require the access road to be accessible to emergency vehicles?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 3.2 (p. 322 printed / pdf p. 323)"
+      ],
+      "depends_on": [],
+      "rationale": "Fire-service accessibility is a condition on the access design for both buildings."
+    },
+    {
+      "id": "Q48",
+      "category": "access_servicing_conditions",
+      "question_text": "Does UMG Article 3.2 require the access road to be accessible to refuse collection vehicles?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 3.2 (p. 322 printed / pdf p. 323)"
+      ],
+      "depends_on": [],
+      "rationale": "Refuse-collection accessibility is a separate condition on the access design for both buildings."
+    },
+    {
+      "id": "Q49",
+      "category": "access_servicing_conditions",
+      "question_text": "Must the wastewater connection of a new construction be made by an underground pipe to the collective sewer under UMG Article 4.2.1?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 4.2.1 (p. 322 printed / pdf p. 323)"
+      ],
+      "depends_on": [],
+      "rationale": "Servicing requirement that applies to both buildings and affects the cost and layout of the connection."
+    },
+    {
+      "id": "Q50",
+      "category": "access_servicing_conditions",
+      "question_text": "What maximum pluvial discharge rate in litres per second per hectare applies to the collective network under UMG Article 4.2.2?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 4.2.2 (p. 323 printed / pdf p. 324)"
+      ],
+      "depends_on": [],
+      "rationale": "Sets the attenuation volume that must be provided on the parcel for the two buildings combined."
+    },
+    {
+      "id": "Q51",
+      "category": "access_servicing_conditions",
+      "question_text": "Must all networks serving a new construction be installed underground under UMG Article 4.3?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 4.3 (p. 323 printed / pdf p. 324)"
+      ],
+      "depends_on": [],
+      "rationale": "Servicing requirement affecting the network design for both buildings."
+    },
+    {
+      "id": "Q52",
+      "category": "access_servicing_conditions",
+      "question_text": "Does UMG Article 4.4 require a closed refuse enclosure for habitation with more than three logements?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 4.4 (p. 322-323 printed / pdf p. 323-324)"
+      ],
+      "depends_on": [],
+      "rationale": "Requires a waste enclosure in the design of the residential buildings above the threshold."
+    },
+    {
+      "id": "Q53",
+      "category": "landscaping_espaces_libres",
+      "question_text": "What minimum share of the terrain in percent must be treated as espaces verts under UMG Article 13.3 for new construction?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 13.3 (p. 330 printed / pdf p. 331)"
+      ],
+      "depends_on": [],
+      "rationale": "A ground-area constraint that competes with the building footprint and parking on the parcel."
+    },
+    {
+      "id": "Q54",
+      "category": "landscaping_espaces_libres",
+      "question_text": "What minimum share of the terrain in percent must be pleine terre under UMG Article 13.3 for new construction?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 13.3 (p. 330 printed / pdf p. 331)"
+      ],
+      "depends_on": [],
+      "rationale": "Pleine terre is stricter than espaces verts (no infrastructure, including underground car park), and it limits the area available for basement parking."
+    },
+    {
+      "id": "Q55",
+      "category": "landscaping_espaces_libres",
+      "question_text": "How many medium-development trees per 300 m² of terrain must be planted under UMG Article 13.3?",
+      "expected_answer_type": "numeric",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 13.3 (p. 330 printed / pdf p. 331)"
+      ],
+      "depends_on": [],
+      "rationale": "Planting requirement that applies to the parcel and must be shown in the landscape plan."
+    },
+    {
+      "id": "Q56",
+      "category": "multi_building_rules",
+      "question_text": "Are the espace vert and pleine terre percentages under UMG Article 13.3 computed on the whole terrain rather than separately for each construction?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG, ARTICLE 13.3 (p. 330 printed / pdf p. 331)"
+      ],
+      "depends_on": [],
+      "rationale": "The two-building programme makes this a multi-building question: the percentage is a single whole-terrain test, which affects how the two buildings share the open space."
+    },
+    {
+      "id": "Q57",
+      "category": "program_specific_conditions",
+      "question_text": "Which acoustic isolation standard applies to new habitation buildings located within the classified road-noise corridors listed in the general provisions?",
+      "expected_answer_type": "categorical",
+      "likely_source_documents": [
+        "plu_reglement: general provisions, zones de bruit le long des voies de transports terrestres (p. 5 printed / pdf p. 6)"
+      ],
+      "depends_on": [],
+      "rationale": "Residential buildings in a noise corridor (RD128 and RER B are listed) must comply with a specific acoustic standard. Whether the parcel lies in a corridor is a graphic question, but the applicable rule is text-resolvable."
+    },
+    {
+      "id": "Q58",
+      "category": "unresolved_flag_followups",
+      "question_text": "Does the UMG text impose conditions on new constructions located near or on elements identified under L.151-19 or L.151-23 of the Code de l'urbanisme?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: Zone UMG (p. 319-332 printed)",
+        "plu_reglement: Zone UL, ARTICLE UL2 (p. 121 printed) for comparison of the L.151-19/23 wording"
+      ],
+      "depends_on": [],
+      "rationale": "Follow-up to the L 151-19 / L 151-23 unresolved flag. The text-level rule is retrievable even though parcel-level location is not; zone UL2 contains the wording, and UMG must be checked for the same condition."
+    },
+    {
+      "id": "Q59",
+      "category": "unresolved_flag_followups",
+      "question_text": "Does any emplacement réservé listing in plu_reglement or the OAP document reference parcel CR 0247 or the identifier 91272000CR0247?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: emplacements réservés annex or list (search for 0247 and CR)",
+        "oap_91272_20210706: any ER listing"
+      ],
+      "depends_on": [],
+      "rationale": "Follow-up to the unresolved flag about BD 247 matching CR 0247 by digits only. A text search settles whether any ER list refers to this parcel."
+    },
+    {
+      "id": "Q60",
+      "category": "unresolved_flag_followups",
+      "question_text": "Does OAP section 8 identify a road-widening (élargissement de voirie) along the rue Joliot-Curie?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 'Les espaces publics majeurs' and 'L'organisation viaire' (pdf p. 33-35)"
+      ],
+      "depends_on": [],
+      "rationale": "Follow-up to the unresolved flag that the road-widening ER has no cadastral references. The OAP road-hierarchy text is checked for any widening along the main east-west axis."
+    },
+    {
+      "id": "Q61",
+      "category": "unresolved_flag_followups",
+      "question_text": "Does the plu_reglement emplacement réservé list record a road-widening (élargissement de voirie) on the north-south secondary axis in Joliot-Curie?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: emplacements réservés list (search for élargissement)"
+      ],
+      "depends_on": [],
+      "rationale": "Companion check to Q60 for the north-south axis, against the ER list rather than the OAP text."
+    },
+    {
+      "id": "Q62",
+      "category": "unresolved_flag_followups",
+      "question_text": "What approval or modification date is printed on the UMG pages of plu_reglement?",
+      "expected_answer_type": "text",
+      "likely_source_documents": [
+        "plu_reglement: footer of Zone UMG pages (p. 319-332 printed)"
+      ],
+      "depends_on": [],
+      "rationale": "Follow-up to the document-version unresolved flag. The corpus version is stated as 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021', which makes any mismatch with the metadata reference explicit."
+    },
+    {
+      "id": "Q63",
+      "category": "unresolved_flag_followups",
+      "question_text": "Does OAP section 8 textually describe the boundary or limits of the Quartier Joliot Curie sector?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "oap_91272_20210706: section 8 introduction and schema captions (pdf p. 33-36)"
+      ],
+      "depends_on": [],
+      "rationale": "Follow-up to the sub-sector boundary flag. A textual description of the perimeter, if present, is checked here; the graphic overlay remains a carry-forward limitation."
+    },
+    {
+      "id": "Q64",
+      "category": "unresolved_flag_followups",
+      "question_text": "Does plu_reglement contain a provision on périmètres de recommandations sanitaires that applies to zone UMG?",
+      "expected_answer_type": "boolean",
+      "likely_source_documents": [
+        "plu_reglement: general provisions and annexes (search recommandations sanitaires)"
+      ],
+      "depends_on": [],
+      "rationale": "Follow-up to the sanitary-recommendations flag. Text retrieval can confirm whether the regime exists and applies to UMG, which narrows the graphic overlap question."
+    }
+  ],
+  "carry_forward_limitations": [
+    {
+      "flag": "The zone and OAP rely on visual reading of soft zoom imagery; the zone and OAP calls are robust because the nearest boundaries are far from the parcel.",
+      "reason": "The parcel's position within the UMG zone and the OAP perimeter is a graphic reading of zoomed map imagery. A text-retrieval agent cannot verify spatial position from the règlement or OAP text."
+    },
+    {
+      "flag": "Table 04 (road-widening) contains no cadastral references. A red-arrow nord-sud ER appears in the legend, but its position cannot be matched to any table row. Human review should confirm that no road-widening ER runs along the parcel's frontage.",
+      "reason": "Whether the red-arrow ER runs along the parcel frontage is a spatial determination on the plan graphic. Text search (Q60, Q61) can show whether a widening is recorded in text, but not where it lies."
+    },
+    {
+      "flag": "The sub-sector boundary of the 'Quartier Joliot Curie' OAP is not separately drawn in the zoom images. The magenta dotted perimeter visible on the map is used as the sector edge; a human should confirm it matches the OAP sector outline.",
+      "reason": "The sector outline is a graphic element of the OAP schema. Text can at most describe it (Q63); the drawn line can only be confirmed visually."
+    },
+    {
+      "flag": "The recommandations sanitaires (dashed purple) and the OAP perimeter (magenta dotted) are visually similar at this resolution; the recommandations check is undetermined.",
+      "reason": "The distinction between the two overlays depends on line style and colour in the map image. Text (Q64) can confirm the regime exists, but cannot map which graphic line belongs to which overlay."
+    },
+    {
+      "flag": "The L 151-19 / L 151-23 element check is undetermined because 02_elements_recenses.png shows only a thumbnail of plan n°5.5, not a legible parcel-level map.",
+      "reason": "Presence of a recensed element on the parcel is determined by plan n°5.5, a graphic document. Text (Q58) can settle the applicable rule, but not whether the parcel carries a recensed element."
+    },
+    {
+      "flag": "The west distance from the parcel to the OAP perimeter is not stated because the supporting citation was rejected on verification; a human should measure it.",
+      "reason": "This is a metric distance measured on the map graphic. No text passage supplies it, so it must be measured by a human on the plan."
+    }
+  ]
+}

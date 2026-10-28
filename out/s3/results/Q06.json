@@ -1,0 +1,40 @@
+{
+  "question_id": "Q06",
+  "status": "confirmed",
+  "answer_text": "No. UMG Article 2 attaches no condition to hébergement étudiant or to student residences. Its conditional list begins 'Sont admises, sous conditions, les occupations et utilisations du sol suivantes' and covers only affouillements/exhaussements, technical network equipment, and installations classées (c-01)[Sont admises, sous conditions, les occupations et utilisations du sol suivantes]. UMG Article 1 does not name student residences among its prohibitions (c-02)[Sont interdites les occupations et utilisations du sol suivantes : agricole ou forestière, entrepôt, caravane à usage d'habitation, camping, résidences légères de loisirs]. The UMG zone intro says the zone is for habitation 'au bénéfice des étudiants, des chercheurs, et des familles' (c-03)[des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles]. The student-accommodation condition named in the planner rationale is in zone UL2 (Vallée), not UMG (c-04)[A l'hébergement étudiant et à la formation].",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner's UL2 claim is confirmed, but UL2 belongs to the Vallée zone and does not transfer to UMG. The negative finding covers the full UMG Article 2 text (printed p.320 / pdf p.321). Any admissibility of habitation in UMG rests on the zone intro and the absence of a prohibition in Article 1, which is an interpretation not stated expressly in the text.",
+  "citations": [
+    {
+      "claim": "UMG Article 2 admits occupations and uses only under conditions listed as affouillements/exhaussements, technical network equipment, and installations classées; it contains no habitation or student-residence item.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='Sont admises, sous conditions, les occupations et utilisations du sol suivantes :' (printed page 320, PDF page 321; full Article 2 text read)",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement printed page 320 (PDF 321), the Moulon - UMG 'ARTICLE 2 - zone UMG - OCCUPATIONS ET UTILISATIONS DU SOL SOUMISES A DES CONDITIONS PARTICULIERES'. The admitted uses are: (1) affouillements et exhaussements de sol linked to authorised works; (2) constructions relating to technical equipment for networks, roads and parking; (3) installations classees that cause no nuisance and are compatible with the zone (e.g. research laboratories). No habitation or student-residence item appears in this list."
+    },
+    {
+      "claim": "UMG Article 1 forbids agricultural or forestry use, entrepôt, caravane à usage d'habitation, camping, résidences légères de loisirs, parcs résidentiels de loisirs and villages de vacances; student residences are not named.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=319 | quote='Sont interdites les occupations et utilisations du sol suivantes :' (printed page 319, PDF page 320; full Article 1 list read)",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement printed page 319 (PDF 320), the Moulon - UMG 'ARTICLE 1 - zone UMG - OCCUPATIONS ET UTILISATIONS DU SOL INTERDITES'. It forbids: agricultural or forestry buildings and entrepot; installation of a caravane a usage d'habitation; terrains de camping, garages collectifs de caravanes, residences legeres de loisirs, parcs residentiels de loisirs and villages de vacances. Student residences are not named. The claim omits garages collectifs de caravanes, but that omission does not make it false."
+    },
+    {
+      "claim": "The UMG zone intro states the zone is destined for constructions à destination d'habitation 'au bénéfice des étudiants, des chercheurs, et des familles'.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=319 | quote='des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles' (printed page 319, PDF page 320)",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement printed page 319 (PDF 320), the 'Zone UMG - Joliot-Curie' introduction. The text reads: 'Cette zone est destinee a accueillir principalement des etablissements d'enseignement superieur et de recherche, des constructions a destination d'habitation, au benefice des etudiants, des chercheurs, et des familles.' The quoted phrase matches exactly."
+    },
+    {
+      "claim": "Zone UL Article UL2 (Vallée zone, not UMG) admits habitation subject to the condition that it is destined for hébergement étudiant et à la formation.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=121 | quote='A l'hébergement étudiant et à la formation ;' (printed page 121, PDF page 122; heading 'ARTICLE UL2 - OCCUPATIONS ET UTILISATIONS DU SOL SOUMISES A DES CONDITIONS PARTICULIERES')",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement printed page 121 (PDF 122), 'Vallee - UL', 'ARTICLE UL2 - OCCUPATIONS ET UTILISATIONS DU SOL SOUMISES A DES CONDITIONS PARTICULIERES'. The first item admits constructions for habitation 'des lors qu'elles sont destinees : A l'hebergement etudiant et a la formation ;'. The zone is UL (Vallee), not UMG, as the claim states."
+    }
+  ]
+}

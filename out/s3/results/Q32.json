@@ -1,0 +1,33 @@
+{
+  "question_id": "Q32",
+  "status": "confirmed",
+  "answer_text": "Zone UMG Article 12.1 sets a minimum of 1 parking space per logement for logements financés avec un prêt aidé par l'État (c-01)[1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat]. This is a separate bullet from the general habitation rule of 1 space per 35 m² of surface de plancher, capped at 2 spaces per logement (c-02)[1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement].",
+  "answer_value": 1.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The source lists the prêt aidé norm as a separate bullet alongside the general 35 m² rule but does not state whether it replaces that rule or is an alternative to it. The same article also sets 1 space per 150 m² of surface de plancher for résidences étudiantes (c-03)[1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes]. The citation is from plu_reglement, printed page 326 (PDF page 327). The prêt aidé norm also appears in other zone articles (PDF pages 77, 244, 254, 316), which were not checked because the question is scoped to UMG Article 12.1.",
+  "citations": [
+    {
+      "claim": "In zone UMG Article 12.1, the minimum is 1 parking space per logement for logements financed with a prêt aidé par l'État.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat,'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement at the page printed as 326 (tool index 327, footer '326'), Moulon - UMG, section 12.1 'NORMES MINIMALES DE STATIONNEMENT POUR LES VÉHICULES MOTORISÉS POUR LES CONSTRUCTIONS NOUVELLES'. Under 'constructions à destination d'habitation' the text reads: '1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat,'. This matches the cited quote and the claim: the minimum is 1 space per logement for logements financed with a prêt aidé par l'État in zone UMG Article 12.1. A keyword search for 'prêt aidé' also returned the same wording on this page, confirming it is not a transcription error."
+    },
+    {
+      "claim": "The general habitation norm in UMG Article 12.1 is 1 parking space per 35 m² of surface de plancher, capped at 2 spaces per logement.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement,'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement at the printed page 326 (tool index 327), section 12.1, habitation bullet. The text reads: '1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement,'. This matches the cited quote and the claim of 1 space per 35 m² of surface de plancher, capped at 2 spaces per logement. A search for '35 m² de surface de plancher' returned the same wording on the same page."
+    },
+    {
+      "claim": "In zone UMG Article 12.1, the minimum for résidences étudiantes is 1 parking space per 150 m² of surface de plancher.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes,'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement at the printed page 326 (tool index 327), section 12.1, habitation bullet. The text reads: '1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.'. This matches the cited quote and the claim that the UMG minimum for résidences étudiantes is 1 space per 150 m² of surface de plancher. A search for the 150 m² wording confirmed the same text on the same page. The 150 m² rate is distinct from the 170 m² rate for enseignement supérieur et recherche on the following page, so the claim is not conflated with that rule."
+    }
+  ]
+}

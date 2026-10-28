@@ -1,0 +1,40 @@
+{
+  "question_id": "Q33",
+  "status": "confirmed",
+  "answer_text": "Under UMG Article 12.1, hébergement hôtelier (including résidences hôtelières and résidences services) requires 0.5 place de stationnement per chambre (c-01)[0,5 place par chambre]. This rate appears on printed page 327, which is PDF page 328 (c-02)[Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 ... 327]. The 12.1 text on PDF pages 327-328 contains no separate line naming résidences jeunes actifs (c-03)[full text of 12.1 on PDF pages 327-328 read; no résidence jeunes actifs line]. Applying this rate to the Résidence Jeunes Actifs depends on classifying it as hébergement hôtelier or résidence services, which Q05 did not establish. The résidences étudiantes line is a different rate, 1 place per 150 m² of surface de plancher (c-04)[1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes].",
+  "answer_value": 0.5,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale is conditional: the Résidence Jeunes Actifs applies only if it is classified as hébergement hôtelier or résidence services. I found no such classification in the scoped text, consistent with Q05 not_found. The 0.5 per chambre rate is therefore confirmed for hébergement hôtelier only, not for the RJA by default.",
+  "citations": [
+    {
+      "claim": "UMG Article 12.1 sets 0.5 place de stationnement per chambre for constructions à destination d'hébergement hôtelier, including résidences hôtelières and résidences services.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (printed 327) | quote='Pour les constructions à destination d'hébergement hôtelier (y compris résidences hôtelières et résidences services) : - 0,5 place par chambre'",
+      "confirmed": true,
+      "reasoning": "Read PDF page 328 (printed 327) of plu_reglement. Under 12.1, the bullet 'Pour les constructions à destination d'hébergement hôtelier (y compris résidences hôtelières et résidences services) :' is followed by '- 0,5 place par chambre', which matches the claimed 0.5 place per chambre rate and its scope."
+    },
+    {
+      "claim": "The UMG Article 12.1 hébergement hôtelier rate appears on printed page 327, which is PDF page 328.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (printed 327) | quote='Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021'",
+      "confirmed": true,
+      "reasoning": "The hébergement hôtelier 0.5 place per chambre rate appears on PDF page 328, whose printed footer reads 327, so the claim's page mapping is correct. The 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021' footer text is present on PDF page 327 (printed 326) and on PDF page 328 (printed 327)."
+    },
+    {
+      "claim": "The UMG Article 12.1 text on PDF pages 327 and 328 contains no separate parking line naming résidence jeunes actifs.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=327 (printed 326) | quote='12.1. - NORMES MINIMALES DE STATIONNEMENT POUR LES VÉHICULES MOTORISÉS POUR LES CONSTRUCTIONS NOUVELLES' ; TEXT | plu_reglement | page=328 (printed 327) | quote='Pour les constructions à destination d'hébergement hôtelier (y compris résidences hôtelières et résidences services) : - 0,5 place par chambre' | scope: full 12.1 list on PDF pages 327-328 checked for any résidence jeunes actifs line, none found",
+      "confirmed": true,
+      "reasoning": "Read the full 12.1 list on PDF pages 327 and 328. The residential bullets cover habitation, logements aidés and résidences étudiantes, the bureaux, industrie, commerce, service public and hôtelier entries are listed, and no résidence jeunes actifs line appears. A full-document case-insensitive search for 'jeunes actifs' returned 0 occurrences, so no such parking line exists in the document."
+    },
+    {
+      "claim": "UMG Article 12.1 sets 1 place de stationnement per tranche de 150 m² de surface de plancher for résidences étudiantes.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=327 (printed 326) | quote='1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.'",
+      "confirmed": true,
+      "reasoning": "PDF page 327 (printed 326), under 12.1 'Pour les constructions à destination d'habitation', reads '1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.' This matches the claimed ratio and category exactly."
+    }
+  ]
+}

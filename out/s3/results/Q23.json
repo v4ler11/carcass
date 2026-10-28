@@ -1,0 +1,26 @@
+{
+  "question_id": "Q23",
+  "status": "confirmed",
+  "answer_text": "OAP section 8 sets an average épannelage of R+4 (R+4 moyen) for constructions à destination principale d'habitation in the Joliot-Curie quartier (c-01)[Pour les constructions à destination principale d'habitation, un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen.]. The printed page is 32 and the PDF page is 33.",
+  "answer_value": 4.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The OAP wording is an objective (un objectif de R+4 moyen), not a binding maximum. The planner rationale does not state a numeric OAP value, so no value was contradicted. The UMG R+5 ceiling was not verified in this scoped retrieval and belongs to the height-limit question. A passage on page 25 of the same OAP document gives R+4 moyen for the UM zone (c-02)[A l'échelle de la zone UM, le principe d'épannelage correspond à R+4 moyen.]. That passage is outside the section 8 scope I was given, so it is supporting context only and not the Joliot-Curie answer.",
+  "citations": [
+    {
+      "claim": "OAP section 8 'Le quartier Joliot Curie', under 'La morphologie du quartier', sets an objective of R+4 moyen for épannelage of constructions for principal residential use.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 | quote='Pour les constructions à destination principale d'habitation, un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen.'",
+      "confirmed": true,
+      "reasoning": "Page 33 of oap_91272_20210706, under '# 8 Le quartier Joliot Curie' and the subheading '# La morphologie du quartier', states: 'Pour les constructions à destination principale d'habitation, un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen.' This matches the claim. A regex search for 'R+4 moyen' also returned page 33."
+    },
+    {
+      "claim": "The OAP document also states that for the UM zone the épannelage principle corresponds to R+4 moyen.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=25 | quote='A l'échelle de la zone UM, le principe d'épannelage correspond à R+4 moyen.'",
+      "confirmed": true,
+      "reasoning": "Page 25 of oap_91272_20210706, under '# 7 Le site de Moulon' and the subheading 'La diversité des morphologies et la hauteur des constructions', states: 'A l'échelle de la zone UM, le principe d'épannelage correspond à R+4 moyen.' This matches the claim. A regex search for 'R+4 moyen' also returned page 25. The wording differs slightly from the claim's paraphrase, but the substance is the same."
+    }
+  ]
+}

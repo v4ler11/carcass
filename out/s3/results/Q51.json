@@ -1,0 +1,33 @@
+{
+  "question_id": "Q51",
+  "status": "confirmed",
+  "answer_text": "Yes. UMG Article 4.3 (Réseaux divers) requires all networks to be installed underground: (c-01)[Tous les réseaux sont implantés en souterrain.] This rule sits under UMG Article 4, which governs network service conditions for terrains: (c-02)[ARTICLE 4 - zone UMG - CONDITIONS DE DESSERTE DES TERRAINS PAR LES RESEAUX D'EAU, D'ELECTRICITE, D'ASSAINISSEMENT ET DE REALISATION D'UN ASSAINISSEMENT INDIVIDUEL].",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "Page reference: the planner cited Article 4.3 at printed p. 323 (pdf 324). The heading is on printed p. 322 (pdf 323): (c-03)[4.3. - RESEAUX DIVERS heading appears on printed page 322]. Printed p. 323 (pdf 324) contains Articles 6.1 to 6.3. The rule text contains no exception clause. Whether it governs the specific RSE and Jeunes Actifs network design was not assessed here.",
+  "citations": [
+    {
+      "claim": "UMG Article 4.3 (Réseaux divers) states that all networks are installed underground.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (pdf 323) | quote='Tous les réseaux sont implantés en souterrain.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 323 (printed page 322) via pages_read. The section '# 4.3. - RESEAUX DIVERS' reads verbatim 'Tous les réseaux sont implantés en souterrain.' This matches the quoted text and the claim that all networks are installed underground. pages_search also showed the same 4.3 wording on pdf page 204, but that is a different document version and was not relied on."
+    },
+    {
+      "claim": "Article 4 is the zone UMG rule on conditions for network service (water, electricity, sanitation) of terrains.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=321 (pdf 322) | quote='ARTICLE 4 - zone UMG - CONDITIONS DE DESSERTE DES TERRAINS PAR LES RESEAUX D'EAU, D'ELECTRICITE, D'ASSAINISSEMENT ET DE REALISATION D'UN ASSAINISSEMENT INDIVIDUEL'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 322 (printed page 321) via pages_read. The heading reads 'ARTICLE 4 - zone UMG - CONDITIONS DE DESSERTE DES TERRAINS PAR LES RESEAUX D'EAU, D'ELECTRICITE, D'ASSAINISSEMENT ET DE REALISATION D'UN ASSAINISSEMENT INDIVIDUEL', and the page content covers 4.1 (eau potable) and 4.2 (assainissement). This supports the claim that Article 4 is the UMG rule on network service (water, electricity, sanitation) for terrains. The quoted heading matches the source exactly."
+    },
+    {
+      "claim": "The Article 4.3 heading (Réseaux divers) appears on printed page 322, not printed page 323 as the planner stated.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (pdf 323) | quote='4.3. - RESEAUX DIVERS'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 323 (printed footer '322') and pdf page 324 (printed footer '323') via pages_read. The heading '4.3. - RESEAUX DIVERS' appears on pdf 323, whose printed page number is 322. Pdf 324 (printed 323) contains only Article 5, Article 6 and the start of 6.3, with no 4.3 heading. The heading is therefore on printed page 322, not 323, so the planner's page attribution is wrong."
+    }
+  ]
+}

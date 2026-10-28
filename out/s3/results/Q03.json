@@ -1,0 +1,33 @@
+{
+  "question_id": "Q03",
+  "status": "partial",
+  "answer_text": "Not determined by text. The règlement contains no sous-destination taxonomy and no definition placing a Résidence Sociale Étudiante under habitation. The LEXIQUE pages read (pdf 374 to 379) define no habitation or hébergement category (c-02)[LEXIQUE begins on pdf 374 with 'Accès' and runs alphabetically to 'Voussure' on pdf 379; no habitation entry]. Indirect signals only: the UMG intro lists constructions à destination d'habitation 'au bénéfice des étudiants' (c-03)[des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles]. UMG Article 12.1 lists 'résidences étudiantes' as a sub-item under the habitation heading (c-01)[pour les résidences étudiantes]. None expressly classifies an RSE as habitation.",
+  "answer_value": "not determined by text (indirect indications only)",
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner premise that the règlement does not define sous-destinations is confirmed: a search of plu_reglement for 'sous-destination' returned zero matches. The rationale's 'résidence universitaire exemption' refers to résidences universitaires under L. 631-12 CCH; the text does not equate that term with Résidence Sociale Étudiante, so RSE eligibility is not confirmed. Pagination: pdf 320 is printed 319; pdf 327 is printed 326; pdf 374 is printed 373. Unresolved: no document in the scope states whether an RSE falls under habitation, hébergement, or another destination.",
+  "citations": [
+    {
+      "claim": "UMG Article 12.1 lists 'Pour les constructions à destination d'habitation' with a sub-item of 1 parking space per 150 m² of surface de plancher 'pour les résidences étudiantes'.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed; pdf page 327) | quote='1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement pdf page 327 (printed 326). Under Article 12.1 for zone UMG, the 'Pour les constructions à destination d'habitation' list includes the item '1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.' The quoted wording matches the source."
+    },
+    {
+      "claim": "The LEXIQUE (Titre III) starts on pdf 374 (printed 373) and, across pdf pages 374 to 379 read, contains no definition of habitation, hébergement or sous-destination; a search of plu_reglement for 'sous-destination' returned 0 occurrences.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=374 (printed 373) | quote='LEXIQUE'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement pdf pages 374 to 379. The LEXIQUE heading appears on pdf 374 (printed 373). Pages 374 to 379 contain definitions for terms such as accès, acrotère, alignement, annexes, emprise au sol, hauteur, surface de plancher and unité foncière. None defines 'habitation', 'hébergement' or 'sous-destination'. 'Habitation' appears only incidentally, for example in 'Bâtiments d'activités ... à l'exclusion d'habitation' and in the surface de plancher rules. A search of plu_reglement for 'sous-destination' returned 0 occurrences, as the claim states."
+    },
+    {
+      "claim": "The UMG zone intro states the zone accueille des constructions à destination d'habitation 'au bénéfice des étudiants, des chercheurs, et des familles'.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (printed 319) | quote='des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles.'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement pdf page 320 (printed 319), the zone UMG – Joliot-Curie introduction. It states the zone is 'destinée à accueillir principalement des établissements d'enseignement supérieur et de recherche, des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles.' The quoted phrase matches the source."
+    }
+  ]
+}

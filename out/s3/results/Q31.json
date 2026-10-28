@@ -1,0 +1,40 @@
+{
+  "question_id": "Q31",
+  "status": "confirmed",
+  "answer_text": "The maximum is 2 vehicle parking spaces per logement. UMG Article 12.1 sets the surface-based habitation norm at 1 place per 35 m² of surface de plancher, limited to 2 places per logement (c-01)[1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement]. The Article 12.1 text appears on printed page 326, which is PDF page 327 (c-02)[12.1. - NORMES MINIMALES DE STATIONNEMENT POUR LES VÉHICULES MOTORISÉS POUR LES CONSTRUCTIONS NOUVELLES].",
+  "answer_value": 2.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The 2-place cap applies only to the surface-based norm. Article 12.1 sets separate habitation norms without that cap: 1 place per logement for logements financés avec un prêt aidé par l'Etat (c-04)[1 place de stationnement par logement, pour les logements financés avec un prêt aidé], and 1 place per 150 m² of surface de plancher for résidences étudiantes (c-03)[1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes]. Under the surface norm, the cap is reached at 70 m² of surface de plancher (2 × 35 m², derived from c-01), so larger units stay at 2 places.",
+  "citations": [
+    {
+      "claim": "UMG Article 12.1 sets 1 vehicle parking space per 35 m² of surface de plancher for habitation, limited to 2 places per logement.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement,'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 327 (printed page 326), section 12.1 for zone UMG, reads: 'Pour les constructions à destination d'habitation : 1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement'. The claim's substance matches. The instruction's page=326 refers to the printed number; the text sits on PDF page 327, and PDF page 326 prints '325'."
+    },
+    {
+      "claim": "The Article 12.1 text appears on PDF page 327 of plu_reglement, which carries printed page number 326.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='12.1. - NORMES MINIMALES DE STATIONNEMENT POUR LES VÉHICULES MOTORISÉS POUR LES CONSTRUCTIONS NOUVELLES'",
+      "confirmed": true,
+      "reasoning": "pages_read of PDF page 326 shows Article 11 and ends with printed number '325', with no 12.1 text. PDF page 327 contains 'ARTICLE 12 - zone UMG -STATIONNEMENT' and '12.1. - NORMES MINIMALES DE STATIONNEMENT POUR LES VÉHICULES MOTORISÉS POUR LES CONSTRUCTIONS NOUVELLES' and ends with printed number '326'. The claim that 12.1 is on PDF page 327 carrying printed page 326 is supported."
+    },
+    {
+      "claim": "UMG Article 12.1 sets 1 place per 150 m² of surface de plancher for résidences étudiantes, with no 2-place cap stated in that line.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.'",
+      "confirmed": true,
+      "reasoning": "PDF page 327 (printed 326) lists '- 1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.' as its own bullet under habitation. That line has no 2-place cap. The 2-place limit appears only on the separate 35 m² bullet, so the claim is supported."
+    },
+    {
+      "claim": "UMG Article 12.1 sets 1 place per logement for logements financés avec un prêt aidé par l'Etat, with no 2-place cap stated in that line.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='1 place de stationnement par logement, pour les logements financés avec un prêt aidé'",
+      "confirmed": true,
+      "reasoning": "PDF page 327 (printed 326) lists '- 1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat,' as its own bullet. The line itself contains no 2-place cap, and the cap appears only on the 35 m² bullet. The claim is supported."
+    }
+  ]
+}

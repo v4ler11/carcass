@@ -1,0 +1,33 @@
+{
+  "question_id": "Q50",
+  "status": "confirmed",
+  "answer_text": "The maximum pluvial discharge rate to the collecting network under UMG Article 4.2.2 is 0.7 L/s/ha, for the reference rain of a 2-hour short rain with 60 mm cumulative (c-01)[quantitatives et par dérogation de manière à réguler les rejets dans le réseau collecteur à 0,7 L/s/ha pour la pluie de référence]. In a joint development (aménagement d'ensemble), pooled retention volumes are allowed only if the total outflow of the quartier does not exceed 0.7 L/s/ha (c-03)[le débit de fuite total du quartier ne dépasse pas la valeur de 0,7 L/s/ha]. Article 4.2.2 gives a rate and does not state a storage or attenuation volume for the parcel or for the two buildings combined (c-04)[pdf page 323 gives only the rate 0,7 L/s/ha; no volume figure appears on pdf pages 322 to 324 as checked].",
+  "answer_value": 0.7,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner's rationale says the rule sets the attenuation volume for the two buildings combined. The source sets a discharge rate of 0.7 L/s/ha, not a volume, and does not address the two buildings.",
+  "additional_context": "Any storage volume for the parcel would need a separate calculation from the parcel area and the reference rain, which is not in the supplied text. The parcel area is not part of this answer.",
+  "citations": [
+    {
+      "claim": "The UMG Article 4.2.2 quantitative norm regulates discharges into the collecting network at 0.7 L/s/ha for the reference rain (2-hour short rain, 60 mm cumulative).",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=323 | quote='quantitatives et par dérogation de manière à réguler les rejets dans le réseau collecteur à 0,7 L/s/ha pour la pluie de référence'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 323 (printed footer 322), Article 4.2.2, quantitative bullet. The text reads: 'quantitatives et par dérogation de manière à réguler les rejets dans le réseau collecteur à 0,7 L/s/ha pour la pluie de référence défini dans l'étude globale de gestion des eaux du plateau de Saclay (pluie courte d'une durée de 2h et d'un cumul précipité de 60mm).' This matches the claim that the norm regulates discharges into the collecting network at 0.7 L/s/ha for the 2-hour, 60 mm reference rain."
+    },
+    {
+      "claim": "In an aménagement d'ensemble, pooled retention volumes are allowed only if the total outflow of the quartier does not exceed 0.7 L/s/ha.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=323 | quote='à condition que le débit de fuite total du quartier ne dépasse pas la valeur de 0,7 L/s/ha'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 323, Article 4.2.2, paragraph on 'aménagement d'ensemble'. The text states that in an aménagement d'ensemble, 'les volumes nécessaires à la rétention des eaux excédentaires peuvent être mutualisés entre terrains limitrophes ou au sein d'ouvrages publics, à condition que le débit de fuite total du quartier ne dépasse pas la valeur de 0,7 L/s/ha.' The 'à condition que' wording supports the claim that pooled retention is allowed only when total quartier outflow does not exceed 0.7 L/s/ha."
+    },
+    {
+      "claim": "Article 4.2.2 of UMG specifies a discharge rate and does not state a storage or attenuation volume for the parcel or for the two buildings combined.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=323 | scope checked: full Article 4.2.2 text on pdf pages 322, 323 and 324 for any storage volume figure; only the rate 0,7 L/s/ha is found.",
+      "confirmed": true,
+      "reasoning": "Checked the full UMG Article 4.2.2 text on pdf pages 323 (printed 322) and 324 (printed 323), including the 4.4 tail at the top of page 324. The only numeric norm is the rate of 0.7 L/s/ha. Storage is referenced only qualitatively: 'les volumes nécessaires à la rétention ... peuvent être mutualisés' (no figure) and 'stockage ... effectués par noues, fossés superficiels, bassins de surface, structures-réservoirs, etc.' (no volume). No m³ or mm storage volume for the parcel or the two buildings appears in the UMG text. A keyword search returned volume-related hits on other pages (for example page 16, which mentions volumes and a 60 mm rain parameter), but I did not read those pages' zone context, and they do not form part of the UMG Article 4.2.2 text checked here."
+    }
+  ]
+}

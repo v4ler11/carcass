@@ -1,0 +1,40 @@
+{
+  "question_id": "Q53",
+  "status": "confirmed",
+  "answer_text": "Under UMG Article 13.3, any new construction project must treat at least 20% of the terrain's surface as espace vert (c-01)[\"En espace vert 20% au moins de la superficie du terrain.\"]. Article 13.1 specifies that surface-level parking areas and green roofs are not counted toward espaces verts (c-02)[\"Les aires de stationnement aménagées en surface et les toitures végétalisées ne sont pas comptabilisées en espaces verts.\"]. The same article also requires at least 10% pleine terre (c-03)[\"En espace de pleine terre 10% au moins de la superficie du terrain.\"].",
+  "answer_value": 20.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale describes the constraint only qualitatively and gives no figure, so it is not contradicted. The 20% figure is the minimum espace vert share, and surface parking does not count toward it, so ground parking competes with the 20% target. Article 13.3 states that the quantitative provisions do not apply to constructions and installations needed for public services or collective-interest facilities (c-04)[\"Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.\"]. This source does not state whether a Résidence Sociale Étudiante or a Résidence Jeunes Actifs qualifies for that exemption.",
+  "citations": [
+    {
+      "claim": "Any new construction project must treat at least 20% of the terrain surface as espace vert under UMG Article 13.3.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed; PDF page 331) | quote='En espace vert 20% au moins de la superficie du terrain.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement printed page 330 (PDF 331), Article 13.3, via pages_read with image rendering. The text reads 'Tout projet de construction neuve entraîne l'obligation de traiter : - En espace vert 20% au moins de la superficie du terrain.' This matches the claim. pages_search also found the same wording on PDF page 331 and in the UM zone's Article 13.3 (PDF page 318)."
+    },
+    {
+      "claim": "Surface-level parking areas and green roofs are not counted toward espaces verts under UMG Article 13.1.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=329 (printed; PDF page 330) | quote='Les aires de stationnement aménagées en surface et les toitures végétalisées ne sont pas comptabilisées en espaces verts.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement printed page 329 (PDF 330), Article 13.1 'Définitions', under 'Espaces Verts'. The text states 'Les aires de stationnement aménagées en surface et les toitures végétalisées ne sont pas comptabilisées en espaces verts.' This directly supports the claim. pages_search confirmed the same sentence on PDF page 330 and in the parallel UM zone definitions (PDF page 318)."
+    },
+    {
+      "claim": "Any new construction project must treat at least 10% of the terrain as pleine terre under UMG Article 13.3.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed; PDF page 331) | quote='En espace de pleine terre 10% au moins de la superficie du terrain.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement printed page 330 (PDF 331), Article 13.3, via pages_read with image rendering. The text reads 'En espace de pleine terre 10% au moins de la superficie du terrain.' under the obligation for 'Tout projet de construction neuve'. This matches the claim. pages_search also located the same wording on PDF page 331 and in the UM zone (PDF page 318)."
+    },
+    {
+      "claim": "The quantitative provisions of Article 13.3 do not apply to constructions and installations needed for public services or collective-interest facilities.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed; PDF page 331) | quote='Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement printed page 330 (PDF 331), Article 13.3, via pages_read. The text states 'Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.' This directly supports the claim that the quantitative provisions do not apply to such facilities. pages_search confirmed the same exemption on PDF page 331 and in the UM zone (PDF page 318)."
+    }
+  ]
+}

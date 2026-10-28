@@ -1,0 +1,54 @@
+{
+  "question_id": "Q38",
+  "status": "partial",
+  "answer_text": "The text does not expressly assign a résidence étudiante to either norm in UMG Article 12.3. The habitation norm is the closer structural fit. Résidences étudiantes sit under the habitation heading in 12.1 (c-01)[pour les résidences étudiantes] and are named in the habitation bullet of 12.5 (c-02)[Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise]. The habitation bicycle norm is (c-03)[0,75 m² par logement pour les logements jusqu'à deux pièces principales; 1,5 m² par logement dans les autres cas]. The enseignement supérieur bicycle norm is (c-04)[1,5 m² d'espace destiné au stationnement des vélos pour 5 étudiants doit être prévu], and it sits under the service public ou d'intérêt collectif heading without mentioning résidences étudiantes (c-05)[Pour les constructions à destination d'un service public ou d'intérêt collectif]. Article 12.3 contains no reference to résidences étudiantes (c-06)[12.3 text on pdf 328-329 read in full; text search for résidence(s) étudiante(s) returned only pdf 315, 317, 327 and 329, with the pdf 329 hit in 12.5].",
+  "answer_value": "habitation",
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The rationale's premise that the two norms give very different bicycle areas is confirmed: per dwelling for habitation, versus 1,5 m² per 5 students for enseignement supérieur. The rationale's implication that RSE classification determines the norm is only partly supported, because the règlement does not define a résidence étudiante and Q03 is partial. The habitation answer rests on the placement of résidences étudiantes under habitation in 12.1 and 12.5, not on an explicit 12.3 rule, so a human should confirm the classification. Page mapping: the 12.1 résidences étudiantes text is on pdf 327 (printed 326); 12.3 and 12.5 are on pdf 328-329 (printed 327-328); the enseignement supérieur bicycle sub-rule is on pdf 329 (printed 328).",
+  "citations": [
+    {
+      "claim": "UMG Article 12.1 lists résidences étudiantes as a sub-item under the constructions à destination d'habitation heading, with 1 place per 150 m² of surface de plancher.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=327 | quote='1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement pdf 327 (printed 326). Under Article 12.1 for UMG, the 'Pour les constructions à destination d'habitation' bullet has three sub-items, the third being '1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.' This matches the claim: a sub-item under the habitation heading with a 1 place per 150 m² norm."
+    },
+    {
+      "claim": "UMG Article 12.5 applies a specific rule to résidences étudiantes under the habitation bullet, exempting them from the majority-underground requirement for parking.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=328 | quote='Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.'",
+      "confirmed": true,
+      "reasoning": "The quoted sentence 'Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.' is in the 12.5 'Modalités de réalisation' habitation bullet. pages_read places it on pdf 329 (printed 328), not pdf 328 as the instruction states, but the content directly supports the claim that résidences étudiantes are exempt from the majority-underground requirement."
+    },
+    {
+      "claim": "UMG Article 12.3 sets the habitation bicycle norm at 0,75 m² per logement for logements up to two main rooms and 1,5 m² per logement in other cases.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=327 | quote='Pour les constructions à destination d'habitation : - 0,75 m² par logement pour les logements jusqu'à deux pièces principales - 1,5 m² par logement dans les autres cas'",
+      "confirmed": true,
+      "reasoning": "The Article 12.3 (UMG) habitation bullet is on pdf 328 (printed 327), not pdf 327 as the instruction states. It reads '0,75 m² par logement pour les logements jusqu'à deux pièces principales' and '1,5 m² par logement dans les autres cas'. This matches the claim exactly."
+    },
+    {
+      "claim": "UMG Article 12.3 sets the enseignement supérieur bicycle norm at 1,5 m² of bicycle parking space per 5 students.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=328 | quote='Toutefois, pour les constructions à destination d'enseignement supérieur, 1,5 m² d'espace destiné au stationnement des vélos pour 5 étudiants doit être prévu.'",
+      "confirmed": true,
+      "reasoning": "Article 12.3 on pdf 329 (printed 328) contains 'Toutefois, pour les constructions à destination d'enseignement supérieur, 1,5 m² d'espace destiné au stationnement des vélos pour 5 étudiants doit être prévu.' The claim is supported. The instruction's page=328 reference is off by one pdf page; the text is on pdf 329."
+    },
+    {
+      "claim": "The enseignement supérieur bicycle sub-rule in UMG Article 12.3 falls under the service public ou d'intérêt collectif heading and does not mention résidences étudiantes.",
+      "c_id": "c-05",
+      "verification_instructions": "TEXT | plu_reglement | page=328 | quote='Pour les constructions à destination d'un service public ou d'intérêt collectif : - Le nombre de places est déterminé en fonction de leur nature, de leur groupement, de leur situation au regard des possibilités de desserte par les transports en commun, ainsi que des places aménagées sur l'espace public.'",
+      "confirmed": true,
+      "reasoning": "On pdf 329, the 'Pour les constructions à destination d'un service public ou d'intérêt collectif' bullet in 12.3 is followed by the 'Toutefois, pour ... enseignement supérieur' sub-rule, so the sub-rule falls under that heading. The sub-rule text does not mention résidences étudiantes. The service-public bullet is also on pdf 329, not pdf 328 as instructed; the substance is confirmed."
+    },
+    {
+      "claim": "No text in UMG Article 12.3 (pdf 328-329) refers to résidences étudiantes; the only résidences étudiantes mention on pdf 329 is in Article 12.5.",
+      "c_id": "c-06",
+      "verification_instructions": "TEXT | plu_reglement | page=328 | quote='12.3. -NORMES DE STATIONNEMENT MINIMALES POUR LES VÉLOS POUR LES CONSTRUCTIONS NOUVELLES' (pdf 328-329 read in full; pages_search for résidence(s) étudiante(s) returned pdf 315, 317, 327, 329 only)",
+      "confirmed": true,
+      "reasoning": "Read pdf 328 and 329 in full: the 12.3 bicycle section contains no 'résidence(s) étudiante(s)' mention. pages_search for 'résidences? étudiantes?' returned only pdf 315, 317, 327, and 329. On pdf 329 the only occurrence is in 12.5 ('Pour le cas des résidences étudiantes...'). The claim holds for the UMG zone text."
+    }
+  ]
+}

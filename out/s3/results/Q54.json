@@ -1,0 +1,54 @@
+{
+  "question_id": "Q54",
+  "status": "confirmed",
+  "answer_text": "The minimum pleine terre share under UMG Article 13.3 is 10% of the terrain surface for any new construction project (c-01)[En espace de pleine terre 10% au moins de la superficie du terrain]. The same article also requires at least 20% espace vert (c-02)[En espace vert 20% au moins de la superficie du terrain]. On these percentages pleine terre is the lower floor, so the planner's premise that pleine terre is stricter than espaces verts is not supported by the thresholds.",
+  "answer_value": 10.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The rationale says pleine terre is stricter than espaces verts, excludes underground car parks, and limits basement parking. The source sets pleine terre at 10% and espace vert at 20%, so pleine terre is the lower percentage floor. The definition excludes infrastructure and superstructure, but it does not name underground car parks, and no text in the scoped UMG pages ties pleine terre to basement parking.",
+  "additional_context": "Pleine terre is defined as land free of any infrastructure and superstructure, including projections; the definition does not mention underground car parks (scope checked: Article 13.1 and 13.3 text, printed pp.329-330) (c-03)[Sont comptabilisées dans les superficies de terrain en pleine terre, les terrains vierges de toute infrastructure et superstructure (y compris saillies).]. The Titre III note on espaces végétalisés states that at least 50% of required espaces végétalisés must be pleine terre (c-04)[A minima 50% des espaces végétalisés exigés sont composés de pleine terre.]; how this sub-share combines with the 10% floor is not resolved by the text. Article 13.3 states that the quantitative provisions do not apply to constructions and installations required for public services or collective-interest uses (c-05)[Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.]. The 13.3 provisions appear on printed p.330 (pdf p.331) (c-06)[13.3. - ESPACES LIBRES ET PLANTATIONS].",
+  "citations": [
+    {
+      "claim": "Article 13.3 of zone UMG requires that any new construction project treat at least 10% of the terrain surface as espace de pleine terre.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (pdf 331) | quote='En espace de pleine terre 10% au moins de la superficie du terrain.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 331 (printed page 330), the Moulon - UMG zone rules, Article 13.3. The bullet list under 'Tout projet de construction neuve entraîne l'obligation de traiter' reads: 'En espace de pleine terre 10% au moins de la superficie du terrain.' This matches the quoted text and the claim as stated. The same wording appears in the UM zone at printed page 317, which is consistent but not needed for this verdict."
+    },
+    {
+      "claim": "Article 13.3 of zone UMG requires that any new construction project treat at least 20% of the terrain surface as espace vert.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (pdf 331) | quote='En espace vert 20% au moins de la superficie du terrain.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 331 (printed page 330), Article 13.3 of zone UMG. The same bulleted obligation reads: 'En espace vert 20% au moins de la superficie du terrain.' This directly supports the claim that new construction must treat at least 20% of the terrain as espace vert."
+    },
+    {
+      "claim": "Pleine terre is defined as terrain free of any infrastructure and superstructure, including projections; the definition in Article 13.1 does not mention underground car parks (scope checked: Article 13.1 and 13.3 text, printed pp.329-330).",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=329 (pdf 330) | quote='Sont comptabilisées dans les superficies de terrain en pleine terre, les terrains vierges de toute infrastructure et superstructure (y compris saillies).'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 330 (printed page 329), Article 13.1 Définitions. The 'Pleine terre' entry reads: 'Sont comptabilisées dans les superficies de terrain en pleine terre, les terrains vierges de toute infrastructure et superstructure (y compris saillies).' The definition does not mention underground car parks, which matches the claim. Article 13.3 (printed p.330) was also checked and contains no underground car park reference in the pleine terre context."
+    },
+    {
+      "claim": "The Titre III note on espaces végétalisés states that at least 50% of required espaces végétalisés must be composed of pleine terre.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=375 (pdf 376) | quote='A minima 50% des espaces végétalisés exigés sont composés de pleine terre.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 376 (printed page 375), Titre III, 'Espaces végétalisés (application des articles 13)' note. It states: 'A minima 50% des espaces végétalisés exigés sont composés de pleine terre.' This matches the claim that at least 50% of required espaces végétalisés must be pleine terre."
+    },
+    {
+      "claim": "The quantitative provisions of Article 13.3 do not apply to constructions and installations necessary for public services or collective-interest uses.",
+      "c_id": "c-05",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (pdf 331) | quote='Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 331 (printed page 330), Article 13.3 of zone UMG. It reads: 'Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.' This matches the claim. The same exemption also appears in the UM zone at printed page 317."
+    },
+    {
+      "claim": "Article 13.3 of zone UMG appears on printed page 330 (pdf page 331).",
+      "c_id": "c-06",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (pdf 331) | quote='13.3. - ESPACES LIBRES ET PLANTATIONS'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement pdf page 331 directly. Its footer shows printed page number '330', and the Moulon - UMG header is followed by '### 13.3. - ESPACES LIBRES ET PLANTATIONS'. Article 13.3 therefore appears on printed page 330 (pdf page 331), as the claim states."
+    }
+  ]
+}

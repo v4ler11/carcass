@@ -1,0 +1,19 @@
+{
+  "question_id": "Q41",
+  "status": "confirmed",
+  "answer_text": "Yes, with a condition. UMG Article 12.5 admits shared car parks serving several construction operations (c-01)[La réalisation de parcs de stationnement communs à plusieurs opérations de construction peut être admise]. The shared-parking provision is on printed page 329 (PDF page 330); the Article 12.5 heading is on printed page 328 (PDF page 329).",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The source says 'plusieurs opérations' (several operations), not specifically two operations; the rule applies to the Q40 total. The source also states that the required number may be reduced in a justified case where spaces serve alternating occupancy during the day or week, depending on the buildings' destinations, but the text does not define what counts as justified. Without that justification, the Article 12.1 and 12.2 norms apply in full. Human review should confirm how the commune treats the justification.",
+  "citations": [
+    {
+      "claim": "The UMG regulation admits the creation of shared car parks serving several construction operations.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=330 | quote='La réalisation de parcs de stationnement communs à plusieurs opérations de construction peut être admise.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 330 is headed 'Moulon - UMG' and its first paragraph reads: 'La réalisation de parcs de stationnement communs à plusieurs opérations de construction peut être admise.' This directly supports the claim that the UMG regulation admits shared car parks serving several construction operations. The same wording also appears on pages 317 and 340 under other zone sections, but the UMG claim is supported by page 330."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "question_id": "Q64",
+  "status": "confirmed",
+  "answer_text": "No. The sanitary-recommendations regime (périmètres de prescription et de recommandation sanitaires) appears only in the general rules of zone UH (PDF p.101, printed 100) (c-01)[Dans les périmètres de prescription et de recommandation sanitaires, il est recommandé que les travaux soient effectués sous le contrôle d'un organisme d'expertise agréé] and zone UX (PDF p.169, printed 168) (c-02)[Dans les périmètres de prescription et de recommandation sanitaires, il est recommandé que les travaux soient effectués sous le contrôle d'un organisme]. The zone UMG section, which begins with (c-04)[La zone UMG correspond au quartier Joliot-Curie], contains no such provision in the pages read. The UMG pages read (PDF 320–322) contain only a general reference to the sanitary annexes (c-05)[Les caractéristiques des installations et des réseaux d'assainissement doivent être conformes aux normes édictées dans le règlement d'assainissement communautaire (Cf. Annexes sanitaires)]. A whole-document search for 'recommandations sanitaires' returned only PDF pp.101 and 169 (c-03)[DANS LE PERIMETRE DE RECOMMANDATIONS : Les dispositions imposées dans le périmètre de prescriptions sont simplement recommandées] and no hit in the UMG section.",
+  "answer_value": false,
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The regime exists in the corpus but is attached to the UH and UX zone sections, not UMG. The whole-document search was broader than the likely_source_documents scope (general provisions and annexes); this expansion is flagged per rule 1. The UMG pages were checked by search plus a read of PDF 320–322 only, not a page-by-page read of PDF 323–333. The printed page numbers are one less than the PDF page numbers throughout (e.g. PDF 320 = printed 319). The planner's rationale did not assert that the regime applies to UMG, so no claim was contradicted. This text answer does not resolve the graphic overlap: the dashed purple recommandations perimeter on the map remains undetermined, and the zone-section text does not show whether the map perimeter applies to UMG.",
+  "citations": [
+    {
+      "claim": "The sanitary-recommendations regime text appears in the zone UH general rules, PDF page 101 (printed page 100).",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=101 | quote='Dans les périmètres de prescription et de recommandation sanitaires, il est recommandé que les travaux soient effectués sous le contrôle d'un organisme d'expertise agréé'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 101 (printed 100) carries the running header 'Vallée - UH' and contains the verbatim sentence 'Dans les périmètres de prescription et de recommandation sanitaires, il est recommandé que les travaux soient effectués sous le contrôle d'un organisme d'expertise agréé en matière de contrôle radiologique' under the Rappels section. The claim is supported."
+    },
+    {
+      "claim": "The sanitary-recommendations regime text appears in the zone UX general rules, PDF page 169 (printed page 168).",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=169 | quote='Dans les périmètres de prescription et de recommandation sanitaires, il est recommandé que les travaux soient effectués sous le contrôle d'un organisme'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 169 (printed 168) carries the header 'Vallée - UX' and contains 'Dans les périmètres de prescription et de recommandation sanitaires, il est recommandé que les travaux soient effectués sous le contrôle d'un organisme d'expertise agréé...'. The quoted fragment matches the page text, which is the same sanitary-recommendations regime text. The claim is supported."
+    },
+    {
+      "claim": "The PDF page 102 (printed 101, zone UH section) states that the prescriptions of the périmètre de prescriptions are merely recommended in the périmètre de recommandations.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=102 | quote='DANS LE PERIMETRE DE RECOMMANDATIONS : Les dispositions imposées dans le périmètre de prescriptions sont simplement recommandées.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 102 (printed 101) carries the header 'Vallée - UH' and contains the heading 'DANS LE PERIMETRE DE RECOMMANDATIONS :' followed by 'Les dispositions imposées dans le périmètre de prescriptions sont simplement recommandées.' This matches the quote and the claim."
+    },
+    {
+      "claim": "The zone UMG section (Zone UMG – Joliot-Curie, printed page 319, PDF page 320) defines zone UMG as the Joliot-Curie quartier.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='La zone UMG correspond au quartier Joliot-Curie, situé au nord de la commune'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 320 (printed 319) is headed 'Moulon - UMG' / 'Zone UMG – Joliot-Curie' and states 'La zone UMG correspond au quartier Joliot-Curie, situé au nord de la commune sur le plateau de Moulon'. The claim that the zone is defined as the Joliot-Curie quartier is directly supported. Page 306 (zone UM) also states that the Joliot-Curie quartier is governed by a separate zone."
+    },
+    {
+      "claim": "The UMG pages read (PDF 320–322) contain only a general reference to sanitary annexes, with no sanitary-recommendations provision.",
+      "c_id": "c-05",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='Les caractéristiques des installations et des réseaux d'assainissement doivent être conformes aux normes édictées dans le règlement d'assainissement communautaire (Cf. Annexes sanitaires).'",
+      "confirmed": true,
+      "reasoning": "PDF pages 320–322 were read. Page 322 (printed 321) contains the quoted §4.2 Assainissement sentence referring to 'règlement d'assainissement communautaire (Cf. Annexes sanitaires)', and page 321 refers only generally to 'règlements sanitaires figurant dans les annexes sanitaires'. A term search for 'recommandation sanitaire', 'radon' and 'radium' returned hits only on pages 101, 102, 169 and 170, none in the UMG pages 320–322. The UMG pages therefore contain no sanitary-recommendations provision. The claim is supported."
+    }
+  ]
+}

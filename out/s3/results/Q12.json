@@ -1,0 +1,33 @@
+{
+  "question_id": "Q12",
+  "status": "confirmed",
+  "answer_text": "The maximum depth of projecting elements (saillies) under UMG Article 6.3 is 80 cm. (c-01)[Les saillies sont autorisées à une hauteur minimale de 3,50 mètres et une profondeur maximale de 80 cm.] Under the same sentence, projections must be at least 3.50 m high. (c-02)[hauteur minimale de 3,50 mètres] Article 6.2 excludes balconies and oriels from the measured recul. (c-03)[Ne sont pas compris les éléments de construction tels que ... les balcons et les oriels]",
+  "answer_value": 80.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale is a purpose statement (whether balconies or projections can extend toward the frontage), not a checkable factual claim, so it was not contradicted. Article 6.3 sets the 80 cm limit for saillies generally and does not name balconies specifically. Article 6.2 is a separate measurement rule that excludes balconies from the recul calculation. The 6.3 text does not literally say 'en avant de l'alignement'; the 80 cm limit is read as applying to projections at the frontage. The cited text appears on printed page 323, which is PDF page 324.",
+  "citations": [
+    {
+      "claim": "Under UMG Article 6.3, projecting elements (saillies) are permitted with a maximum depth of 80 cm.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (printed; PDF page 324) | quote='Les saillies sont autorisées à une hauteur minimale de 3,50 mètres et une profondeur maximale de 80 cm.'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement PDF page 324 (printed 323, Moulon - UMG, Article 6.3 'REGLE GENERALE'). The text reads: 'Les saillies sont autorisées à une hauteur minimale de 3,50 mètres et une profondeur maximale de 80 cm.' This directly states the 80 cm maximum projection depth. The adjacent PDF page 323 (printed 322) is the eaux pluviales section and does not contradict this."
+    },
+    {
+      "claim": "Under UMG Article 6.3, projecting elements must be at a minimum height of 3.50 m.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (printed; PDF page 324) | quote='Les saillies sont autorisées à une hauteur minimale de 3,50 mètres et une profondeur maximale de 80 cm.'",
+      "confirmed": true,
+      "reasoning": "Same passage on PDF page 324 (printed 323), Article 6.3: 'Les saillies sont autorisées à une hauteur minimale de 3,50 mètres...'. The minimum height of 3.50 m is stated explicitly. A pages_search for 'saillies' also returned PDF page 324 with the same wording."
+    },
+    {
+      "claim": "Under UMG Article 6.2, balconies and oriels are excluded from the measurement of the recul of constructions.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (printed; PDF page 324) | quote='Ne sont pas compris les éléments de construction tels que les clôtures, les rampes d'accès, les perrons non clos, les débords de toiture, les corniches, les balcons et les oriels'",
+      "confirmed": true,
+      "reasoning": "PDF page 324 (printed 323), Article 6.2 'MODALITES DE CALCUL', reads: 'Le recul des constructions est mesuré horizontalement depuis chaque point de la façade... Ne sont pas compris les éléments de construction tels que les clôtures, les rampes d'accès, les perrons non clos, les débords de toiture, les corniches, les balcons et les oriels, ainsi que les parties enterrées...'. This confirms that balconies and oriels are excluded from the recul measurement, matching the claim."
+    }
+  ]
+}

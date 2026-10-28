@@ -1,0 +1,26 @@
+{
+  "question_id": "Q36",
+  "status": "partial",
+  "answer_text": "Yes for habitation buildings in general, but not for the résidence étudiante. UMG Article 12.5 requires that at least 85% of motorised parking spaces on the site be integrated into the habitation building, with a majority of them in a basement (c-01)['85 % minimum des places de stationnement pour les vehicules motorisés réalisées sur le terrain d'assiette des constructions doivent être intégrées à la construction à destination d'habitation dont une majorité en sous-sol.']. For résidences étudiantes, a majority of spaces in a basement is not required (c-02)['Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.'].",
+  "answer_value": true,
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale is consistent with the basement-majority rule for habitation but omits the résidences étudiantes exception, which matters for the RSE building in the target program. Whether the Résidence Jeunes Actifs counts as habitation was not verified in the source text and must be confirmed before applying the rule to that building. The cited text is on printed page 328 (PDF page 329).",
+  "citations": [
+    {
+      "claim": "UMG Article 12.5 requires that at least 85% of motorised parking spaces on the site be integrated into habitation buildings, with a majority of them in a basement.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (PDF 329) | quote='85 % minimum des places de stationnement pour les vehicules motorisés réalisées sur le terrain d'assiette des constructions doivent être intégrées à la construction à destination d'habitation dont une majorité en sous-sol.'",
+      "confirmed": true,
+      "reasoning": "Fetched plu_reglement PDF page 329 (printed page 328, Moulon - UMG zone, section 12.5 'Modalités de réalisation'). The first bullet for habitation reads: '85 % minimum des places de stationnement pour les vehicules motorisés réalisées sur le terrain d'assiette des constructions doivent être intégrées à la construction à destination d'habitation dont une majorité en sous-sol.' This matches the claim that at least 85% of motorised spaces on the site must be integrated into habitation buildings, with a majority in a basement. The page footer confirms the printed page number 328."
+    },
+    {
+      "claim": "For résidences étudiantes, realising a majority of the parking spaces in a basement is not required.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (PDF 329) | quote='Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.'",
+      "confirmed": true,
+      "reasoning": "Same page (PDF 329 / printed 328), section 12.5, habitation bullet. The text reads: 'Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.' This directly supports the claim that the majority-in-basement requirement does not apply to résidences étudiantes."
+    }
+  ]
+}

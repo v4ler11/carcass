@@ -1,0 +1,11 @@
+{
+  "question_id": "Q04",
+  "status": "not_found",
+  "answer_text": "No support was found in the scoped source document. I searched plu_reglement for 'jeunes actifs' and 'jeune actif' across the full document, with zero matches. I also read the LEXIQUE (pages 373-378 printed, PDF pages 374-379) and found no definition of logement, habitation or Résidence Jeunes Actifs. The règlement therefore does not state whether a Résidence Jeunes Actifs is classified as logement.",
+  "answer_value": null,
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale does not assert a classification, so no contradiction is raised. The question remains open within the scoped source and may need the destination definitions in another part of the règlement or in the Code de l'urbanisme, which are outside the scoped retrieval.",
+  "citations": []
+}

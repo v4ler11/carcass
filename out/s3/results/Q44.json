@@ -1,0 +1,33 @@
+{
+  "question_id": "Q44",
+  "status": "confirmed",
+  "answer_text": "UMG Article 3.2 requires a minimum width of 5 metres for a two-way road: (c-01)[Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens]. For one-way traffic the minimum is 3.50 metres: (c-02)[à 3,50 mètres pour une circulation à sens unique]. The Article 3.2 text sits on the PDF page labelled 322, whose printed footer reads 321: (c-03)[321].",
+  "answer_value": 5.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The rule is a general floor for public or private roads and does not depend on the construction type. Whether the parcel's actual access road meets 5 m was not established from the supplied corpus. The planner's rationale is conditional ('may be binding'), and it names no specific width, so it is not contradicted.",
+  "citations": [
+    {
+      "claim": "UMG Article 3.2 requires that no public or private road have a width below 5 metres for two-way traffic.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 322 (header 'Moulon - UMG', section 3.2 'REGLE GENERALE') reads: 'Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens et à 3,50 mètres pour une circulation à sens unique.' The 5 m two-way minimum is stated verbatim. A keyword search also returned this text on page 322."
+    },
+    {
+      "claim": "UMG Article 3.2 requires a minimum width of 3.50 metres for one-way public or private roads.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='et à 3,50 mètres pour une circulation à sens unique'",
+      "confirmed": true,
+      "reasoning": "The same sentence on plu_reglement PDF page 322 (section 3.2, Moulon - UMG) sets the one-way minimum at 3,50 mètres for 'une circulation à sens unique'. The search hit on page 322 confirms the wording."
+    },
+    {
+      "claim": "The Article 3.2 UMG text is on the PDF page labelled 322, whose printed footer reads 321.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021' followed by printed page number '321' in the page footer",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 322 contains the Article 3.2 UMG text and ends with the footer line 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021' followed by the printed page number '321'. The PDF page is labelled 322 and its printed footer reads 321, so the claim matches the document."
+    }
+  ]
+}

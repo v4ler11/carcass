@@ -1,0 +1,40 @@
+{
+  "question_id": "Q25",
+  "status": "confirmed",
+  "answer_text": "The UMG règlement requires projects to be compatible (compatible, not conforme) with the OAP orientations in pièce n°3. The zone introduction states the orientations (orientations 8 et 9) are those \"avec lesquelles tout projet d'aménagement et de construction doit être compatible\" (c-01)[zone intro, PDF p.320 / printed p.319]. Article 1 repeats the obligation (c-02)[PDF p.320 / printed p.319], as do Article 10 (c-03)[PDF p.326 / printed p.325] and Article 9 (c-04)[PDF p.326 / printed p.325].",
+  "answer_value": "compatible",
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale describes a 'binding level' without naming the relationship; the règlement sets a compatibility standard, which is lighter than conformité. The OAP document itself was not re-read at this stage, so its content is not verified here. In this corpus the printed page numbers lag the PDF pages by one (PDF 320 = printed 319; PDF 326 = printed 325). Articles 1 to 4, 6 to 13 carry the same clause; Articles 5 and 14 are abrogated and carry none.",
+  "citations": [
+    {
+      "claim": "The UMG zone introduction states that orientations d'aménagement (document n°3, orientations 8 et 9) are the orientations with which any development project must be compatible.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (printed 319) | quote='Cette zone fait l'objet d'orientations d'aménagement, document n°3 du PLU (orientations 8 et 9) avec lesquelles tout projet d'aménagement et de construction doit être compatible.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 320 (printed 319), the UMG zone introduction, reads: 'Cette zone fait l'objet d'orientations d'aménagement, document n°3 du PLU (orientations 8 et 9) avec lesquelles tout projet d'aménagement et de construction doit être compatible.' This matches the claim: the OAP document n°3, orientations 8 and 9, are the orientations with which any project must be compatible."
+    },
+    {
+      "claim": "Article 1 of zone UMG requires that any project be compatible with the orientations d'aménagement et de programmation defined in pièce n°3 of the PLU.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (printed 319) | quote='Tout projet doit être compatible avec les orientations d'aménagement et de programmation définies dans la pièce n°3 du PLU.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 320 (printed 319), under 'ARTICLE 1 - zone UMG - OCCUPATIONS ET UTILISATIONS DU SOL INTERDITES', reads: 'Tout projet doit être compatible avec les orientations d'aménagement et de programmation définies dans la pièce n°3 du PLU.' This matches the claim. A pages_search also found the same sentence on page 320."
+    },
+    {
+      "claim": "Article 10 (hauteur maximale des constructions) of zone UMG requires that any project be compatible with the orientations d'aménagement et de programmation defined in pièce n°3 of the PLU.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed 325) | quote='ARTICLE 10 - zone UMG -HAUTEUR MAXIMALE DES CONSTRUCTIONS Tout projet doit être compatible avec les orientations d'aménagement et de programmation définies dans la pièce n°3 du PLU.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 326 (printed 325) shows 'ARTICLE 10 - zone UMG -HAUTEUR MAXIMALE DES CONSTRUCTIONS' followed by 'Tout projet doit être compatible avec les orientations d'aménagement et de programmation définies dans la pièce n°3 du PLU.' This matches the claim verbatim in substance."
+    },
+    {
+      "claim": "Article 9 (emprise au sol) of zone UMG states that the coverage ratio is not regulated, but any project must still be compatible with the OAP orientations in document 3.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed 325) | quote='L'emprise au sol des constructions n'est pas réglementée, toutefois, tout projet doit être compatible avec les orientations d'aménagement et de programmation définies au document 3 du PLU.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 326 (printed 325) shows 'ARTICLE 9 - zone UMG -EMPRISE AU SOL DES CONSTRUCTIONS' followed by: 'L'emprise au sol des constructions n'est pas réglementée, toutefois, tout projet doit être compatible avec les orientations d'aménagement et de programmation définies au document 3 du PLU.' This matches the claim that the coverage ratio is unregulated but projects must remain compatible with the document 3 OAP orientations."
+    }
+  ]
+}

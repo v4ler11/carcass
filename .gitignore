@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Runtime state
+data/logs/
+data/traces/
+
+# Local secrets
+.env
+
+# IDE / OS
+.idea/
+.DS_Store
+.ipynb_checkpoints/

@@ -1,0 +1,19 @@
+{
+  "question_id": "Q18",
+  "status": "confirmed",
+  "answer_text": "The minimum distance between two constructions on the same property, when at least one facing façade or façade part has views, is 10 metres. (c-01)[Article 8.1 of zone UMG: 'L'implantation des constructions sur un même terrain est autorisée à condition que la distance les séparant soit au moins égale à : - 10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.'] Source is plu_reglement, Article 8.1 (printed p. 324, PDF p. 325).",
+  "answer_value": 10.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner rationale gives no figure, so there is nothing to contradict; the value 10 m is sourced independently here. The 6 m companion rule for façades without views is not on PDF p. 325 and was not verified in this retrieval; the Q17 dependency cites it and it should be checked on the following page. A phrase search also returned PDF p. 312 with the same 10 m rule in uppercase, suggesting a duplicated page in the corpus; the rule is identical there, so the answer is unaffected.",
+  "citations": [
+    {
+      "claim": "Article 8.1 of zone UMG sets a minimum distance of 10 metres between constructions on the same terrain when at least one of the two facing façades or façade parts has views.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed p. 324) | quote='10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.'",
+      "confirmed": true,
+      "reasoning": "Searching plu_reglement for the quoted wording returned PDF page 325 (printed folio 324, header 'Moulon - UMG'). Reading that page's text, Article 8 (zone UMG, implantation des constructions les unes par rapport aux autres sur une même propriété), section 8.1 'Règle générale', states that the distance between constructions on the same terrain must be at least '10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.' The quoted wording and the page reference match. Page 312 (zone UM) has a similar 10 m rule but is a different zone, and page 338 (zone UME) uses a half-height rule, so neither contradicts the UMG claim. The parcel metadata (CR 0247) lists zone UMG, so the rule applies to this parcel."
+    }
+  ]
+}

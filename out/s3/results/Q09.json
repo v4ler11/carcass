@@ -1,0 +1,33 @@
+{
+  "question_id": "Q09",
+  "status": "confirmed",
+  "answer_text": "The maximum height for constructions with an autre destination (not principal habitation) under UMG Article 10.2 is 18 metres (c-01)[Pour les constructions ayant une autre destination : la hauteur maximale des constructions est limitée à 18 mètres]. The same article sets 20 metres with a limit of R+5 for principal habitation (c-02)[Pour les constructions à destination principale d'habitation : ... limitée à 20 mètres, avec un nombre de niveaux limité à R+5] and 25 metres for principal service public or intérêt collectif (c-03)[Pour les constructions à destination principale d'un service public ou d'intérêt collectif : 25 mètres].",
+  "answer_value": 18.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The numeric rule is confirmed. However, the planner's examples (hébergement hôtelier or résidence services as the 'autre destination' cases) are not confirmed by the source: the Article 10.2 text does not name any residence type, and dependency answers Q04 and Q05 both returned not_found for classifying a Résidence Jeunes Actifs or the RSE. The rationale also omits that the 18 m rule excludes principal service public/intérêt collectif destinations, which have their own 25 m limit.",
+  "additional_context": "The 18 m limit applies only if a building is not principal habitation and not principal service public/intérêt collectif. Whether the RSE or Résidence Jeunes Actifs falls under habitation (20 m, R+5) or under autre destination (18 m) is not resolved by the source text, which is silent on residence types in Article 10.2. Article 10.2 also requires compatibility with the OAP (pièce n°3), a separate constraint not assessed here.",
+  "citations": [
+    {
+      "claim": "For constructions ayant une autre destination in zone UMG, the maximum height is limited to 18 metres.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='Pour les constructions ayant une autre destination : la hauteur maximale des constructions est limitée à 18 mètres.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 326 (printed page 325), zone UMG, Article 10.2 'Règle générale', text extraction reads: 'Pour les constructions ayant une autre destination : la hauteur maximale des constructions est limitée à 18 mètres.' A keyword search for the same phrase returned only this page and the zone UM page 313, which is a different zone. The claim of an 18 m maximum for other destinations matches the cited text."
+    },
+    {
+      "claim": "For constructions with principal destination habitation in zone UMG, the maximum height is 20 metres with a limit of R+5 levels.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='Pour les constructions à destination principale d'habitation : la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 326 (printed page 325), zone UMG, Article 10.2, text extraction reads: 'Pour les constructions à destination principale d'habitation : la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5.' The claim of 20 m with a limit of R+5 matches the cited text."
+    },
+    {
+      "claim": "For constructions with principal destination service public or intérêt collectif in zone UMG, the maximum height is 25 metres.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='Pour les constructions à destination principale d'un service public ou d'intérêt collectif : 25 mètres ;'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 326 (printed page 325), zone UMG, Article 10.2, text extraction reads: 'Pour les constructions à destination principale d'un service public ou d'intérêt collectif : 25 mètres ;'. The claim of 25 m matches the cited text."
+    }
+  ]
+}

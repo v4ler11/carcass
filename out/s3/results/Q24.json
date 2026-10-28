@@ -1,0 +1,33 @@
+{
+  "question_id": "Q24",
+  "status": "confirmed",
+  "answer_text": "OAP section 8 locates housing programmes for families and students principally to the west of the Joliot-Curie quartier (c-01)[les programmes de logements familiaux et étudiants sont implantés principalement à l'Ouest du quartier]. The habitat core is described as lying between the Nord-Sud structuring axis, the rue Joliot-Curie and the Ferme du Moulon (c-03)[La polarité quartier d'habitat-cœur campus Joliot-Curie se localise entre l'axe structurant Nord-Sud, la rue Joliot-Curie, axe Est-Ouest, et la Ferme du Moulon]. The schematic plan on the same page shows the orange habitat-dominant band on the western side of the perimeter (c-02)[orange hatched band, west of the central blue-hatched campus areas].",
+  "answer_value": "À l'Ouest du quartier (principalement)",
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The quoted text is on printed page 35 (PDF page 36). The OAP does not give a distance or boundary for the western zone, so this answer does not assess whether the parcel lies within it. That geometric check is outside this question.",
+  "citations": [
+    {
+      "claim": "The OAP states that housing programmes for families and students are implanted principally to the west of the quartier.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=36 (printed page 35) | quote='les programmes de logements familiaux et étudiants sont implantés principalement à l'Ouest du quartier pour favoriser la mixité'",
+      "confirmed": true,
+      "reasoning": "Read oap_91272_20210706 page 36 (printed p. 35) as text. The third bullet under 'Les liens fonctionnels entre les programmes et leur localisation dans le quartier' reads: 'les programmes de logements familiaux et étudiants sont implantés principalement à l'Ouest du quartier pour favoriser la mixité en privilégiant la proximité des services et des équipements publics.' This matches the claim that family and student housing is sited principally to the west of the quartier."
+    },
+    {
+      "claim": "The habitat core of the quartier lies between the Nord-Sud structuring axis, the rue Joliot-Curie (east-west axis) and the Ferme du Moulon.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=36 (printed page 35) | quote='La polarité quartier d'habitat-cœur campus Joliot-Curie se localise entre l'axe structurant Nord-Sud, la rue Joliot-Curie, axe Est-Ouest, et la Ferme du Moulon'",
+      "confirmed": true,
+      "reasoning": "Read the same page text. The paragraph beginning 'La polarité quartier d'habitat-cœur campus Joliot-Curie' states it 'se localise entre l'axe structurant Nord-Sud, la rue Joliot-Curie, axe Est-Ouest, et la Ferme du Moulon.' This matches the claim in substance."
+    },
+    {
+      "claim": "The schematic plan of programme elements shows the habitat-dominant urban mixity band (orange hatch) on the west side of the OAP perimeter, west of the central campus areas.",
+      "c_id": "c-02",
+      "verification_instructions": "VISUAL | p0036-img-3.jpeg (oap_91272_20210706 page 36) | bbox=[170,130,400,300] | orange hatched 'Programmation urbaine mixte à dominante d'habitat' band lies west of the CENTRALE/ENS blue-hatched areas; legend in top-left",
+      "confirmed": true,
+      "reasoning": "Viewed p0036-img-3.jpeg (schematic 'Schéma de principe des éléments de programmation'). The legend is top-left. The orange-hatched band 'Programmation urbaine mixte à dominante d'habitat' lies along the west side of the perimeter, roughly x≈170 to x≈265 in the rendered image. The blue-hatched CENTRALE/ENS areas (enseignement supérieur) sit east of it, around x≈310 to x≈355. The claim that the orange band lies west of the central campus areas is supported. Exact pixel coordinates were estimated visually and not measured."
+    }
+  ]
+}

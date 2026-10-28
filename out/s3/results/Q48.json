@@ -1,0 +1,26 @@
+{
+  "question_id": "Q48",
+  "status": "partial",
+  "answer_text": "No explicit requirement that refuse collection vehicles be able to reach the access road. UMG Article 3.2 requires that terrains be served by voies whose characteristics respect the importance and destination of the construction(s), notably 'l'enlèvement des ordures ménagères' and 'l'accessibilité des moyens de secours' (c-01)[Article 3.2 UMG: 'l'enlèvement des ordures ménagères ainsi que l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile']. Waste collection is therefore one criterion within a general road-suitability obligation, not a separate access rule. Article 4.4 addresses waste containers and does not state a vehicle-access requirement (c-02)[Article 4.4 UMG: 'un espace clos d'une superficie suffisante pour recevoir les divers conteneurs liés à la collecte sélective des ordures ménagères doit être aménagé'].",
+  "answer_value": false,
+  "confidence": "medium",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner rationale calls refuse-collection accessibility a separate condition on access design for both buildings. The source places waste collection inside the general Article 3.2 road-characteristics criterion, alongside traffic safety and fire/civil-protection access, and does not state a separate refuse-vehicle access condition. The 'both buildings' element is not addressed in Article 3.2, which applies to UMG terrains generally.",
+  "additional_context": "Article 3.2 is printed page 321 (PDF page 322), not printed page 322 as the question states; the text on PDF page 323 is printed page 322. The 'l'enlèvement des ordures ménagères' wording is the closest textual basis for a refuse-access expectation, so a reviewer could reasonably read it as an indirect requirement; this answer treats it as not an explicit vehicle-access rule. Whether a specific access satisfies refuse-truck access is a project-level determination not stated in the regulation. The source PDF is dated 2021 while the metadata references reglement_20260408.pdf; versions should be checked.",
+  "citations": [
+    {
+      "claim": "UMG Article 3.2 requires terrains to be served by voies whose characteristics respect the importance and destination of the construction, including enlèvement des ordures ménagères and accessibility for fire and civil protection services.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=322 | quote='l'enlèvement des ordures ménagères ainsi que l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement page 322 (Moulon - UMG, section 3.2 'REGLE GENERALE'). The text states that all terrains must be served by public or private voies whose characteristics respect the importance and destination of the construction, notably for traffic safety and access, pedestrian protection, 'l'enlèvement des ordures ménagères ainsi que l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile'. This matches the claim and the cited quote verbatim."
+    },
+    {
+      "claim": "UMG Article 4.4 requires an enclosed space sized for waste containers for housing with more than three dwellings and an integrated location for bulky waste in new construction; it states no vehicle-access requirement.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=323 | quote='un espace clos d'une superficie suffisante pour recevoir les divers conteneurs liés à la collecte sélective des ordures ménagères doit être aménagé'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement page 323 (Moulon - UMG, section 4.4 'LA COLLECTE DES ORDURES MENAGERES'). The text requires, for constructions producing waste and for housing with more than three logements, 'un espace clos d'une superficie suffisante pour recevoir les divers conteneurs liés à la collecte sélective des ordures ménagères'. For new construction it requires 'un emplacement intégré au projet d'aménagement pour des déchets encombrants', which matches the bulky-waste claim. Section 4.4 contains no vehicle-access requirement; the vehicle-access obligations appear only in section 3.2 (page 322). The claim's negative statement is therefore consistent with the article text."
+    }
+  ]
+}

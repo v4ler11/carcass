@@ -1,0 +1,40 @@
+{
+  "question_id": "Q14",
+  "status": "confirmed",
+  "answer_text": "The minimum retrait from a limite séparative for a façade or part of façade with views (vues) under UMG Article 7.2.1 is 6 metres (c-01)[à 6 mètres pour les façades ou parties de façade comportant des vues]. Façades without views require 3 metres (c-02)[à 3 mètres pour les façades ou parties de façade ne comportant pas de vue].",
+  "answer_value": 6.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "Article 7.2.1 allows constructions to be built on one or more side limits or set back from them (c-03)[Les constructions peuvent être implantées soit sur une ou plusieurs limites séparatives, soit en retrait de ces dernières]. Under Article 7.2.2 the retrait is measured perpendicularly from any point of the construction, including balconies and oriels, to the nearest limite séparative, and cornices, roof overhangs and buried parts are excluded (c-04)[balcons et oriels compris, au point le plus proche de la limite séparative. En revanche, ne sont pas compris les éléments de modénature tels que corniches et débords de toiture]. The source does not establish whether each view-bearing façade of the two buildings faces a side or rear limit rather than the road, which falls under Article 6.",
+  "citations": [
+    {
+      "claim": "For façades or parts of façade with views, the required retrait from a limite séparative under UMG Article 7.2.1 is at least 6 metres.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='à 6 mètres pour les façades ou parties de façade comportant des vues ;'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement page 325 (printed 324), Article 7.2.1 'Règle générale'. The text reads: 'En cas de retrait, ce dernier doit être au moins égal : - à 6 mètres pour les façades ou parties de façade comportant des vues ;'. This directly supports the claim that the retrait for façades with views is at least 6 m."
+    },
+    {
+      "claim": "For façades or parts of façade without views, the required retrait from a limite séparative under UMG Article 7.2.1 is at least 3 metres.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='à 3 mètres pour les façades ou parties de façade ne comportant pas de vue.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement page 325 (printed 324), Article 7.2.1. The text reads: '- à 3 mètres pour les façades ou parties de façade ne comportant pas de vue.' This directly supports the claim that the retrait for façades without views is at least 3 m."
+    },
+    {
+      "claim": "UMG Article 7.2.1 permits constructions to be built on one or more side limits or set back from them.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='Les constructions peuvent être implantées soit sur une ou plusieurs limites séparatives, soit en retrait de ces dernières.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement page 325 (printed 324), Article 7.2.1. The text reads: 'Les constructions peuvent être implantées soit sur une ou plusieurs limites séparatives, soit en retrait de ces dernières.' This matches the claim that constructions may be built on one or more side limits or set back from them."
+    },
+    {
+      "claim": "Under UMG Article 7.2.2 the retrait is measured perpendicularly from any point of the construction, including balconies and oriels, to the nearest limite séparative, and cornices, roof overhangs and buried parts are excluded.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='balcons et oriels compris, au point le plus proche de la limite séparative. En revanche, ne sont pas compris les éléments de modénature tels que corniches et débords de toiture'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement page 325 (printed 324), Article 7.2.2 'Calcul des retraits'. The text states the retrait is measured perpendicularly from any point of the construction, 'balcons et oriels compris', to the nearest limite séparative. It then says that 'éléments de modénature tels que corniches et débords de toiture' and 'les parties enterrées des constructions' are not included. The claim matches this wording."
+    }
+  ]
+}

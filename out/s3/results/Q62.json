@@ -1,0 +1,40 @@
+{
+  "question_id": "Q62",
+  "status": "confirmed",
+  "answer_text": "The printed footer on the UMG pages reads 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021' (c-01)[PDF p.320, printed p.319: 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 319']. The same footer appears on the last UMG page, PDF p.332 (printed p.331) (c-02)[PDF p.332: 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 331']. The cover page names the same two approvals, both dated 6 juillet 2021 (c-03)[PDF p.1: 'Modification n°1 approuvée en Conseil municipal du 6 juillet 2021' and 'Révision allégée n°1 approuvée en Conseil municipal du 6 juillet 2021']. A search of plu_reglement for '2026' returned no matches (c-04)[plu_reglement searched for '2026', 0 matches].",
+  "answer_value": "Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021",
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "Printed page numbers are offset by one from PDF pages: UMG spans PDF p.320-332 (printed 319-331). The cover also lists the Révision générale approved 13 décembre 2016 and a mise en compatibilité by décret of 28 mars 2017. The metadata reference reglement_20260408 named in the earlier unresolved flag was not re-checked in this call; the corpus shows no 2026 date, so that version mismatch remains unresolved and needs human review.",
+  "citations": [
+    {
+      "claim": "The footer on the UMG zone page (PDF p.320, printed p.319) reads 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021'.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 319'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement page 320. It is the start of the Zone UMG - Joliot-Curie reglement, and its footer reads 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021' followed by '319'. This matches the claimed footer text and printed page number."
+    },
+    {
+      "claim": "The footer on the last UMG zone page (PDF p.332, printed p.331) reads 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021'.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=332 | quote='Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 331'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement page 332. It contains ARTICLE 16 of zone UMG, and its footer reads 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021' followed by '331'. Page 333 begins zone UME, so page 332 is the last UMG page as claimed."
+    },
+    {
+      "claim": "The cover page of the règlement lists 'Modification n°1 approuvée en Conseil municipal du 6 juillet 2021' and 'Révision allégée n°1 approuvée en Conseil municipal du 6 juillet 2021'.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=1 | quote='Révision allégée n°1 approuvée en Conseil municipal du 6 juillet 2021'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement page 1 (cover). It lists 'Modification n°1 approuvée en Conseil municipal du 6 juillet 2021' and 'Révision allégée n°1 approuvée en Conseil municipal du 6 juillet 2021'. Both match the claim."
+    },
+    {
+      "claim": "The string '2026' has no occurrence in plu_reglement.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=all | quote='2026' (search of full document returned 0 matches)",
+      "confirmed": true,
+      "reasoning": "Ran full-document searches for '2026' on plu_reglement (465 pages), including a repeat search with an occurrence limit. Both returned 0 matches with no pages or occurrences listed, which confirms the claim that the string does not occur."
+    }
+  ]
+}

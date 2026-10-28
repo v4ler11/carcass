@@ -1,0 +1,33 @@
+{
+  "question_id": "Q01",
+  "status": "confirmed",
+  "answer_text": "No. UMG Article 1 does not prohibit constructions à destination d'habitation. The prohibited list covers agricultural/forestry and entrepôt constructions (c-01)[Les constructions, ouvrages ou travaux à destination d'exploitation agricole ou forestière et d'entrepôt]. The only item in that list that refers to habitation is the caravan used as housing (c-02)[L'installation d'une caravane à usage d'habitation]. The zone description states that habitation is an intended use (c-03)[des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles].",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The Article 1 prohibition on a caravan used as housing does not prohibit building habitation. Article 1 was read on printed page 319 (PDF page 320). Article 2 (printed page 320, PDF page 321) lists only conditional uses and does not address habitation, so Article 1 alone does not settle admissibility of the RSE or Résidence Jeunes Actifs buildings. The planner's list of prohibited uses matches the source text.",
+  "citations": [
+    {
+      "claim": "UMG Article 1 prohibits constructions, ouvrages ou travaux à destination d'exploitation agricole ou forestière et d'entrepôt.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=319 (PDF 320) | quote='Les constructions, ouvrages ou travaux à destination d'exploitation agricole ou forestière et d'entrepôt.'",
+      "confirmed": true,
+      "reasoning": "Read PDF page 320 (printed page 319) of plu_reglement, zone UMG, Article 1 'occupations et utilisations du sol interdites'. The first listed prohibition reads: 'Les constructions, ouvrages ou travaux à destination d'exploitation agricole ou forestière et d'entrepôt.' This matches the cited quote and the claim. The same wording also appears in the UM zone (PDF 306, printed 305), which does not affect this verdict. The cited page reference (page=319, PDF 320) is correct."
+    },
+    {
+      "claim": "Within the UMG Article 1 prohibited list, the only item referring to habitation is the installation of a caravan used as housing; scope checked: the full Article 1 list on page 319.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=319 (PDF 320) | quote='L'installation d'une caravane à usage d'habitation.'",
+      "confirmed": true,
+      "reasoning": "Read the full Article 1 list for UMG on PDF page 320 (printed 319). It has three bullets: (1) constructions for agricultural/forestry use and warehouses; (2) 'L'installation d'une caravane à usage d'habitation', the only item that expressly refers to habitation; (3) campsites, collective caravan garages, 'résidences légères de loisirs', 'parcs résidentiels de loisirs' and 'villages de vacances'. Bullet 3 concerns leisure and holiday accommodation rather than habitation as a destination, so the caravan item is the only one that expressly refers to habitation. The claim holds on the stated scope, though the leisure residences in bullet 3 are housing-adjacent and could be argued either way."
+    },
+    {
+      "claim": "The UMG zone description states that the zone is intended for constructions à destination d'habitation for students, researchers and families.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=319 (PDF 320) | quote='des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles'",
+      "confirmed": true,
+      "reasoning": "Read the zone description on PDF page 320 (printed 319), 'Zone UMG – Joliot-Curie'. It states the zone 'est destinée à accueillir principalement des établissements d'enseignement supérieur et de recherche, des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles.' The cited phrase matches verbatim. The claim omits that higher-education and research establishments are listed first as the principal use, but it does not contradict the text."
+    }
+  ]
+}

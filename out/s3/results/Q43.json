@@ -1,0 +1,26 @@
+{
+  "question_id": "Q43",
+  "status": "confirmed",
+  "answer_text": "Yes. OAP section 8 directs that car use be limited through underground car parks or parking within building envelopes, with pooled parking and 'l'accueil d'un nombre réduit de places de stationnement le long des voies' (c-01)[l'accueil d'un nombre réduit de places de stationnement le long des voies]. These measures appear as items under the heading 'privilégier les circulations douces' (c-02)[la limitation de l'utilisation de la voiture, avec la réalisation de parkings souterrains ou dans le gabarit des constructions].",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner rationale describes the on-street parking limit as separate from the underground or shared-parking guidance. In the source, the on-street limit is one of two items in the same bullet as underground parking and pooled parking, so it is not a separate rule.",
+  "additional_context": "The text is a directional orientation ('doit permettre'), not a numeric cap; no specific number of on-street spaces is given. The passage refers to the quartier as a whole rather than to the parcel's road specifically. The printed page is 34 and the PDF page is 35.",
+  "citations": [
+    {
+      "claim": "OAP section 8 states that the car-use limitation includes a reduced number of parking spaces along the roads ('l'accueil d'un nombre réduit de places de stationnement le long des voies').",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 | quote='l'accueil d'un nombre réduit de places de stationnement le long des voies'",
+      "confirmed": true,
+      "reasoning": "Checked oap_91272_20210706, page 35 (text and rendered image). Under the heading 'Une organisation viaire à deux niveaux, qui privilégie les circulations douces', the bullet beginning 'la limitation de l'utilisation de la voiture...' contains the phrase verbatim: \"l'accueil d'un nombre réduit de places de stationnement le long des voies\". A search for this phrase returns exactly one match, on page 35. The claim that the car-use limitation includes a reduced number of on-street parking spaces is accurately stated."
+    },
+    {
+      "claim": "OAP section 8 lists, under 'privilégier les circulations douces', the limitation of car use through underground car parks or parking within building envelopes, in the same bullet as the reduced on-street parking.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 | quote='la limitation de l'utilisation de la voiture, avec la réalisation de parkings souterrains ou dans le gabarit des constructions'",
+      "confirmed": true,
+      "reasoning": "Checked oap_91272_20210706, page 35. The text states that the organisation 'doit permettre de privilégier les circulations douces, ce qui se traduit par :' and then lists the bullet \"la limitation de l'utilisation de la voiture, avec la réalisation de parkings souterrains ou dans le gabarit des constructions, avec une recherche de mutualisation des places de stationnement et l'accueil d'un nombre réduit de places de stationnement le long des voies\". The underground-car-park / building-envelope limitation and the reduced on-street parking sit in the same bullet, as claimed. The quoted phrase also matches exactly (one search match on page 35)."
+    }
+  ]
+}

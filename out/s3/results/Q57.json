@@ -1,0 +1,40 @@
+{
+  "question_id": "Q57",
+  "status": "confirmed",
+  "answer_text": "New buildings located in the classified road-noise sectors must be acoustically insulated under the arrêté du 30 mai 1996 for habitations, and under the arrêté du 9 janvier 1995 for teaching buildings (c-01)[Les constructions nouvelles situées dans les secteurs affectés par le bruit doivent faire l'objet d'une isolation acoustique selon les dispositions fixées par l'arrêté du 30 mai 1996 pour les habitations et du 9 janvier 1995 pour les bâtiments d'enseignement]. The corridor list includes RD 128 (30 m) and RER B (30 m) (c-02)[RD 128 | 30 m] (c-03)[RER B | 30 m]. The corridor representation is on the plan des périmètres particuliers, pièce n°8 (c-04)[La représentation des zones d'isolement acoustique figure sur le plan des périmètres particuliers en annexe (pièce n°8)].",
+  "answer_value": "Arrêté du 30 mai 1996 (habitations); arrêté du 9 janvier 1995 (bâtiments d'enseignement)",
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The text names the 30 May 1996 arrêté for habitations, which is the standard that applies to residential buildings such as the RSE and Résidence Jeunes Actifs. The text does not say whether a résidence sociale étudiante counts as habitation or as an enseignement building, so this is not resolved here. The source passage is printed page 5 (PDF page 6). Whether the parcel lies inside a corridor was not checked here; it depends on the pièce n°8 graphic, which is outside the scope of this text-only question. The corridor clauses in the planner rationale are confirmed.",
+  "citations": [
+    {
+      "claim": "New buildings within noise-affected sectors must be acoustically insulated per the arrêté of 30 May 1996 for habitations and the arrêté of 9 January 1995 for teaching buildings.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=5 printed (PDF page 6) | quote='Les constructions nouvelles situées dans les secteurs affectés par le bruit doivent faire l'objet d'une isolation acoustique selon les dispositions fixées par l'arrêté du 30 mai 1996 pour les habitations et du 9 janvier 1995 pour les bâtiments d'enseignement'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 6 (printed page 5), Article 2.2 noise-zone section, reads: 'Les constructions nouvelles situées dans les secteurs affectés par le bruit doivent faire l'objet d'une isolation acoustique selon les dispositions fixées par l'arrêté du 30 mai 1996 pour les habitations et du 9 janvier 1995 pour les bâtiments d'enseignement.' This matches the claim. A keyword search also found the same sentence on page 6."
+    },
+    {
+      "claim": "The classified road-noise corridor table lists RD 128 with a maximum affected-sector width of 30 m.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=5 printed (PDF page 6) | quote='RD 128 | 30 m' (table: Voie concernée / Largeur maximale des secteurs affectés par le bruit)",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 6 contains the table 'Voie concernée | Largeur maximale des secteurs affectés par le bruit' with the row '| RD 128 | 30 m |'. The claim matches the table entry."
+    },
+    {
+      "claim": "The classified road-noise corridor table lists RER B with a maximum affected-sector width of 30 m.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=5 printed (PDF page 6) | quote='RER B | 30 m' (table: Voie concernée / Largeur maximale des secteurs affectés par le bruit)",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 6 contains the same table with the row '| RER B | 30 m |'. The claim matches the table entry."
+    },
+    {
+      "claim": "The noise-isolation zones are represented on the plan des périmètres particuliers, annex pièce n°8.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=5 printed (PDF page 6) | quote='La représentation des zones d'isolement acoustique figure sur le plan des périmètres particuliers en annexe (pièce n°8).'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 6 reads: 'La représentation des zones d'isolement acoustique figure sur le plan des périmètres particuliers en annexe (pièce n°8).' The claim that the noise-isolation zones are shown on the plan des périmètres particuliers, annex pièce n°8, matches. Keyword search also shows 'PIÈCE N°8' in the same sentence."
+    }
+  ]
+}

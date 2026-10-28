@@ -1,0 +1,33 @@
+{
+  "question_id": "Q46",
+  "status": "confirmed",
+  "answer_text": "Yes, with one exception. Under UMG règle générale 3.2, private roads ending in a dead end must be laid out so vehicles can turn around (c-01)[Les voies privées se terminant en impasse doivent être aménagées de telle sorte que les véhicules puissent faire un demi-tour]. The exception is a private road whose sole purpose is serving a parking lot (c-02)[sauf dans le cas où ces voies ont pour unique objet la desserte d'un parc de stationnement]. This text is on printed page 321 (PDF page 322) (c-03)[Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 / 321], not the printed 322 (PDF 323) given in the input.",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The planner's condition (access is a private impasse) matches the rule but omits the parking-lot-only exception. Whether this parcel's access is actually a private impasse was not established in this question and needs separate confirmation. The same paragraph sets minimum road widths (5 m two-way, 3.50 m one-way), which this answer does not address.",
+  "citations": [
+    {
+      "claim": "UMG Article 3.2 requires private roads ending in a dead end (impasse) to be laid out so vehicles can turn around (demi-tour).",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=321 (PDF page 322) | quote='Les voies privées se terminant en impasse doivent être aménagées de telle sorte que les véhicules puissent faire un demi-tour'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement, PDF page 322 (printed footer 321), Article 3.2 'REGLE GENERALE' under 'Moulon - UMG'. The text reads: 'Les voies privées se terminant en impasse doivent être aménagées de telle sorte que les véhicules puissent faire un demi-tour, sauf dans le cas où ces voies ont pour unique objet la desserte d'un parc de stationnement.' This directly supports the claim that private dead-end roads must allow vehicles to turn around. The same sentence appears on PDF 322 and is the UMG zone provision, not a generic one."
+    },
+    {
+      "claim": "The turnaround requirement for private dead-end roads does not apply where the road's sole purpose is serving a parking lot.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=321 (PDF page 322) | quote='sauf dans le cas où ces voies ont pour unique objet la desserte d'un parc de stationnement'",
+      "confirmed": true,
+      "reasoning": "Same passage checked on PDF page 322 (printed 321), Article 3.2 of the UMG zone. The exception clause reads 'sauf dans le cas où ces voies ont pour unique objet la desserte d'un parc de stationnement', which is exactly the exemption described in the claim: the turnaround requirement does not apply where the private road's sole purpose is serving a parking lot."
+    },
+    {
+      "claim": "The Article 3.2 text appears on printed page 321 (PDF page 322), and the input's printed 322 / PDF 323 reference is off by one.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=321 (PDF page 322) | quote='Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 / 321'",
+      "confirmed": true,
+      "reasoning": "Checked the page footers and content. PDF page 322 contains the Article 3.2 text and its footer reads 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 / 321', so Article 3.2 is on printed page 321 (PDF 322). The input's reference of printed 322 / PDF 323 is wrong for this provision: PDF page 323 has printed footer 322 and contains Article 4.2.2 (Eaux pluviales) and 4.3–4.4, not Article 3.2. The claim is therefore accurate as stated."
+    }
+  ]
+}

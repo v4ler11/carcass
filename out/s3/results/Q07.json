@@ -1,0 +1,40 @@
+{
+  "question_id": "Q07",
+  "status": "confirmed",
+  "answer_text": "For constructions with a principal destination of habitation, UMG Article 10.2 limits height to 20 metres, with a maximum of R+5 storeys (c-01)[la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5]. Constructions with another destination are limited to 18 metres (c-02)[Pour les constructions ayant une autre destination : la hauteur maximale des constructions est limitée à 18 mètres]. Article 10 also requires projects to be compatible with the OAP (c-03)[Tout projet doit être compatible avec les orientations]. Height runs from the natural ground up to the ridge or acrotère, with technical works included, subject to the 10.1 exclusions (c-04)[ouvrages techniques compris].",
+  "answer_value": 20.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The 20 m limit applies only if the building is classified as habitation. This answer does not resolve whether the RSE or the Résidence Jeunes Actifs falls under habitation, which depends on Q03 and Q04. Article 10.2 does not define habitation. The source text is on printed page 325 (PDF page 326).",
+  "citations": [
+    {
+      "claim": "For constructions with a principal destination of habitation, the maximum height is limited to 20 metres, with a number of levels limited to R+5.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 326 (printed 325), zone UMG, Article 10.2 'Règle générale', reads verbatim: 'Pour les constructions à destination principale d'habitation : la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5.' This matches the claim and the quoted text."
+    },
+    {
+      "claim": "For constructions with another destination, the maximum height is limited to 18 metres.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='Pour les constructions ayant une autre destination : la hauteur maximale des constructions est limitée à 18 mètres.'",
+      "confirmed": true,
+      "reasoning": "Same page (PDF 326, printed 325), Article 10.2, reads: 'Pour les constructions ayant une autre destination : la hauteur maximale des constructions est limitée à 18 mètres.' This matches the claim."
+    },
+    {
+      "claim": "Article 10 requires that any project be compatible with the orientations d'aménagement et de programmation in pièce n°3 of the PLU.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='Tout projet doit être compatible avec les orientations'",
+      "confirmed": true,
+      "reasoning": "Same page, Article 10 text reads: 'Tout projet doit être compatible avec les orientations d'aménagement et de programmation définies dans la pièce n°3 du PLU.' This matches the claim that any project must be compatible with the OAP in pièce n°3. The same obligation also appears in Articles 9 and 11 on this page."
+    },
+    {
+      "claim": "Building height is measured from the existing natural ground up to the ridge or acrotère, with technical works included, subject to the stated exclusions.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed; PDF page 326) | quote='ouvrages techniques compris'",
+      "confirmed": true,
+      "reasoning": "Same page, Article 10.1 'Définition' reads: height is measured 'à partir du sol naturel existant avant travaux' and 'jusqu'au sommet du faîtage ou de l'acrotère, ouvrages techniques compris', with the exclusion for elements under 20% of the building footprint and under 2 m high (e.g., chimney stacks, lift shafts, guardrails). This matches the claim, including the stated exclusions."
+    }
+  ]
+}

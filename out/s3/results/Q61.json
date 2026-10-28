@@ -1,0 +1,40 @@
+{
+  "question_id": "Q61",
+  "status": "confirmed",
+  "answer_text": "No. The plu_reglement élargissements de voirie list records no north-south road-widening in Joliot-Curie. Its Situation entries (Réf. 1, 3, 4, 5, 6, 9, 10, 12, 14, 15, 16, 18, 20, 24) name no Joliot-Curie location and no north-south axis (c-01)[ER élargissements table, printed pp. 369-371, read in full]. A scoped search of plu_reglement for 'nord-sud' or 'Joliot' returned hits only on pp. 306, 320 and 324, none of them an ER row (c-02)[search hits on pp. 306, 320, 324]. The only Joliot-Curie reference in the zone text identifies zone UMG (c-03)[plu_reglement p. 320].",
+  "answer_value": false,
+  "confidence": "medium",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The ER élargissements table was read in full. The 55 hits for 'élargissement' were not each reviewed, because most are generic ER-consultation clauses in zone articles. The creation-or-amélioration table (printed p. 367) has a row d titled 'Desserte quartiers nord Damiette – Voitures et Piétons' at Le petit et le grand Damiette, which is not Joliot-Curie (c-04)[plu_reglement p. 368]. The tables carry no direction field, so the north-south exclusion rests on the Situation labels; a human should confirm against the ER plan.",
+  "citations": [
+    {
+      "claim": "The élargissements de voirie ER table (printed pp. 369-371) lists Situations for Avelines, Buttes, Châteaufort, Chevreuse, Chèvres, Damiette, Fèvrie, Général Leclerc, Graviers, Gruerie, G. Vatonne, Jean Poulmarch, Madrid and Val Vert, and none names Joliot-Curie or a north-south axis.",
+      "c_id": "c-01",
+      "verification_instructions": "TABLE | plu_reglement | rows=[1,3,4,5,6,9,10,12,14,15,16,18,20,24] | Situation column of the 'EMPLACEMENTS RESERVES POUR ELARGISSEMENTS DE VOIRIE' table, printed pp. 369-371 (PDF 370-372); checked for any Joliot-Curie or north-south entry; none found.",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement PDF pages 370-372 (printed 369-371), the 'EMPLACEMENTS RESERVES POUR ELARGISSEMENTS DE VOIRIE' table. Situation entries are: 1 AVELINES (Rond-Point); 3 BUTTES (chemin des); 4 CHATEAUFORT (route de); 5 CHEVREUSE (route de); 6 CHEVRES (Montée des); 9 DAMIETTE (route de); 10 FEVRIE (rue de la); 12 GENERAL LECLERC (avenue du); 14 GRAVIERS (chemin des); 15 GRUERIE (rue de la); 16 G. VATONNE (rue); 18 Jean POULMARCH (rue); 20 MADRID (rue de); 24 VAL VERT (rue du). These match the claimed rows and names. A search for 'nord[- ]sud|Joliot' over the document found no entry in this table, so no Joliot-Curie or north-south axis is named."
+    },
+    {
+      "claim": "A case-insensitive search of plu_reglement for 'nord-sud' or 'Joliot' returned hits only on pp. 306, 320 and 324, and none of them is an emplacement réservé row.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=306 | quote='à l'exception du quartier de JOLIOT -Curie qui est régie par une zone spécifique' (search 'nord[- ]sud|Joliot' returned 4 hits on pp. 306, 320, 324; no 'nord-sud' hit)",
+      "confirmed": true,
+      "reasoning": "Ran a case-insensitive search for 'nord[- ]sud|Joliot' on plu_reglement: 4 hits on pages 306, 320 (two hits) and 324. A separate search for 'nord[- ]sud' returned 0 hits. Page 306 reads 'à l'exception du quartier de Joliot-Curie qui est régie par une zone spécifique'. Page 320 is the UMG zone heading and text, and page 324 is Article 6.3 mentioning the passerelle above rue Joliot-Curie. None of these is an emplacement réservé row, so the claim holds. The instruction's quote uses uppercase 'JOLIOT -Curie'; the document text is 'Joliot-Curie', which does not change the substance."
+    },
+    {
+      "claim": "The plu_reglement zone text states that zone UMG corresponds to the Joliot-Curie quarter.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='La zone UMG correspond au quartier Joliot-Curie, situé au nord de la commune'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement page 320 (printed 319). The zone heading is 'Zone UMG – Joliot-Curie' and the text reads 'La zone UMG correspond au quartier Joliot-Curie, situé au nord de la commune sur le plateau de Moulon...'. This directly states that zone UMG corresponds to the Joliot-Curie quarter."
+    },
+    {
+      "claim": "The creation-or-amélioration ER table row d is titled 'Desserte quartiers nord Damiette – Voitures et Piétons' and is located at Le petit et le grand Damiette, not Joliot-Curie.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=368 | quote='Desserte quartiers nord Damiette – Voitures et Piétons'",
+      "confirmed": true,
+      "reasoning": "Read plu_reglement page 368 (printed 367), the 'EMPLACEMENTS RESERVES POUR CREATION OU AMELIORATION DE VOIRIE' table. Row 'd' reads 'Desserte quartiers nord Damiette – Voitures et Piétons', Bénéficiaire Commune, Situation 'Le petit et le grand Damiette', 2 267 m². The situation is Damiette, not Joliot-Curie, so the 'not Joliot-Curie' part is also supported."
+    }
+  ]
+}

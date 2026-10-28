@@ -1,0 +1,33 @@
+{
+  "question_id": "Q16",
+  "status": "confirmed",
+  "answer_text": "Yes. UMG Article 7.2.2 states that the retrait is measured from any point of the construction, including balconies and oriels, to the nearest point of the limite séparative (c-01)[Le retrait est la distance (L) comptée perpendiculairement de tout point de la construction, balcons et oriels compris, au point le plus proche de la limite séparative]. The same paragraph excludes modénature elements such as corniches and roof overhangs, and underground parts of constructions (c-02)[ne sont pas compris les éléments de modénature tels que corniches et débords de toiture, ni les parties enterrées des constructions].",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The rationale's premise is consistent with the text: balconies and oriels are part of the measured construction. Article 7.2.1 sets the minimum retrait at 6 m for façades or parts of façades with vues and 3 m for those without vues (c-03)[à 6 mètres pour les façades ou parties de façade comportant des vues ; à 3 mètres pour les façades ou parties de façade ne comportant pas de vue]. Printed page 324 corresponds to PDF page 325. Other zone sections were not reviewed for this question.",
+  "citations": [
+    {
+      "claim": "Under UMG Article 7.2.2, the retrait is the distance measured perpendicularly from any point of the construction, including balconies and oriels, to the nearest point of the limite séparative.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=324 | quote='Le retrait est la distance (L) comptée perpendiculairement de tout point de la construction, balcons et oriels compris, au point le plus proche de la limite séparative.'",
+      "confirmed": true,
+      "reasoning": "The text of plu_reglement at PDF index 325 (printed footer 324), under ARTICLE 7 - zone UMG, section 7.2.2 'Calcul des retraits', reads: 'Le retrait est la distance (L) comptée perpendiculairement de tout point de la construction, balcons et oriels compris, au point le plus proche de la limite séparative.' This matches the claim. The instruction cited page 324, but PDF index 324 contains Articles 5 and 6 (footer 323), so the quoted wording is on the next page. The substance is verified; the page reference is off by one."
+    },
+    {
+      "claim": "Under UMG Article 7.2.2, modénature elements such as corniches and roof overhangs, and underground parts of constructions, are excluded from the retrait measurement.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=324 | quote='ne sont pas compris les éléments de modénature tels que corniches et débords de toiture, ni les parties enterrées des constructions.'",
+      "confirmed": true,
+      "reasoning": "In plu_reglement, PDF index 325 (footer 324), section 7.2.2, reads: 'En revanche, ne sont pas compris les éléments de modénature tels que corniches et débords de toiture, ni les parties enterrées des constructions.' This confirms that modénature elements (corniches and roof overhangs) and underground parts are excluded from the retrait measurement. The cited page 324 is off by one, as in c-01."
+    },
+    {
+      "claim": "Under UMG Article 7.2.1, the minimum retrait is 6 m for façades or parts of façades with vues and 3 m for façades or parts of façades without vues.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=324 | quote='à 6 mètres pour les façades ou parties de façade comportant des vues ; à 3 mètres pour les façades ou parties de façade ne comportant pas de vue.'",
+      "confirmed": true,
+      "reasoning": "In plu_reglement, PDF index 325 (footer 324), section 7.2.1 'Règle générale' under ARTICLE 7 (UMG), reads: 'En cas de retrait, ce dernier doit être au moins égal : à 6 mètres pour les façades ou parties de façade comportant des vues ; à 3 mètres pour les façades ou parties de façade ne comportant pas de vue.' This matches the claim, and section 7.2.1 is the correct citation. The cited page 324 is off by one, as in c-01."
+    }
+  ]
+}

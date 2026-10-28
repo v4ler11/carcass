@@ -1,0 +1,40 @@
+{
+  "question_id": "Q58",
+  "status": "confirmed",
+  "answer_text": "No. The UMG zone text does not impose a condition on new constructions near or on elements recensés under L.151-19 or L.151-23. I scanned the full UMG text (printed pp. 319-331) and found no such wording (c-01)[TEXT plu_reglement page=319-331 scope: full Zone UMG Articles 1-16 and rappels]. Zone UMG corresponds to the Joliot-Curie quartier (c-02)[La zone UMG correspond au quartier Joliot-Curie]. The condition wording appears in zone UA2 (c-03)[Les constructions nouvelles ainsi que les travaux d'aménagement ou d'extension réalisés à proximité ou sur des éléments recensés au titre des articles L151.19 et L151.23 (plan 5.5) doivent être conçus pour préserver]. A general demolition rule covers éléments bâtis recensés (c-04)[y compris les éléments bâtis recensés au titre des articles L.151.19 et L.151-23 du code de l'urbanisme], but it is a permit requirement, not a construction condition.",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner stated that zone UL2 on p. 121 contains the L.151-19/23 wording. PDF p. 121 (printed p. 120) holds only the UL zone introduction, rappels and UL1 prohibitions. The construction-condition wording I verified is in UA2 (printed p. 13). UL2 itself was not located in this run. The UMG conclusion is unaffected.",
+  "additional_context": "The general demolition rule (c-04) applies to recensed built elements across zones. It is not a UMG-specific construction condition. Whether it reaches UMG parcels should be checked against the general provisions. Parcel-level presence of any recensed element remains unresolved, as the existing unresolved flag states.",
+  "citations": [
+    {
+      "claim": "The full UMG zone text (printed pp. 319-331) contains no condition on new constructions near or on elements recensés under L.151-19 or L.151-23.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=319 | quote='Cette zone fait l'objet d'orientations d'aménagement, document n°3 du PLU (orientations 8 et 9)'; scope checked: all UMG Articles 1-16 and rappels on printed pp. 319-331, no L151.19/L151.23 or recensé wording found",
+      "confirmed": true,
+      "reasoning": "I read the full UMG zone text (PDF pp. 320-332, printed pp. 319-331), covering Articles 1-16 and the rappels. The quote 'Cette zone fait l'objet d'orientations d'aménagement, document n°3 du PLU (orientations 8 et 9)' appears on printed p. 319 (PDF p. 320). A keyword search for L.151-19, L.151-23 and 'recensé' over PDF pp. 320-332 returned no UMG hits. The only nearby match is in the UM zone's section 13.4 on rigoles, which is outside UMG. The claim that the UMG text has no condition on new construction near or on recorded elements is supported."
+    },
+    {
+      "claim": "Zone UMG corresponds to the Joliot-Curie quartier.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=319 | quote='La zone UMG correspond au quartier Joliot-Curie, situé au nord de la commune sur le plateau de Moulon'",
+      "confirmed": true,
+      "reasoning": "PDF p. 320 (printed p. 319) reads: 'La zone UMG correspond au quartier Joliot-Curie, situé au nord de la commune sur le plateau de Moulon'. The quote matches verbatim, so the claim is supported."
+    },
+    {
+      "claim": "Zone UA2 requires new constructions and extensions near or on elements recensés under L.151-19 and L.151-23 to preserve their recorded characteristics.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=13 | quote='Les constructions nouvelles ainsi que les travaux d'aménagement ou d'extension réalisés à proximité ou sur des éléments recensés au titre des articles L151.19 et L151.23 (plan 5.5) doivent être conçus pour préserver'",
+      "confirmed": true,
+      "reasoning": "PDF p. 14 (printed p. 13, zone UA 'Vallée', Article UA2) reads: 'Les constructions nouvelles ainsi que les travaux d'aménagement ou d'extension réalisés à proximité ou sur des éléments recensés au titre des articles L151.19 et L151.23 (plan 5.5) doivent être conçus pour préserver et mettre en valeur les caractéristiques qui ont prévalu à leur recensement.' This matches the claim that new construction and extensions near or on recorded elements must preserve their recorded characteristics."
+    },
+    {
+      "claim": "The general règlement requires a permit for demolition of éléments bâtis recensés under L.151-19 and L.151-23.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=9 | quote='y compris les éléments bâtis recensés au titre des articles L.151.19 et L.151-23 du code de l'urbanisme'",
+      "confirmed": true,
+      "reasoning": "PDF p. 9 (printed p. 8, general provisions before Article 6) reads: 'Les démolitions sont soumises à une autorisation prévue à l'article L.421-3 au code de l'urbanisme, y compris les éléments bâtis recensés au titre des articles L151.19 et L.151-23 du code de l'urbanisme.' This states directly that demolition of recorded built elements requires the L.421-3 authorisation, which supports the claim."
+    }
+  ]
+}

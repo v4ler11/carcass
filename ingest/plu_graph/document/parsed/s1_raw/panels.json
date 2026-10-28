@@ -1,0 +1,139 @@
+{
+  "source": "/Users/valerii/code/test-ocr/files/plu_reglement_graphique_91272_20210706 (1).pdf",
+  "page": 1,
+  "dpi": 150,
+  "panels": [
+    {
+      "name": "01_legende",
+      "kind": "figure",
+      "box_px": {
+        "x": 5760,
+        "y": 1891,
+        "w": 1253,
+        "h": 1240
+      },
+      "box_mm": {
+        "x_mm": 975.4,
+        "y_mm": 320.2,
+        "w_mm": 212.2,
+        "h_mm": 210.0
+      },
+      "check": {
+        "border_ink": 0,
+        "halo_ink": 0,
+        "fill_pct": 5.67,
+        "ok": true
+      }
+    },
+    {
+      "name": "02_elements_recenses",
+      "kind": "figure",
+      "box_px": {
+        "x": 5777,
+        "y": 3134,
+        "w": 1138,
+        "h": 379
+      },
+      "box_mm": {
+        "x_mm": 978.2,
+        "y_mm": 530.7,
+        "w_mm": 192.7,
+        "h_mm": 64.2
+      },
+      "check": {
+        "border_ink": 0,
+        "halo_ink": 0,
+        "fill_pct": 13.96,
+        "ok": true
+      }
+    },
+    {
+      "name": "03_zones_legend",
+      "kind": "figure",
+      "box_px": {
+        "x": 5762,
+        "y": 3513,
+        "w": 1224,
+        "h": 1080
+      },
+      "box_mm": {
+        "x_mm": 975.7,
+        "y_mm": 594.9,
+        "w_mm": 207.3,
+        "h_mm": 182.9
+      },
+      "check": {
+        "border_ink": 0,
+        "halo_ink": 0,
+        "fill_pct": 13.07,
+        "ok": true
+      }
+    },
+    {
+      "name": "04_er_elargissements_voirie",
+      "kind": "table",
+      "box_px": {
+        "x": 4455,
+        "y": 2406,
+        "w": 1146,
+        "h": 664
+      },
+      "box_mm": {
+        "x_mm": 754.4,
+        "y_mm": 407.4,
+        "w_mm": 194.1,
+        "h_mm": 112.4
+      },
+      "check": {
+        "border_ink": 0,
+        "halo_ink": 0,
+        "fill_pct": 25.12,
+        "ok": true
+      }
+    },
+    {
+      "name": "05_er_creation_amelioration_voirie",
+      "kind": "table",
+      "box_px": {
+        "x": 4462,
+        "y": 3348,
+        "w": 1121,
+        "h": 1390
+      },
+      "box_mm": {
+        "x_mm": 755.6,
+        "y_mm": 566.9,
+        "w_mm": 189.8,
+        "h_mm": 235.4
+      },
+      "check": {
+        "border_ink": 0,
+        "halo_ink": 0,
+        "fill_pct": 19.43,
+        "ok": true
+      }
+    },
+    {
+      "name": "06_er_equipements_espaces_publics",
+      "kind": "table",
+      "box_px": {
+        "x": 3449,
+        "y": 3613,
+        "w": 967,
+        "h": 655
+      },
+      "box_mm": {
+        "x_mm": 584.0,
+        "y_mm": 611.8,
+        "w_mm": 163.7,
+        "h_mm": 110.9
+      },
+      "check": {
+        "border_ink": 0,
+        "halo_ink": 0,
+        "fill_pct": 22.37,
+        "ok": true
+      }
+    }
+  ]
+}

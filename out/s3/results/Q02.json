@@ -1,0 +1,33 @@
+{
+  "question_id": "Q02",
+  "status": "confirmed",
+  "answer_text": "No. The UMG Article 2 list of uses admitted under conditions does not include constructions à destination d'habitation (c-01)[Article 2 lists affouillements et exhaussements, équipements techniques de réseaux, voiries et stationnements, and installations classées; no habitation item]. Article 1 prohibits only a caravane à usage d'habitation, not habitation buildings (c-02)[Sont interdites ... L'installation d'une caravane à usage d'habitation]. The zone introduction states that the zone is destined for habitation, but it is descriptive and is not an Article 2 admission (c-03)[constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles].",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner states that the zone introduction supports admission of habitation without specific conditions. The introduction (printed p. 319, PDF p. 320) says the zone is 'destinée à accueillir' habitation, but it is a descriptive statement, not an operative admission rule. The operative provisions are Article 1 (prohibitions) and Article 2 (conditional admissions). Article 2 does not list habitation, so the answer is no for the conditional-admission list. Whether habitation is admitted unconditionally rests on the absence of a prohibition plus the general admissibility rules, which this question does not resolve.",
+  "additional_context": "Article 2 is worded as 'Sont admises, sous conditions, les occupations et utilisations du sol suivantes' and the list is closed. Habitation therefore is not a conditional use under Article 2 in this text. The Article 1 prohibition covers only the caravane à usage d'habitation. Q01 and any unconditional-admission determination should be checked against the remaining zone rules, which were not examined here. Page references: Article 2 is printed p. 320 (PDF p. 321); the zone introduction and Article 1 are printed p. 319 (PDF p. 320).",
+  "citations": [
+    {
+      "claim": "Article 2 of zone UMG lists as admitted under conditions only: affouillements et exhaussements de sol, constructions relatives aux équipements techniques de réseaux, voiries et stationnements, and installations classées; none of these is constructions à destination d'habitation.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (printed; PDF page 321) | quote='Sont admises, sous conditions, les occupations et utilisations du sol suivantes : - Les affouillements et exhaussements de sol'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement PDF page 321 (printed 320), the text of 'ARTICLE 2 - zone UMG'. It lists three admitted-under-conditions bullets: (1) affouillements et exhaussements de sol, linked to authorised works; (2) constructions, ouvrages ou travaux relatifs aux équipements techniques liés aux réseaux, voiries et stationnements; (3) installations classées au sens de la loi de 1976, including laboratoires de recherche. None of these is a construction à destination d'habitation. The claim's list matches these three items, and the article contains no housing item."
+    },
+    {
+      "claim": "Article 1 of zone UMG prohibits the installation of a caravane à usage d'habitation, and does not prohibit constructions à destination d'habitation as such.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=319 (printed; PDF page 320) | quote='L'installation d'une caravane à usage d'habitation.'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement PDF page 320 (printed 319), 'ARTICLE 1 - zone UMG'. The bullet 'L'installation d'une caravane à usage d'habitation.' is present and prohibited. The same article prohibits agricultural/forestry buildings, entrepôts, camping, caravan garages, résidences légères de loisirs, PRL and villages de vacances. It does not prohibit constructions à destination d'habitation as such, so the claim is accurate."
+    },
+    {
+      "claim": "The UMG zone introduction states that the zone is destined to accommodate constructions à destination d'habitation for students, researchers and families.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=319 (printed; PDF page 320) | quote='des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles'",
+      "confirmed": true,
+      "reasoning": "Checked the zone introduction on plu_reglement PDF page 320 (printed 319). The text reads: 'Cette zone est destinée à accueillir principalement des établissements d'enseignement supérieur et de recherche, des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles.' The quoted phrase matches verbatim and supports the claim."
+    }
+  ]
+}

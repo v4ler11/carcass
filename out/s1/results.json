@@ -1,0 +1,507 @@
+{
+  "idu": "91272000CR0247",
+  "zone": {
+    "metadata_hypothesis": "UMG",
+    "confirmed_zone": "UMG",
+    "hypothesis_confirmed": true,
+    "fully_within_zone": true,
+    "confidence": "high",
+    "comments": "(c-01)[zone.code = UMG] The parcel outline lies entirely within the pale-pink fill (c-02)[zoom-3 red outline sits inside the pale-pink area, UMG label just south of the parcel]. The UMG swatch is (c-03)[UMG 'Zone mixte du quartier Joliot-Curie', pale pink]. The regulation states (c-04)[La zone UMG correspond au quartier Joliot-Curie]. The nearest different-zone edge (UM, salmon) lies roughly 140 m north (c-05)[solid dark zone boundary at top of the pale-pink band, zoom-2]."
+  },
+  "emplacements_reserves": [
+    {
+      "category": "voirie_creation_amelioration",
+      "overlaps_parcel": false,
+      "geometry_type": "none",
+      "reference_id": null,
+      "nature": null,
+      "affected_area_m2_estimate": null,
+      "affected_boundary_description": null,
+      "confidence": "medium",
+      "comments": "Parcel (c-23)[METADATA parcel.idu 91272000CR0247, section CR, numero 0247] was checked against all rows of this table. (c-13)[rows a* and d list parcel BD 247, which is a different section from CR 0247]. (c-14)[no row lists CR 0247]. The legend blue hatch (c-15)[Emplacements réservés pour équipements et aménagements divers, création ou amélioration de voirie] is absent from the parcel and its immediate surroundings (c-16)[zoom-3 scanned, no blue hatch on or adjacent to parcel outline]. The metadata servitudes list is empty (c-48)[METADATA servitudes = []], so ER were checked independently."
+    },
+    {
+      "category": "equipements_espaces_publics",
+      "overlaps_parcel": false,
+      "geometry_type": "none",
+      "reference_id": null,
+      "nature": null,
+      "affected_area_m2_estimate": null,
+      "affected_boundary_description": null,
+      "confidence": "medium",
+      "comments": "(c-17)[TABLE 06 rows none_found: no row in Situation or Liste des parcelles matches CR 0247 or the Joliot-Curie location]. (c-18)[zoom-3 scanned for the blue equipment hatch: none on or adjacent to parcel outline]."
+    },
+    {
+      "category": "elargissements_voirie",
+      "overlaps_parcel": false,
+      "geometry_type": "none",
+      "reference_id": null,
+      "nature": null,
+      "affected_area_m2_estimate": null,
+      "affected_boundary_description": null,
+      "confidence": "medium",
+      "comments": "(c-19)[TABLE 04 rows none_found: no row has cadastral parcel references and none is located at Joliot-Curie]. (c-20)[legend red arrow line denotes Emplacement réservé pour élargissement de voirie nord-sud]. (c-21)[no red arrow line appears in the zoom-1 window near the parcel]. (c-22)[no red arrow line appears on or adjacent to the parcel outline in zoom-3]."
+    }
+  ],
+  "oap_sector": {
+    "sector_name": "Quartier Joliot Curie (OAP, Moulon, zone UMG)",
+    "metadata_flag_count": 2,
+    "confirmed_within_sector": true,
+    "proximity_to_boundary": "central",
+    "confidence": "medium",
+    "comments": "(c-06)[METADATA prescriptions labels: two entries, 'Orientation d'Amenagement et de Programmation']. The sector is (c-07)[# 8 Le quartier Joliot Curie, OAP section]. The magenta dotted perimeter is (c-11)[Secteur à Orientation d'Aménagement et de Programmation, magenta dotted swatch]. The parcel lies (c-12)[inside the magenta dotted outline in zoom-2]. Distances to edges: north about 140 m (c-08)[magenta dotted line at top of zoom-2, y≈300 vs parcel top y≈525]; south about 135 m (c-10)[magenta dotted edge above NF at y≈880 vs parcel bottom y≈660]. The sub-sector boundary is not drawn separately, so the magenta outline used here is the visible perimeter."
+  },
+  "other_prescriptions_checklist": [
+    {
+      "type": "zone_boundary_limits (limites_de_zones)",
+      "presence": "absent",
+      "confidence": "high",
+      "comments": "No zone limit crosses the parcel (c-24)[zoom-3 full-window scan: only parcel outline, road and building edges appear within the parcel window]. The nearest zone edge is about 140 m away (c-56)[UM boundary, zoom-2]."
+    },
+    {
+      "type": "espace_boise_classe",
+      "presence": "absent",
+      "confidence": "high",
+      "comments": "(c-25)[legend green circle hatch = Espaces Boisés Classés]. (c-26)[the NF green circle hatch lies about 130 m south of the parcel, outside it, zoom-3 bottom edge]. No EBC is shown on the parcel."
+    },
+    {
+      "type": "lisieres_massifs_boises_sdrif",
+      "presence": "absent",
+      "confidence": "high",
+      "comments": "(c-27)[legend diagonal hatch = Lisières des massifs boisés de plus de 100 ha du SDRIF]. No lisière is shown on the parcel in zoom-3."
+    },
+    {
+      "type": "zones_non_aedificandi",
+      "presence": "absent",
+      "confidence": "high",
+      "comments": "(c-29)[legend grey diagonal hatch = Zones non aedificandi]. (c-30)[no grey diagonal non-aedificandi hatch appears on the parcel in zoom-3]."
+    },
+    {
+      "type": "zone_risque_inondation_PPRi",
+      "presence": "absent",
+      "confidence": "high",
+      "comments": "(c-31)[legend blue dashed outline = PPRi Vallée de l'Yvette]. (c-32)[no blue dashed PPRi outline appears in zoom-3]."
+    },
+    {
+      "type": "perimetre_prescriptions_sanitaires",
+      "presence": "absent",
+      "confidence": "medium",
+      "comments": "(c-33)[legend purple diagonal hatch = Zone correspondant au périmètre de prescriptions sanitaires]. (c-34)[no purple diagonal hatch appears around the parcel in zoom-2]."
+    },
+    {
+      "type": "perimetre_recommandations_sanitaires",
+      "presence": "undetermined",
+      "confidence": "low",
+      "comments": "(c-35)[legend dashed purple line = Zone correspondant au périmètre de recommandations sanitaires]. The purple-magenta dotted outline in the zoom images closely resembles the OAP perimeter, and the two cannot be separated reliably at this resolution."
+    },
+    {
+      "type": "secteur_OAP",
+      "presence": "present",
+      "confidence": "medium",
+      "comments": "(c-36)[zoom-1 window: parcel sits within the magenta dotted perimeter, east of the UM/UMG dotted boundary]. See oap_sector for distances and sector name."
+    },
+    {
+      "type": "emplacement_reserve_voirie_creation_equipements (blue hatch)",
+      "presence": "absent",
+      "confidence": "medium",
+      "comments": "(c-49)[no overlap determined for the blue ER categories: scope TABLE 05 and TABLE 06 rows, plus zoom-3 scan]. See emplacements_reserves entries 1 and 2."
+    },
+    {
+      "type": "emplacement_reserve_elargissement_voirie_nord_sud (red arrow line)",
+      "presence": "absent",
+      "confidence": "medium",
+      "comments": "(c-50)[no overlap determined for the red-arrow ER: scope TABLE 04 rows, zoom-1 window and zoom-3 scan]. See emplacements_reserves entry 3."
+    },
+    {
+      "type": "linéaire_identifié_sauvegarde_commerce",
+      "presence": "absent",
+      "confidence": "medium",
+      "comments": "(c-40)[legend yellow small-square dotted line = Linéaire identifié pour la sauvegarde du commerce]. (c-41)[no yellow small-square dotted commerce linear appears in zoom-3]."
+    },
+    {
+      "type": "zone_humide",
+      "presence": "absent",
+      "confidence": "medium",
+      "comments": "(c-42)[legend teal diagonal hatch = Zone humide]. (c-43)[the nearest teal wetland symbol lies at the far west edge of zoom-2, roughly 250 m from the parcel]."
+    },
+    {
+      "type": "protection_paysagere_inconstructible",
+      "presence": "absent",
+      "confidence": "high",
+      "comments": "(c-37)[legend light-green dotted pattern = Protection paysagère inconstructible]. (c-38)[the light-green dotted band lies north-east of the parcel, far from it, zoom-1]. (c-39)[no light-green dotted pattern appears in zoom-3]."
+    },
+    {
+      "type": "element_recense_L151-19_L151-23",
+      "presence": "undetermined",
+      "confidence": "low",
+      "comments": "(c-44)[02_elements_recenses.png is a thumbnail of plan n°5.5 with no legible parcel-level detail]. Presence on this parcel cannot be verified from the supplied images."
+    }
+  ],
+  "georeference_quality_flag": {
+    "residual_mean_m": 1.87,
+    "affects_boundary_calls": false,
+    "note": "The metadata mean edge residual is (c-45)[METADATA georeference.parcel_edge_residual_mean_m = 1.87] with median (c-46)[METADATA georeference.parcel_edge_residual_median_m = 1.19]. The zoom-2 window spans (c-47)[METADATA images.zooms.zoom-2.metres = 864]. Clearance from the parcel to the nearest zone or OAP edge exceeds 100 m (c-51)[zoom-2 scale, nearest edges measured in the zoom-2 image], which is far larger than the residual. The UMG zone call and the no-ER-overlap calls are therefore not affected by the residual. The residual would matter only for the parcel-edge-proximity calls, which are not close."
+  },
+  "unresolved_flags": [
+    "The zone and OAP rely on visual reading of soft zoom imagery; the zone and OAP calls are robust because the nearest boundaries are far from the parcel.",
+    "Table 05 lists BD 247 in two rows (a* and d), and that number matches the numero of this parcel (CR 0247) only by digits. The section differs (BD vs CR), so no link is assumed. A human should confirm that no ER row refers to CR 0247.",
+    "Table 04 (road-widening) contains no cadastral references. A red-arrow nord-sud ER appears in the legend, but its position cannot be matched to any table row. Human review should confirm that no road-widening ER runs along the parcel's frontage.",
+    "The metadata zone name references reglement_20260408.pdf while the source PDF is dated 20210706, and the supplied OAP document is dated 2021. The versions may differ and should be checked.",
+    "The sub-sector boundary of the 'Quartier Joliot Curie' OAP is not separately drawn in the zoom images. The magenta dotted perimeter visible on the map is used as the sector edge; a human should confirm it matches the OAP sector outline.",
+    "The recommandations sanitaires (dashed purple) and the OAP perimeter (magenta dotted) are visually similar at this resolution; the recommandations check is undetermined.",
+    "The L 151-19 / L 151-23 element check is undetermined because 02_elements_recenses.png shows only a thumbnail of plan n°5.5, not a legible parcel-level map.",
+    "The west distance from the parcel to the OAP perimeter is not stated because the supporting citation was rejected on verification; a human should measure it."
+  ],
+  "citations": [
+    {
+      "claim": "GPU metadata assigns zone code UMG to the parcel.",
+      "c_id": "c-01",
+      "verification_instructions": "METADATA | zone.code | UMG",
+      "confirmed": true,
+      "reasoning": "METADATA parcel metadata (metadata_parcel.json) zone.code is 'UMG' and zone.type is 'U', which matches the claim."
+    },
+    {
+      "claim": "The parcel outline lies entirely within the pale-pink fill of the UMG area.",
+      "c_id": "c-02",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[455,450,760,740] | compare the pale-pink fill around the red parcel outline with the UMG swatch in 03_zones_legend.png.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png shows the red parcel outline (about x 455-750, y 455-735) entirely on the pale-pink fill labelled UMG. That pale pink matches the UMG swatch in 03_zones_legend.png, and no darker zone boundary crosses the outline."
+    },
+    {
+      "claim": "The zoning colour key defines UMG as 'Zone mixte du quartier Joliot-Curie' with a pale-pink swatch.",
+      "c_id": "c-03",
+      "verification_instructions": "VISUAL | 03_zones_legend.png | bbox=[615,665,1000,720] | UMG swatch and label 'Zone mixte du quartier Joliot-Curie'.",
+      "confirmed": true,
+      "reasoning": "03_zones_legend.png, bbox [615,665,1000,720], shows a pale-pink swatch labelled 'UMG Zone mixte du quartier Joliot-Curie'. The swatch colour and label match the claim."
+    },
+    {
+      "claim": "The regulation defines zone UMG as the Joliot-Curie quartier.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='La zone UMG correspond au quartier Joliot-Curie'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 320 (Zone UMG - Joliot-Curie) reads 'La zone UMG correspond au quartier Joliot-Curie, situé au nord de la commune'. The quoted text matches, and a phrase search returns only page 320."
+    },
+    {
+      "claim": "The nearest edge of the adjacent UM zone (salmon) lies roughly 140 m north of the parcel.",
+      "c_id": "c-05",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[440,280,1310,540] | solid dark zone boundary at y≈300 versus parcel top at y≈525; scale is 864 m across 1401 px (see METADATA images.zooms.zoom-2.metres).",
+      "confirmed": true,
+      "reasoning": "zoom-2.png: the solid dark UM zone boundary is at y~300 and the parcel top is at y~525, a gap of 225 px. METADATA images.zooms.zoom-2.metres = 864 over 1401 px gives about 0.617 m/px, so the gap is about 139 m, consistent with roughly 140 m."
+    },
+    {
+      "claim": "The metadata lists two prescriptions labelled Orientation d'Amenagement et de Programmation.",
+      "c_id": "c-06",
+      "verification_instructions": "METADATA | prescriptions[0].label and prescriptions[1].label | \"Orientation d'Amenagement et de Programmation\" (both entries)",
+      "confirmed": true,
+      "reasoning": "METADATA prescriptions[0].label and prescriptions[1].label both read 'Orientation d'Amenagement et de Programmation'."
+    },
+    {
+      "claim": "The OAP document contains a sector section titled 'Le quartier Joliot Curie' with specific orientations.",
+      "c_id": "c-07",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 | quote='Le quartier Joliot Curie'",
+      "confirmed": true,
+      "reasoning": "oap_91272_20210706 page 33 has the heading '8 Le quartier Joliot Curie' followed by specific orientations (orientations générales, morphology, public spaces). Page 2's table of contents also lists section 8."
+    },
+    {
+      "claim": "The magenta dotted OAP perimeter runs roughly 140 m north of the parcel.",
+      "c_id": "c-08",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[340,285,1310,330] | magenta dotted line at y≈300 versus parcel top at y≈525.",
+      "confirmed": true,
+      "reasoning": "zoom-2.png: the magenta dotted OAP perimeter runs along y~300 across the top. The parcel top is at y~525, a 225 px gap, or about 139 m at 0.617 m/px, consistent with roughly 140 m."
+    },
+    {
+      "claim": "The magenta dotted OAP perimeter runs roughly 135 m south of the parcel.",
+      "c_id": "c-10",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[455,640,660,900] | magenta dotted edge at y≈880 above NF versus parcel bottom at y≈660.",
+      "confirmed": true,
+      "reasoning": "zoom-2.png: the magenta dotted edge above the NF area is at y~880 and the parcel bottom is at y~660. The gap of about 220 px is about 136 m at 0.617 m/px, consistent with roughly 135 m."
+    },
+    {
+      "claim": "The magenta dotted outline denotes a Secteur à Orientation d'Aménagement et de Programmation.",
+      "c_id": "c-11",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,740,780,790] | magenta dotted swatch labelled 'Secteur à Orientation d'Aménagement et de Programmation'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,740,780,790], shows a magenta dotted rectangle swatch labelled 'Secteur à Orientation d'Aménagement et de Programmation'."
+    },
+    {
+      "claim": "The parcel lies inside the magenta dotted OAP perimeter.",
+      "c_id": "c-12",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[440,510,620,670] | red parcel outline lies inside the magenta dotted perimeter.",
+      "confirmed": true,
+      "reasoning": "zoom-2.png: the magenta dotted perimeter encloses the parcel (top y~300, west x~170, south y~880, east x~1300). The red parcel outline at x~455-600, y~525-660 lies inside it."
+    },
+    {
+      "claim": "Table 05 rows a* and d list parcel BD 247, which is a different section from CR 0247.",
+      "c_id": "c-13",
+      "verification_instructions": "TABLE | 05_er_creation_amelioration_voirie.md | rows=[a*,d] | checked the Liste des parcelles column; BD247 appears and no CR 0247 appears.",
+      "confirmed": true,
+      "reasoning": "05_er_creation_amelioration_voirie.md, row a*, 'Liste des parcelles', lists 'BD3, 13, 14, 206, 227, 247'. Row d lists 'BD206, 247, 21, 211, 18, 43'. BD 247 appears in both rows. Section BD differs from CR, so the claim holds."
+    },
+    {
+      "claim": "No row of Table 05 lists parcel CR 0247.",
+      "c_id": "c-14",
+      "verification_instructions": "TABLE | 05_er_creation_amelioration_voirie.md | rows=['none_found'] | scanned all Liste des parcelles entries (rows a through bc) for CR 0247; none found.",
+      "confirmed": true,
+      "reasoning": "Scanning all 'Liste des parcelles' entries in 05_er_creation_amelioration_voirie.md (rows a through bc) shows only non-CR sections (CD, CC, BD, BH, CA, CB, BA, BC, CI, CK, CE, BK, CL, CN, CO, CH, F, BB). No CR 0247 entry exists."
+    },
+    {
+      "claim": "The legend blue hatch denotes emplacements réservés for equipment and aménagements divers, creation or amélioration de voirie.",
+      "c_id": "c-15",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,905,1245,960] | blue hatch swatch and its label.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,905,1245,960], shows a blue hatched swatch labelled 'Emplacements réservés pour équipements et aménagements divers, création ou amélioration de voirie'."
+    },
+    {
+      "claim": "No blue ER hatch appears on or adjacent to the parcel outline.",
+      "c_id": "c-16",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[300,300,900,900] | scanned around the red parcel outline for blue hatch; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png, window [300,300,900,900] around the red parcel outline, shows no blue hatch. Only pale pink, grey building fills and thin black lines are visible."
+    },
+    {
+      "claim": "No row of Table 06 lists parcel CR 0247 or matches the Joliot-Curie location.",
+      "c_id": "c-17",
+      "verification_instructions": "TABLE | 06_er_equipements_espaces_publics.md | rows=['none_found'] | checked Situation and Liste des parcelles columns for CR 0247 and Joliot-Curie; none found.",
+      "confirmed": true,
+      "reasoning": "06_er_equipements_espaces_publics.md: no Situation entry mentions Joliot-Curie, and the Liste des parcelles column has no CR 0247 entry (sections are CD, CC, BK, BH, BC, CE, CI)."
+    },
+    {
+      "claim": "No blue equipment ER hatch appears on the parcel in zoom-3.",
+      "c_id": "c-18",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[455,450,760,740] | parcel interior and outline scanned for the blue equipment hatch; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png, bbox [455,450,760,740], shows the parcel interior and outline with pale-pink fill and grey buildings. No blue equipment hatch is visible."
+    },
+    {
+      "claim": "No row of Table 04 has cadastral parcel references and none is located at Joliot-Curie.",
+      "c_id": "c-19",
+      "verification_instructions": "TABLE | 04_er_elargissements_voirie.md | rows=['none_found'] | checked the Situation column and parcel references; none found for Joliot-Curie.",
+      "confirmed": true,
+      "reasoning": "04_er_elargissements_voirie.md has only Réf, Bénéficiaire, Situation and Caractéristiques columns, with no cadastral parcel column. None of its Situation entries is Joliot-Curie."
+    },
+    {
+      "claim": "The legend red arrow line denotes an emplacement réservé for north-south road widening.",
+      "c_id": "c-20",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,1010,780,1045] | red line with arrows labelled 'Emplacement réservé pour élargissement de voirie nord-sud'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,1010,780,1045], shows a red line with arrowheads labelled 'Emplacement réservé pour élargissement de voirie nord-sud'."
+    },
+    {
+      "claim": "No red arrow line appears within the zoom-1 window near the parcel.",
+      "c_id": "c-21",
+      "verification_instructions": "VISUAL | zoom-1.png | bbox=[600,600,800,760] | scanned around the parcel marker for red arrow-line symbols; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-1.png, bbox [600,600,800,760], around the parcel marker (about x 665-715, y 665-710) shows the red outline and label only. No red arrow-line symbol is visible."
+    },
+    {
+      "claim": "No red arrow line appears on or adjacent to the parcel outline in zoom-3.",
+      "c_id": "c-22",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[300,300,900,900] | scanned around the red parcel outline for the red arrow symbol; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png, bbox [300,300,900,900], around the red parcel outline shows no red arrow-line symbol. Only the parcel outline is red."
+    },
+    {
+      "claim": "The parcel identifier is 91272000CR0247 (section CR, numéro 0247).",
+      "c_id": "c-23",
+      "verification_instructions": "METADATA | parcel.idu, parcel.section, parcel.numero | \"91272000CR0247\", \"CR\", \"0247\"",
+      "confirmed": true,
+      "reasoning": "METADATA parcel.idu = '91272000CR0247', parcel.section = 'CR', parcel.numero = '0247'. This matches the claim."
+    },
+    {
+      "claim": "No zone limit crosses the parcel outline.",
+      "c_id": "c-24",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[455,450,760,740] | scanned the parcel window; only parcel outline, road and building edges appear, no zone boundary.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png, parcel window: the outline lies within the pale-pink UMG fill. Only the outline, building edges and a road appear. No zone boundary crosses it."
+    },
+    {
+      "claim": "The legend green circle hatch denotes Espaces Boisés Classés.",
+      "c_id": "c-25",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,225,390,270] | green circle-pattern swatch labelled 'Espaces Boisés Classés'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,225,390,270], shows a green circle-pattern swatch labelled 'Espaces Boisés Classés'."
+    },
+    {
+      "claim": "The nearest EBC (NF green circle hatch) lies roughly 130 m south of the parcel, outside it.",
+      "c_id": "c-26",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[620,1180,1284,1284] | green circle hatch at y≈1180 versus parcel bottom at y≈735; scale 381 m across 1284 px (METADATA images.zooms.zoom-3.metres = 381).",
+      "confirmed": true,
+      "reasoning": "zoom-3.png: the green circle-pattern EBC boundary at the bottom is at y~1185-1284, and the parcel bottom is at y~735. The gap of about 450 px at 381 m / 1284 px (0.297 m/px) is about 133 m. The hatch lies outside the parcel."
+    },
+    {
+      "claim": "The legend diagonal hatch denotes lisières des massifs boisés de plus de 100 ha du SDRIF.",
+      "c_id": "c-27",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,300,740,355] | diagonal-hatch swatch labelled 'Lisières des massifs boisés de plus de 100 ha du SDRIF'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,300,740,355], shows a diagonal-hatch swatch labelled 'Lisières des massifs boisés de plus de 100 ha du SDRIF'."
+    },
+    {
+      "claim": "The legend grey diagonal hatch denotes zones non aedificandi.",
+      "c_id": "c-29",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,385,360,440] | grey diagonal swatch labelled 'Zones non aedificandi'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,385,360,440], shows a grey diagonal-hatch swatch labelled 'Zones non aedificandi'."
+    },
+    {
+      "claim": "No grey diagonal non-aedificandi hatch appears on the parcel in zoom-3.",
+      "c_id": "c-30",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[0,0,1284,1284] | full-window scan for grey diagonal hatch; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png full window: no grey diagonal hatch appears on or around the parcel. Grey areas are solid building fills only."
+    },
+    {
+      "claim": "The legend blue dashed outline denotes the zone de risques d'inondation (PPRi Vallée de l'Yvette).",
+      "c_id": "c-31",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,470,1065,520] | blue dashed swatch labelled 'Zone de risques d'inondation (PPRi Vallée de l'Yvette ...)'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,470,1065,520], shows a blue dashed swatch labelled 'Zone de risques d'inondation (PPRi Vallée de l'Yvette approuvé le 26 septembre 2006)'."
+    },
+    {
+      "claim": "No blue dashed PPRi outline appears in zoom-3.",
+      "c_id": "c-32",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[0,0,1284,1284] | full-window scan for blue dashed outline; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png full window: no blue dashed outline appears. The only dashed lines are the magenta dotted OAP edges at the top-left and bottom-right corners."
+    },
+    {
+      "claim": "The legend purple diagonal hatch denotes the périmètre de prescriptions sanitaires.",
+      "c_id": "c-33",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,550,780,605] | purple diagonal-hatch swatch labelled 'Zone correspondant au périmètre de prescriptions sanitaires'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,550,780,605], shows a purple diagonal-hatch swatch labelled 'Zone correspondant au périmètre de prescriptions sanitaires'."
+    },
+    {
+      "claim": "No purple diagonal hatch appears around the parcel in zoom-2.",
+      "c_id": "c-34",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[0,0,1401,1401] | full-window scan for purple diagonal hatch; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-2.png full window: no purple diagonal hatch is visible around the parcel. The area shows pale pink, grey buildings, magenta dotted lines and the NF green pattern."
+    },
+    {
+      "claim": "The legend dashed purple line denotes the périmètre de recommandations sanitaires, distinct from the magenta dotted OAP swatch.",
+      "c_id": "c-35",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,655,840,690] | dashed purple line labelled 'Zone correspondant au périmètre de recommandations sanitaires'; compare with magenta dotted swatch at bbox=[10,740,780,790].",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,655,840,690], shows a dashed purple line labelled 'Zone correspondant au périmètre de recommandations sanitaires'. The magenta dotted OAP swatch at bbox [10,740,780,790] is a different colour and pattern, so they are distinct."
+    },
+    {
+      "claim": "The parcel sits within the magenta dotted perimeter, east of the UM/UMG dotted boundary, in the zoom-1 window.",
+      "c_id": "c-36",
+      "verification_instructions": "VISUAL | zoom-1.png | bbox=[520,580,960,800] | parcel marker lies east of the magenta dotted western boundary and below the northern dotted boundary.",
+      "confirmed": true,
+      "reasoning": "zoom-1.png, bbox [520,580,960,800]: the magenta dotted western boundary runs from about (620,590) to (510,780) and the northern dotted boundary runs along y~590. The parcel marker (about x 665-715, y 665-710) is east of the western boundary and below the northern one, so it lies inside the perimeter."
+    },
+    {
+      "claim": "The legend light-green dotted pattern denotes protection paysagère inconstructible.",
+      "c_id": "c-37",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,825,520,875] | light-green dotted swatch labelled 'Protection paysagère inconstructible'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,825,520,875], shows a light-green dotted swatch labelled 'Protection paysagère inconstructible'."
+    },
+    {
+      "claim": "The light-green dotted protection band lies north-east of the parcel, far from it.",
+      "c_id": "c-38",
+      "verification_instructions": "VISUAL | zoom-1.png | bbox=[720,300,980,480] | light-green dotted band near the northeastern UM5 area versus parcel at x≈665-715, y≈665-710.",
+      "confirmed": true,
+      "reasoning": "zoom-1.png, bbox [720,300,980,480]: the light-green dotted protection band lies at about x 730-970, y 300-480, in the northeast near UM5. The parcel is at about x 665-715, y 665-710, so the band is far from it."
+    },
+    {
+      "claim": "No light-green dotted protection pattern appears in zoom-3.",
+      "c_id": "c-39",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[0,0,1284,1284] | full-window scan for light-green dotted pattern; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png full window: no light-green dotted protection pattern is visible."
+    },
+    {
+      "claim": "The legend yellow small-square dotted line denotes the linéaire identifié pour la sauvegarde du commerce.",
+      "c_id": "c-40",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,1095,680,1125] | yellow small-square dotted swatch labelled 'Linéaire identifié pour la sauvegarde du commerce'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,1095,680,1125], shows a yellow small-square dotted line labelled 'Linéaire identifié pour la sauvegarde du commerce'."
+    },
+    {
+      "claim": "No yellow small-square dotted commerce linear appears in zoom-3.",
+      "c_id": "c-41",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[0,0,1284,1284] | full-window scan for yellow small-square dotted line; none visible.",
+      "confirmed": true,
+      "reasoning": "zoom-3.png full window: no yellow small-square dotted line is visible."
+    },
+    {
+      "claim": "The legend teal diagonal hatch denotes zone humide.",
+      "c_id": "c-42",
+      "verification_instructions": "VISUAL | 01_legende.png | bbox=[10,1175,260,1230] | teal diagonal-hatch swatch labelled 'Zone humide'.",
+      "confirmed": true,
+      "reasoning": "01_legende.png, bbox [10,1175,260,1230], shows a teal diagonal-hatch swatch labelled 'Zone humide'."
+    },
+    {
+      "claim": "The nearest teal wetland symbol lies at the far west edge of zoom-2, roughly 250 m from the parcel.",
+      "c_id": "c-43",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[0,440,70,530] | teal symbol at x≈55 versus parcel left edge at x≈455; scale 864 m across 1401 px.",
+      "confirmed": true,
+      "reasoning": "zoom-2.png, bbox [0,440,70,530]: the teal wetland symbol is at x~0-55, y~455-515. The parcel left edge is at x~455, a gap of about 400 px, or about 247 m at 0.617 m/px. The other teal symbols are farther away."
+    },
+    {
+      "claim": "02_elements_recenses.png is a thumbnail of plan n°5.5 without legible parcel-level detail.",
+      "c_id": "c-44",
+      "verification_instructions": "VISUAL | 02_elements_recenses.png | bbox=[700,10,1110,370] | small thumbnail of the L 151-19 / L 151-23 map; no parcel-level detail legible.",
+      "confirmed": true,
+      "reasoning": "02_elements_recenses.png shows the text about L 151-19 and L 151-23 referring to plan n°5.5, and a small thumbnail map in bbox [700,10,1110,370]. At that size no parcel-level detail is legible."
+    },
+    {
+      "claim": "The metadata residual mean is 1.87 m.",
+      "c_id": "c-45",
+      "verification_instructions": "METADATA | georeference.parcel_edge_residual_mean_m | 1.87",
+      "confirmed": true,
+      "reasoning": "METADATA georeference.parcel_edge_residual_mean_m = 1.87."
+    },
+    {
+      "claim": "The metadata residual median is 1.19 m.",
+      "c_id": "c-46",
+      "verification_instructions": "METADATA | georeference.parcel_edge_residual_median_m | 1.19",
+      "confirmed": true,
+      "reasoning": "METADATA georeference.parcel_edge_residual_median_m = 1.19."
+    },
+    {
+      "claim": "The zoom-2 window spans 864 m.",
+      "c_id": "c-47",
+      "verification_instructions": "METADATA | images.zooms.zoom-2.metres | 864",
+      "confirmed": true,
+      "reasoning": "METADATA images.zooms.zoom-2.metres = 864."
+    },
+    {
+      "claim": "The metadata servitudes list is empty.",
+      "c_id": "c-48",
+      "verification_instructions": "METADATA | servitudes | []",
+      "confirmed": true,
+      "reasoning": "METADATA servitudes = []."
+    },
+    {
+      "claim": "No overlap is determined for the blue voirie-creation and equipment ER categories on the parcel.",
+      "c_id": "c-49",
+      "verification_instructions": "TABLE | 05_er_creation_amelioration_voirie.md | rows=['none_found'] | no CR 0247 entry; also TABLE | 06_er_equipements_espaces_publics.md | rows=['none_found'] | no CR 0247 entry; VISUAL | zoom-3.png | bbox=[300,300,900,900] | no blue hatch.",
+      "confirmed": true,
+      "reasoning": "05_er_creation_amelioration_voirie.md and 06_er_equipements_espaces_publics.md contain no CR 0247 entry. zoom-3.png, bbox [300,300,900,900], shows no blue hatch. No blue voirie-creation or equipment ER overlap is evidenced on the parcel."
+    },
+    {
+      "claim": "No overlap is determined for the red-arrow road-widening ER on the parcel.",
+      "c_id": "c-50",
+      "verification_instructions": "TABLE | 04_er_elargissements_voirie.md | rows=['none_found'] | no parcel reference found; VISUAL | zoom-1.png | bbox=[600,600,800,760] | no red arrow line near parcel; VISUAL | zoom-3.png | bbox=[300,300,900,900] | none visible.",
+      "confirmed": true,
+      "reasoning": "04_er_elargissements_voirie.md has no parcel reference and no Joliot-Curie row. zoom-1.png, bbox [600,600,800,760], shows no red arrow line near the parcel, and zoom-3.png, bbox [300,300,900,900], shows none. No overlap with the red-arrow ER is evidenced."
+    },
+    {
+      "claim": "Clearance from the parcel to the nearest zone or OAP edge exceeds 100 m.",
+      "c_id": "c-51",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[0,0,1401,1401] | nearest zone and OAP edges measured in the zoom-2 scale (864 m across 1401 px) are at least about 135 m from the parcel outline.",
+      "confirmed": true,
+      "reasoning": "zoom-2.png at 864 m per 1401 px (0.617 m/px): the nearest edges are the NF/OAP boundary to the south (about 135 m), the UM5/OAP boundary to the north (about 139 m) and the OAP west dotted edge (about 165-185 m). The minimum is about 135 m, which exceeds 100 m."
+    },
+    {
+      "claim": "The nearest zone edge (UM boundary) lies about 140 m from the parcel.",
+      "c_id": "c-56",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[440,280,1310,540] | solid dark zone boundary at y≈300 versus parcel top at y≈525; scale 864 m across 1401 px (METADATA images.zooms.zoom-2.metres = 864).",
+      "confirmed": true,
+      "reasoning": "zoom-2.png: the solid dark UM zone boundary at y~300 and the parcel top at y~525 give a 225 px gap. At 864 m / 1401 px that is about 139 m, consistent with about 140 m. METADATA images.zooms.zoom-2.metres = 864."
+    }
+  ]
+}

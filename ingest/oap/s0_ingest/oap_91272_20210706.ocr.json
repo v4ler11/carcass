@@ -1,0 +1,908 @@
+{
+ "source": "files/oap_91272_20210706 (1).pdf",
+ "model": "mistral-ocr-4-1",
+ "generated_at": "2026-10-26T11:01:01",
+ "page_count": 36,
+ "usage": {
+  "pages_processed": 36,
+  "doc_size_bytes": 36486888
+ },
+ "document_annotation": null,
+ "pages": [
+  {
+   "page": 1,
+   "markdown": "# P.L.U.\n\n## PLAN LOCAL D'URBANISME\n\nDépartement de l'Essonne\n\n![img-0.jpeg](img-0.jpeg)\n\nCommune de\nGIF SUR YVETTE\n\nRévision générale\napprouvée en Conseil\nmunicipal du 13 décembre\n2016\n\nMise en compatibilité par\ndécret du 28 mars 2017\n\nModification n°1 approuvée\nen Conseil municipal du 6\njuillet 2021\n\nRévision allégée n°1\napprouvée en Conseil\nmunicipal du 6 juillet 2021\n\n### 3. Orientations\nd'Aménagement et de\nProgrammation\n\nMairie\n9 square de la Mairie - 91190 GIF SUR YVETTE\ntél : 01 69 18 69 18 - Fax : 01 69 18 69 10\nwww.mairie-gif.fr",
+   "images": [
+    {
+     "id": "img-0.jpeg",
+     "top_left_x": 465,
+     "top_left_y": 111,
+     "bottom_right_x": 530,
+     "bottom_right_y": 234,
+     "path": "p0001-img-0.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 2,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# SOMMAIRE\n\n# Plateau de Chevry\n\n1. Le plateau de Chevry 3\n\n# La Vallée\n\n2. Vatonne 11\n3. La gare de Gif 12\n4. Damiette (AURc) 13\n5. Rougemonts 14\n6. Les hameaux : la Févrie, Damiette et Coupières 15\n\n# Le Plateau de Moulon\n\n7. Le site de Moulon 20\n8. Le quartier Joliot Curie 32\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 1",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 3,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# PLATEAU DE\n# CHEVRY\n\n*Le Plateau de Chevry*\n\n*Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 2*",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 4,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n1\n\n# Le plateau de Chevry\n\n![img-1.jpeg](img-1.jpeg)\n\n# Préserver l'harmonie générale du plateau\n\n# Préserver l'organisation générale très cohérente\n\n... et des espaces publics de circulation bien hiérarchisés\n\nUn réseau de circulation bien hiérarchisé comprenant :\n\n- une rocade principale (voie primaire)\n- des voies secondaires\n- une desserte des allées ou quartiers (voies tertiaires)\n\n# Organisation du réseau de circulations et de desserte\n\n![img-2.jpeg](img-2.jpeg)\n\nCette hiérarchie est assurée par des profils de voies bien caractérisés, à conserver :\n\n- voies primaires : ce sont les « rocades » et les routes qui assurent la desserte de l'ensemble des quartiers. Leur emprise est comprise entre 10 et 25 mètres. Elles sont généralement bordées de chaque côté par de larges espaces verts plantés et des talus allant de 1,50 à 2 m de haut. Ces talus et plantations sont destinés à protéger les habitations contre le bruit et le vent.\n\nAucun droit d'accès ne peut être autorisé sur la voirie primaire, à la seule exception des équipements publics et privés et des autres voiries.\n\n- voies secondaires : ce sont les « allées » qui desservent les quartiers. Leur emprise minimale est de 8 mètres. Leur chaussée a une largeur comprise entre cinq et six mètres selon le nombre de\n\nlogements desservis. Leur emprise doit être aménagée pour permettre la circulation des piétons.\n\n- voies tertiaires : elles ne desservent qu'une partie du quartier : accès particuliers, « doigts de gants », raquettes, rampes d'accès aux parcs de stationnement. Elles se terminent généralement en impasse. Leur emprise doit être aménagée pour rendre la circulation des piétons compatible avec celle des voitures. Leur largeur est généralement de 4 ou 5 m selon le nombre de logements desservis.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 3",
+   "images": [
+    {
+     "id": "img-1.jpeg",
+     "top_left_x": 598,
+     "top_left_y": 71,
+     "bottom_right_x": 705,
+     "bottom_right_y": 157,
+     "path": "p0004-img-1.jpeg"
+    },
+    {
+     "id": "img-2.jpeg",
+     "top_left_x": 29,
+     "top_left_y": 414,
+     "bottom_right_x": 507,
+     "bottom_right_y": 813,
+     "path": "p0004-img-2.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 5,
+   "markdown": "COMMUNE DE GIF SUR YVETTE  \nPlan local d'Urbanisme\n\n1\n\n# Le plateau de Chevry\n\n![img-3.jpeg](img-3.jpeg)\n\n## Préserver l’harmonie générale du plateau\n\n### Favoriser le parcours des circulations douces\n\nà travers les quartiers\n\nChevry bénéficie d’un maillage complet de circulations douces, permettant de parcourir l’ensemble du plateau à pieds ou à vélo.\n\n**Les cheminements piétonniers** s’organisent principalement le long des rocades et des espaces verts interstitiels. Ils se situent essentiellement dans les quartiers d’habitat pavillonnaire.\n\n**Le réseau de pistes cyclables** du plateau en assure la desserte en longeant les axes principaux et notamment les rocades.\n\nUtilisés et appréciés des habitants, ces cheminements doivent être conservés et leur aménagement valorisé pour assurer la sécurité des usagers notamment sur les tronçons communs avec les circulations automobiles (rocade ou voies secondaires).\n\n### Schéma des circulations douces à préserver ou valoriser\n\n![img-4.jpeg](img-4.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 4",
+   "images": [
+    {
+     "id": "img-3.jpeg",
+     "top_left_x": 607,
+     "top_left_y": 65,
+     "bottom_right_x": 705,
+     "bottom_right_y": 150,
+     "path": "p0005-img-3.jpeg"
+    },
+    {
+     "id": "img-4.jpeg",
+     "top_left_x": 76,
+     "top_left_y": 483,
+     "bottom_right_x": 566,
+     "bottom_right_y": 939,
+     "path": "p0005-img-4.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 6,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n1\n\n# Le plateau de Chevry\n\n![img-5.jpeg](img-5.jpeg)\n\n# Préserver l'harmonie générale du plateau\n\n# Protéger et valoriser la trame verte importante\n\n... qui participe fortement à la qualité du cadre de vie\n\nLes nombreux espaces verts présents participent à la qualité environnementale et du cadre de vie du plateau.\n\nPlusieurs types d'espaces verts présents:\n\n- les « murs » végétaux constitués sur les voies principales, en particulier sur la rocade de Beaudreville, et entre les ensembles organisés par chaque allée qui contribuent à préserver les habitations des nuisances liées à la circulation et à rendre le paysage agréable ;\n- les espaces verts au sein de chaque allée comprenant les cœurs d'îlots, les coulées vertes reliant plusieurs allées ou les espaces interstitiels séparant plusieurs allées ou espaces verts (talus plantés) ;\n- les espaces verts plus importants participant à la vie du plateau comprenant les parcs naturels à vocation sportive, le golf et les espaces boisés.\n\nSchéma des espaces verts, paysagers, boisés et plantations\n\n![img-6.jpeg](img-6.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 5",
+   "images": [
+    {
+     "id": "img-5.jpeg",
+     "top_left_x": 597,
+     "top_left_y": 65,
+     "bottom_right_x": 705,
+     "bottom_right_y": 140,
+     "path": "p0006-img-5.jpeg"
+    },
+    {
+     "id": "img-6.jpeg",
+     "top_left_x": 76,
+     "top_left_y": 499,
+     "bottom_right_x": 682,
+     "bottom_right_y": 963,
+     "path": "p0006-img-6.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 7,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n1\n\n# Le plateau de Chevry\n\n![img-7.jpeg](img-7.jpeg)\n\n# Préserver l'harmonie générale du plateau\n\n# Conserver les spécificités urbaines et architecturales\n\n... pour maintenir l'homogénéité qualitative du plateau\n\nCaractéristiques : Une juxtaposition de plusieurs opérations d'ensemble très cohérentes, donnant une grande homogénéité de traitement au sein de chaque quartier.\n\nObjectifs : Conserver les caractéristiques architecturales de chaque quartier, afin de préserver la cohérence du plateau, c'est-à-dire :\n\n- pour l'habitat individuel non groupé, la diversité des types de constructions au sein d'un même quartier\n- pour l'habitat individuel groupé et l'habitat collectif, l'homogénéité de chaque allée - composée essentiellement d'un type de constructions.\n\n# Les ensembles architecturaux cohérents\n\n![img-8.jpeg](img-8.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 6",
+   "images": [
+    {
+     "id": "img-7.jpeg",
+     "top_left_x": 597,
+     "top_left_y": 69,
+     "bottom_right_x": 705,
+     "bottom_right_y": 155,
+     "path": "p0007-img-7.jpeg"
+    },
+    {
+     "id": "img-8.jpeg",
+     "top_left_x": 76,
+     "top_left_y": 486,
+     "bottom_right_x": 638,
+     "bottom_right_y": 964,
+     "path": "p0007-img-8.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 8,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 1\n\n# Le plateau de Chevry\n\n![img-9.jpeg](img-9.jpeg)\n\n# Préserver l'harmonie générale du plateau\n\n# Conserver les spécificités urbaines et architecturales\n\n... pour maintenir l'homogénéité qualitative du plateau\n\n# 1. Ensembles d'habitat collectif\n\n# Les Orientations d'aménagement communes à tous les secteurs:\n\n- Préserver les implantations actuelles des constructions, afin de ne pas déséquilibrer la morphologie du quartier et de respecter l'harmonie entre volumes bâtis et espaces libres\n- Respecter les volumes existants (pentes de toit ou acrotères) et hauteurs du bâti (nombre de niveaux)\n- Assurer une intégration harmonieuse des constructions nouvelles notamment sur le site des abords du golf et du parking à l'entrée du cœur de Chevry (cf OAP n°2)\n- Traiter les espaces extérieurs ouverts sur l'espace commun avec des plantations locales ou appartenant à la palette des végétaux existants.\n\nExemples...\n\n![img-10.jpeg](img-10.jpeg)\n\nAllée de la Faverolle\n\n![img-11.jpeg](img-11.jpeg)\n\nBannière de Maupertuis\n\nCaractéristiques : Ces ensembles sont variés mais constituent des îlots très cohérents dont la continuité est assurée par l'espace public très végétalisé et arboré. Chaque ensemble possède ses artifices et ornements architecturaux qui permettent de les identifier les uns par rapport aux autres. Mais tous répondent à des règles communes en terme de gabarits, de hauteurs et de traitements de façades.\n\n# 2. Ensembles d'habitat individuel groupé\n\n# Les Orientations d'aménagement communes à tous les secteurs:\n\n- Préserver la densité des constructions et leur ordonnancement serré et « aligné » par rapport à la voie.\n- Conserver les implantations principales du bâti qui donnent une géométrie et un ordonnancement harmonieux au quartier.\n- Conserver l'intimité des allées qui les desservent localement. L'espace des allées se vit comme une extension commune de leur espace privé. Ces quartiers étant très « serrés », il ne faut pas inciter l'automobiliste visiteur ou hasardeux à s'y engager et plutôt marquer l'appropriation de l'espace public par les piétons, cyclistes ou habitants.\n\nCaractéristiques : Issus de la seconde phase de réalisation du quartier, ils constituent des ensembles bien identifiés d'habitat groupé. L'homogénéité de ces allées et de l'ensemble est liée :\n- à une organisation urbaine et végétale similaire ;\n- à une organisation très structurée et serrée du bâti\n- des formes architecturales similaires.\n\n![img-12.jpeg](img-12.jpeg)\n\nAllée de la Pommeraie\n\n![img-13.jpeg](img-13.jpeg)\n\nAllée de la Clairière\n\n![img-14.jpeg](img-14.jpeg)\n\nAllée de la Mare l'Oiseau\n\nExemples...\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 7",
+   "images": [
+    {
+     "id": "img-9.jpeg",
+     "top_left_x": 597,
+     "top_left_y": 69,
+     "bottom_right_x": 705,
+     "bottom_right_y": 155,
+     "path": "p0008-img-9.jpeg"
+    },
+    {
+     "id": "img-10.jpeg",
+     "top_left_x": 344,
+     "top_left_y": 435,
+     "bottom_right_x": 495,
+     "bottom_right_y": 551,
+     "path": "p0008-img-10.jpeg"
+    },
+    {
+     "id": "img-11.jpeg",
+     "top_left_x": 505,
+     "top_left_y": 435,
+     "bottom_right_x": 660,
+     "bottom_right_y": 551,
+     "path": "p0008-img-11.jpeg"
+    },
+    {
+     "id": "img-12.jpeg",
+     "top_left_x": 76,
+     "top_left_y": 832,
+     "bottom_right_x": 220,
+     "bottom_right_y": 941,
+     "path": "p0008-img-12.jpeg"
+    },
+    {
+     "id": "img-13.jpeg",
+     "top_left_x": 227,
+     "top_left_y": 832,
+     "bottom_right_x": 371,
+     "bottom_right_y": 941,
+     "path": "p0008-img-13.jpeg"
+    },
+    {
+     "id": "img-14.jpeg",
+     "top_left_x": 378,
+     "top_left_y": 832,
+     "bottom_right_x": 520,
+     "bottom_right_y": 941,
+     "path": "p0008-img-14.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 9,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 1\n\n# Le plateau de Chevry\n\n![img-15.jpeg](img-15.jpeg)\n\n# Préserver l'harmonie générale du plateau\n\n# Conserver les spécificités urbaines et architecturales\n\n... pour maintenir l'homogénéité qualitative du plateau\n\n# 3. Ensembles d'habitat individuel de type pavillonnaire isolé\n\nLes Orientations d'aménagement communes à tous les quartiers :\n\n- Favoriser en priorité le respect des implantations actuelles des constructions, afin de ne pas déséquilibrer la morphologie du quartier\n- Privilégier des extensions limitées préservant l'harmonie des façades principales\n- Respecter le caractère architectural de la construction existante (matériaux, teintes, formes des ouvertures...)\n- Traiter les espaces extérieurs ouverts ou largement visibles depuis l'espace commun ou public dans une dominante naturelle ou d'espaces verts qui ne masquent pas entièrement les constructions.\n\nCaractéristiques : Issus de la première phase de réalisation du quartier, ils couvrent la majeure partie de l'habitat individuel isolé du quartier de Chevry. L'homogénéité de ces allées et de l'ensemble est liée :\n\n- à une organisation urbaine et végétale similaire ;\n- à la présence de quelques types de constructions identiques à chaque allée et présentant des dispositions architecturales similaires.\n\nExemples ...\n\n![img-16.jpeg](img-16.jpeg)\n\nAllée des Petites Garennes\n\n![img-17.jpeg](img-17.jpeg)\n\nAllée de la pièce du lavoir\n\n![img-18.jpeg](img-18.jpeg)\n\nAllée de la ferme d'Armenon\n\nCaractéristiques : Issus de la seconde phase de réalisation du quartier, ils constituent un ensemble urbain homogène caractérisé par :\n- des formes architecturales et volumes quasiment identiques d'une construction à l'autre\n- un espace privé ouvert pour l'entrée de la propriété permettant l'accès aux garages et aux places privées et offrant une vision élargie de la façade principale de la construction.\n\n![img-19.jpeg](img-19.jpeg)\n\nAllée des Longs Réages\n\nCaractéristiques : Issus de la seconde phase de réalisation du quartier, ils forment également un ensemble urbain homogène en terme :\n\n- d'implantation et de volume du bâti ;\n- de teintes, de choix de matériaux et d'architecture (pentes de toit, ouvertures de toiture en outeaux)\n- de traitement des espaces extérieurs et des clôtures végétales.\n\n![img-20.jpeg](img-20.jpeg)\n\nAllée Moc'Souris\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 8",
+   "images": [
+    {
+     "id": "img-15.jpeg",
+     "top_left_x": 597,
+     "top_left_y": 69,
+     "bottom_right_x": 705,
+     "bottom_right_y": 155,
+     "path": "p0009-img-15.jpeg"
+    },
+    {
+     "id": "img-16.jpeg",
+     "top_left_x": 222,
+     "top_left_y": 535,
+     "bottom_right_x": 361,
+     "bottom_right_y": 639,
+     "path": "p0009-img-16.jpeg"
+    },
+    {
+     "id": "img-17.jpeg",
+     "top_left_x": 374,
+     "top_left_y": 535,
+     "bottom_right_x": 511,
+     "bottom_right_y": 639,
+     "path": "p0009-img-17.jpeg"
+    },
+    {
+     "id": "img-18.jpeg",
+     "top_left_x": 523,
+     "top_left_y": 535,
+     "bottom_right_x": 661,
+     "bottom_right_y": 639,
+     "path": "p0009-img-18.jpeg"
+    },
+    {
+     "id": "img-19.jpeg",
+     "top_left_x": 523,
+     "top_left_y": 666,
+     "bottom_right_x": 665,
+     "bottom_right_y": 774,
+     "path": "p0009-img-19.jpeg"
+    },
+    {
+     "id": "img-20.jpeg",
+     "top_left_x": 523,
+     "top_left_y": 794,
+     "bottom_right_x": 665,
+     "bottom_right_y": 904,
+     "path": "p0009-img-20.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 10,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 1\n\n# Le plateau de Chevry\n\n![img-21.jpeg](img-21.jpeg)\n\n# Préserver l'harmonie générale du plateau\n\n# Permettre une évolution mesurée du plateau\n\n... garante de l'organisation et de la qualité de vie du plateau\n\nCaractéristiques : Les possibilités d'accueil de population nouvelle sont limitées compte tenu de la densité bâtie et de son ancienneté relative. Toutefois, des évolutions ponctuelles et locales doivent rester possibles au sein du quartier pour :\n\n- l'amélioration et l'extension mesurée des constructions existantes de manière à répondre aux nouveaux besoins des familles et permettre d'améliorer et d'entretenir l'habitat.\n- l'accueil de nouvelles petites opérations de logements intégrées dans leur environnement urbain et paysager\n- l'accueil d'équipements collectifs et services complémentaires.\n\nLe renouvellement et l'évolution des zones bâties devront se faire dans le respect des emprises actuelles, des volumétries des constructions et des caractéristiques urbaines et paysagères des quartiers, qui font leur qualité et l'unité du quartier de Chevry.\n\nObjectifs : Conserver les caractéristiques architecturales de chaque quartier afin de préserver la cohérence du plateau :\n\n- Pour l'habitat individuel de type isolé, l'amélioration et l'extension mesurée des constructions sont autorisées.\n- Pour l'habitat collectif et individuel groupé, les adaptations sont limitées et ne seront possibles qu'à condition que leur caractère homogène et leur ordonnancement soient respectés. Les opérations de constructions nouvelles doivent s'insérer en harmonie avec la structure et la cohérence du quartier.\n- Pour les ensembles « collectifs » regroupant les services et équipements présentant un intérêt général et un caractère de centralité, les évolutions sont cadrées de sorte à ne pas pénaliser l'harmonie et le fonctionnement actuel du quartier. Les mesures en vue d'une bonne intégration dans le site devront être particulièrement soignées et encadrées pour les opérations et constructions nouvelles.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 9",
+   "images": [
+    {
+     "id": "img-21.jpeg",
+     "top_left_x": 597,
+     "top_left_y": 69,
+     "bottom_right_x": 705,
+     "bottom_right_y": 155,
+     "path": "p0010-img-21.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 11,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# LA\nVALLEE\n\n# Des îlots à restructurer\n\n2. Vatonne\n3. La gare - centre\n4. Damiette\n5. Rougemonts\n\n# Des îlots anciens à préserver\n\n6. Hameau de la Fèvrie\n7. Hameau de Damiette\n8. Hameau de Coupières\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 10",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 12,
+   "markdown": "COMMUNE DE GIF SUR YVETTE  \nPlan local d'Urbanisme\n\n## 2 Le secteur de la rue Gustave Vatonne\n\n### 1. RENFORCER L'OFFRE EN LOGEMENTS\n\nLa vocation de la zone urbaine de l'OAP est à dominante résidentielle.\n\nLa typologie bâtie s'orientera vers du petit collectif. La production d'une trentaine de logements est attendue.\n\n### 2. GARANTIR UNE QUALITE URBAINE, PAYSAGERE ET ARCHITECTURALE\n\nL'implantation des constructions (faîtages et façades) sera, dans la mesure du possible, réalisée parallèlement au coteau et à la rue Gustave Vatonne afin de favoriser leur intégration paysagère et la conception de typologies traversantes.\n\nCompte-tenu de la topographie des lieux, les clôtures longeant la rue Gustave Vatonne seront implantées en recul du domaine public, de manière à ne pas créer d'élément de rupture en surplomb de la voie. En outre, elles privilégieront la transparence ou la composition végétale.\n\nL'implantation du bâti veillera à préserver le coteau boisé situé au sud de la zone urbanisée.\n\nAu vu du cadre paysager environnant et afin de ne pas créer d'obstacle à sa pérennisation, les constructions se situeront en retrait des espaces boisés classés et des limites séparatives.\n\n### 3. COMPLETER LE MAILLAGE DE CIRCULATION DOUCES\n\nLes liaisons douces situées aux abords du site permettent notamment de relier la vallée au plateau de Moulon et de desservir les équipements publics de la ville. L'opération sera connectée à ce maillage de circulations douces.\n\n![img-0.jpeg](img-0.jpeg)\n\n![img-1.jpeg](img-1.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 11",
+   "images": [
+    {
+     "id": "img-0.jpeg",
+     "top_left_x": 76,
+     "top_left_y": 525,
+     "bottom_right_x": 657,
+     "bottom_right_y": 907,
+     "path": "p0012-img-0.jpeg"
+    },
+    {
+     "id": "img-1.jpeg",
+     "top_left_x": 91,
+     "top_left_y": 916,
+     "bottom_right_x": 651,
+     "bottom_right_y": 976,
+     "path": "p0012-img-1.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 13,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 3\n\n# Le secteur de la gare de Gif\n\n![img-2.jpeg](img-2.jpeg)\n\n# Un secteur stratégique en centre-ville\n\n# Dynamiser le centre ville\n\n... et valoriser le secteur de la gare de Gif sur Yvette\n\n# Principes d'aménagement et de programmation\n\nL'aménagement du site doit permettre le développement d'un secteur mixte contribuant à valoriser les abords de la Gare, « porte d'entrée » de la commune. Il s'agira de :\n\n- Renforcer l'offre en équipement via l'implantation d'un équipement culturel (de type médiathèque) à l'est du secteur ;\n- Aménager et valoriser la place de la gare, pour qu'elle devienne un espace public central de qualité ;\n- Maintenir la perspective sur la rue A. Pécard et l'église Saint Remi ;\n- Assurer une bonne intégration urbaine et paysagère des futures constructions ;\n- Affirmer et compléter le maillage de circulations douces dans le secteur ;\n- Adapter l'offre de stationnement.\n\n![img-3.jpeg](img-3.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 12",
+   "images": [
+    {
+     "id": "img-2.jpeg",
+     "top_left_x": 582,
+     "top_left_y": 88,
+     "bottom_right_x": 705,
+     "bottom_right_y": 183,
+     "path": "p0013-img-2.jpeg"
+    },
+    {
+     "id": "img-3.jpeg",
+     "top_left_x": 97,
+     "top_left_y": 533,
+     "bottom_right_x": 659,
+     "bottom_right_y": 939,
+     "path": "p0013-img-3.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 14,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 4 Le secteur Damiette (AURc)\n\n# Une urbanisation future à maîtriser\n\n# Une opération nouvelle s'intégrant dans la trame urbaine existante\nGrâce à une maillage de voies et de circulations douces\n\n- Un site non urbanisé au cœur des parties urbanisées à vocation résidentielle dans le quartier de Damiette.\n- Le manque de cohérence des règles de constructibilité avec la trame foncière a longtemps été un obstacle à son urbanisation, expliquant la « dent creuse » qu'il constitue actuellement.\n- Des difficultés de desserte du secteur : un accès potentiel depuis la rue de Damiette mais dont les conditions de sécurité et de visibilité sont peu satisfaisantes.\n\n# Orientations d'aménagement\n\n![img-4.jpeg](img-4.jpeg)\n\n- Une « dent creuse » en site urbain pour une urbanisation maîtrisée permettant de préserver les vues sur la Vallée et l'intérêt paysager du lieu : soit environ 15 logements.\n- Une transition harmonieuse avec les quartiers qui l'entourent : zone d'habitat dispersé à l'Est et zone d'habitat plus dense à l'Ouest.\n- Création d'un maillage de desserte interne adapté à l'opération et à sa fréquentation à partir de la route de Damiette\n- Un traitement adapté et sécurisé depuis la route de Damiette.\n- Création de circulations douces au sein de la zone pour rejoindre les espaces verts bordant la voie ferrée et les cheminements existants ou à créer à proximité.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 13",
+   "images": [
+    {
+     "id": "img-4.jpeg",
+     "top_left_x": 74,
+     "top_left_y": 473,
+     "bottom_right_x": 465,
+     "bottom_right_y": 905,
+     "path": "p0014-img-4.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 15,
+   "markdown": "COMMUNE DE GIF SUR YVETTE  \nPlan local d'Urbanisme\n\n# 5\n\n# 5 Le secteur des Rougemonts\n\n# - • **Renforcer l'offre en logements**\n\nLa vocation du secteur d'OAP est à dominante résidentielle.\n\nLa typologie bâtie s'orientera vers du petit collectif.\n\nLa production d'une quarantaine de logements est attendue.\n\n# - • **Garantir une qualité urbaine, paysagère et architecturale**\n\nLe merlon existant longeant la rue du 8 mai 1945 devra être préservé dans la conception de tout projet. L'implantation des constructions s'effectuera donc en retrait de cette voie.\n\nL'aménagement de percées pourra être envisagé si les caractéristiques topographiques ou l'insertion du projet dans son environnement le justifient.\n\nLes futures constructions seront réalisées dans le respect de la topographie et devront proposer un épannelage au regard du nivellement naturel moyen du secteur à projet.\n\nUne attention particulière sera portée à la qualité architecturale du projet afin d'assurer une bonne intégration du bâti à l'articulation entre espaces urbanisés et espaces naturels, lesquels jouxtent notamment les prairies en lisière du bois d'Aigrefoin.\n\nAu vu du cadre paysager, les clôtures privilégieront la transparence ou la composition végétale.\n\nLes eaux pluviales seront gérées dans le cadre du programme.\n\n# - • **Assurer l'accès approprié et sécurisé au site**\n\nL'accès au secteur à projet sera conçu afin de sécuriser les entrées et sorties des automobilistes et des usagers et de répondre aux règles de sécurité et de circulation en zone agglomérée.\n\nLe programme répondra de manière autonome à ses besoins en stationnement.\n\nLe maillage de liaisons douces existantes sera intégré dans les réflexions d'aménagement du secteur à projet.\n\n![img-5.jpeg](img-5.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 14",
+   "images": [
+    {
+     "id": "img-5.jpeg",
+     "top_left_x": 75,
+     "top_left_y": 564,
+     "bottom_right_x": 659,
+     "bottom_right_y": 979,
+     "path": "p0015-img-5.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 16,
+   "markdown": "COMMUNE DE GIF SUR YVETTE  \nPlan local d'Urbanisme\n\n# 6\n\n# 6 Les hameaux (UB)\n\n![img-6.jpeg](img-6.jpeg)\n\n## Des hameaux anciens à préserver\n\n### Préserver les cœurs anciens, nœuds de patrimoine communal\n\n... et faire connaître ces hameaux\n\nTrois secteurs de hameaux (UB) ont été identifiés en raison de leur intérêt patrimonial et historique : ce sont les trois entités anciennes (hors centre ville) qui ont conservé des traces visibles du passé et leur organisation originelle. Ils sont réglementés par des zones de plans masse et complétés par des orientations d'aménagement destinées à valoriser et protéger leurs identités et leurs caractéristiques.\n\nIl s'agit d'une partie des anciens hameaux de la Fèvrie, de Coupières et de Damiette.\n\n![img-7.jpeg](img-7.jpeg)\n\n### Des objectifs communs en termes de morphologie urbaine et d'ambiance...\n\n#### Préserver la forme urbaine et les principes d'organisation du bâti\n\nCertaines constructions réalisées selon l'organisation traditionnelle des secteurs de hameaux doivent être préservées dans leur implantation et leur volumétrie. En cas de reconstruction et d'extension, ces principes devront donc, par conséquent, être respectés.\n\nL'équilibre entre espaces bâtis et non bâtis (cours, espaces verts intérieurs,...) est également à maintenir car il participe à l'organisation urbaine.\n\nPar ailleurs, ce qui caractérise ces hameaux est leur forme urbaine traditionnelle constituée d'ensembles continus de maisons de bourgs anciennes, dont le front bâti particulier est conçu avec des jeux de volumes de façades et de toitures formant des épannelages caractéristiques. Ces ensembles singuliers doivent être conservés.\n\n#### Valoriser l'ambiance particulière des secteurs de hameaux\n\nLe traitement de la voirie et des espaces publics est un élément essentiel en terme d'ambiance. Un traitement particulier et une signalétique spécifique permettront d'identifier clairement ces secteurs à vocation « patrimoniale ».\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 15",
+   "images": [
+    {
+     "id": "img-6.jpeg",
+     "top_left_x": 586,
+     "top_left_y": 67,
+     "bottom_right_x": 705,
+     "bottom_right_y": 142,
+     "path": "p0016-img-6.jpeg"
+    },
+    {
+     "id": "img-7.jpeg",
+     "top_left_x": 75,
+     "top_left_y": 360,
+     "bottom_right_x": 697,
+     "bottom_right_y": 626,
+     "path": "p0016-img-7.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 17,
+   "markdown": "COMMUNE DE GIF SUR YVETTE  \nPlan local d'Urbanisme\n\n# 6\n\n# 6 Les Hameaux (UB)\n\n![img-8.jpeg](img-8.jpeg)\n\n## Des hameaux anciens à préserver\n\n### Le hameau de la Fèvre\n\n...Préserver et faire connaître nos hameaux anciens\n\n#### Caractéristiques\n\nLa majeure partie caractéristique et représentative du hameau de la Fèvre est conservée : elle correspond au noyau situé dans la partie sud.\n\nCe hameau, structuré autour de la rue de la Fèvre, est composé d'un habitat rural ancien.\n\nL'harmonie générale du hameau, à préserver et valoriser, est liée au traitement diversifié mais homogène des façades et à une implantation des constructions à l'alignement de la voie.\n\nCette harmonie tient aussi aux effets d'épannelage des constructions rurales ou maisons traditionnelles au cœur du hameau.\n\n#### Périmètre\n\n![img-9.jpeg](img-9.jpeg)\n\n#### Orientations d'aménagement spécifiques\n\n![img-10.jpeg](img-10.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 16",
+   "images": [
+    {
+     "id": "img-8.jpeg",
+     "top_left_x": 585,
+     "top_left_y": 65,
+     "bottom_right_x": 705,
+     "bottom_right_y": 153,
+     "path": "p0017-img-8.jpeg"
+    },
+    {
+     "id": "img-9.jpeg",
+     "top_left_x": 451,
+     "top_left_y": 316,
+     "bottom_right_x": 654,
+     "bottom_right_y": 496,
+     "path": "p0017-img-9.jpeg"
+    },
+    {
+     "id": "img-10.jpeg",
+     "top_left_x": 75,
+     "top_left_y": 525,
+     "bottom_right_x": 676,
+     "bottom_right_y": 976,
+     "path": "p0017-img-10.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 18,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n6\n\n# Les Hameaux (UB)\n\n![img-11.jpeg](img-11.jpeg)\n\n# Des hameaux anciens à préserver\n\n# Le hameau de Damiette\n\n... Préserver et faire connaître nos hameaux anciens\n\n# Caractéristiques\n\nCe hameau, structuré autour de la route de Damiette et de la rue du Vieux Damiette, est principalement constitué de corps de fermes.\n\nLe hameau, dans sa structure villageoise traditionnelle, s'articule autour de trois séquences :\n\n- Les entrées traditionnelles caractérisées par les façades en pierres apparentes et les murs de clôture caractéristiques ;\n- Le cœur du hameau constitué de maisons en meulières et implanté autour d'une impasse ;\n- Les anciens corps de fermes implantés à l'alignement au nord de la rue du Vieux Damiette\n- Des effets d'épannelage des constructions rurales ou maisons traditionnelles au cœur du hameau.\n\n# Périmètre\n\n![img-12.jpeg](img-12.jpeg)\n\n# Orientations d'aménagement spécifiques\n\n![img-13.jpeg](img-13.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 17",
+   "images": [
+    {
+     "id": "img-11.jpeg",
+     "top_left_x": 597,
+     "top_left_y": 69,
+     "bottom_right_x": 705,
+     "bottom_right_y": 142,
+     "path": "p0018-img-11.jpeg"
+    },
+    {
+     "id": "img-12.jpeg",
+     "top_left_x": 435,
+     "top_left_y": 303,
+     "bottom_right_x": 654,
+     "bottom_right_y": 494,
+     "path": "p0018-img-12.jpeg"
+    },
+    {
+     "id": "img-13.jpeg",
+     "top_left_x": 75,
+     "top_left_y": 560,
+     "bottom_right_x": 658,
+     "bottom_right_y": 979,
+     "path": "p0018-img-13.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 19,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n6\n\n# Les Hameaux (UB)\n\n![img-14.jpeg](img-14.jpeg)\n\n# Des hameaux anciens à préserver\n\n# Le hameau de Coupières\n\n... Préserver et faire connaître nos hameaux anciens\n\n# Caractéristiques\n\nLe hameau s'articule autour de trois voies : la rue Juliette Adam, la rue de Coupières et le chemin des Graviers.\n\nLa partie située au croisement de la rue Juliette Adam et de la rue de Coupières correspond à un ensemble de constructions à caractère villageois. La place constitue un élément structurant pour le hameau, notamment par la présence d'éléments caractéristiques à conserver (porche,...).\n\nLa partie située au nord de la rue de Coupières correspond au secteur le plus ancien et regroupe un ensemble d'habitations rurales homogène par l'implantation spécifique des constructions, les matériaux utilisés, et des effets d'épannelage des constructions rurales ou maisons traditionnelles au cœur du hameau.\n\n# Périmètre\n\n![img-15.jpeg](img-15.jpeg)\n\n# Orientations d'aménagement spécifiques\n\n![img-16.jpeg](img-16.jpeg)\n\n- Périmètre de l'OAP\n- Bâti dont l'implantation, le gabarit et l'esprit architecturale sont à conserver\n- Emprises constructibles\n- Perspectives et vues à valoriser\n- Traitement identitaire particulier de la voirie\n- Murs de pierre intéressants à conserver ou à restaurer selon les techniques d'origine\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 18",
+   "images": [
+    {
+     "id": "img-14.jpeg",
+     "top_left_x": 604,
+     "top_left_y": 64,
+     "bottom_right_x": 705,
+     "bottom_right_y": 142,
+     "path": "p0019-img-14.jpeg"
+    },
+    {
+     "id": "img-15.jpeg",
+     "top_left_x": 441,
+     "top_left_y": 302,
+     "bottom_right_x": 667,
+     "bottom_right_y": 492,
+     "path": "p0019-img-15.jpeg"
+    },
+    {
+     "id": "img-16.jpeg",
+     "top_left_x": 76,
+     "top_left_y": 558,
+     "bottom_right_x": 417,
+     "bottom_right_y": 975,
+     "path": "p0019-img-16.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 20,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# PLATEAU DE\nMOULON\n\nLes orientations à l'échelle\ndu site de Moulon\n\nLes orientations à l'échelle\ndu quartier Joliot Curie\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 19",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 21,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 7\n\n# Le site de Moulon\n\n# Les orientations générales\n\nLes orientations générales pour le projet d'aménagement de Moulon sont les suivantes :\n\n- créer des quartiers ouverts aux usages mixtes, susceptibles de favoriser les rencontres et constituer des lieux de vie attractifs et animés, réunissant l'ensemble des composantes urbaines et l'accès à des équipements ouverts à tous ;\n- permettre l'accueil des établissements d'enseignement supérieur et de recherche ainsi que les établissements de hautes technologies ;\n- définir une organisation et une morphologie urbaines en cohérence avec la mise en œuvre du campus urbain du sud du plateau de Saclay et en accord avec la commune ;\n- intégrer les nouveaux programmes à l'existant dans un ensemble urbain cohérent et fonctionnel ;\n- valoriser la qualité urbaine du quartier par une mobilité optimisée, qui repose sur un nouveau maillage hiérarchisé et un accès facilité aux transports en commun avec l'intégration du TCSP et l'accueil d'une gare du transport en commun du Grand Paris Express ;\n- mettre en place une trame paysagère qui s'appuie sur les qualités de l'existant et de son environnement et qui s'articule avec une restructuration et un développement des espaces publics, à l'échelle des quartiers comme à celle de la frange sud du plateau de Saclay ;\n- réaliser une opération exemplaire en termes de développement durable en gérant de manière collective et innovante les enjeux liés à l'énergie, la gestion des eaux pluviales.\n\nCes orientations générales se déclinent selon trois approches thématiques qui font l'objet des chapitres suivants.\n\nChaque thématique s'appuie sur des schémas qui localisent les grands principes des orientations d'aménagement.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 20",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 22,
+   "markdown": "7\n\nLe site de Moulon\n\n# La création de quartiers aux morphologies et aux fonctions diversifiées\n\n![img-0.jpeg](img-0.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 21",
+   "images": [
+    {
+     "id": "img-0.jpeg",
+     "top_left_x": 88,
+     "top_left_y": 164,
+     "bottom_right_x": 605,
+     "bottom_right_y": 955,
+     "path": "p0022-img-0.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 23,
+   "markdown": "COMMUNE DE GIF SUR YVETTE  \nPlan local d'Urbanisme\n\n# 7\n\n# 7 Le site de Moulon\n\n## La mixité fonctionnelle du projet\n\nL'objectif du projet d'aménagement de Moulon est de rompre avec la logique de dispersion de l'urbanisation et d'isolement des établissements d'enseignement supérieur et des différentes entités urbaines pour créer de véritables pôles de vie et d'urbanité.\n\nIl s'agit d'accueillir, en composant avec l'existant, des établissements d'enseignement supérieur et de recherche, des activités économiques, des logements, des équipements et des services.\n\nCette mixité, qui s'apprécie à l'échelle de l'ensemble du projet de Moulon, est différenciée selon les secteurs (cf schéma de principe d'organisation urbaine).\n\n### - La mixité à dominante campus\n\nLe cœur du projet, qui se développe sur les communes de Gif-sur-Yvette et d'Orsay, articulant quartiers de ville et campus, a une vocation mixte. Il est destiné à accueillir toutes les fonctions urbaines et les établissements d'enseignement supérieur.\n\n### - La mixité à dominante d'habitat\n\nA l'ouest du quartier Joliot-Curie se constitue un lieu, propice à l'implantation de programmes de logements familiaux et d'étudiants accompagnés de commerces et d'équipements. Cette dominante d'habitat n'exclut pas la réalisation de programmes d'une autre nature, l'habitat restant une dominante.\n\n### - La mixité à dominante activités\n\nLes espaces à l'est du Moulon, sur la commune d'Orsay autour du parc d'activités existant et en frange de la RN 118, sont propices à l'implantation d'activités économiques. Cette destination privilégiée n'exclut pas la réalisation également d'autres programmes.\n\n### - La dominante habitat dans un environnement paysager\n\nAu sud du quartier de Moulon, sur la commune de Gif-sur-Yvette entre les quartiers Joliot-Curie et de l'Orme des Merisiers, un secteur s'inscrivant dans une continuité paysagère, a vocation à accueillir principalement des programmes de logements tout en organisant des perméabilités physiques entre la plaine des sports de Moulon et les coteaux boisés.\n\n### - L'habitat\n\nA l'est du Moulon, sur la commune d'Orsay, le secteur d'habitat pavillonnaire existant est maintenu dans ses caractéristiques actuelles.\n\n### - La dominante activités\n\nL'Orme des Merisiers, au sud-ouest de Moulon, sur la commune de Saint-Aubin, est un secteur aujourd'hui urbanisé sur lequel sont implantées des activités, notamment liées à la recherche (synchrotron, CEA). Ce secteur est amené à évoluer et à être progressivement renouvelé tout en conservant une vocation plus spécifiquement dédiée à l'accueil d'activités économiques et d'établissements de recherche, sans faire obstacle à l'implantation d'autres programmes dans une plus faible mesure.\n\n### - La dominante activités dans un environnement paysager\n\nAu nord de la RD128 et le long de la RD306, sur la commune de Saint-Aubin, est localisé un secteur d'extension future de l'Orme des Merisiers. Ce secteur est voué à assurer une transition entre les terres agricoles expérimentales, la plaine des sports de Moulon et l'urbanisation de l'Orme des Merisiers.\n\nAu nord du projet d'aménagement, un secteur est destiné à gérer une transition entre le cœur du quartier et le plateau agricole. Il s'agit de créer une urbanisation s'inscrivant dans le système de parcs à l'échelle de toute la frange sud de Palaiseau à Saclay, d'implanter des constructions préférentiellement à destination d'activités économiques, dans une composition à dominante paysagère qui préservera et mettra en valeur la rigole.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 22",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 24,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 7\n\n# Le site de Moulon\n\n- La dominante équipement dans un environnement paysager\n\nElle concerne, la plaine des sports de Moulon et ses prolongements vers la RD306, les espaces au Nord du quartier suivant la rigole de Corbeville et le secteur d'Orsay entre la zone d'habitat résidentiel existante et les coteaux boisés.\n\nIl s'agit de mettre en œuvre dans ces espaces un aménagement des lisières pour créer des continuités de paysage et soigner la transition des quartiers à la fois, au nord, avec l'agriculture, au sud avec les coteaux boisés. Ces espaces paysagers intermédiaires participent à l'insertion du projet d'aménagement dans le grand paysage. Ils ont vocation à accueillir des activités sportives, de loisirs, la gestion de l'eau, des circulations douces.\n\nAu nord-ouest, sur les communes de Gif-sur-Yvette et de Saint-Aubin, ainsi qu'au sud de la route de la lisière, les aménagements devront permettre d'intégrer des zones humides.\n\n- Les terres agricoles expérimentales\n\nL'aménagement du quartier du Moulon intègre également des terres agricoles protégées au titre de la zone de protection naturelle, agricole et forestière (ZPNAF). Ces terres, nécessaires à l'agriculture expérimentale, sont directement liées aux centres de recherche implantés au sein du projet d'aménagement de Moulon.\n\n# Les polarités\n\nLa mixité urbaine, à l'échelle du projet d'aménagement de Moulon, s'organise autour de quatre polarités, lieux d'intensité urbaine (cf schéma de principe d'organisation urbaine).\n\nCes polarités appellent une mixité des fonctions urbaines et une densité du bâti, facteurs de réussite de l'animation de lieux d'échanges.\n\nUne polarité à l'échelle métropolitaine :\n\n- au nord-est du quartier, au croisement des transports en commun (future gare du transport en commun du Grand Paris Express et station de TCSP) et des deux axes de mobilité, en connexion avec le futur ouvrage de franchissement de la RN 118. Ce lieu, qui constitue l'une des entrées du site de Moulon, doit devenir l'espace de plus grande intensité urbaine, marqué par : une diversité des fonctions à implanter ; la nature de certains équipements appelés à accueillir un public très large, à l'échelle de tout le campus mais également pour tous les publics de l'agglomération ; par une plus grande densité et par l'exigence d'une grande qualité architecturale.\n\nTrois polarités de quartier sont identifiées :\n\n- le quartier Joliot-Curie se déploie autour de la rue du même nom entre des établissements d'enseignement déjà existants comme l'IUT ou Supélec. Il accueillera en son cœur l'Ecole Centrale et se prolongera jusqu'à la ferme du Moulon à l'ouest et, au nord, jusqu'à la nouvelle station du TCSP. Il offrira un cœur de quartier rassemblant habitat familial et étudiant, commerces et équipements articulant ville et campus ;\n- dans le quartier du Belvédère, sur la commune d'Orsay, qui accueille principalement des programmes d'enseignement supérieur et de recherche ainsi qu'une programmation mixte en lien avec le campus ;\n- à l'Orme des Merisiers, autour d'une programmation essentiellement constituée d'activités économiques, scientifiques et de recherche.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 23",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 25,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 7 Le site de Moulon\n\n# Les espaces publics structurants\n\nLes espaces publics structurants (cf schéma de principe d'organisation urbaine) ont des configurations, des dimensions et des rôles différents à l'échelle du Moulon et au-delà. Tous contribuent à la lisibilité et à l'organisation cohérente du Moulon, et garantissent une connexion physique et fonctionnelle entre les différents quartiers.\n\n- L'espace public structurant est-ouest, situé au nord du quartier Joliot-Curie connecté au futur ouvrage traversant la RN118 et reliant le Moulon à Corbeville, porte le transport en commun en site propre et accueillera la future gare de métro dans sa partie Est. Il constitue l'un des maillons de la chaîne des lieux publics majeurs et marque l'appartenance du Moulon à l'ensemble plus vaste du campus urbain du sud plateau.\n- A partir des qualités paysagères existantes, autour des anciens bâtiments du CNEF, un parc s'organise depuis l'espace public structurant est-ouest et le parvis de l'ENS Cachan jusqu'au carré des sciences qui relie Centrale et Supélec. Ce parc se prolonge par une grande prairie vers la lisière boisée. Ce parc comme les autres axes Nord-Sud qui se développent à partir de la trame urbaine, contribuent par leurs qualités paysagères et topographiques à la gestion des eaux.\n- Le système de parcs au nord.\n- La lisière pratiquée au sud destinée à accueillir des cheminements et une programmation récréative et sportive.\n- Un vaste espace dédié aux pratiques sportives dans la plaine des sports de Moulon, maillon de la chaîne des espaces publics à l'échelle du campus urbain, constitue un élément des espaces publics structurants. Elle accueillera principalement une programmation sportive et de loisir.\n- La rue Joliot-Curie, axe est-ouest, est structurant à l'échelle du quartier Joliot-Curie.\n\n# La diversité des morphologies et la hauteur des constructions\n\nA l'échelle du projet, le parti d'aménagement vise à préserver de vastes espaces naturels en frange de l'urbanisation et à aménager des espaces ouverts généreux pour le sport ainsi que de vastes espaces publics et récréatifs. Il impose une nécessaire compacité des constructions dans des espaces ainsi limités.\n\nL'orientation visant à créer une réelle urbanité à l'échelle du projet s'appuie non seulement sur la mixité des programmes mais également sur la diversité des morphologies, dans une cohérence d'ensemble.\n\nLa trame structurant l'aménagement du Moulon doit favoriser une diversité et une variété des constructions, tant dans leur conception architecturale que dans leur gabarit et leur typologie.\n\nDans les espaces destinés à accueillir l'urbanisation future du projet d'aménagement de Moulon et inscrits en zones UM au plan de zonage (à l'exception du quartier Joliot Curie, classé en zone UMG), les hauteurs et les gabarits des constructions sont fixés par le règlement par une norme maximale différente selon les secteurs. Il s'agit là de normes plafond communes qui doivent être travaillées à une échelle plus fine pour respecter le principe de diversité des morphologies.\n\nDe façon générale, l'objectif dans les différents secteurs du projet est d'obtenir un épannelage varié des hauteurs des constructions afin d'éviter toute forme de monotonie en préservant une cohérence d'ensemble. A ce titre la volumétrie des constructions, et notamment leur hauteur, doit être modulée au regard du site et de l'environnement dans lesquels elles sont implantées. A l'échelle de la zone UM, le principe d'épannelage correspond à R+4 moyen.\n\nAutour de la polarité métropolitaine, l'objectif sera de marquer l'identité et l'intensité urbaine.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 24",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 26,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 7\n\n# Le site de Moulon\n\nLe principe d'implantation des constructions par rapport aux espaces ouverts au public est différent selon les espaces considérés :\n\n- le long des voies et espaces publics, le principe d'une implantation des constructions à l'alignement le long de la voie doit être généralement retenu. Ce principe ne doit toutefois pas aboutir à la création d'un front bâti uniforme et continu. Une porosité et des perspectives vers les cœurs d'Ilot doivent être recherchées. Un travail de séquences doit y être privilégié en lien avec les programmes accueillis ;\n- le long de la voie de la lisière, le principe est une implantation en recul.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 25",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 27,
+   "markdown": "7\n\nLe site de Moulon\n\n# Une qualité urbaine favorisée par une mobilité optimisée\n\n![img-1.jpeg](img-1.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 26",
+   "images": [
+    {
+     "id": "img-1.jpeg",
+     "top_left_x": 92,
+     "top_left_y": 151,
+     "bottom_right_x": 626,
+     "bottom_right_y": 975,
+     "path": "p0027-img-1.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 28,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 7 Le site de Moulon\n\n# L'organisation viaire\n\nLa conception du schéma viaire du projet d'aménagement de Moulon doit intégrer les infrastructures actuelles et anticiper la réalisation future de projets en cours d'étude et plus particulièrement la reconfiguration de l'échangeur de Corbeville et la création de deux nouveaux franchissements, plus au sud, de la RN118.\n\nLa maille générale de l'organisation du projet repose sur le principe selon lequel les axes orientés est-ouest sont préférentiellement les supports des circulations à l'échelle du campus urbain, les axes orientés nord-sud sont les supports du paysage, des modes doux et de la gestion de l'eau.\n\nLa hiérarchisation des voies circulées est retenue selon trois niveaux :\n\n- les axes de transit de direction est-ouest, qui ont vocation à gérer les liaisons à l'échelle du plateau de Saclay. Il s'agit plus particulièrement de la RD128, dont le tracé est réaménagé ;\n- les axes de desserte locale, qui assurent d'une part, les connexions entre les différents quartiers du sud du plateau et la vallée et, d'autre part, une cohérence structurelle du quartier, par exemple la prolongation de la voie du Belvédère vers le nord permettra une liaison du quartier en restructuration à la future gare du transport en commun du Grand Paris Express.\nLa création de la route de la lisière, au sud-ouest, permet d'offrir une entrée supplémentaire depuis la RD306 vers le quartier, sans capter les flux de transit ;\n- les dessertes internes ont vocation à assurer une desserte intérieure du quartier. Elles sont principalement destinées à recevoir des circulations douces, même si la voiture y est présente pour permettre une desserte des immeubles et l'accès aux stationnements. Les parcours piétons doivent être également pensés dans leur vocation à relier facilement les stations du TCSP et la future gare du métro ainsi que les quartiers dans la vallée.\n\nEn complément, il s'agit de mettre en œuvre un réseau cyclable efficace et continu afin de rendre ce mode de déplacement attractif pour les trajets intra et inter-quartiers, et le rabattement vers un axe de transport en commun.\n\nL'organisation hiérarchisée du maillage des quartiers doit permettre de privilégier les circulations douces, ce qui suppose une conception des espaces publics confortables et sécuritaires pour les piétons et les cyclistes avec des aménagements réservant une large place à ces modes de déplacement.\n\n# La valorisation des transports en commun\n\nL'organisation du fonctionnement urbain du site de Moulon s'adosse à l'amélioration programmée de sa desserte par les transports en commun, avec la réalisation :\n\n- dans un premier temps, du TCSP (transport en commun en site propre), accompagné par un réseau de bus offrant une desserte plus fine du quartier ;\n- dans un second temps, du transport en commun du Grand Paris Express reliant Orly à Versailles, dont une gare est située au cœur des quartiers, entre Gif-sur-Yvette et Orsay.\n\nCette perspective permet d'organiser une gestion du stationnement qui vise à répondre aux besoins tout en limitant l'offre :\n\n- en dimensionnant l'offre intégrée pour chaque construction ;\n- en recherchant une offre de stationnement mutualisée, en dehors de l'habitat familial, pour répondre aux besoins complémentaires et ainsi optimiser l'occupation des places.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 27",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 29,
+   "markdown": "7\n\nLe site de Moulon\n\n# La composition paysagère et environnementale\n\n![img-2.jpeg](img-2.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 28",
+   "images": [
+    {
+     "id": "img-2.jpeg",
+     "top_left_x": 104,
+     "top_left_y": 162,
+     "bottom_right_x": 584,
+     "bottom_right_y": 924,
+     "path": "p0029-img-2.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 30,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 7 Le site de Moulon\n\n# Le traitement des franges du projet\n\nLe projet d'aménagement de Moulon s'inscrit à l'articulation de deux entités géographiques : les coteaux boisés au sud et à l'est, le plateau agricole au nord.\n\nL'orientation est de préserver et d'amplifier cette situation géographique singulière.\n\n# La protection des coteaux boisés\n\n- Au sud et à l'est, il s'agit de préserver et d'amplifier le caractère forestier des coteaux boisés. Cette mesure répond à la fois à des raisons écologiques (maintien d'une continuité écologique); permet la mise en œuvre de compensations ; concourt à l'insertion des infrastructures de transport et lutte contre les nuisances sonores engendrées par la RN 118.\n- Au sud, il s'agit d'enrichir la lisière entre les espaces bâtis et le coteau boisé, de lui donner une qualité, dans le respect de la bande inconstructible de 50 mètres du SDRIF. Il s'agira de soigner la transition par la plantation de vergers et la création d'espaces de loisirs de plein air, par exemple.\n\n# La création de paysages intermédiaires\n\n- Au nord, il s'agit de soigner la transition avec le vaste espace agricole protégé. La lisière sera aménagée de manière à pouvoir être parcourue (loisirs, cheminements etc). La rigole sera mise en valeur.\nLa lisière pourra être le lieu d'expression d'une forme d'ingénierie écologique au service des quartiers : gestion des terres, gestion des eaux pluviales (à l'échelle du plateau, protection contre le risque inondation).\nLa lisière peut être un lieu permettant plusieurs formes d'agriculture : aussi bien maraîchage, circuits courts, agriculture périurbaine que agriculture scientifique et terres expérimentales.\n\n# Le paysage au cœur du projet\n\nLe cœur du quartier reçoit un traitement paysager en cohérence avec le grand paysage et l'aménagement de la lisière. Cela se traduit par la mise en valeur du coteau et par la conception d'un réseau de gestion des eaux pluviales qui se connecte à la rigole et qui la met en valeur.\n\nDans le cœur des quartiers, la préservation et la valorisation des espaces paysagers existants sont recherchées, notamment autour de la ferme de Moulon et des anciens bâtiments du CNEF.\n\n# La gestion de l'eau et de l'énergie\n\nLa gestion de l'eau est organisée et assurée à plusieurs échelles, celle du quartier, du terrain ou d'un ensemble de terrains (mutualisation) et de la construction.\n\nLes principes de gestion de l'eau à respecter sont les suivants :\n\n- réguler les pluies sur le quartier ;\n- limiter le ruissellement ;\n- favoriser la captation douce des eaux pluviales ;\n- mutualiser les moyens de rétention d'eau entre les terrains limitrophes ;\n- stocker les eaux pluviales en toiture, à l'air libre par une gestion intégrée aux futurs espaces verts publics paysagers ou minéraux ;\n- favoriser la mise en place de solutions naturelles d'épuration des eaux pluviales ;\n- favoriser la réutilisation des eaux pluviales, notamment pour l'arrosage des espaces verts.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 29",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 31,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 7\n\n# Le site de Moulon\n\nAfin de limiter les émissions de gaz à effet de serre sur le site, le projet prévoit :\n\n- l'intégration et le développement d'énergies renouvelables pour alimenter une grande partie des constructions ;\n- la limitation de l'usage de la voiture grâce à un réseau performant de transports en commun et de circulations douces (piétons, vélos) ;\n- une conception des constructions devant privilégier une faible consommation d'énergie.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 30",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 32,
+   "markdown": "7\n\nLe site de Moulon\n\n# Le schéma de synthèse des orientations\n\n![img-0.jpeg](img-0.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 31",
+   "images": [
+    {
+     "id": "img-0.jpeg",
+     "top_left_x": 106,
+     "top_left_y": 161,
+     "bottom_right_x": 609,
+     "bottom_right_y": 958,
+     "path": "p0032-img-0.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 33,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 8\n\n# Le quartier Joliot Curie\n\nLe projet d'aménagement de Moulon comprend le quartier Joliot Curie pour lequel des orientations d'aménagement spécifiques sont définies.\n\nCes orientations viennent en complément de celles définies à l'échelle du projet d'aménagement de Moulon telles qu'elles figurent dans le chapitre précédent.\n\n# Les orientations générales\n\n- Créer un quartier aux usages mixtes, susceptible de favoriser les rencontres et constituer des lieux de vie attractifs et animés, réunissant l'ensemble des composantes urbaines ;\n- Définir une organisation urbaine et une morphologie qui puissent répondre, en termes de qualité, à l'identité de la commune de Gif-sur-Yvette et s'inscrire dans la perspective de développement du plateau de Moulon, au sein du projet d'aménagement sur la frange sud du plateau de Saclay ;\n- Intégrer les nouveaux programmes à l'existant dans un ensemble urbain organisé de part et d'autre de la rue Joliot-Curie requalifiée et autour de nouveaux espaces publics partagés ;\n- Valoriser la qualité urbaine du quartier par une mobilité optimisée, qui repose sur un nouveau maillage du quartier et un accès facilité aux transports en commun ;\n- Installer une trame paysagère sur le site, qui s'appuie sur les qualités de son environnement, et notamment sur le coteau boisé, et qui soit le support d'une gestion alternative de l'eau pluviale.\n\n# La morphologie et l'organisation urbaine du quartier\n\nIl s'agit, en composant avec l'existant, de réaliser un quartier urbain qui réponde aux enjeux de proximité entre les acteurs et les différents programmes et qui favorise les déplacements doux.\n\n# Les espaces publics majeurs\n\nLa composition urbaine du quartier doit être organisée autour de 3 espaces publics majeurs :\n\n- Un axe structurant Est-Ouest en bordure Nord du quartier qui porte le transport en commun en site propre et se connecte à la RD 128 à l'Ouest.\n- La rue Joliot-Curie, axe Est-Ouest structurant à l'échelle du quartier, qui accueille les différentes fonctions urbaines et organise le partage de l'espace entre les différents modes de circulation, reliant la limite Gif-sur-Yvette - Orsay avec la plaine des sports de Moulon.\n- Un axe structurant Nord-Sud, dispositif paysager qui s'étend des coteaux boisés au Sud et se prolonge au Nord au-delà du quartier Joliot-Curie. Cette continuité paysagère programmée participe de la qualité de vie du quartier et concourt à la gestion de l'eau.\n\nPartie prenante de cet axe structurant, une place publique d'articulation, traversée par la rue Joliot-Curie, constitue un lieu de vie de rencontre et d'animation au cœur du quartier.\n\n# La morphologie du quartier\n\nLa trame composant l'organisation du quartier doit permettre de favoriser une diversité et une variété des constructions tant dans leur conception architecturale que leur gabarit et leur typologie.\n\nLe jeu d'épannelage des hauteurs des constructions est une composante essentielle de cette diversité. Pour les constructions à destination principale d'habitation, un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen.\n\nLa variété des constructions destinées aux logements doit permettre d'offrir des logements accessibles à tous et un mode d'habitat différencié.\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 32",
+   "images": [],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 34,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 8\n\n# Le quartier Joliot Curie\n\nL'implantation des constructions par rapport aux espaces ouverts au public est différente selon leur nature :\n\n- le long de la voie Joliot-Curie et du futur espace public majeur, le « deck » en frange nord du quartier qui accueillera les transports en commun :\nLe principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu. Ce principe ne doit toutefois pas aboutir à la création d'un front bâti uniforme et continu. Une porosité et des perspectives vers les cœurs d'Ilot doivent être recherchées. Un travail de séquences doit être privilégié en lien avec les programmes accueillis. La voie Joliot-Curie dessert le nouveau pôle de vie. Celui-ci a vocation à s'étendre vers l'Ouest jusqu'à la Ferme du Moulon.\n- le long des voies secondaires nord/sud :\nL'implantation des constructions peut être variée. Sans rechercher systématiquement l'alignement, il s'agit de créer un dialogue équilibré entre la volumétrie des constructions et les caractéristiques de l'emprise sur laquelle elles sont implantées afin de préserver l'ensoleillement des voies ouvertes au public et d'éviter tout effet « corridor » entre deux fronts bâtis.\n\nLes rez-de-chaussée des constructions qui accueillent des espaces communs, des commerces et des équipements doivent être conçus en prolongement de l'espace public et ouverts sur celui-ci, avec notamment une hauteur adaptée.\n\n![img-1.jpeg](img-1.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 33",
+   "images": [
+    {
+     "id": "img-1.jpeg",
+     "top_left_x": 76,
+     "top_left_y": 467,
+     "bottom_right_x": 690,
+     "bottom_right_y": 895,
+     "path": "p0034-img-1.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 35,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 8\n\n# Le quartier Joliot Curie\n\n# L'organisation viaire et la valorisation des transports en commun\n\n# Une organisation viaire à deux niveaux, qui privilégie les circulations douces\n\nL'organisation du quartier doit être structurée par une hiérarchisation des voies selon deux niveaux : la voie structurante Joliot-Curie, axe est-ouest, et des voies secondaires nord-sud.\n\nLa voie Joliot-Curie, selon son tracé redressé et un gabarit de l'ordre de 20 m, doit devenir l'un des axes majeurs autour duquel s'organise et se développe la trame du quartier. Elle doit être traitée comme un axe partagé entre les différents modes de déplacements : automobiles, cyclistes et piétons.\n\nLes axes secondaires du quartier ont vocation à assurer une desserte interne du quartier. Ils sont principalement destinés à recevoir des circulations douces, même si la voiture y est présente pour permettre une desserte des immeubles et l'accès aux stationnements.\n\nEn complément, un axe piétonnier diagonal qui traverse le quartier du sud-ouest au nord-est, en passant par la place publique du cœur du quartier et l'Ecole Centrale, pour rejoindre la gare du métro prévue au nord-est du quartier.\n\nCet axe a vocation à :\n\n- favoriser des liaisons entre le quartier Joliot-Curie et le reste du projet d'aménagement du plateau de Moulon,\n- relier les établissements d'enseignement et de recherche et les équipements essentiels pour la dynamique du quartier tout en favorisant leur ouverture sur l'extérieur.\n\nAinsi, l'organisation proposée doit permettre de privilégier les circulations douces, ce qui se traduit par :\n\n- la limitation de l'utilisation de la voiture, avec la réalisation de parkings souterrains ou dans le gabarit des constructions, avec une recherche de mutualisation des places de stationnement et l'accueil d'un nombre réduit de places de stationnement le long des voies,\n- une conception des espaces publics confortables et sécuritaires pour les piétons et les cyclistes avec des aménagements réservant une large place à ces modes de déplacement.\n\n# Une desserte en transports en commun attractive\n\nL'organisation du fonctionnement du quartier doit prendre en compte l'amélioration programmée de sa desserte par les transports en commun, avec la réalisation du métro Grand Paris Express reliant Orly à Versailles, et du TCSP (transport en commun en site propre), accompagnés par un réseau de bus offrant une desserte plus fine du quartier.\n\nL'accessibilité vers les stations implantées au nord du quartier Joliot-Curie doit être privilégiée dans le choix de tracé des emprises publiques.\n\n![img-2.jpeg](img-2.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 34",
+   "images": [
+    {
+     "id": "img-2.jpeg",
+     "top_left_x": 252,
+     "top_left_y": 656,
+     "bottom_right_x": 686,
+     "bottom_right_y": 957,
+     "path": "p0035-img-2.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  },
+  {
+   "page": 36,
+   "markdown": "COMMUNE DE GIF SUR YVETTE\nPlan local d'Urbanisme\n\n# 8 Le quartier Joliot Curie\n\n# La programmation\n\nAutour d'une programmation mixte, le quartier Joliot-Curie accueille l'Ecole Centrale Paris et ses programmes associés ainsi qu'une diversité de programmes urbains : établissements d'enseignement supérieur et de recherche, constructions d'habitation destinées aux étudiants, aux chercheurs et aux familles, équipements publics, commerces, services ou programmes d'activités économiques.\n\nCette mixité est un élément majeur dans la conception globale du projet d'aménagement du sud du plateau de Saclay.\n\nLa polarité quartier d'habitat-cœur campus Joliot-Curie se localise entre l'axe structurant Nord-Sud, la rue Joliot-Curie, axe Est-Ouest, et la Ferme du Moulon. Cet espace est le cœur de vie et d'animation du quartier Joliot-Curie, il accueille des logements familiaux et étudiants, des commerces, des services.\n\n# Les liens fonctionnels entre les programmes et leur localisation dans le quartier\n\nLa logique de répartition des différents programmes au sein du quartier doit concourir à favoriser les échanges et l'animation du quartier au regard, notamment, de la composition des espaces publics projetés et des établissements existants. A ce titre :\n\n- le choix de l'implantation de l'Ecole Centrale Paris doit privilégier sa proximité avec Supélec pour favoriser les synergies recherchées entre ces deux établissements mais également faciliter des liens avec l'ENS et les composantes de l'université Paris Sud,\n- les programmes campus mutualisés ainsi que les commerces et services sont localisés à proximité des espaces ouverts au public et des parcours les plus fréquentés. Ils doivent être principalement développés en rez-de-chaussée d'immeubles, en lien direct avec les espaces ouverts au public,\n- les programmes de logements familiaux et étudiants sont implantés principalement à l'Ouest du quartier pour favoriser la mixité en privilégiant la proximité des services et des équipements publics.\n\n![img-3.jpeg](img-3.jpeg)\n\nModification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 - 35",
+   "images": [
+    {
+     "id": "img-3.jpeg",
+     "top_left_x": 112,
+     "top_left_y": 538,
+     "bottom_right_x": 673,
+     "bottom_right_y": 926,
+     "path": "p0036-img-3.jpeg"
+    }
+   ],
+   "tables": [],
+   "header": null,
+   "footer": null,
+   "dimensions": {
+    "dpi": 87,
+    "height": 1018,
+    "width": 719
+   },
+   "blocks": []
+  }
+ ]
+}

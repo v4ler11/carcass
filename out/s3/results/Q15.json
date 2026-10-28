@@ -1,0 +1,47 @@
+{
+  "question_id": "Q15",
+  "status": "confirmed",
+  "answer_text": "The minimum retrait for a façade or part of façade without views is 3 metres from the side or rear limit (c-01)[à 3 mètres pour les façades ou parties de façade ne comportant pas de vue]. The retrait is measured perpendicularly from any point of the construction, balconies and oriels included, to the nearest point of the limit (c-02)[Le retrait est la distance (L) comptée perpendiculairement de tout point de la construction, balcons et oriels compris]. Façades with views require 6 metres under the same rule (c-03)[à 6 mètres pour les façades ou parties de façade comportant des vues].",
+  "answer_value": 3.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The 3 m value applies only to façades without views. The planner's companion-value framing for Q14 is consistent with this text. Article 7.3 permits a different siting only for technical equipment such as transformers (c-04)[Une implantation différente est autorisée pour les équipements techniques liés à la sécurité, à un service public, à la distribution d'énergie]. Whether a given façade has views is not defined in Article 7 (c-05)[Article 7 text on plu_reglement pages 324-325 (printed 324-325 per footer) was read in full and contains no definition of vue]. The page footer reads 324 and the PDF page is 325.",
+  "citations": [
+    {
+      "claim": "Under UMG Article 7.2.1, the retrait from a side or rear limit must be at least 3 metres for façades or parts of façade without views.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='à 3 mètres pour les façades ou parties de façade ne comportant pas de vue'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 325 (printed 324), Article 7.2.1 'Règle générale', reads: 'En cas de retrait, ce dernier doit être au moins égal : ... à 3 mètres pour les façades ou parties de façade ne comportant pas de vue.' The page image confirms the same text. The claim matches the source."
+    },
+    {
+      "claim": "Under UMG Article 7.2.2, the retrait is measured perpendicularly from any point of the construction, balconies and oriels included, to the nearest point of the separative limit.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='Le retrait est la distance (L) comptée perpendiculairement de tout point de la construction, balcons et oriels compris, au point le plus proche de la limite séparative'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 325, Article 7.2.2 'Calcul des retraits', reads: 'Le retrait est la distance (L) comptée perpendiculairement de tout point de la construction, balcons et oriels compris, au point le plus proche de la limite séparative.' This matches the claim. The same sentence also excludes modénature elements and buried parts, which the claim does not mention but does not contradict."
+    },
+    {
+      "claim": "Under UMG Article 7.2.1, the retrait must be at least 6 metres for façades or parts of façade with views.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='à 6 mètres pour les façades ou parties de façade comportant des vues'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 325, Article 7.2.1, reads: 'à 6 mètres pour les façades ou parties de façade comportant des vues ;'. The page image confirms it. The claim matches the source."
+    },
+    {
+      "claim": "Under UMG Article 7.3, a different siting is allowed only for technical equipment such as transformers, where technical reasons justify it.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='Une implantation différente est autorisée pour les équipements techniques liés à la sécurité, à un service public, à la distribution d'énergie'",
+      "confirmed": true,
+      "reasoning": "plu_reglement page 325, Article 7.3 'DISPOSITIONS PARTICULIERES', reads: 'Une implantation différente est autorisée pour les équipements techniques liés à la sécurité, à un service public, à la distribution d'énergie tels que les transformateurs, dès lors que des raisons techniques le justifient.' The claim's 'only' is a fair reading of this sole exception in Article 7, and the 'technical reasons' condition is present. The claim omits the security and public-service categories, but it does not contradict the text."
+    },
+    {
+      "claim": "Article 7 of the UMG zone text on plu_reglement pages 324-325 contains no definition of the term vue; scope checked was Article 7 (7.1 to 7.3) on those two pages.",
+      "c_id": "c-05",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='à 6 mètres pour les façades ou parties de façade comportant des vues'",
+      "confirmed": true,
+      "reasoning": "I read the full text of plu_reglement pages 324 and 325, which cover Article 7 (7.1 to 7.3) and the start of Article 8. Neither page defines 'vue'. The word appears only in operative phrases such as 'comportant des vues' and 'ne comportant pas de vue'. A search for definition wording across the document returned only pages 250 (a reference to the lexique for another term) and 409 (an unrelated antenna sentence), so there is no definition of 'vue' in Article 7. The claim is limited to that scope, and it holds within that scope."
+    }
+  ]
+}

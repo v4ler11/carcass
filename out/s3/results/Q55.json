@@ -1,0 +1,54 @@
+{
+  "question_id": "Q55",
+  "status": "confirmed",
+  "answer_text": "One medium-development tree per 300 m² of terrain, applied as one tree per 300 m² tranche where the terrain exceeds 300 m² (c-01)[un arbre à moyen développement au-delà de 300 m² de terrain, à raison d'un arbre par tranche de 300 m² de terrain]. Terrain of 300 m² or less instead requires a small-development tree (c-02)[un arbre à petit développement pour les terrains inférieurs à 300 m²].",
+  "answer_value": 1.0,
+  "confidence": "high",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner rationale says the planting requirement applies to the parcel and must be shown in the landscape plan. The rule is conditional on terrain area above 300 m² and on a new-construction project, and the parcel's area is not stated in the supplied metadata, so applicability is unconfirmed. Article 13.3 and the surrounding UMG text on pages 329-331 were read and contain no landscape-plan submission requirement (c-05)[No landscape-plan submission requirement appears in pages 329-331 (printed) as read in full; the Article 13.3 text on printed page 330 refers only to espaces traités de façon paysagère].",
+  "additional_context": "Tree-size definition: medium-development trees reach 10 to 20 m at adulthood (c-06)[Les arbres à moyen développement sont ceux qui, à l'âge adulte, atteignent entre 10 et 20 m de hauteur.]. The obligation applies to any new construction project (c-03)[Tout projet de construction neuve entraîne l'obligation de traiter]. The quantitative provisions do not apply to constructions and installations necessary for public services or collective-interest purposes (c-04)[Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.]. Whether the RSE or Résidence Jeunes Actifs buildings fall under that exemption is not determined here and needs confirmation.",
+  "citations": [
+    {
+      "claim": "Article 13.3 of UMG requires planting one medium-development tree per 300 m² tranche of terrain where the terrain exceeds 300 m².",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed; PDF page 331) | quote='un arbre à moyen développement au-delà de 300 m² de terrain, à raison d'un arbre par tranche de 300 m² de terrain'",
+      "confirmed": true,
+      "reasoning": "plu_reglement, PDF p.331 (printed 330), Article 13.3, bullet 3, reads: 'La plantation à minima d'un arbre à petit développement pour les terrains inférieurs à 300 m², et un arbre à moyen développement au-delà de 300 m² de terrain, à raison d'un arbre par tranche de 300 m² de terrain.' This matches the claim that one medium-development tree per 300 m² tranche applies where terrain exceeds 300 m². The same wording appears in the UM zone at printed p.317, but the UMG text was checked directly."
+    },
+    {
+      "claim": "For terrain of 300 m² or less, Article 13.3 requires a small-development tree rather than a medium-development tree.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed; PDF page 331) | quote='un arbre à petit développement pour les terrains inférieurs à 300 m²'",
+      "confirmed": true,
+      "reasoning": "plu_reglement, PDF p.331 (printed 330), Article 13.3, same bullet: 'La plantation à minima d'un arbre à petit développement pour les terrains inférieurs à 300 m²'. The claim that a small-development tree is required for terrain of 300 m² or less is supported."
+    },
+    {
+      "claim": "The Article 13.3 tree obligation is triggered by any new construction project.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed; PDF page 331) | quote='Tout projet de construction neuve entraîne l'obligation de traiter'",
+      "confirmed": true,
+      "reasoning": "plu_reglement, PDF p.331 (printed 330), Article 13.3: 'Tout projet de construction neuve entraîne l'obligation de traiter :' followed by the green-space, pleine-terre and tree obligations. The tree obligation is therefore triggered by any new construction project, as claimed."
+    },
+    {
+      "claim": "The Article 13.3 quantitative provisions do not apply to constructions and installations necessary for public services or collective-interest purposes.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed; PDF page 331) | quote='Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement, PDF p.331 (printed 330), Article 13.3: 'Les dispositions quantitatives fixées ci-dessus ne sont pas applicables aux constructions et installations nécessaires aux services publics ou d'intérêt collectif.' This is verbatim support for the claim."
+    },
+    {
+      "claim": "No landscape-plan submission requirement appears in the UMG text on printed pages 329-331 (scope: full reading of those pages; Article 13.3 refers only to spaces treated paysagèrement).",
+      "c_id": "c-05",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed; PDF page 331) | quote='doivent être traités de façon paysagère'",
+      "confirmed": true,
+      "reasoning": "I read printed pages 329–331 (PDF 330–332) in full; PDF 332 (printed 331) holds only Article 16 on electronic communications networks. The only landscape-related text is 'doivent être traités de façon paysagère' in Article 13.3 (PDF 331), plus paysager wording for bicycle and car parking in 12.5/12.6 and 13.2. None of it requires a landscape plan or notice. A keyword search for 'plan paysag'/'notice paysag' across plu_reglement returned hits only in other zones, OAPs and general pages (e.g. p.184, p.254, p.422), not in the UMG pages 329–331. The claim that no landscape-plan submission requirement appears on those pages holds."
+    },
+    {
+      "claim": "Medium-development trees are those that reach between 10 and 20 m in height at adulthood.",
+      "c_id": "c-06",
+      "verification_instructions": "TEXT | plu_reglement | page=329 (printed; PDF page 330) | quote='Les arbres à moyen développement sont ceux qui, à l'âge adulte, atteignent entre 10 et 20 m de hauteur.'",
+      "confirmed": true,
+      "reasoning": "plu_reglement, PDF p.330 (printed 329), Article 13.1 'Taille des arbres': 'Les arbres à moyen développement sont ceux qui, à l'âge adulte, atteignent entre 10 et 20 m de hauteur.' This matches the claim exactly."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "question_id": "Q20",
+  "status": "confirmed",
+  "answer_text": "No. UMG Article 8.2 does not exempt residential constructions from the inter-building distance of Article 8.1. It allows a different implantation only for technical equipment serving safety, a public service, water management, energy distribution such as transformers, or a household waste storage local needed for selective sorting (c-01)[8.2: 'Les constructions peuvent être implantées différemment de la règle définie en 8.1 lorsqu'il s'agit d'équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau']. The full 8.2 list contains no residential, student-residence or young-worker-housing category, so neither the Résidence Sociale Étudiante nor the Résidence Jeunes Actifs qualifies (c-02)[8.2 paragraph on PDF p.326 / printed p.325 checked in full].",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "Page correction to the input reference: Article 8.2 sits on PDF p.326 (printed 325), not PDF p.327 (printed 326). PDF p.327 begins at Article 11.1. Article 8.1 starts on PDF p.325 (printed 324) and its 6 m clause continues onto PDF p.326. The exemption is limited to the listed technical and public-service categories. If a project were ever framed as public-service equipment, that would need separate review, but neither residential use is described that way.",
+  "citations": [
+    {
+      "claim": "UMG Article 8.2 permits a different implantation from Article 8.1 only for technical equipment linked to safety, a public service, water management, energy distribution (such as transformers), or a household waste storage local for selective sorting.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='Les constructions peuvent être implantées différemment de la règle définie en 8.1 lorsqu'il s'agit d'équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau'",
+      "confirmed": true,
+      "reasoning": "Checked plu_reglement page 326 (Article 8.2, Dispositions particulières) by text extraction and rendered page image. The paragraph says constructions may be sited differently from the Article 8.1 rule only for 'équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau, à la distribution d'énergie tels que transformateurs ou d'un local destiné au stockage des ordures ménagères nécessaire au tri sélectif.' This matches the claim's list of exemptions. The cited quote is a truncated fragment, but the full paragraph on the same page confirms the claim, and the 'lorsqu'il s'agit d'équipements...' wording supports the 'only' restriction."
+    },
+    {
+      "claim": "The Article 8.2 exemption list contains no residential, student-residence or young-worker-housing category.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=326 | quote='8.2.- DISPOSITIONS PARTICULIERES' (full 8.2 paragraph checked; list contains only technical equipment, public service, water, energy distribution and waste-sorting storage; no residential category)",
+      "confirmed": true,
+      "reasoning": "Checked the full Article 8.2 paragraph on plu_reglement page 326 (text and image). The exemption list covers only technical equipment for safety, public service, water management, energy distribution (transformers), and a household-waste storage local for selective sorting. No residential, student-residence, or young-worker-housing category appears in 8.2. Housing-term keyword hits on other pages (e.g., parking rules on pages 5-6) do not fall within Article 8.2."
+    }
+  ]
+}

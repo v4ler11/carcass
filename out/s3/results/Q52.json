@@ -1,0 +1,19 @@
+{
+  "question_id": "Q52",
+  "status": "confirmed",
+  "answer_text": "Yes. UMG Article 4.4 (\"LA COLLECTE DES ORDURES MENAGERES\") requires an enclosed space for habitation buildings with more than three dwellings: \"pour les constructions à destination d'habitation comportant plus de trois logements, un espace clos d'une superficie suffisante pour recevoir les divers conteneurs liés à la collecte sélective des ordures ménagères doit être aménagé\" (c-01)[pour les constructions à destination d'habitation comportant plus de trois logements, un espace clos d'une superficie suffisante pour recevoir les divers conteneurs liés à la collecte sélective des ordures ménagères doit être aménagé]. The planner rationale's premise is confirmed by the source text.",
+  "answer_value": true,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The text requires an 'espace clos' (enclosed space) of sufficient area for sorting containers. It does not expressly use the term 'closed refuse enclosure'. Article 4.4 also requires a space for bulky waste for new construction. Article 4.4 does not address whether a Résidence Sociale Étudiante or Résidence Jeunes Actifs counts as 'habitation'; that classification was not checked here. The article is on printed page 322 (pdf page 323), not 'p. 322-323' as stated in the input.",
+  "citations": [
+    {
+      "claim": "UMG Article 4.4 requires an enclosed space sufficient for sorting containers for habitation buildings with more than three dwellings.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (printed; pdf 323) | quote='pour les constructions à destination d'habitation comportant plus de trois logements, un espace clos d'une superficie suffisante pour recevoir les divers conteneurs liés à la collecte sélective des ordures ménagères doit être aménagé'",
+      "confirmed": true,
+      "reasoning": "Inspected plu_reglement at pdf page 323 (printed page 322), under the heading 'Moulon - UMG' in section 4.4 'LA COLLECTE DES ORDURES MENAGERES'. The text reads: 'pour les constructions à destination d'habitation comportant plus de trois logements, un espace clos d'une superficie suffisante pour recevoir les divers conteneurs liés à la collecte sélective des ordures ménagères doit être aménagé.' This matches the cited quote and the claim. The printed footer reads 322, consistent with the citation. A phrase search also returned pdf page 323 for the UMG zone. The similar UR zone rule on page 154 ('un local ou un espace clos') is a different article and does not affect this UMG-specific claim."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "question_id": "Q63",
+  "status": "confirmed",
+  "answer_text": "No. OAP section 8 (printed pp. 32-35, PDF pp. 33-36) does not textually describe the boundary or limits of the Quartier Joliot Curie sector. The introduction only states that the Moulon project includes the quartier (c-01)[Le projet d'aménagement de Moulon comprend le quartier Joliot Curie pour lequel des orientations d'aménagement spécifiques sont définies]. The only textual 'limite' in section 8 refers to the Gif-sur-Yvette/Orsay commune limit, not the sector (c-02)[reliant la limite Gif-sur-Yvette - Orsay avec la plaine des sports de Moulon]. The sector perimeter appears only inside schema captions, as a graphic element (c-03)[montrant le quartier Joliot-Curie avec la limite communale, le périmètre des orientations d'aménagement, les espaces publics structurants] and again on the movement schema (c-04)[montrant le quartier Joliot-Curie avec la limite communale, le périmètre des orientations d'aménagement, les cheminements].",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The sector perimeter is conveyed only graphically on the schema maps (PDF pp. 34-35), so the sub-sector boundary flag remains a graphic-only limitation. Scope checked: OAP section 8 text and captions on PDF pp. 33-36, plus a case-insensitive search of the full OAP document for 'joliot' and for 'limite', 'périmètre' and 'délimit'. The 'périmètre' hits on printed pp. 16-18 concern other OAP sectors. Printed page numbers run one behind PDF pages (PDF p. 33 = printed p. 32). The c-03 and c-04 quotes come from image captions, not running body text.",
+  "citations": [
+    {
+      "claim": "OAP section 8 introduction states that the Moulon project includes the Joliot Curie quartier, for which specific orientations are defined, without describing its limits.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 | quote='Le projet d'aménagement de Moulon comprend le quartier Joliot Curie pour lequel des orientations d'aménagement spécifiques sont définies.'",
+      "confirmed": true,
+      "reasoning": "Read OAP page 33 (section 8, 'Le quartier Joliot Curie'). The text states: 'Le projet d'aménagement de Moulon comprend le quartier Joliot Curie pour lequel des orientations d'aménagement spécifiques sont définies.' This matches the quoted sentence. The introduction and the following paragraph on general orientations describe no sector boundary or limits of the quartier. The only location reference is the 'limite Gif-sur-Yvette - Orsay' in the street description, which is a commune boundary, not a description of the quartier's limits. The claim is supported."
+    },
+    {
+      "claim": "The only textual use of 'limite' in OAP section 8 refers to the Gif-sur-Yvette/Orsay commune limit, not the sector boundary.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 | quote='reliant la limite Gif-sur-Yvette - Orsay avec la plaine des sports de Moulon.'",
+      "confirmed": true,
+      "reasoning": "Ran case-insensitive searches for 'limite' across the document. Hits in section 8 (pages 33-35) are: page 33 body text, 'reliant la limite Gif-sur-Yvette - Orsay avec la plaine des sports de Moulon', which is the commune boundary; and the page 34 and 35 image captions, which refer to 'la limite communale'. Other hits (pages 12, 30, 31) are outside section 8. Page 35 body text uses 'limitation' (a different word) for vehicle use, not the sector boundary. Every use of 'limite' in section 8 refers to the commune limit, so the claim holds."
+    },
+    {
+      "claim": "The schema caption on OAP PDF page 34 refers to the orientations-d'aménagement perimeter only as a graphic element shown on a map.",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 | quote='montrant le quartier Joliot-Curie avec la limite communale, le périmètre des orientations d'aménagement, les espaces publics structurants' (image caption p0034-img-1.jpeg)",
+      "confirmed": true,
+      "reasoning": "Read page 34 and loaded image p0034-img-1.jpeg. The caption describes a 'SCHÉMA DE PRINCIPE DES ESPACES PUBLICS' listing 'la limite communale, le périmètre des orientations d'aménagement, les espaces publics structurants'. The image legend shows 'Périmètre des orientations d'aménagement' as a red dashed line on the map, and 'Limite communale' as a black dotted line. The perimeter appears only as a graphic map element. The body text on page 34 does not mention the perimeter, so the claim is supported."
+    },
+    {
+      "claim": "The schema caption on OAP PDF page 35 likewise refers to the orientations-d'aménagement perimeter only as a graphic element on a travel-movement map.",
+      "c_id": "c-04",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 | quote='montrant le quartier Joliot-Curie avec la limite communale, le périmètre des orientations d'aménagement, les cheminements' (image caption p0035-img-2.jpeg)",
+      "confirmed": true,
+      "reasoning": "Read page 35 and loaded image p0035-img-2.jpeg. The caption describes a 'schéma de principe des déplacements' showing 'le périmètre des orientations d'aménagement, les cheminements, le maillage principal et secondaire...'. The image legend lists 'Périmètre des orientations d'aménagement' as a red dashed outline on the travel-movement map, with no textual description of its extent. The body text on page 35 does not describe the perimeter. The perimeter appears only as a graphic element on the map, so the claim is supported."
+    }
+  ]
+}

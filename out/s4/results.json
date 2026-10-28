@@ -1,0 +1,500 @@
+{
+  "text": "Buildability study: Résidence Sociale Étudiante and Résidence Jeunes Actifs (two buildings), parcel 91272000CR0247, zone UMG, Gif-sur-Yvette\n\nbuildability_conclusion\n1. Verdict: Résidence Sociale Étudiante — admissibility_status: conditional (provisional). Résidence Jeunes Actifs — admissibility_status: conditional (provisional). Neither use is prohibited by UMG Article 1, but the règlement does not settle whether either building counts as habitation, and that classification sets the height and parking norms.\n2. Envelope: the screening runs give a buildable volume between 63,615.1 m³ (run A3, lowest) and 112,947.6 m³ (run B1, highest). These are screening estimates with respect to setbacks only. They do not include the distance between the two buildings, espace vert, pleine terre, or on-site parking.\n3. Controlling envelope rules: habitation height of 20 m with R+5, versus 18 m for other destinations; a recul of at least 1 m from the alignment; side setbacks of 6 m for façades with views and 3 m for blank façades; an inter-building distance of 10 m with views or 6 m without.\n4. Open points that block a final answer: whether the RSE and the RJA count as habitation (Q03, Q04, Q05); the floor-height and level-counting assumption behind R+5; the legal force of the OAP objectives (Q23, Q26, Q27); whether any road-widening runs along the frontage (Q60, Q61); and the 2026 metadata versus 2021 PDF version mismatch (Q62).\n5. Feasibility a developer must plan for: parking (including 85% on-site integration for habitation), a two-way access road at least 5 m wide, underground networks and sewer connection, espace vert of 20% and pleine terre of 10% of the terrain, and an enclosed refuse space for habitation above three logements.\n\nparcel_identification\nThe address was geocoded to 4 Rue Joliot-curie 91190 Gif-sur-Yvette with a match score of 0.9635 and address id 91272_1599_00004 (c-01)[address.label; address.score; address.address_id] [source_type: geometric]. The cadastral parcel for that address is idu 91272000CR0247 (section CR, numéro 0247) with gpu_id 91_272_000_000_CR_0247 (c-02)[parcel.idu; parcel.gpu_id] [source_type: geometric]. The sheet was georeferenced with a mean parcel-edge residual of 1.87 m (c-03)[georeference.parcel_edge_residual_mean_m = 1.87] [source_type: geometric] and a median of 1.19 m (c-04)[georeference.parcel_edge_residual_median_m = 1.19] [source_type: geometric].\n\nGeometry assumptions: the declared area is 5,960 m² (c-05)[parcel.area_m2 = 5960] [source_type: geometric]. The WKT polygon encloses 5,951.5 m² according to the envelope tool (c-06)[calculation_trace: Parcel area (raw): 5951.5 m2] [source_type: geometric]. The difference of about 8.5 m² (about 0.1%) is treated as immaterial. The WKT polygon is the boundary used, and no bbox proxy was used.\n\nzoning_context\nThe GPU metadata assigns zone code UMG, type U (c-07)[zone.code = UMG; zone.type = U] [source_type: regulatory]. Zone UMG is the Joliot-Curie quartier (c-08)[La zone UMG correspond au quartier Joliot-Curie] [source_type: regulatory]. The parcel lies entirely within the UMG area and no zone limit crosses it (c-09)[zone.fully_within_zone = true; zoom-3 outline lies on the pale-pink UMG fill] [source_type: geometric].\n\nThe OAP section 8 covers the Quartier Joliot Curie (c-10)[Le projet d'aménagement de Moulon comprend le quartier Joliot Curie pour lequel des orientations d'aménagement spécifiques sont définies.] [source_type: regulatory]. The metadata lists two prescriptions with the OAP label (c-11)[prescriptions[0].label; prescriptions[1].label] [source_type: geometric]. The parcel sits inside the magenta dotted OAP perimeter, roughly 140 m from its northern edge and 135 m from its southern edge (c-12)[zoom-2 magenta dotted edges at y≈300 and y≈880 versus parcel top y≈525 and bottom y≈660; 864 m across 1401 px] [source_type: geometric].\n\nNo emplacement réservé overlaps the parcel. Table 05 has no row for CR 0247 (c-13)[TABLE 05 rows none_found] [source_type: regulatory]. Table 06 has no matching row (c-14)[TABLE 06 rows none_found] [source_type: regulatory]. Table 04 has no cadastral reference and no Joliot-Curie row (c-15)[TABLE 04 rows none_found] [source_type: regulatory]. A search of all three ER listings found no CR 0247 entry (c-16)[TABLE plu_reglement rows none_found; regex for CR 0247 and 91272000CR returned 0 matches in pdf pp.368-370] [source_type: regulatory]. The blue and red ER hatches are absent from the parcel and its immediate surroundings (c-17)[VISUAL zoom-3.png bbox=[300,300,900,900] against 01_legende.png] [source_type: geometric].\n\nThe other legend overlays (EBC, lisières, non-aedificandi, PPRi, sanitary perimeters, protection paysagère, commerce linear, zone humide) do not appear on the parcel (c-18)[VISUAL zoom-3.png bbox=[0,0,1284,1284] scanned against 01_legende.png] [source_type: geometric]. The sanitary-recommendations regime appears in the règlement only in the UH and UX zone sections, not in the UMG pages read (c-19)[TEXT | plu_reglement | page=101 | quote='Dans les périmètres de prescription et de recommandation sanitaires, il est recommandé que les travaux soient effectués sous le contrôle d'un organisme d'expertise agréé'] [source_type: regulatory].\n\nadmissibility\nRésidence Sociale Étudiante — admissibility_status: conditional (provisional)\nRésidence Jeunes Actifs — admissibility_status: conditional (provisional)\n\nHow the program maps to the regulatory categories. The candidate categories for both buildings are habitation, hébergement hôtelier (including résidences services), and the autre destination residual. Habitation is the only category with a textual anchor for the RSE. The zone introduction describes habitation for students, researchers and families (c-20)[des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles] [source: Q01]. Article 12.1 places résidences étudiantes under the habitation heading (c-21)[pour les résidences étudiantes] [source: Q03]. The LEXIQUE defines no habitation, hébergement or sous-destination term (c-22)[LEXIQUE pdf pp.374-379 read in full] [source: Q03]. Whether the RSE is habitation therefore remains partial, and a planner must confirm it. For the RJA the règlement contains no classification (c-23)[plu_reglement full-document search for 'jeunes actifs' returned 0 occurrences] [source: Q04]. Hébergement hôtelier names résidences hôtelières and résidences services, not résidences jeunes actifs (c-24)[Pour les constructions à destination d'hébergement hôtelier (y compris résidences hôtelières et résidences services) : 0,5 place par chambre] [source: Q33, Q05 not_found]. No text places the RSE under hébergement hôtelier, and this study does not assume it. The autre destination residual applies the 18 m rule only if a building is neither habitation nor service public (c-30)[Pour les constructions ayant une autre destination : la hauteur maximale des constructions est limitée à 18 mètres] [source: Q09].\n\nEvidence for not excluding either building. Article 1 prohibits agricultural, forestry and entrepôt buildings (c-25)[Les constructions, ouvrages ou travaux à destination d'exploitation agricole ou forestière et d'entrepôt.] [source: Q01], and a caravane used as housing (c-26)[L'installation d'une caravane à usage d'habitation.] [source: Q01]. Neither prohibition covers a residential building. Article 2 admits only listed conditional uses, and that list has no habitation item (c-27)[Sont admises, sous conditions, les occupations et utilisations du sol suivantes] [source: Q02]. No Article 2 condition applies to student residences in UMG (c-28)[UMG Article 2 read in full, printed p.320; no student-residence item] [source: Q06]. The student-accommodation condition belongs to zone UL2, not UMG (c-29)[A l'hébergement étudiant et à la formation] [source: Q06].\n\nWhy the status is conditional. Both buildings are admitted in principle, but the category that sets the height and parking norms is open for each one. Both receive the same status because the evidence is the same for both. The RSE has indirect habitation signals (c-21, c-22), while the RJA has none (c-23). That difference shapes the planner question but does not change the status.\n\nenvelope_rules\nHeight. For a principal habitation destination the limit is 20 m with a number of levels limited to R+5 (c-31)[la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5] [source: Q07, Q08]. For other destinations the height is 18 m (c-30). Height is measured from the sol naturel existant avant travaux (c-32)[à partir du sol naturel existant avant travaux] [source: Q10]. The text does not define the R+5 notation beyond the notation itself (c-33)[avec un nombre de niveaux limité à R+5] [source: Q08]. The metric and level caps are read as cumulative, so the lower applicable cap binds. Both the N-level and N+1-level readings are run. The N+1 reading is an analyst assumption.\n\nSetbacks. The recul from the alignment must be at least 1 m (c-34)[En cas de recul, ce dernier doit être au moins égal à 1 mètre.] [source: Q11]. Façades with views must sit at least 6 m from a limite séparative (c-35)[à 6 mètres pour les façades ou parties de façade comportant des vues] [source: Q14]. Blank façades must sit at least 3 m from it (c-36)[à 3 mètres pour les façades ou parties de façade ne comportant pas de vue] [source: Q15]. Balconies and oriels count toward the retrait (c-37)[balcons et oriels compris] [source: Q16]. Which façades carry views is a design fact that the text does not decide.\n\nInter-building distance. On one property the distance is at least 10 m where at least one facing façade has views (c-38)[10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues] [source: Q18]. Where neither facing façade has views it is at least 6 m (c-39)[6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues] [source: Q19]. The Article 8.2 exemption covers only technical and public-service equipment (c-40)[équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau] [source: Q20].\n\nEmprise and stepbacks. The emprise au sol is not regulated (c-41)[L'emprise au sol des constructions n'est pas réglementée] [source: Q21]. The façade recesses in Article 6.3 are a design aim, not an envelope rule (c-42)[Des décrochés (retrait de façades ou parties de façades) en emprise ou en élévation, sont recherchés] [source: Q22].\n\nOverlay carve-outs. No confirmed emplacement réservé or overlay overlaps the parcel (see c-13 to c-18). The overlay_carveouts input was therefore empty, and nothing was subtracted.\n\nOAP classification. The règlement requires projects to be compatible with the OAP orientations (c-43)[avec lesquelles tout projet d'aménagement et de construction doit être compatible] [source: Q25]. Tag: BINDING, as a compatibility standard set by the règlement. The R+4 average épannelage is worded 'devra permettre d'atteindre un objectif de R+4 moyen' (c-44)[un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen] [source: Q23, Q26]. Tag: ORIENTATION (provisional; Q26 ambiguous; not used to set any envelope figure). The alignment principle 'doit être retenu' (c-45)[Le principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu.] [source: Q13, Q27]. Tag: UNRESOLVED.\n\nCalculation. The envelope tool was called eight times with the WKT polygon from the confirmed context, an empty overlay_carveouts list, setbacks from Q11, Q14 and Q15, and heights from Q07 and Q09. The base run A1 trace reads (c-46)[calculation_trace, run A1]: Parcel area (raw): 5951.5 m2 / Applying uniform inward buffer of 6.0 m (max of: [1.0, 6.0, 3.0]) / Footprint area after setback erosion: 4241.0 m2 / Binding height constraint: metric (20.0 m) / Buildable volume = 4241.0 m2 x 20.0 m = 84820.2 m3. The tool simplification_note reads verbatim (c-47)[simplification_note]: Uniform inward buffer applied using the maximum stated setback value; frontage-specific edge detection not performed in this timebox.\n\nENVELOPE RUNS (every figure copied from tool output (c-48)[footprint_area_m2 and buildable_volume_m3 for runs A1 to B4])\n| Run label | footprint_area_m2 | effective_height_m | buildable_volume_m3 |\n|---|---|---|---|\n| A1 as extracted (1/6/3 m), metric 20 m | 4241.0 | 20.0 | 84820.2 |\n| A2 as extracted, metric 18 m (other destination) | 4241.0 | 18.0 | 76338.2 |\n| A3 as extracted, R+5 at 3.0 m per floor (binding 15.0 m) | 4241.0 | 15.0 | 63615.1 |\n| A4 as extracted, R+6 at 3.0 m per floor (analyst N+1 reading, 18.0 m) | 4241.0 | 18.0 | 76338.2 |\n| B1 relaxed bracket (1 m on all edges), metric 20 m | 5647.4 | 20.0 | 112947.6 |\n| B2 relaxed bracket, metric 18 m | 5647.4 | 18.0 | 101652.8 |\n| B3 relaxed bracket, R+5 at 3.0 m per floor (binding 15.0 m) | 5647.4 | 15.0 | 84710.7 |\n| B4 relaxed bracket, R+6 at 3.0 m per floor (analyst N+1 reading, 18.0 m) | 5647.4 | 18.0 | 101652.8 |\n\nThe level-capped binding height of 15.0 m reads (c-49)[calculation_trace, run A3: Level cap 5 x 3.0m/floor = 15.0 m; Binding height constraint: levels (15.0 m)].\n\nLowest volume: run A3, 63,615.1 m³. Highest volume: run B1, 112,947.6 m³. The volume range is 63,615.1 to 112,947.6 m³. The lower end assumes habitation at R+5 with 3.0 m floors. The higher end assumes 1 m setbacks on every edge with a 20 m metric height. Which height applies is decided by the open classification (Q03, Q04, Q05).\n\nWhat no run models, and in which direction each omission pushes the result. Per-edge setbacks: the as-extracted runs erode every edge by 6 m, although the frontage needs only 1 m, so they understate the footprint along frontage edges. The relaxed runs erode every edge by 1 m, so they overstate the footprint along side edges that need 6 m or 3 m. The true footprint lies between runs A and B. Distance between the two buildings (see c-38, c-39): not modelled. Two buildings reduce the buildable area, so the runs overstate it. Espace vert 20% and pleine terre 10% (see c-73, c-74): not modelled. These areas cannot carry the footprint, so the runs overstate it. Surface parking does not count toward espace vert (see c-75), and the 85% on-site parking integration for habitation (see c-55) is not modelled, so surface parking placed on the ground overstates the footprint. Levels: the tool assumes 3.0 m per floor. Taller floors reduce what fits under a level cap, so the level-capped runs overstate capacity. The N+1 reading enlarges the height and understates the constraint if R+5 means five storeys. Balconies and recesses: not modelled. Balconies count toward the retrait (see c-37), so the runs may overstate usable floor area.\n\nnon_envelope_feasibility\nThe conditions below do not change the envelope figures above. They are reported separately.\n\nParking. For résidences étudiantes the norm is one space per 150 m² of surface de plancher (c-50)[1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes] [source: Q29]. A tranche counts in full once started (c-61)[lorsque la tranche est entamée] [source: Q29]. For other habitation the norm is one space per 35 m² of surface de plancher, capped at 2 spaces per logement (c-51)[1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement] [source: Q30, Q31]. Logements financed with a prêt aidé require one space per logement (c-52)[1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat] [source: Q32]. Hébergement hôtelier requires 0.5 space per chambre (c-53)[0,5 place par chambre] [source: Q33]. The Article 12.1 L. 631-12 cap of one space per logement applies only if the RSE is such a residence, which is open (c-54)[les résidences universitaires mentionnées à l'article L. 631-12 du code de la construction et de l'habitation] [source: Q34]. For habitation at least 85% of on-site motorised spaces must be integrated into the building, with a majority in basement (c-55)[85 % minimum des places de stationnement pour les vehicules motorisés réalisées sur le terrain d'assiette des constructions doivent être intégrées à la construction à destination d'habitation dont une majorité en sous-sol] [source: Q35, Q36]. For résidences étudiantes the basement majority is not required (c-56)[Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.] [source: Q37]. Where an operation has several destinations, the spaces are summed per destination (c-57)[la somme des résultats issus du mode de calcul approprié à chacune de ces destinations] [source: Q40]. Shared car parks may be admitted for several operations (c-58)[La réalisation de parcs de stationnement communs à plusieurs opérations de construction peut être admise.] [source: Q41]. Bicycle parking for habitation is 0.75 m² per logement up to two main rooms and 1.5 m² otherwise (c-59)[0,75 m² par logement pour les logements jusqu'à deux pièces principales; 1,5 m² par logement dans les autres cas] [source: Q38]. The text sets a bicycle area minimum of 3 m² without naming a destination (c-60)[L'espace destiné au stationnement des vélos a une superficie minimale de 3 m².] [source: Q39]. The OAP asks for underground parking or parking within the building envelope (c-62)[la réalisation de parkings souterrains ou dans le gabarit des constructions] [source: Q42], and for a reduced number of on-street spaces (c-63)[l'accueil d'un nombre réduit de places de stationnement le long des voies] [source: Q43]. The OAP parking guidance is ORIENTATION; its compatibility-binding status was not confirmed (Q42, partial).\n\nAccess. Each public or private road must be at least 5 m wide for two-way traffic (c-64)[Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens] [source: Q44], and at least 3.50 m for one-way traffic (c-65)[à 3,50 mètres pour une circulation à sens unique] [source: Q45]. A private dead-end road must allow vehicles to turn around, except where it serves only a parking lot (c-66)[Les voies privées se terminant en impasse doivent être aménagées de telle sorte que les véhicules puissent faire un demi-tour] [source: Q46]. Access must allow fire and civil-protection means (c-67)[l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile] [source: Q47]. Refuse collection is one criterion within the general road-suitability rule (c-68)[l'enlèvement des ordures ménagères] [source: Q48]. Whether the parcel's access meets these widths is an open question for the planner.\n\nServicing. Each new construction must connect to the collective sewer by an underground pipe (c-69)[Toute construction ou installation nouvelle ou existante doit être raccordée par une canalisation souterraine au réseau collectif d'assainissement.] [source: Q49]. Pluvial discharge to the collecting network is regulated at 0.7 L/s/ha for the reference rain (c-70)[à 0,7 L/s/ha pour la pluie de référence] [source: Q50]. All networks must be underground (c-71)[Tous les réseaux sont implantés en souterrain.] [source: Q51]. Habitation above three logements needs an enclosed space for sorting containers (c-72)[pour les constructions à destination d'habitation comportant plus de trois logements, un espace clos d'une superficie suffisante] [source: Q52].\n\nGround area. Any new construction must treat at least 20% of the terrain as espace vert (c-73)[En espace vert 20% au moins de la superficie du terrain.] [source: Q53]. It must also treat at least 10% as pleine terre (c-74)[En espace de pleine terre 10% au moins de la superficie du terrain.] [source: Q54]. Surface parking and green roofs do not count toward espace vert (c-75)[Les aires de stationnement aménagées en surface et les toitures végétalisées ne sont pas comptabilisées en espaces verts.] [source: Q53]. Pleine terre is land free of any infrastructure and superstructure (c-76)[Sont comptabilisées dans les superficies de terrain en pleine terre, les terrains vierges de toute infrastructure et superstructure (y compris saillies).] [source: Q54]. One medium-development tree is required per 300 m² tranche where the terrain exceeds 300 m² (c-77)[un arbre à moyen développement au-delà de 300 m² de terrain, à raison d'un arbre par tranche de 300 m² de terrain] [source: Q55]. Whether the two buildings are assessed together for these ratios is ambiguous (see assumptions item 7).\n\nAcoustic. New buildings in classified road-noise sectors must be insulated under the arrêté of 30 May 1996 for habitations (c-78)[Les constructions nouvelles situées dans les secteurs affectés par le bruit doivent faire l'objet d'une isolation acoustique selon les dispositions fixées par l'arrêté du 30 mai 1996 pour les habitations] [source: Q57]. The corridor list includes RD 128 at 30 m (c-79)[RD 128 | 30 m] [source: Q57]. It also includes RER B at 30 m (c-80)[RER B | 30 m] [source: Q57]. Whether the parcel lies inside a corridor depends on the pièce n°8 graphic, which was not checked.\n\nassumptions_and_unresolved\n1. Classification of the RSE (Q03, partial). The règlement does not define the RSE, and the habitation reading rests on indirect signals (see c-21, c-22). This choice decides between the 20 m and R+5 norm and the 18 m norm, and it also decides the parking and bicycle norms.\n2. Classification of the RJA (Q04 and Q05, not found). No text in plu_reglement names the Résidence Jeunes Actifs (see c-23, c-24). Its height, parking and admissibility remain provisional.\n3. Level counting and floor height (Q08). The R+5 notation is not defined in the text (see c-33). The tool assumes 3.0 m per floor. Runs A3 and B3 depend on that assumption, and runs A4 and B4 are the analyst N+1 reading.\n4. Per-building parking cap (Q34, partial). Whether the L. 631-12 cap applies depends on item 1 (see c-54).\n5. Bicycle norm for the RSE (Q38, partial) and the scope of the 3 m² area (Q39). Both are open for the RSE (see c-59, c-60).\n6. Whether the RSE and RJA form one operation or two (Q40). The per-destination sum depends on the classification (see c-57).\n7. Espace vert and pleine terre per building (Q56, ambiguous). The text uses 'la superficie du terrain' (c-81)[En espace vert 20% au moins de la superficie du terrain.] [source: Q56], but the UMG text contains no rule saying whether these percentages are applied to the whole terrain or per building (scope: UMG rappels pdf p.320 and Article 13 pdf p.331 read; no 'plusieurs bâtiments' or 'chacun des lots' wording). The whole-terrain reading is an interpretation.\n8. Refuse collection and emergency access geometry (Q47, Q48). The règlement sets only general road suitability (see c-68).\n9. Legal force of the OAP (Q23, Q26, Q27). The OAP does not state the legal effect of its orientations (c-82)[full-text search of oap_91272_20210706 for compatib, conformit, opposable, prévaut and portée juridique found no statement of binding force] [source: Q27]. The alignment and R+4 items stay UNRESOLVED or ORIENTATION as tagged above.\n10. OAP parking compatibility (Q42, partial). The compatibility-binding premise is not confirmed (see c-62).\n11. OAP section 9 (Q28). The règlement cites orientations 8 et 9 (c-85)[orientations d'aménagement, document n°3 du PLU (orientations 8 et 9)] [source: Q28]. The OAP table of contents ends with '8. Le quartier Joliot Curie' (c-84)[8. Le quartier Joliot Curie 32] [source: Q28], and a full-document search found no section 9 (c-83)[pages_search for section-9 and orientation-9 patterns: 0 occurrences] [source: Q28]. This gap is unresolved and may reflect the version mismatch.\n12. Road-widening along rue Joliot-Curie (Q60) and the north-south ER (Q61). The OAP describes the rue Joliot-Curie as requalifiée (c-86)[la rue Joliot-Curie requalifiée] [source: Q60], with a gabarit of about 20 m (c-87)[un gabarit de l'ordre de 20 m] [source: Q60]. The ER élargissements table has no Joliot-Curie or north-south entry (c-88)[TABLE plu_reglement rows 1,3,4,5,6,9,10,12,14,15,16,18,20,24 read in full] [source: Q61]. A human should check the red-arrow ER against the plan.\n13. Version mismatch (Q62). The UMG pages carry the footer 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021' (c-89)[Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 319] [source: Q62]. The cover lists the same approvals (c-91)[Révision allégée n°1 approuvée en Conseil municipal du 6 juillet 2021] [source: Q62]. The metadata zone name refers to reglement_20260408.pdf, and the string 2026 does not occur in plu_reglement (c-90)[full-document search for '2026' returned 0 matches] [source: Q62]. A human should check which version governs.\n14. Recommandations sanitaires versus OAP perimeter (undetermined). The regime is absent from the UMG text (see c-19), but the dashed purple line cannot be separated from the magenta OAP line on the map.\n15. Recensed elements under L.151-19 and L.151-23 (undetermined). The UMG text contains no condition on construction near such elements (c-94)[UMG pages read in full; no L151.19, L151.23 or recensé wording] [source: Q58]. The UA2 zone contains such a condition (c-96)[Les constructions nouvelles ainsi que les travaux d'aménagement ou d'extension réalisés à proximité ou sur des éléments recensés au titre des articles L151.19 et L151.23 (plan 5.5) doivent être conçus pour préserver] [source: Q58]. The general demolition permit covers recensed built elements (c-95)[y compris les éléments bâtis recensés au titre des articles L.151.19 et L.151-23] [source: Q58]. Presence on the parcel is not established, because plan n°5.5 is only a thumbnail.\n16. Acoustic corridor (Q57). Whether the parcel lies in a corridor depends on the pièce n°8 graphic (see c-79, c-80).\n17. Espace vert and pleine terre relation (Q54). The règlement says at least 50% of required espaces végétalisés must be pleine terre (c-97)[A minima 50% des espaces végétalisés exigés sont composés de pleine terre.] [source: Q54]. How this combines with the 10% floor is not resolved.\n18. BD 247 entries (Q59). Two ER rows list BD 247, which is a different section from CR 0247 (c-99)[plu_reglement page 368 (printed 367): 'BD 3, 13, 14, 206, 227, 247' and 'BD 206, 247, 21, 211, 18, 43'] [source: Q59]. No link to CR 0247 is assumed.\n19. Sector boundary (Q63). OAP section 8 does not describe the sector's limits in text. The only textual 'limite' refers to the Gif-sur-Yvette/Orsay commune boundary (c-92)[reliant la limite Gif-sur-Yvette - Orsay avec la plaine des sports de Moulon.] [source: Q63]. The sector perimeter appears only graphically (c-93)[le périmètre des orientations d'aménagement] [source: Q63].\n20. Carry-forward limitations. These are known gaps that text retrieval cannot close (c-98)[ANSWER_STORE carry_forward_limitations, six entries] [source: Q-series]:\n- The zone and OAP rely on visual reading of soft zoom imagery. The calls are robust because the nearest boundaries are far from the parcel.\n- Table 04 contains no cadastral references. A red-arrow nord-sud ER appears in the legend, but its position cannot be matched to a table row. A human should confirm that no road-widening ER runs along the frontage.\n- The sub-sector boundary of the Quartier Joliot Curie OAP is not drawn separately in the zoom images. A human should confirm that the magenta outline matches the OAP sector outline.\n- The recommandations sanitaires (dashed purple) and the OAP perimeter (magenta dotted) look similar at this resolution. The recommandations check is undetermined.\n- The L 151-19 and L 151-23 element check is undetermined, because 02_elements_recenses.png shows only a thumbnail of plan n°5.5.\n- The west distance from the parcel to the OAP perimeter is not stated. A human should measure it on the plan.\n\nself_correction_log\n- Q02 (contradicts planner): the planner said the zone introduction supports habitation without conditions. Winner: the operative text. The introduction is descriptive, and Article 2 is the operative list [source: Q02]. Habitation admission still rests on the absence of a prohibition, so the status stays provisional.\n- Q09 (contradicts planner): the planner gave hébergement hôtelier or résidences services as examples of the autre destination case. Winner: the source, because Article 10.2 names no residence type and Q04 and Q05 were not found [source: Q09, Q04, Q05]. The 18 m rule is used as a run, not as a classification.\n- Q13 (contradicts planner): the planner said OAP section 8 may refine UMG Article 6. Winner: the source, because the OAP does not reference Article 6 [source: Q13].\n- Q34 (contradicts planner): the planner said the parking obligation may not apply to a résidence universitaire. Winner: the text, which caps the requirement at one space per logement and does not disapply it [source: Q34].\n- Q40 (contradicts planner): the planner framed the per-destination sum as a sum across two buildings. Winner: the text, which refers to one operation with several destinations [source: Q40].\n- Q42 and Q43 (contradict planner): the planner said the on-street limit was separate from the underground guidance and that OAP parking is compatibility-binding. Winner: the OAP text, which places both items in one bullet, and no compatibility-binding statement was found [source: Q42, Q43].\n- Q47 (contradicts planner): the planner tied fire access to both buildings. Winner: Article 3.2, which applies to all constructible terrains [source: Q47].\n- Q48 (contradicts planner): the planner called refuse access a separate condition. Winner: Article 3.2, which places waste collection inside the general road-suitability criterion [source: Q48].\n- Q50 (contradicts planner): the planner said the rule sets a volume. Winner: the text, which sets a discharge rate of 0.7 L/s/ha and no volume [source: Q50].\n- Q54 (contradicts planner): the planner said pleine terre is stricter than espace vert. Winner: the thresholds, which give pleine terre 10% against espace vert 20%. Pleine terre is therefore the lower floor [source: Q54].\n- Q55 (contradicts planner): the planner said the tree rule applies to the parcel and must be shown on a landscape plan. Winner: the text, which makes the rule conditional on terrain above 300 m² and on new construction, and which requires no landscape plan [source: Q55]. Applicability is open.\n- Q56 (contradicts planner): the planner called the test a single whole-terrain test. Winner: the text, which uses 'superficie du terrain' but has no multi-building rule, so the reading is interpretive [source: Q56].\n- Q58 (contradicts planner): the planner said zone UL2 contains the L 151-19 and L 151-23 wording. Winner: the UMG text, which has no such condition. The wording found sits in UA2, not UL2 [source: Q58].\n- Overlap check: no emplacement réservé overlaps the parcel, so no overlay carve-out was passed to the tool.",
+  "citations": [
+    {
+      "claim": "The address was geocoded to 4 Rue Joliot-curie 91190 Gif-sur-Yvette with a match score of 0.9635 and address id 91272_1599_00004.",
+      "c_id": "c-01",
+      "verification_instructions": "METADATA | address.label, address.score, address.address_id | 4 Rue Joliot-curie 91190 Gif-sur-Yvette; 0.9634963636363636; 91272_1599_00004"
+    },
+    {
+      "claim": "The cadastral parcel is idu 91272000CR0247 with gpu_id 91_272_000_000_CR_0247.",
+      "c_id": "c-02",
+      "verification_instructions": "METADATA | parcel.idu, parcel.gpu_id | 91272000CR0247; 91_272_000_000_CR_0247"
+    },
+    {
+      "claim": "The sheet georeference has a mean parcel-edge residual of 1.87 m.",
+      "c_id": "c-03",
+      "verification_instructions": "METADATA | georeference.parcel_edge_residual_mean_m | 1.87"
+    },
+    {
+      "claim": "The sheet georeference has a median parcel-edge residual of 1.19 m.",
+      "c_id": "c-04",
+      "verification_instructions": "METADATA | georeference.parcel_edge_residual_median_m | 1.19"
+    },
+    {
+      "claim": "The declared parcel area is 5,960 m².",
+      "c_id": "c-05",
+      "verification_instructions": "METADATA | parcel.area_m2 | 5960"
+    },
+    {
+      "claim": "The WKT polygon encloses 5,951.5 m² according to the envelope tool.",
+      "c_id": "c-06",
+      "verification_instructions": "METADATA | compute_buildable_envelope.calculation_trace (run A1) | 'Parcel area (raw): 5951.5 m2'"
+    },
+    {
+      "claim": "The GPU metadata assigns zone code UMG, type U.",
+      "c_id": "c-07",
+      "verification_instructions": "METADATA | zone.code, zone.type | UMG; U"
+    },
+    {
+      "claim": "Zone UMG corresponds to the Joliot-Curie quartier.",
+      "c_id": "c-08",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='La zone UMG correspond au quartier Joliot-Curie'"
+    },
+    {
+      "claim": "The parcel lies entirely within the UMG zone and no zone limit crosses it.",
+      "c_id": "c-09",
+      "verification_instructions": "METADATA | zone.fully_within_zone | true; VISUAL | zoom-3.png | bbox=[455,450,760,740] | outline lies on the pale-pink UMG fill"
+    },
+    {
+      "claim": "OAP section 8 covers the Quartier Joliot Curie, for which specific orientations are defined.",
+      "c_id": "c-10",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 | quote='Le projet d'aménagement de Moulon comprend le quartier Joliot Curie pour lequel des orientations d'aménagement spécifiques sont définies.'"
+    },
+    {
+      "claim": "The metadata lists two prescriptions labelled Orientation d'Amenagement et de Programmation.",
+      "c_id": "c-11",
+      "verification_instructions": "METADATA | prescriptions[0].label and prescriptions[1].label | Orientation d'Amenagement et de Programmation"
+    },
+    {
+      "claim": "The parcel lies inside the magenta dotted OAP perimeter, roughly 140 m from the northern edge and 135 m from the southern edge.",
+      "c_id": "c-12",
+      "verification_instructions": "VISUAL | zoom-2.png | bbox=[340,285,1310,900] | magenta dotted edges at y≈300 (north) and y≈880 (south) versus parcel top y≈525 and bottom y≈660; scale 864 m across 1401 px"
+    },
+    {
+      "claim": "No row of Table 05 lists parcel CR 0247.",
+      "c_id": "c-13",
+      "verification_instructions": "TABLE | 05_er_creation_amelioration_voirie.md | rows=['none_found'] | all Liste des parcelles entries checked for CR 0247; none found"
+    },
+    {
+      "claim": "No row of Table 06 matches CR 0247 or the Joliot-Curie location.",
+      "c_id": "c-14",
+      "verification_instructions": "TABLE | 06_er_equipements_espaces_publics.md | rows=['none_found'] | Situation and Liste des parcelles checked"
+    },
+    {
+      "claim": "No row of Table 04 has a cadastral reference or a Joliot-Curie location.",
+      "c_id": "c-15",
+      "verification_instructions": "TABLE | 04_er_elargissements_voirie.md | rows=['none_found'] | Situation column checked"
+    },
+    {
+      "claim": "No CR 0247 or 91272000CR entry appears in any emplacement réservé listing of plu_reglement.",
+      "c_id": "c-16",
+      "verification_instructions": "TABLE | plu_reglement | rows=['none_found'] | ER tables pdf pp.368-370 read in full; regex for CR 0247 and 91272000CR returned 0 matches"
+    },
+    {
+      "claim": "The blue and red emplacement réservé hatches are absent from the parcel and its immediate surroundings.",
+      "c_id": "c-17",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[300,300,900,900] | scanned around the red outline against 01_legende.png; no blue or red ER symbol visible"
+    },
+    {
+      "claim": "No EBC, lisière, non-aedificandi, PPRi, sanitary perimeter, protection paysagère, commerce linear or zone humide symbol appears on the parcel.",
+      "c_id": "c-18",
+      "verification_instructions": "VISUAL | zoom-3.png | bbox=[0,0,1284,1284] | full-window scan against 01_legende.png"
+    },
+    {
+      "claim": "The sanitary-recommendations regime text appears in the UH zone section, and the UMG pages read contain no such provision.",
+      "c_id": "c-19",
+      "verification_instructions": "TEXT | plu_reglement | page=101 | quote='Dans les périmètres de prescription et de recommandation sanitaires, il est recommandé que les travaux soient effectués sous le contrôle d'un organisme d'expertise agréé'"
+    },
+    {
+      "claim": "The UMG zone introduction describes the zone as destined for constructions à destination d'habitation for students, researchers and families.",
+      "c_id": "c-20",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (printed 319) | quote='des constructions à destination d'habitation, au bénéfice des étudiants, des chercheurs, et des familles'"
+    },
+    {
+      "claim": "UMG Article 12.1 lists résidences étudiantes as a sub-item under the habitation heading.",
+      "c_id": "c-21",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (PDF 327) | quote='pour les résidences étudiantes'"
+    },
+    {
+      "claim": "The LEXIQUE (pdf pp.374-379) defines no habitation, hébergement or sous-destination term.",
+      "c_id": "c-22",
+      "verification_instructions": "TEXT | plu_reglement | page=374 (printed 373) | quote='LEXIQUE' (pdf pp.374-379 read; search for 'sous-destination' returned 0 occurrences)"
+    },
+    {
+      "claim": "A full-document search of plu_reglement for 'jeunes actifs' returned 0 occurrences.",
+      "c_id": "c-23",
+      "verification_instructions": "TEXT | plu_reglement | page=all | quote='jeunes actifs' (0 matches)"
+    },
+    {
+      "claim": "UMG Article 12.1 names hébergement hôtelier (including résidences hôtelières and résidences services) with 0.5 place per chambre and does not name résidences jeunes actifs.",
+      "c_id": "c-24",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (printed 327) | quote='Pour les constructions à destination d'hébergement hôtelier (y compris résidences hôtelières et résidences services) : - 0,5 place par chambre'"
+    },
+    {
+      "claim": "UMG Article 1 prohibits constructions for agricultural or forestry use and for entrepôt.",
+      "c_id": "c-25",
+      "verification_instructions": "TEXT | plu_reglement | page=319 (PDF 320) | quote='Les constructions, ouvrages ou travaux à destination d'exploitation agricole ou forestière et d'entrepôt.'"
+    },
+    {
+      "claim": "UMG Article 1 prohibits the installation of a caravane used as housing, and does not prohibit constructions à destination d'habitation as such.",
+      "c_id": "c-26",
+      "verification_instructions": "TEXT | plu_reglement | page=319 (PDF 320) | quote='L'installation d'une caravane à usage d'habitation.'"
+    },
+    {
+      "claim": "UMG Article 2 admits uses only under conditions, in a list with no habitation item.",
+      "c_id": "c-27",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (PDF 321) | quote='Sont admises, sous conditions, les occupations et utilisations du sol suivantes'"
+    },
+    {
+      "claim": "UMG Article 2 attaches no condition to student residences; the full Article 2 text was read.",
+      "c_id": "c-28",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (PDF 321) | quote='Sont admises, sous conditions, les occupations et utilisations du sol suivantes' (full Article 2 read; no student-residence item)"
+    },
+    {
+      "claim": "Zone UL Article UL2 (Vallée zone, not UMG) admits habitation for hébergement étudiant et à la formation.",
+      "c_id": "c-29",
+      "verification_instructions": "TEXT | plu_reglement | page=121 (PDF 122) | quote='A l'hébergement étudiant et à la formation ;'"
+    },
+    {
+      "claim": "For constructions with an autre destination, UMG Article 10.2 limits height to 18 metres.",
+      "c_id": "c-30",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (PDF 326) | quote='Pour les constructions ayant une autre destination : la hauteur maximale des constructions est limitée à 18 mètres.'"
+    },
+    {
+      "claim": "For constructions with principal destination habitation, UMG Article 10.2 limits height to 20 metres, with a number of levels limited to R+5.",
+      "c_id": "c-31",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (PDF 326) | quote='la hauteur maximale des constructions est limitée à 20 mètres, avec un nombre de niveaux limité à R+5.'"
+    },
+    {
+      "claim": "UMG Article 10.1 measures building height from the sol naturel existant avant travaux.",
+      "c_id": "c-32",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed 325) | quote='à partir du sol naturel existant avant travaux'"
+    },
+    {
+      "claim": "The règlement does not define the R+5 level notation beyond the notation itself.",
+      "c_id": "c-33",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (PDF 326) | quote='avec un nombre de niveaux limité à R+5' (Article 10.2 read; no definition of the notation)"
+    },
+    {
+      "claim": "The recul from the alignment must be at least 1 metre.",
+      "c_id": "c-34",
+      "verification_instructions": "TEXT | plu_reglement | page=324 (PDF; printed 323) | quote='En cas de recul, ce dernier doit être au moins égal à 1 mètre.'"
+    },
+    {
+      "claim": "Façades with views must be set back at least 6 metres from a limite séparative.",
+      "c_id": "c-35",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='à 6 mètres pour les façades ou parties de façade comportant des vues ;'"
+    },
+    {
+      "claim": "Blank façades must be set back at least 3 metres from a limite séparative.",
+      "c_id": "c-36",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='à 3 mètres pour les façades ou parties de façade ne comportant pas de vue.'"
+    },
+    {
+      "claim": "Balconies and oriels are included in the retrait measurement from a limite séparative.",
+      "c_id": "c-37",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='balcons et oriels compris, au point le plus proche de la limite séparative'"
+    },
+    {
+      "claim": "Between two constructions on one property, the minimum distance is 10 metres where at least one facing façade has views.",
+      "c_id": "c-38",
+      "verification_instructions": "TEXT | plu_reglement | page=325 (printed 324) | quote='10 mètres, si au moins l'une des deux façades ou parties de façades concernées comporte des vues.'"
+    },
+    {
+      "claim": "Between two constructions on one property, the minimum distance is 6 metres where neither facing façade has views.",
+      "c_id": "c-39",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed 325) | quote='6 mètres, si les deux façades ou parties de façades concernées ne comportent pas de vues.'"
+    },
+    {
+      "claim": "UMG Article 8.2 permits a different implantation only for technical equipment linked to safety, public service, water management and energy distribution, and for waste storage for sorting.",
+      "c_id": "c-40",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed 325) | quote='équipements techniques liés à la sécurité, à un service public, à la gestion de l'eau'"
+    },
+    {
+      "claim": "The emprise au sol of constructions is not regulated in UMG Article 9.",
+      "c_id": "c-41",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed 325) | quote='L'emprise au sol des constructions n'est pas réglementée'"
+    },
+    {
+      "claim": "UMG Article 6.3 states that façade recesses are sought as a design aim.",
+      "c_id": "c-42",
+      "verification_instructions": "TEXT | plu_reglement | page=324 (printed 323) | quote='Des décrochés (retrait de façades ou parties de façades) en emprise ou en élévation, sont recherchés'"
+    },
+    {
+      "claim": "The UMG zone introduction states that any development project must be compatible with the orientations d'aménagement (document n°3, orientations 8 et 9).",
+      "c_id": "c-43",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (printed 319) | quote='avec lesquelles tout projet d'aménagement et de construction doit être compatible'"
+    },
+    {
+      "claim": "OAP section 8 sets, for constructions à destination principale d'habitation, an épannelage objective of R+4 moyen, worded 'devra permettre d'atteindre un objectif'.",
+      "c_id": "c-44",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 (printed 32) | quote='un épannelage des constructions devra permettre d'atteindre un objectif de R+4 moyen'"
+    },
+    {
+      "claim": "OAP section 8 states that the principle of implantation at the alignment along the Joliot-Curie voie must be retained.",
+      "c_id": "c-45",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=34 (printed 33) | quote='Le principe d'une implantation des constructions à l'alignement le long de la voie doit être retenu.'"
+    },
+    {
+      "claim": "Base run A1 calculation trace: buffer 6.0 m, footprint 4241.0 m², metric binding height 20.0 m, volume 84820.2 m³.",
+      "c_id": "c-46",
+      "verification_instructions": "METADATA | compute_buildable_envelope.calculation_trace (run A1) | 'Applying uniform inward buffer of 6.0 m (max of: [1.0, 6.0, 3.0])'; 'Buildable volume = 4241.0 m2 x 20.0 m = 84820.2 m3'"
+    },
+    {
+      "claim": "The envelope tool simplification note reads: Uniform inward buffer applied using the maximum stated setback value; frontage-specific edge detection not performed in this timebox.",
+      "c_id": "c-47",
+      "verification_instructions": "METADATA | compute_buildable_envelope.simplification_note | 'Uniform inward buffer applied using the maximum stated setback value; frontage-specific edge detection not performed in this timebox.'"
+    },
+    {
+      "claim": "All eight envelope runs report the footprint_area_m2 and buildable_volume_m3 values shown in the ENVELOPE RUNS table.",
+      "c_id": "c-48",
+      "verification_instructions": "METADATA | compute_buildable_envelope.footprint_area_m2 and buildable_volume_m3 | runs A1-A4: 4241.0 and 84820.2, 76338.2, 63615.1, 76338.2; runs B1-B4: 5647.4 and 112947.6, 101652.8, 84710.7, 101652.8"
+    },
+    {
+      "claim": "Run A3 level cap gives 5 levels at 3.0 m per floor, a binding height of 15.0 m.",
+      "c_id": "c-49",
+      "verification_instructions": "METADATA | compute_buildable_envelope.calculation_trace (run A3) | 'Level cap 5 x 3.0m/floor = 15.0 m'; 'Binding height constraint: levels (15.0 m)'"
+    },
+    {
+      "claim": "For résidences étudiantes, the parking norm is 1 place per tranche of 150 m² of surface de plancher.",
+      "c_id": "c-50",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (PDF 327) | quote='1 place de stationnement par tranche de 150 m² de surface de plancher, pour les résidences étudiantes.'"
+    },
+    {
+      "claim": "For habitation, the parking norm is 1 place per tranche of 35 m² of surface de plancher, limited to 2 places per logement.",
+      "c_id": "c-51",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (PDF 327) | quote='1 place de stationnement par tranche de 35 m² de surface de plancher, dans la limite de 2 places par logement,'"
+    },
+    {
+      "claim": "For logements financés avec un prêt aidé par l'Etat, the parking norm is 1 place per logement.",
+      "c_id": "c-52",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (PDF 327) | quote='1 place de stationnement par logement, pour les logements financés avec un prêt aidé par l'Etat,'"
+    },
+    {
+      "claim": "For hébergement hôtelier the parking norm is 0.5 place per chambre.",
+      "c_id": "c-53",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (printed 327) | quote='0,5 place par chambre'"
+    },
+    {
+      "claim": "The general provisions state that no more than one parking space per logement may be required for résidences universitaires mentioned in L. 631-12 CCH.",
+      "c_id": "c-54",
+      "verification_instructions": "TEXT | plu_reglement | page=6 (printed 5) | quote='les résidences universitaires mentionnées à l'article L. 631-12 du code de la construction et de l'habitation.'"
+    },
+    {
+      "claim": "For habitation, at least 85% of motor-vehicle parking spaces on the site must be integrated into the building, with a majority in basement.",
+      "c_id": "c-55",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (printed; PDF 329) | quote='85 % minimum des places de stationnement pour les vehicules motorisés réalisées sur le terrain d'assiette des constructions doivent être intégrées à la construction à destination d'habitation dont une majorité en sous-sol'"
+    },
+    {
+      "claim": "For résidences étudiantes, the majority of parking spaces in a basement is not required.",
+      "c_id": "c-56",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (printed; PDF 329) | quote='Pour le cas des résidences étudiantes, la réalisation de la majorité des places de stationnement en sous-sol n'est pas requise.'"
+    },
+    {
+      "claim": "For an operation with several destinations, parking equals the sum of the calculations for each destination.",
+      "c_id": "c-57",
+      "verification_instructions": "TEXT | plu_reglement | page=329 (printed 328) | quote='la somme des résultats issus du mode de calcul approprié à chacune de ces destinations'"
+    },
+    {
+      "claim": "UMG Article 12.5 admits shared car parks serving several construction operations.",
+      "c_id": "c-58",
+      "verification_instructions": "TEXT | plu_reglement | page=330 | quote='La réalisation de parcs de stationnement communs à plusieurs opérations de construction peut être admise.'"
+    },
+    {
+      "claim": "For habitation, bicycle parking is 0.75 m² per logement up to two main rooms and 1.5 m² per logement otherwise.",
+      "c_id": "c-59",
+      "verification_instructions": "TEXT | plu_reglement | page=328 (printed 327) | quote='0,75 m² par logement pour les logements jusqu'à deux pièces principales'"
+    },
+    {
+      "claim": "The bicycle parking area must have a minimum surface of 3 m².",
+      "c_id": "c-60",
+      "verification_instructions": "TEXT | plu_reglement | page=329 (printed 328) | quote='L'espace destiné au stationnement des vélos a une superficie minimale de 3 m².'"
+    },
+    {
+      "claim": "A parking tranche counts in full once it is started.",
+      "c_id": "c-61",
+      "verification_instructions": "TEXT | plu_reglement | page=329 (printed 328) | quote='lorsque la tranche est entamée'"
+    },
+    {
+      "claim": "OAP section 8 states that car use should be limited through underground parking or parking within the building gabarit.",
+      "c_id": "c-62",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 (printed 34) | quote='avec la réalisation de parkings souterrains ou dans le gabarit des constructions'"
+    },
+    {
+      "claim": "OAP section 8 calls for a reduced number of parking spaces along the roads.",
+      "c_id": "c-63",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 (printed 34) | quote='l'accueil d'un nombre réduit de places de stationnement le long des voies'"
+    },
+    {
+      "claim": "Each public or private road must be at least 5 m wide for two-way traffic.",
+      "c_id": "c-64",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='Aucune voie d'intérêt public ou privé ne doit avoir une largeur inférieure à 5 mètres pour une circulation à double sens'"
+    },
+    {
+      "claim": "Each public or private road must be at least 3.50 m wide for one-way traffic.",
+      "c_id": "c-65",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='et à 3,50 mètres pour une circulation à sens unique'"
+    },
+    {
+      "claim": "Private dead-end roads must allow vehicles to turn around, except where the road serves only a parking lot.",
+      "c_id": "c-66",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='Les voies privées se terminant en impasse doivent être aménagées de telle sorte que les véhicules puissent faire un demi-tour'"
+    },
+    {
+      "claim": "Access must allow the fire and civil-protection means to operate.",
+      "c_id": "c-67",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='l'accessibilité des moyens de secours permettant la lutte contre l'incendie et la protection civile'"
+    },
+    {
+      "claim": "UMG Article 3.2 lists enlèvement des ordures ménagères as one criterion for road characteristics.",
+      "c_id": "c-68",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (printed 321) | quote='l'enlèvement des ordures ménagères ainsi que l'accessibilité des moyens de secours'"
+    },
+    {
+      "claim": "Every new or existing construction must be connected to the collective sanitation network by an underground pipe.",
+      "c_id": "c-69",
+      "verification_instructions": "TEXT | plu_reglement | page=322 (PDF; printed 321) | quote='Toute construction ou installation nouvelle ou existante doit être raccordée par une canalisation souterraine au réseau collectif d'assainissement.'"
+    },
+    {
+      "claim": "Pluvial discharge to the collecting network is regulated at 0.7 L/s/ha for the reference rain.",
+      "c_id": "c-70",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (PDF; printed 322) | quote='à 0,7 L/s/ha pour la pluie de référence'"
+    },
+    {
+      "claim": "All networks must be installed underground.",
+      "c_id": "c-71",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (PDF; printed 322) | quote='Tous les réseaux sont implantés en souterrain.'"
+    },
+    {
+      "claim": "Habitation buildings with more than three logements must provide an enclosed space for sorting containers.",
+      "c_id": "c-72",
+      "verification_instructions": "TEXT | plu_reglement | page=323 (PDF; printed 322) | quote='pour les constructions à destination d'habitation comportant plus de trois logements, un espace clos d'une superficie suffisante'"
+    },
+    {
+      "claim": "Any new construction project must treat at least 20% of the terrain as espace vert.",
+      "c_id": "c-73",
+      "verification_instructions": "TEXT | plu_reglement | page=331 (printed 330) | quote='En espace vert 20% au moins de la superficie du terrain.'"
+    },
+    {
+      "claim": "Any new construction project must treat at least 10% of the terrain as pleine terre.",
+      "c_id": "c-74",
+      "verification_instructions": "TEXT | plu_reglement | page=331 (printed 330) | quote='En espace de pleine terre 10% au moins de la superficie du terrain.'"
+    },
+    {
+      "claim": "Surface-level parking areas and green roofs are not counted toward espaces verts.",
+      "c_id": "c-75",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed 329) | quote='Les aires de stationnement aménagées en surface et les toitures végétalisées ne sont pas comptabilisées en espaces verts.'"
+    },
+    {
+      "claim": "Pleine terre comprises land free of any infrastructure and superstructure, including projections.",
+      "c_id": "c-76",
+      "verification_instructions": "TEXT | plu_reglement | page=330 (printed 329) | quote='Sont comptabilisées dans les superficies de terrain en pleine terre, les terrains vierges de toute infrastructure et superstructure (y compris saillies).'"
+    },
+    {
+      "claim": "One medium-development tree is required per 300 m² tranche where the terrain exceeds 300 m².",
+      "c_id": "c-77",
+      "verification_instructions": "TEXT | plu_reglement | page=331 (printed 330) | quote='un arbre à moyen développement au-delà de 300 m² de terrain, à raison d'un arbre par tranche de 300 m² de terrain'"
+    },
+    {
+      "claim": "New buildings in classified road-noise sectors must be insulated under the arrêté of 30 May 1996 for habitations.",
+      "c_id": "c-78",
+      "verification_instructions": "TEXT | plu_reglement | page=6 (printed 5) | quote='Les constructions nouvelles situées dans les secteurs affectés par le bruit doivent faire l'objet d'une isolation acoustique selon les dispositions fixées par l'arrêté du 30 mai 1996 pour les habitations'"
+    },
+    {
+      "claim": "The road-noise corridor table lists RD 128 at 30 m.",
+      "c_id": "c-79",
+      "verification_instructions": "TEXT | plu_reglement | page=6 (printed 5) | quote='RD 128 | 30 m' (corridor table)"
+    },
+    {
+      "claim": "The road-noise corridor table lists RER B at 30 m.",
+      "c_id": "c-80",
+      "verification_instructions": "TEXT | plu_reglement | page=6 (printed 5) | quote='RER B | 30 m' (corridor table)"
+    },
+    {
+      "claim": "UMG Article 13.3 expresses the espace vert threshold against the superficie du terrain, and no UMG rule apportions it among several buildings.",
+      "c_id": "c-81",
+      "verification_instructions": "TEXT | plu_reglement | page=331 (printed 330) | quote='En espace vert 20% au moins de la superficie du terrain.' (scope: UMG rappels pdf p.320 and Article 13 pdf p.331; no 'plusieurs bâtiments' or 'chacun des lots' wording)"
+    },
+    {
+      "claim": "A full-text search of the OAP for legal-effect terms (compatib, conformit, opposable, prévaut, portée juridique) found no statement of the binding force of its orientations.",
+      "c_id": "c-82",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=1 | quote='3. Orientations d'Aménagement et de Programmation' (full-text search for legal-effect terms; no statement of binding force found)"
+    },
+    {
+      "claim": "A pattern search of the OAP for a section or schema numbered 9 returned zero matches.",
+      "c_id": "c-83",
+      "verification_instructions": "TABLE | oap_91272_20210706 | rows=['none_found'] | pages_search for section-9 and orientation-9 heading patterns: 0 occurrences"
+    },
+    {
+      "claim": "The OAP table of contents ends with '8. Le quartier Joliot Curie' and lists no section 9.",
+      "c_id": "c-84",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=2 | quote='8. Le quartier Joliot Curie 32'"
+    },
+    {
+      "claim": "The UMG zone introduction cites orientations 8 et 9 of document n°3.",
+      "c_id": "c-85",
+      "verification_instructions": "TEXT | plu_reglement | page=320 (printed 319) | quote='Cette zone fait l'objet d'orientations d'aménagement, document n°3 du PLU (orientations 8 et 9)'"
+    },
+    {
+      "claim": "OAP section 8 describes the rue Joliot-Curie as requalifiée, as an east-west structuring axis.",
+      "c_id": "c-86",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 | quote='la rue Joliot-Curie requalifiée'"
+    },
+    {
+      "claim": "OAP section 8 gives the Joliot-Curie voie a redrawn alignment and a gabarit of about 20 m, with no widening stated.",
+      "c_id": "c-87",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 (printed 34) | quote='selon son tracé redressé et un gabarit de l'ordre de 20 m'"
+    },
+    {
+      "claim": "The élargissements de voirie ER table has no entry for Joliot-Curie or a north-south axis.",
+      "c_id": "c-88",
+      "verification_instructions": "TABLE | plu_reglement | rows=[1,3,4,5,6,9,10,12,14,15,16,18,20,24] | Situation column read in full; search for 'nord-sud|Joliot' found no ER entry"
+    },
+    {
+      "claim": "The UMG pages carry the footer 'Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021'.",
+      "c_id": "c-89",
+      "verification_instructions": "TEXT | plu_reglement | page=320 | quote='Modification n°1 et révision allégée n°1 approuvées le 6 juillet 2021 319'"
+    },
+    {
+      "claim": "The string '2026' does not occur in plu_reglement, although the metadata zone name refers to reglement_20260408.pdf.",
+      "c_id": "c-90",
+      "verification_instructions": "TEXT | plu_reglement | page=all | quote='2026' (full-document search returned 0 matches); METADATA | zone.nom | 91272_reglement_20260408.pdf"
+    },
+    {
+      "claim": "The cover of the règlement lists the Révision allégée n°1 approved in Conseil municipal on 6 juillet 2021.",
+      "c_id": "c-91",
+      "verification_instructions": "TEXT | plu_reglement | page=1 | quote='Révision allégée n°1 approuvée en Conseil municipal du 6 juillet 2021'"
+    },
+    {
+      "claim": "The only textual use of 'limite' in OAP section 8 refers to the Gif-sur-Yvette/Orsay commune boundary.",
+      "c_id": "c-92",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=33 | quote='reliant la limite Gif-sur-Yvette - Orsay avec la plaine des sports de Moulon.'"
+    },
+    {
+      "claim": "The OAP section 8 sector perimeter appears only as a graphic element on the schema maps.",
+      "c_id": "c-93",
+      "verification_instructions": "VISUAL | oap_91272_20210706 | page=34 | quote='le périmètre des orientations d'aménagement' (schema caption p0034-img-1.jpeg; legend shows red dashed line)"
+    },
+    {
+      "claim": "The UMG text contains no condition on new constructions near or on elements recensés under L.151-19 or L.151-23.",
+      "c_id": "c-94",
+      "verification_instructions": "TEXT | plu_reglement | page=319-331 (printed; PDF 320-332) | scope: all UMG Articles 1-16 and rappels read; no L151.19, L151.23 or recensé wording found"
+    },
+    {
+      "claim": "The general règlement subjects demolition of recensed built elements under L.151-19 and L.151-23 to an authorisation.",
+      "c_id": "c-95",
+      "verification_instructions": "TEXT | plu_reglement | page=9 (printed 8) | quote='y compris les éléments bâtis recensés au titre des articles L.151.19 et L.151-23 du code de l'urbanisme'"
+    },
+    {
+      "claim": "Zone UA2 requires new constructions near or on recensed elements under L.151-19 and L.151-23 to preserve their recorded characteristics.",
+      "c_id": "c-96",
+      "verification_instructions": "TEXT | plu_reglement | page=13 (PDF 14) | quote='Les constructions nouvelles ainsi que les travaux d'aménagement ou d'extension réalisés à proximité ou sur des éléments recensés au titre des articles L151.19 et L151.23 (plan 5.5) doivent être conçus pour préserver'"
+    },
+    {
+      "claim": "Titre III states that at least 50% of required espaces végétalisés must be pleine terre.",
+      "c_id": "c-97",
+      "verification_instructions": "TEXT | plu_reglement | page=376 (printed 375) | quote='A minima 50% des espaces végétalisés exigés sont composés de pleine terre.'"
+    },
+    {
+      "claim": "The six carry-forward limitations recorded in ANSWER_STORE apply and cannot be closed by text retrieval.",
+      "c_id": "c-98",
+      "verification_instructions": "METADATA | answer_store.carry_forward_limitations | six entries: visual zone/OAP reading; Table 04 red-arrow ER position; OAP sub-sector boundary; recommandations sanitaires versus OAP perimeter; L 151-19/23 plan n°5.5 thumbnail; west distance to OAP perimeter"
+    },
+    {
+      "claim": "Two ER rows list BD 247, which is section BD and not CR 0247.",
+      "c_id": "c-99",
+      "verification_instructions": "TEXT | plu_reglement | page=368 (printed 367) | quote='BD 3, 13, 14, 206, 227, 247' and 'BD 206, 247, 21, 211, 18, 43'"
+    }
+  ]
+}

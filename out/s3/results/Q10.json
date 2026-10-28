@@ -1,0 +1,33 @@
+{
+  "question_id": "Q10",
+  "status": "confirmed",
+  "answer_text": "Under UMG Article 10.1, building height is calculated from the existing natural ground before works (c-01)[à partir du sol naturel existant avant travaux], up to the ridge or parapet, technical works included (c-02)[jusqu'au sommet du faîtage ou de l'acrotère, ouvrages techniques compris]. This provision sits under ARTICLE 10 on printed page 325 (PDF page 326) (c-03)[ARTICLE 10 - zone UMG -HAUTEUR MAXIMALE DES CONSTRUCTIONS].",
+  "answer_value": "sol naturel existant avant travaux",
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The baseline is the natural ground before works, not the post-works or current terrain. Article 10.2 height caps are outside the scope of this question and are not addressed here.",
+  "citations": [
+    {
+      "claim": "Under UMG Article 10.1, building height is calculated from the existing natural ground before works.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed page 325) | quote='à partir du sol naturel existant avant travaux'",
+      "confirmed": true,
+      "reasoning": "plu_reglement PDF page 326 (printed 325), section 10.1 DEFINITION, reads: 'La hauteur des constructions est calculée : - à partir du sol naturel existant avant travaux;'. The quoted phrase matches exactly. A pages_search for 'sol naturel existant avant travaux' also returned this page and several other zone pages with the same wording."
+    },
+    {
+      "claim": "UMG Article 10.1 measures height up to the ridge or parapet, technical works included, with exclusions for small elements under 20% of footprint and under 2 m high.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed page 325) | quote='jusqu'au sommet du faîtage ou de l'acrotère, ouvrages techniques compris'",
+      "confirmed": true,
+      "reasoning": "Same page, section 10.1, reads: 'jusqu'au sommet du faîtage ou de l'acrotère, ouvrages techniques compris, à l'exclusion de ceux ayant une emprise inférieure à 20 % de l'emprise au sol de la construction et ayant une hauteur inférieure à 2 mètres, tels que les souches de cheminée et de ventilation, les enveloppes des cages d'ascenseurs, les gardes corps, etc...'. This confirms the measurement up to ridge or parapet, technical works included, and the exclusion for elements under 20% of footprint and under 2 m high."
+    },
+    {
+      "claim": "The height definition sits under ARTICLE 10 - zone UMG on printed page 325 (PDF page 326).",
+      "c_id": "c-03",
+      "verification_instructions": "TEXT | plu_reglement | page=326 (printed page 325) | quote='ARTICLE 10 - zone UMG -HAUTEUR MAXIMALE DES CONSTRUCTIONS'",
+      "confirmed": true,
+      "reasoning": "PDF page 326 contains the heading 'ARTICLE 10 - zone UMG -HAUTEUR MAXIMALE DES CONSTRUCTIONS', followed by '10.1. - DEFINITION', and the page footer reads '325'. The heading therefore sits on printed page 325 (PDF page 326), as claimed."
+    }
+  ]
+}

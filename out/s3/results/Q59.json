@@ -1,0 +1,26 @@
+{
+  "question_id": "Q59",
+  "status": "confirmed",
+  "answer_text": "No. The emplacements réservés listings in plu_reglement (pages 367–369: equipements/espaces publics, voirie creation/amélioration, and élargissements de voirie) contain no entry for parcel CR 0247 or the identifier 91272000CR0247 (c-01)[no CR 0247 or 91272000CR entry in any ER list]. The only '247' parcel matches are BD 247 in rows a* and d of the voirie creation/amélioration table, which refer to section BD, not CR (c-02)[BD 3, 13, 14, 206, 227, 247 in row a*; BD 206, 247, 21, 211, 18, 43 in row d].",
+  "answer_value": false,
+  "confidence": "high",
+  "contradicts_planner_rationale": false,
+  "discrepancy_note": null,
+  "additional_context": "The text searches for '0247', 'CR ?0247' and '91272000CR' returned zero hits in plu_reglement. The ER tables were read in full. A search of oap_91272_20210706 for 'emplacement', 'CR ?\\d' and '247' also returned zero hits, but no OAP page was read or cited, so the OAP part of this answer is a search result only and is not independently cited. The BD 247 matches are section-level differences, not CR 0247 entries.",
+  "citations": [
+    {
+      "claim": "No emplacement réservé listing in plu_reglement contains parcel CR 0247 or the identifier 91272000CR0247; the ER tables on pages 367–369 were scanned in full.",
+      "c_id": "c-01",
+      "verification_instructions": "TABLE | plu_reglement | rows=['none_found'] | scanned all Liste des parcelles entries on pages 367–369 (equipements/espaces publics, voirie creation/amélioration, élargissements de voirie) for CR 0247 and 91272000CR; none found.",
+      "confirmed": true,
+      "reasoning": "I read plu_reglement pages 367, 368 and 369 in full, both as text and as page images. Page 367 is the équipements/espaces publics table (refs I, J, M, P, S, U, X, Y, Z, A). Page 368 is the voirie creation/amélioration table (refs a through ad). Page 369 continues that table (refs af through bc). No row lists CR 0247 or CR 247. A regex search for `\\bCR\\s*\\d|91272000|CR0247` across the whole plu_reglement document returned 0 matches, and `\\bCR\\b` also returned 0 matches. The claim that no ER listing contains CR 0247 or 91272000CR0247 is supported."
+    },
+    {
+      "claim": "The only '247' parcel matches in the plu_reglement ER lists are BD 247, in rows a* and d of the voirie creation/amélioration table, which refer to section BD, not CR.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | plu_reglement | page=368 | quote='BD 3, 13, 14, 206, 227, 247' and 'BD 206, 247, 21, 211, 18, 43'",
+      "confirmed": true,
+      "reasoning": "Page 368 (voirie creation/amélioration table) contains the quoted strings exactly. Row a* lists 'BD 3, 13, 14, 206, 227, 247' (2 290 m², promenade piétons/piste cyclable, PN 27 to Gambauderie). Row d lists 'BH 97, 47, 48, 50 BD 206, 247, 21, 211, 18, 43'. Both '247' entries are preceded by the section prefix BD. A search for '247' across plu_reglement returned three hits: the two page-368 ER entries and a page-footer number on page 248, which is a page number and not a parcel. The BD 247 matches in rows a* and d are therefore the only '247' parcel matches in the ER lists, and none refer to section CR."
+    }
+  ]
+}

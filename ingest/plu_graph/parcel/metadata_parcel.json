@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-10-26T14:31:44",
+  "source": {
+    "pdf": "plu_reglement_graphique_91272_20210706 (1).pdf",
+    "path": "/Users/valerii/code/test-ocr/files/plu_reglement_graphique_91272_20210706 (1).pdf",
+    "reference_copy": "../document/reference.pdf",
+    "page": 1,
+    "page_mm": [
+      1188.9,
+      840.9
+    ],
+    "raster_px": [
+      7021,
+      4966
+    ]
+  },
+  "address": {
+    "label": "4 Rue Joliot-curie 91190 Gif-sur-Yvette",
+    "score": 0.9634963636363636,
+    "address_id": "91272_1599_00004",
+    "insee": "91272",
+    "lon": 2.165254,
+    "lat": 48.709836
+  },
+  "parcel": {
+    "idu": "91272000CR0247",
+    "section": "CR",
+    "numero": "0247",
+    "area_m2": 5960,
+    "commune": "Gif-sur-Yvette",
+    "gpu_id": "91_272_000_000_CR_0247",
+    "bbox_l93": [
+      638553.9,
+      6845848.4,
+      638641.8,
+      6845932.1
+    ],
+    "centroid_px": [
+      4700.4,
+      1258.7
+    ]
+  },
+  "zone": {
+    "code": "UMG",
+    "type": "U",
+    "nom": "91272_reglement_20260408.pdf",
+    "url": ""
+  },
+  "prescriptions": [
+    {
+      "typename": null,
+      "type": null,
+      "label": "Orientation d'Amenagement et de Programmation"
+    },
+    {
+      "typename": null,
+      "type": null,
+      "label": "Orientation d'Amenagement et de Programmation"
+    }
+  ],
+  "servitudes": [],
+  "georeference": {
+    "scale_px_per_m": 0.84326,
+    "nominal_px_per_m": 0.84364,
+    "rotation_deg": 0.0,
+    "commune_iou": 0.9879,
+    "snap_px": 3.72,
+    "parcel_edge_residual_median_m": 1.19,
+    "parcel_edge_residual_mean_m": 1.87,
+    "note": "sheet raster is 150 dpi (0.84 px/m); zooms are rendered above native resolution, so the parcel outline is sharp and the map beneath is soft"
+  },
+  "images": {
+    "sheet": {
+      "file": "zoom-0.png",
+      "window_px": [
+        0,
+        0,
+        7021,
+        4966
+      ],
+      "size_px": [
+        2388,
+        1689
+      ]
+    },
+    "zooms": {
+      "zoom-1.png": {
+        "file": "zoom-1.png",
+        "window_px": [
+          3646,
+          205,
+          5755,
+          2313
+        ],
+        "size_px": [
+          1393,
+          1392
+        ],
+        "metres": 2501
+      },
+      "zoom-2.png": {
+        "file": "zoom-2.png",
+        "window_px": [
+          4416,
+          938,
+          5145,
+          1667
+        ],
+        "size_px": [
+          1401,
+          1401
+        ],
+        "metres": 864
+      },
+      "zoom-3.png": {
+        "file": "zoom-3.png",
+        "window_px": [
+          4540,
+          1098,
+          4861,
+          1419
+        ],
+        "size_px": [
+          1284,
+          1284
+        ],
+        "metres": 381
+      }
+    },
+    "annotated_pdf": "parcel.pdf"
+  }
+}

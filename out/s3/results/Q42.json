@@ -1,0 +1,26 @@
+{
+  "question_id": "Q42",
+  "status": "partial",
+  "answer_text": "Partly. OAP section 8 states that car use should be limited through (c-01)[avec la réalisation de parkings souterrains ou dans le gabarit des constructions] (pdf p.35, printed p.34). It presents underground parking and parking within the building envelope as alternatives, so it does not require underground parking alone. It also calls for shared parking and a reduced number of on-street spaces (c-02)[une recherche de mutualisation des places de stationnement et l'accueil d'un nombre réduit de places de stationnement le long des voies]. The planner's compatibility-binding premise is not confirmed by the OAP text I searched.",
+  "answer_value": null,
+  "confidence": "medium",
+  "contradicts_planner_rationale": true,
+  "discrepancy_note": "The planner rationale states that the OAP parking guidance is compatibility-binding. I could not confirm this from the OAP text. Searches for compatib, opposable, conformit and rapport de compatibilit returned only a cover-page reference to a 2017 mise en compatibilité decree on page 1 and an unrelated use of compatible on page 4. The binding-force premise is not supported by the source.",
+  "additional_context": "The OAP passage is a qualitative orientation that presents parking location as an either-or option (underground or within the building gabarit), so a strict yes/no answer to the boolean question would be misleading and is not forced here. Any numeric parking norms must come from the reglement, not this OAP. Ordinary OAP text contains no stated rule requiring parking to be underground.",
+  "citations": [
+    {
+      "claim": "OAP section 8 states that car use should be limited through the realisation of underground parking or parking within the building gabarit.",
+      "c_id": "c-01",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 (printed 34) | quote='avec la réalisation de parkings souterrains ou dans le gabarit des constructions'",
+      "confirmed": true,
+      "reasoning": "Inspected oap_91272_20210706, page 35 (printed 34), section 8 'Le quartier Joliot Curie', subsection 'Une organisation viaire à deux niveaux, qui privilégie les circulations douces'. The bullet under 'l'organisation proposée doit permettre de privilégier les circulations douces' reads: 'la limitation de l'utilisation de la voiture, avec la réalisation de parkings souterrains ou dans le gabarit des constructions...'. The quoted phrase appears verbatim, and the passage supports the claim that car use should be limited through underground parking or parking within the building envelope."
+    },
+    {
+      "claim": "The same OAP section 8 passage calls for shared parking spaces and a reduced number of on-street parking spaces along the roads.",
+      "c_id": "c-02",
+      "verification_instructions": "TEXT | oap_91272_20210706 | page=35 (printed 34) | quote='une recherche de mutualisation des places de stationnement et l'accueil d'un nombre réduit de places de stationnement le long des voies'",
+      "confirmed": true,
+      "reasoning": "Same passage, page 35 (printed 34), in the same bullet of section 8. The text reads: 'avec une recherche de mutualisation des places de stationnement et l'accueil d'un nombre réduit de places de stationnement le long des voies'. A targeted search for 'mutualisation des places' returned one hit, on page 35, confirming the wording. The claim that the passage calls for shared parking and a reduced number of on-street spaces along the roads is directly supported."
+    }
+  ]
+}
